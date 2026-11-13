@@ -8,6 +8,8 @@ Download and run the Windows x64 installer. The 1.0.0 release includes the unsig
 
 On the **Dashboard**, choose **Create Testify example** to open your own editable copy of a fictional civil-support operation. Start with **Base order** to read the mission, then open **Tasks & objectives** to see who does what and **Timeline** to see when. To write your own plan, choose **Create operation** and select the doctrine you want to use.
 
+![Operation Testify overview showing 16 units, 24 subordinate tasks, and drafting progress on all five order paragraphs.](docs/screenshots/testify-overview.png)
+
 ## Planning in Ordo
 
 - **Orders and doctrine.** Draft the five base-order paragraphs and choose which annexes, appendices, tabs, and exhibits to include. Use the bundled US Army Orders doctrine or build a custom doctrine with its own product structure and staff responsibilities.
@@ -16,9 +18,13 @@ On the **Dashboard**, choose **Create Testify example** to open your own editabl
 - **Whiteboards.** Sketch a plan with notes, symbols, and planning cards. Save a snapshot to include in an order so the document keeps the version you chose.
 - **Review and publication.** Use **Save revision** to record a draft. Compare saved revisions to see what changed, record review decisions, and publish an approved revision. You can keep drafting after publication and return to the order as issued.
 
+![Testify’s timeline filtered to Phase 2, with five events plotted by UTC time and lines showing their scheduling dependencies.](docs/screenshots/testify-timeline.png)
+
 ## Export and share
 
 In **Export studio**, generate an order in Word, PDF, or HTML. For a communications card, choose the radio nets and PACE plans it should contain.
+
+![Exported Testify communications card listing five exercise radio nets with their purposes, channels, and callsigns.](docs/screenshots/testify-communications-card.png)
 
 To reuse a symbol or ORBAT in another workspace, choose **Export → Ordo JSON (reimportable)** under **Symbols & ORBATs**, then **Import JSON** in the receiving workspace. **Doctrines** imports and exports `.ordo-doctrine` packages with their managed assets. To back up the entire local workspace, including its revision history, use **Settings → Back up workspace**.
 

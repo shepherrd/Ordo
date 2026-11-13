@@ -1,6 +1,8 @@
 # Ordo
 
-Ordo is an offline Windows desktop app for writing military operation orders (OPORDs). An operation brings the five-paragraph order, its annexes, the units carrying it out, and their tasks and timings into one local workspace.
+Ordo is an offline Windows desktop app for writing military operation orders (OPORDs). Version 1.0 is designed to guide you through military planning using the five-paragraph order. You describe the situation, state the mission, assign tasks to units, and plan for sustainment, command, and signal.
+
+The OPORD provides the planning structure for every operation. You can tailor doctrine, annexes, and supporting products within that structure.
 
 ## Get started
 

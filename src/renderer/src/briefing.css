@@ -1,0 +1,186 @@
+.briefing-workspace {
+  min-width: 0;
+}
+.briefing-workspace label.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.briefing-workspace label.field > span {
+  margin-bottom: 0;
+}
+.briefing-workspace .briefing-topbar .field,
+.briefing-workspace .briefing-slide-tools .field,
+.briefing-workspace .briefing-export-controls .field {
+  margin-bottom: 0;
+}
+.briefing-slide-tools {
+  margin-bottom: 0.8rem;
+}
+.briefing-topbar,
+.briefing-slide-tools,
+.briefing-export-controls {
+  display: flex;
+  align-items: end;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.briefing-topbar {
+  margin-bottom: 1rem;
+}
+.briefing-topbar .field {
+  min-width: 12rem;
+  flex: 1;
+}
+.briefing-workspace .field {
+  margin-bottom: 0.7rem;
+}
+.briefing-workspace small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.briefing-workbench {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  gap: 1rem;
+}
+.briefing-editor {
+  min-width: 0;
+}
+.briefing-slides {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  border-right: 1px solid var(--line);
+  padding-right: 0.8rem;
+  max-height: 74vh;
+  overflow: auto;
+}
+.briefing-slides ol {
+  list-style: none;
+  padding: 0;
+  margin: 0.7rem 0;
+}
+.briefing-slides li {
+  margin: 0.4rem 0;
+}
+.briefing-slides li button {
+  display: flex;
+  gap: 0.6rem;
+  width: 100%;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.briefing-slides [aria-current] {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+.briefing-slides [aria-current] small {
+  color: inherit;
+}
+.briefing-preview {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+.briefing-preview iframe {
+  border: 0;
+  transform-origin: top left;
+  display: block;
+  pointer-events: none;
+}
+.briefing-card-controls > div {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin: 0.6rem 0;
+}
+.briefing-graphic-controls {
+  margin: 0.5rem 0;
+}
+.briefing-output {
+  border-top: 1px solid var(--line);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.briefing-export-controls {
+  margin-top: 1rem;
+}
+.briefing-export-controls .field {
+  max-width: 22rem;
+}
+.briefing-export-controls input {
+  width: 7rem;
+}
+.briefing-record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.briefing-presentation.modal {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  max-height: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0;
+  padding: 1rem;
+  background: var(--surface);
+  overflow: auto;
+}
+.briefing-stage {
+  width: min(100%, calc((100vh - 110px) * 16 / 9));
+  margin: auto;
+  flex: none;
+}
+.briefing-stage .briefing-preview {
+  margin: 0;
+}
+.briefing-notes {
+  white-space: pre-wrap;
+  max-height: 15vh;
+  overflow: auto;
+  margin: 0.5rem 0;
+}
+.briefing-presentation:has(.briefing-notes) .briefing-stage {
+  width: min(100%, calc((80vh - 110px) * 16 / 9));
+}
+@media (max-width: 1100px) {
+  .briefing-workbench {
+    grid-template-columns: 160px minmax(0, 1fr);
+  }
+  .briefing-slide-tools button {
+    font-size: 0.8rem;
+    padding: 0.45rem;
+  }
+}
+@media (max-width: 780px) {
+  .briefing-workbench {
+    grid-template-columns: 1fr;
+  }
+  .briefing-slides {
+    position: static;
+    max-height: 190px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .briefing-topbar button {
+    flex: 1;
+  }
+}

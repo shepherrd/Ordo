@@ -1,0 +1,753 @@
+{
+  "date": "2026-10-15",
+  "delivery": "Unified search and linked planning cards (P0/S1/S2/C1/C2/C3)",
+  "status": "qualified development and packaged candidate",
+  "version": "0.6.5",
+  "candidate": {
+    "executable": ".test-data/connected-candidate/win-unpacked/Ordo.exe",
+    "archiveSha256": "b535e26b8c3f6cc0403c482fd93fc03e1feb3ef76227311a3e8b45ec1de2cb23",
+    "files": [
+      {
+        "path": "main/chunks/flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main/chunks/render-requests-CSC_Iw_X.js",
+        "sha256": "dc59390c1c3893d62b6d4b75763810492b16c64014550dced801c669a34303ea"
+      },
+      {
+        "path": "main/chunks/symbol-catalog-C4N5SdNI.js",
+        "sha256": "fb2e21608350fad75788e18134d9f59070c6accf8eb79e3934c4c1406e37805f"
+      },
+      {
+        "path": "main/index.js",
+        "sha256": "a20cdea64c4e73f81e9e15ee2af8b269ac86d56b30786100ea9d6d829a41b99d"
+      },
+      {
+        "path": "main/symbol-worker.js",
+        "sha256": "cfc3ae8e0f89bf3df62a86f3a7b76492e8d03ce8a904d911af63dd431d87e647"
+      },
+      {
+        "path": "preload/index.js",
+        "sha256": "2b8047c911c77fb4a48b235bbaeb2a7460691f334f695db068fc13435565dead"
+      },
+      {
+        "path": "renderer/assets/OperationOrbatPanel-Cil18yIi.js",
+        "sha256": "b6123cde5c259064f9e02198dd0d4f2ce6e89614907fe49b560d937933312ef9"
+      },
+      {
+        "path": "renderer/assets/OperationSymbolEditor-BduJsGcN.js",
+        "sha256": "71bce7deae076192526561fe7fef1b029ef6c9e0ee733f7f638b05922f9b9bf3"
+      },
+      {
+        "path": "renderer/assets/ProfileSymbolEditor-DVvD8PWx.js",
+        "sha256": "558d8cc1fcfebbca218b95236d1690f1b8f61b53e24676dd361a4541bc9b5e34"
+      },
+      {
+        "path": "renderer/assets/SaveUnitSymbol-BDnEJ5dy.js",
+        "sha256": "4e9ab34fb46ac8cfc2c4f08a28fe7b2450f42ccb1c257c1bc5c6cc360ca91c5d"
+      },
+      {
+        "path": "renderer/assets/SavedSymbolPicker-BnEa57Qm.js",
+        "sha256": "53b81423b368c71f390bb6cbf11812648a28046303fc4ac9e723e5e0f4488685"
+      },
+      {
+        "path": "renderer/assets/SymbolEditor-tFRyy18r.js",
+        "sha256": "4a69bb39fea4a1104d00b767235e39fc2bca7f49c8a1592bf0ba8cbbc93bb12e"
+      },
+      {
+        "path": "renderer/assets/SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+        "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+      },
+      {
+        "path": "renderer/assets/SymbolsAndOrbatsWorkspace-CakUsvOx.js",
+        "sha256": "c37551f02e678011853a94fedcbffba6a9047ce7b3318527a6c5021b6b0ee441"
+      },
+      {
+        "path": "renderer/assets/index-DRnFoeHY.js",
+        "sha256": "773013f3bdfbadc55b8e9fed4fba0e43f0708962ed14729f595e4816ce5d8532"
+      },
+      {
+        "path": "renderer/assets/index-oWjE5j-e.css",
+        "sha256": "3567f8d482bc15445dc53f2aa148a967a38f27d275eb9e43a9f69edf6dc27ae6"
+      },
+      {
+        "path": "renderer/index.html",
+        "sha256": "06b86104cbe5b65b6e8cf39f3accda020c6a203c76a9be4e3a3b7ae990f4a240"
+      }
+    ]
+  },
+  "baseline": {
+    "path": ".test-data/connected-planning-baseline-20261015-124816/manifest.json",
+    "sha256": "2ed520a0013e180176c313631c77870cac13217d7015e90338b610d16d57ee9a"
+  },
+  "regression": {
+    "full": {
+      "path": ".test-data/connected-final-unit.json",
+      "sha256": "e114ea9bb4324471b48518e454e6fd9bc012b96e0c3875bfdf37cc0284c51f38",
+      "passed": 657,
+      "failed": 0
+    },
+    "focused": {
+      "path": ".test-data/connected-final-focused.json",
+      "sha256": "c815c6c455e5866ab59dbcf4dda5c329012248ac37c015e03f21e79148315b33",
+      "passed": 11,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "build": "passed",
+    "lint": "passed",
+    "diffWhitespace": "passed",
+    "frozenHashesVerified": 69
+  },
+  "runtime": {
+    "path": ".test-data/search-runtime-548378c2-692d-4fa8-a96b-790861f5e881/acceptance.json",
+    "sha256": "779b930fc9d8f9e7bfc32aef2836d2c0196ceb82186d3a166875b784aa13803d",
+    "results": [
+      {
+        "packaged": false,
+        "electron": "44.5.1",
+        "sqlite": "3.53.4",
+        "fts5": true
+      },
+      {
+        "packaged": true,
+        "electron": "44.5.1",
+        "sqlite": "3.53.4",
+        "fts5": true
+      }
+    ]
+  },
+  "desktop": [
+    {
+      "mode": "development",
+      "path": ".test-data/connected-desktop-acf43004-0982-48fc-aaed-b351ef1895fb/result.json",
+      "sha256": "2d35dfee6ed736ce253ab8121f7f3751f1f15d984104f156fd6149ad9ae7790e",
+      "checks": [
+        "Ctrl+K resolves the task field; applied draft search leaves the saved revision unchanged",
+        "Two placements share a linked card; detaching one creates a separate editable copy",
+        "Source edits update only linked placements; deletion offers an explicit cancel/copy/remove decision",
+        "Current renderer retains in-place linked and copied card HTML and generates a real PDF with print-v3 provenance",
+        "Clean restart verifies retained HTML/PDF and search Used in reports the recorded product",
+        "Workspace backup/restore preserves cards and frozen products, clears open draft providers, rebuilds search, and rejects pre-restore targets"
+      ],
+      "events": [
+        {
+          "stage": "ready",
+          "pid": 13588
+        },
+        {
+          "stage": "exited",
+          "pid": 13588,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 15996
+        },
+        {
+          "stage": "exited",
+          "pid": 15996,
+          "exitCode": 0
+        }
+      ]
+    },
+    {
+      "mode": "packaged",
+      "path": ".test-data/connected-desktop-98e1ce20-7d14-4008-80fd-d77b562856dd/result.json",
+      "sha256": "12406c7446ec915367e14f2b81193c8c7f2eb81503cb279f23e7a6d507ca5d85",
+      "checks": [
+        "Ctrl+K resolves the task field; applied draft search leaves the saved revision unchanged",
+        "Two placements share a linked card; detaching one creates a separate editable copy",
+        "Source edits update only linked placements; deletion offers an explicit cancel/copy/remove decision",
+        "Current renderer retains in-place linked and copied card HTML and generates a real PDF with print-v3 provenance",
+        "Clean restart verifies retained HTML/PDF and search Used in reports the recorded product",
+        "Workspace backup/restore preserves cards and frozen products, clears open draft providers, rebuilds search, and rejects pre-restore targets"
+      ],
+      "events": [
+        {
+          "stage": "ready",
+          "pid": 14800
+        },
+        {
+          "stage": "exited",
+          "pid": 14800,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 15032
+        },
+        {
+          "stage": "exited",
+          "pid": 15032,
+          "exitCode": 0
+        }
+      ]
+    }
+  ],
+  "existingMultiOperationWorkflow": [
+    {
+      "mode": "development",
+      "path": ".test-data/open-operations-2db72c78-1d8c-473c-9fc0-2a7d14078531/acceptance.json",
+      "sha256": "dd6a9ed4023975660e51c463e5d102793572a345b87a43aa3a67e818fc61dc29",
+      "checks": [
+        "Two independent drafts retain pages and undo history; switching and duplicate opens write no revisions",
+        "1500px and 1120px layouts expose named operations, unsaved markers, and close controls",
+        "Cancel preserves inactive edits; discard closes only that editor and preserves its saved catalog record",
+        "Save and close persists one revision; closing the last tab returns to the catalog; closed operations reopen",
+        "Failed save leaves the tab and unsaved content intact; no overwrite of a newer revision",
+        "Inactive export-profile drafts participate in the close guard and save their own version without unrelated operation revisions",
+        "Normal offline exit/reopen restores only open IDs; explicit closes stay closed; saved operations remain reopenable"
+      ]
+    },
+    {
+      "mode": "packaged",
+      "path": ".test-data/open-operations-70189166-7c8c-4143-8fe7-424e1250e388/acceptance.json",
+      "sha256": "c96f0ed7c0426a44e04bfbb568a281a4e39658c24df006a23038e105a10bb1c2",
+      "checks": [
+        "Two independent drafts retain pages and undo history; switching and duplicate opens write no revisions",
+        "1500px and 1120px layouts expose named operations, unsaved markers, and close controls",
+        "Cancel preserves inactive edits; discard closes only that editor and preserves its saved catalog record",
+        "Save and close persists one revision; closing the last tab returns to the catalog; closed operations reopen",
+        "Failed save leaves the tab and unsaved content intact; no overwrite of a newer revision",
+        "Inactive export-profile drafts participate in the close guard and save their own version without unrelated operation revisions",
+        "Normal offline exit/reopen restores only open IDs; explicit closes stay closed; saved operations remain reopenable"
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "mode": "development",
+      "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/result.json",
+      "sha256": "2059f5d4c554a8f59ba07bf84b094b3cec90fefaf8b4d4b9e800bc4cff1d695d",
+      "hardware": {
+        "cpu": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "cores": 6,
+        "memoryGiB": 7.387504577636719
+      },
+      "runtime": {
+        "electron": "44.5.1",
+        "chrome": "152.0.7977.130",
+        "sqlite": "3.53.4"
+      },
+      "fixture": {
+        "operations": 50,
+        "tasksPerOperation": 500,
+        "catalogItems": 1000,
+        "additionalBuiltinCatalogs": 2,
+        "dirtyOpenTabs": 10
+      },
+      "index": {
+        "entries": 54404,
+        "owners": 1052,
+        "bytes": 83382272
+      },
+      "warmups": 8,
+      "measuredSamples": 32,
+      "debounceExcludedMs": 160,
+      "p95Ms": 121.09999999962747,
+      "medianMs": 21,
+      "targetP95Ms": 200,
+      "largeCards": {
+        "definitions": 1000,
+        "placements": 2000,
+        "rendered": 20,
+        "openMs": 141
+      },
+      "exitCode": 0
+    },
+    {
+      "mode": "packaged",
+      "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/result.json",
+      "sha256": "bba0732e6d7ee1099c21ec3d3dd5e7a8d55935f3177cfa2be28d8b4855147c48",
+      "hardware": {
+        "cpu": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "cores": 6,
+        "memoryGiB": 7.387504577636719
+      },
+      "runtime": {
+        "electron": "44.5.1",
+        "chrome": "152.0.7977.130",
+        "sqlite": "3.53.4"
+      },
+      "fixture": {
+        "operations": 50,
+        "tasksPerOperation": 500,
+        "catalogItems": 1000,
+        "additionalBuiltinCatalogs": 2,
+        "dirtyOpenTabs": 10
+      },
+      "index": {
+        "entries": 54404,
+        "owners": 1052,
+        "bytes": 83390464
+      },
+      "warmups": 8,
+      "measuredSamples": 32,
+      "debounceExcludedMs": 160,
+      "p95Ms": 122.09999999962747,
+      "medianMs": 21.09999999962747,
+      "targetP95Ms": 200,
+      "largeCards": {
+        "definitions": 1000,
+        "placements": 2000,
+        "rendered": 20,
+        "openMs": 93
+      },
+      "exitCode": 0
+    }
+  ],
+  "rebuild": [
+    {
+      "mode": "development",
+      "path": ".test-data/search-rebuild-942c8555-c2e9-40ab-ade7-7f4a0dcae137/result.json",
+      "sha256": "ca60463d5a31444fa3e7bb137ec48561554d570dfb2625b3ccd4c7313f3efd3d",
+      "entries": 55455,
+      "shellReadyMs": 1455,
+      "incompleteAtShellReady": true,
+      "rebuildCompleteMs": 11480,
+      "maxInputToFrameMs": 16.09999999962747,
+      "canonicalSourcesUnchanged": true,
+      "exitCode": 0
+    },
+    {
+      "mode": "packaged",
+      "path": ".test-data/search-rebuild-3a87f8cc-8ad6-4c6b-939c-2e8063342a25/result.json",
+      "sha256": "e7d73733281de91bec94b82f1af99537de7a7c1a275dadc6fe15597d5effc140",
+      "entries": 55455,
+      "shellReadyMs": 1180,
+      "incompleteAtShellReady": true,
+      "rebuildCompleteMs": 11049,
+      "maxInputToFrameMs": 15.799999998882413,
+      "canonicalSourcesUnchanged": true,
+      "exitCode": 0
+    }
+  ],
+  "visualInspection": {
+    "themes": [
+      "forest",
+      "ocean",
+      "sand",
+      "plum",
+      "midnight",
+      "charcoal",
+      "pine",
+      "ember"
+    ],
+    "screenshots": [
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/search-forest.png",
+        "sha256": "74ae8109b510426478ae555612bea6448f5bc536829974c1afa5b984923b0530"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/cards-forest.png",
+        "sha256": "cb630ce058bacb6c0b2c7da028a3ea9ef67e527f11072f47ca877ce41da08cde"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/search-ocean.png",
+        "sha256": "483001f52dbe96df044677afe0115e8b0f6e73953221bb40e4f956e248db782b"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/cards-ocean.png",
+        "sha256": "588fd06a500a0d9a0127ef70619ddc2fd961ba3a793205e518faf5a6ddbbbda2"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/search-sand.png",
+        "sha256": "75a94fb609a0470afbe1a3e7056fbe97578338cd1d8d956017f3be20aa53bb55"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/cards-sand.png",
+        "sha256": "8326274de577593975906e46b470548f86ec5dcb6d95fa9df560ce17ea09e388"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/search-plum.png",
+        "sha256": "25932dd0bb343de96f9d87f8421d023e0ba759515bdff99cdba3d8c0b2e40e36"
+      },
+      {
+        "path": ".test-data/connected-capacity-8dc4a995-9c65-4380-966b-9080dffee64d/cards-plum.png",
+        "sha256": "1fc814ee28ed3ecc3781914374af95f54167cb1f8551452da03e7119284d00ec"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/search-midnight.png",
+        "sha256": "7b96bd7231348a058e9293aa5758e417a4aa8c030f8b489620f036decf6d8bfb"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/cards-midnight.png",
+        "sha256": "c31e6468f8fb51ce923676b68151fdefd805e1d2a246c2ad09881f9f7bbe89ea"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/search-charcoal.png",
+        "sha256": "d42e0f97f7cdd3aa5832cb878cf511124ce95c5aa2e6e5f4fe92df3cd7d6ffd3"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/cards-charcoal.png",
+        "sha256": "a5435a613a4512d1da149005b65c7517ee2fd8431904fb69d60de0ff10fe4d34"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/search-pine.png",
+        "sha256": "2032748fc10f43bcbb424f308d255c79acd4fd86d3ae4f96090e208409eef59a"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/cards-pine.png",
+        "sha256": "2321b1a162733b9f7299b57dfef2ac68c34dfaa6b3f72418b505ebb45e0aaadb"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/search-ember.png",
+        "sha256": "677aeb1d773b821d89cd91b5644aaab0f2f96847d0182a4bd401acedffd64434"
+      },
+      {
+        "path": ".test-data/connected-capacity-0293b587-1ced-4bb2-8cd7-523537bff0bc/cards-ember.png",
+        "sha256": "d324a01ec49f5548ce1e9b9d718d95cfe5d1f78c171088bdcb98430bc5ee79a0"
+      }
+    ],
+    "pdfPages": [
+      {
+        "path": ".test-data/connected-desktop-44e6ffb1-52f8-412c-9bcd-ca0dd3fe74fc/pdf-page-1.png",
+        "sha256": "404f58952d50274e341b18da517be325f91b10eb5cf8554469b64603842c8cbd"
+      },
+      {
+        "path": ".test-data/connected-desktop-44e6ffb1-52f8-412c-9bcd-ca0dd3fe74fc/pdf-page-2.png",
+        "sha256": "6db23b359bdd0b23522eb46810a86847eae72ad6d033d21dfd935412fa7a5770"
+      }
+    ],
+    "result": "Reviewed alignment, readable theme contrast, scroll bounds, card pagination, and rendered PDF pages. Short cards remain together; output contains selected text without technical footers or an automatic linked-facts table."
+  },
+  "knownBoundaries": [
+    "Live cards resolve within their owning operation. Cross-operation linking and graphical card payloads remain later work.",
+    "Historical Used in coverage depends on versioned dependency records. Rows lacking stable source IDs explicitly report partial coverage.",
+    "Only successful isolated runs listed here qualify the candidate. Earlier focus/harness failures were corrected and rerun.",
+    "smoke-milestone3.cjs remains an obsolete harness: its schema 11 expectation and versioned catalog controls predate the current catalog architecture. It is not acceptance evidence; current desktop and full regression checks cover this delivery.",
+    "Candidate packaging preserves version 0.6.5 and uses a separate .test-data output. The existing release directory and user workspace were not replaced."
+  ],
+  "changedSourceAndTestFiles": [
+    {
+      "path": "scripts/benchmark-connected-planning.cjs",
+      "sha256": "7c5aff9c8438a04c3d1ffe7faf5aae297d797fc75ebdc8a712ba43f2b5a1794f"
+    },
+    {
+      "path": "scripts/probe-search-rebuild.cjs",
+      "sha256": "794b97aa49db73b831ede9db9d2b3d507f4aba4f7d5bf85cb0f85d26bcb99838"
+    },
+    {
+      "path": "scripts/probe-search-runtime.cjs",
+      "sha256": "811ec79ebb08bf982e62907eff4f3cc778ad3bb38a21bd44187f05166b45facd"
+    },
+    {
+      "path": "scripts/smoke-connected-planning.cjs",
+      "sha256": "245a77010258a454994fc58cdc411f60e17da0fa317ca7a300c4d380d18d2c43"
+    },
+    {
+      "path": "scripts/smoke-open-operations.cjs",
+      "sha256": "72ec0d1a71541e806ffdaa923bee64870cd476e900189de548c3e009bc089123"
+    },
+    {
+      "path": "src/application/bridge.ts",
+      "sha256": "f9340ea1e12bb4e22be0a623806bb2b6250e16689fedca10a6ee39cdedc33db9"
+    },
+    {
+      "path": "src/application/configured-document-service.ts",
+      "sha256": "1974250be31d8422f4a171235bea7f90e29d249f28c8e2946d8d1b6da8a95bcf"
+    },
+    {
+      "path": "src/application/document-layout-review.ts",
+      "sha256": "c25b12a498ea42ff0210cd3a4dea93b80c6dd1069d17d6ea7de5a666e7f9b124"
+    },
+    {
+      "path": "src/application/narrative-review-service.ts",
+      "sha256": "42be3e834ef7b8ba325d31f62849e64c6df40e4b753eb7776a7a776cd342a75c"
+    },
+    {
+      "path": "src/application/planning-card-export.ts",
+      "sha256": "ae1d4d01116ab7403d5f072ac2168ffdf2489cccc0edf8d601e3e4450e3beefc"
+    },
+    {
+      "path": "src/application/planning-card-review.ts",
+      "sha256": "265febd146dc85d9eaf542f4b0dc9a3efba06d26fefcb5b340f7c9bd3735bfff"
+    },
+    {
+      "path": "src/application/search-service.ts",
+      "sha256": "956897b32b12ac3d78a7cbbc48aa7acce45ed083a8bbb404fa5690e7e02a660c"
+    },
+    {
+      "path": "src/application/service.ts",
+      "sha256": "bdb61e842caba4bd348bf10c6589ae2198e36ac6e5ef1558c796a6390c31a69c"
+    },
+    {
+      "path": "src/application/verify-document-layout.ts",
+      "sha256": "3c589ce93a7ed57b8a0392d438a9c70a1d89e595f4e74d727920c66ada072d41"
+    },
+    {
+      "path": "src/application/verify-planning-export.ts",
+      "sha256": "4e9493b69661957063b5f656b8314a2fb4850e5df989bc5c778ecb5a7a40ef9f"
+    },
+    {
+      "path": "src/domain/document-exports.ts",
+      "sha256": "ba79a357ff0240a9356b802b008a00ed1e194e7d2c09734e70febb27978b2d77"
+    },
+    {
+      "path": "src/domain/document-review.ts",
+      "sha256": "de79bcd1570ed608265c59c2e81edc33b680bf87f7e0324b17a81f4517781960"
+    },
+    {
+      "path": "src/domain/model.ts",
+      "sha256": "ffc4c39ded3df0311dec7120eddd33c99099b3d19861c7835d22be1af5c98777"
+    },
+    {
+      "path": "src/domain/modules.ts",
+      "sha256": "aa0a36d3fd680c3d2e330c5320ac6eba1baea21139f38bd9c220b9ceab71860c"
+    },
+    {
+      "path": "src/domain/planning-card-actions.ts",
+      "sha256": "07283fef66a98977667baf94824bab01ba8c0f33b4b665f8d21092acf74ec796"
+    },
+    {
+      "path": "src/domain/planning-card-resolution.ts",
+      "sha256": "6ff46acf407df54537663bcd20f83f39c5b8026139583f0d1e1b1ca108a36566"
+    },
+    {
+      "path": "src/domain/planning-card-validation.ts",
+      "sha256": "a4f0a56cadf39ba3fa9bc36ceb5b8ecc238a30c75f09a3df53a4cd441f277061"
+    },
+    {
+      "path": "src/domain/planning-cards.ts",
+      "sha256": "7a6c84ecd0f677a827e7aa5f5ca8cd8a2c1181d9f68f5af57a41e999078d4ffd"
+    },
+    {
+      "path": "src/domain/planning-retained-usage.ts",
+      "sha256": "b58c8010aea1b75620973de828d149f39ae75918f00e503a3745d97c894a5937"
+    },
+    {
+      "path": "src/domain/planning-target.ts",
+      "sha256": "60fed3c31a19519cd054471b4bde75d668993802bc5df1de05ba98bd13d2a190"
+    },
+    {
+      "path": "src/domain/planning-usage.ts",
+      "sha256": "2f46388043557c30e14eb789793183d2b3559963c67d770709b338d86597e6d8"
+    },
+    {
+      "path": "src/domain/reviews.ts",
+      "sha256": "74f45dac9a77407a8f70df741f5cb6fd5b6d23810a77e19ba6d02ca656b5a254"
+    },
+    {
+      "path": "src/domain/search-documents.ts",
+      "sha256": "b393466590f3ab658993a0e31c545f4f0607739b73e91fd12d755867c53885d5"
+    },
+    {
+      "path": "src/domain/search.ts",
+      "sha256": "b5bd425983dac085bb8fc86bb453fefc17c9de10e76d6284fe17dcd83b3f4880"
+    },
+    {
+      "path": "src/export/narrative-review-report.ts",
+      "sha256": "65e191d3e4f2fce0181a616a0535ada874d24eda14d6fe98abae32e5adcaca89"
+    },
+    {
+      "path": "src/export/planning-cards.ts",
+      "sha256": "362512ad1a518e2a52ec7a445a096af0500b8c5eea411433e9eee796c6c6c939"
+    },
+    {
+      "path": "src/export/print-v3.ts",
+      "sha256": "62165b5e471a3d20aedc30ef3eed1a6805c851bc2426f36262cafd97e597507b"
+    },
+    {
+      "path": "src/main/index.ts",
+      "sha256": "d20179e72260fdd28381a90a1be584ec173cdef167a16c958e53ff82031358cd"
+    },
+    {
+      "path": "src/persistence/catalog-store.ts",
+      "sha256": "1dea099efa51d15cbbd26e334241e98f5aee9e03b5418f2fa13141060bcf40c9"
+    },
+    {
+      "path": "src/persistence/deletion-store.ts",
+      "sha256": "792989f6cace8c6d55f844582b34c8c9c01b3739018e608c817c53cf984f5ca9"
+    },
+    {
+      "path": "src/persistence/migrations/015.sql",
+      "sha256": "15d2cc697f1ac10c695c6d87116ca7c6ac945597fadf6932d680edfbbad4aada"
+    },
+    {
+      "path": "src/persistence/migrations/016.sql",
+      "sha256": "baac46a49170b3f3e71c5ec72bbf3b6765caa62de541681799ecc0b1acdd6575"
+    },
+    {
+      "path": "src/persistence/modular-store.ts",
+      "sha256": "40bb07985d504f13cf2f7ea504b7b695f42406402415f50b4d930094f72cc35d"
+    },
+    {
+      "path": "src/persistence/repository.ts",
+      "sha256": "579938ef45a2e805cc44b93438b0c453fba8048129ee62cccd6f297b5371e5ec"
+    },
+    {
+      "path": "src/persistence/review-store.ts",
+      "sha256": "b9aa5afce3717547866fa5e7a53843c033216f44a337e5a9363b6e2f366dda44"
+    },
+    {
+      "path": "src/persistence/search-store.ts",
+      "sha256": "0069b7a831bc8312edbf73fca09764942afc06a076ed8c722a380ffbc537be02"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "80f99e1391a92d0cbf73d1ef4e82f027b09442de01e2720fc24fe1eeecc71728"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "bfc2c41d5537f7782311b3859e1502a39b61d514c180ca24404f0b5424c62a87"
+    },
+    {
+      "path": "src/renderer/src/ApplicationShell.tsx",
+      "sha256": "f358b90dbcb32bdc062a53a29b27efa1086464cc3f374df85d524522b1b85d28"
+    },
+    {
+      "path": "src/renderer/src/CardSourceDeletion.tsx",
+      "sha256": "804dae6e5850e22fa30698d2a63e6bf4907fea20eaaef3876d62a866fe98bb59"
+    },
+    {
+      "path": "src/renderer/src/DoctrineBuilder.tsx",
+      "sha256": "c640afd465309059f9195e1ab71f799849661def9fc4c15ccc9c0ee5c24ecf7a"
+    },
+    {
+      "path": "src/renderer/src/DoctrineWorkspace.tsx",
+      "sha256": "f4034ec1e59cd322516610225a076f106df2619e53a4e30e964f2a9c5cfe164d"
+    },
+    {
+      "path": "src/renderer/src/Fields.tsx",
+      "sha256": "f8a0ec2304f05171737b3f60f82ed8b427a3b7ac55d319a0591febaca212aadb"
+    },
+    {
+      "path": "src/renderer/src/GraphicalProductPreview.tsx",
+      "sha256": "b3b4fa7e18c65221a41ad8fc0adfccd212951c393b64f9f4d4fa651f7a1f2b5b"
+    },
+    {
+      "path": "src/renderer/src/MilitarySymbolsWorkspace.tsx",
+      "sha256": "f038562a4c77d18594b9cc142939fb9ac6c93d9928f742b7621efd425c8a7181"
+    },
+    {
+      "path": "src/renderer/src/ModuleWorkspace.tsx",
+      "sha256": "b6134b6abcb0fb26e65066fcb3c2b73fca34de73958d066bdf7b11361d36d75f"
+    },
+    {
+      "path": "src/renderer/src/OrbatWorkspace.tsx",
+      "sha256": "1af1a40f9e227edbdf1c00ab8c1e85454b5d811b0d6c4785e669fd4f35b6bd11"
+    },
+    {
+      "path": "src/renderer/src/OrganizationOrbatPanel.tsx",
+      "sha256": "79a596a89ba6bac6a1512d16dcb348642d1321593d474ef339faa45965fa611d"
+    },
+    {
+      "path": "src/renderer/src/OrganizationStaffEditor.tsx",
+      "sha256": "70a85806a312bf6b6d78e903d2a8d5d92ee9ea471fd7d374b1d3b6d3fc8aa0b9"
+    },
+    {
+      "path": "src/renderer/src/OrganizationStaffView.tsx",
+      "sha256": "de84f5afd8ad3abec6a2d6bd1071602acf637bdfb2756dcbee6727a58b4cf268"
+    },
+    {
+      "path": "src/renderer/src/OrganizationWorkspace.tsx",
+      "sha256": "3211505ef36a9c9efcf4c7414c16137f1c6d975787e4a5d430e9e91da5f2d934"
+    },
+    {
+      "path": "src/renderer/src/PlanningCards.tsx",
+      "sha256": "1d1247b96e88325677a3311ee87606064845b2e01de20d0e741d8844d90546a3"
+    },
+    {
+      "path": "src/renderer/src/PlanningUsage.tsx",
+      "sha256": "ce1470ebe783df61a9bafe0e6a73b80cdea0f0b3f1a8bd567a7b2f7d42424c02"
+    },
+    {
+      "path": "src/renderer/src/ReviewWorkspace.tsx",
+      "sha256": "83800805a91e6bfbd8d1ae0352cb051d84b31dc66534339eeb4f0ba348bca5ef"
+    },
+    {
+      "path": "src/renderer/src/SearchDialog.tsx",
+      "sha256": "93dbc596ce82b8810e983cdaf8c21865c54e310e58ab0d717c42dfdcc189ae23"
+    },
+    {
+      "path": "src/renderer/src/SearchProvider.ts",
+      "sha256": "f3faaa06214bf7459240668843d36cde789777c02f7e6628842d05d6eae90d05"
+    },
+    {
+      "path": "src/renderer/src/SymbolsAndOrbatsWorkspace.tsx",
+      "sha256": "e03c8a429366ed2cdccac4eea896d9b628014fc35be274cc081a2a9631e8a4ef"
+    },
+    {
+      "path": "src/renderer/src/editorRegistry.ts",
+      "sha256": "d9f5e55baa192c7c6692611659961fa3ba3c5b378ae4a5675928d9fe0e875842"
+    },
+    {
+      "path": "src/renderer/src/planning-cards.css",
+      "sha256": "73780574c10bddf6135152bb1104ed0cdeaf2ee619abf2ef5c364ce73cd86dc3"
+    },
+    {
+      "path": "src/renderer/src/search-navigation.ts",
+      "sha256": "1645d5c6f7e3ccea8fccaeac5d478a1709e4b157193ea483750020e2d0b73c3d"
+    },
+    {
+      "path": "src/renderer/src/search-session.ts",
+      "sha256": "21d4a5a4186b4881f60f46a0c24dc111d9acc449fb88b4c16250e50c210913f8"
+    },
+    {
+      "path": "src/renderer/src/search.css",
+      "sha256": "27a8f51b26c3579432ee2c5a4a5d19fa6bd65fc42ad71dbf47d330fd11a62796"
+    },
+    {
+      "path": "src/renderer/src/workspace-session.ts",
+      "sha256": "1261f5dcfd47bc037c296fb7ac905ee922c3ea54da27ddc64d9417784f0806b6"
+    },
+    {
+      "path": "src/validation/engine.ts",
+      "sha256": "af2cbd4b7ca8324a5ec1eab526958b4df0602aa527cc9cdc2d84d556f23672b8"
+    },
+    {
+      "path": "tests/closure.test.ts",
+      "sha256": "4cf9f6765211ce290702b4ed7f625c8e60046a46ff45d85e5836d591a8d42079"
+    },
+    {
+      "path": "tests/deletion.test.ts",
+      "sha256": "b09bad5326044e99d9172ccc91a611667e44dbdbe2f606bb449205b2e1d6139a"
+    },
+    {
+      "path": "tests/fixtures/milestone4-review-v1.db-shm",
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tests/fixtures/milestone4-review-v1.db-wal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/milestone2-persistence.test.ts",
+      "sha256": "47c8c75f0c3e982130c2ed5434090f2a572493e46ddd2497e61601520948ce14"
+    },
+    {
+      "path": "tests/milestone3.test.ts",
+      "sha256": "394d44ecfe8b322ba9bbf89ce9af50be1b5be1b199e77e8f0ec68f2a44d2d8b9"
+    },
+    {
+      "path": "tests/milestone4-reviews.test.ts",
+      "sha256": "4b2922693d6c0f42a0ff300adbcb2764a32f90b5bda52036c07f8baaaf75d88a"
+    },
+    {
+      "path": "tests/milestone5.test.ts",
+      "sha256": "7f0cc40d431c63aef092c5f4a1f6ac4752855c7e9d619e638c7eef2bc758191f"
+    },
+    {
+      "path": "tests/milestone6-foundation.test.ts",
+      "sha256": "c12556965d86b29c939943dac908c9c3e09a2289d6a213a842b5b69852f44139"
+    },
+    {
+      "path": "tests/planning-cards.test.ts",
+      "sha256": "0801db3214b70a4acc5b371399d59eb1d82dea498365059394a8a50465d04964"
+    },
+    {
+      "path": "tests/readable-order.test.ts",
+      "sha256": "d25430f71ff4a01aedcf8fe4bb732ad23e5c26e622cace857e6c3bac284e3f88"
+    },
+    {
+      "path": "tests/search.test.ts",
+      "sha256": "d6822748d930e137a838a4aee800c87c23074373adc50e432a82f6f550cee2a7"
+    },
+    {
+      "path": "tests/workspace-session.test.ts",
+      "sha256": "a73da67cbce8092e22767b38ece8d010c18436cb0aadc419ee3eb82fb800a0d3"
+    }
+  ]
+}

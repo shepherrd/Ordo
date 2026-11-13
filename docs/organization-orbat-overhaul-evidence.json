@@ -1,0 +1,77 @@
+{
+  "recordedAt": "2026-10-13T18:43:07.064Z",
+  "version": "0.6.5",
+  "packaged": false,
+  "releaseQualified": false,
+  "personalWorkspaceTouched": false,
+  "scope": "Organization-owned unit profiles and personnel on a live linked, fixed-layout saved ORBAT",
+  "behavior": [
+    "Assign a saved ORBAT under Organizations > ORBAT. Saving structural or layout changes in the ORBAT editor updates that organization's diagram on return or refresh.",
+    "Click a diagram unit or choose it by keyboard to edit Information or Staff & roles. The root edits the owning organization; subordinates have local organization-owned records.",
+    "Organizations sharing a saved ORBAT have separate identity and personnel data. Stable ORBAT and node IDs identify records; names and symbols never create links.",
+    "Save organization saves the assignment, root and subordinate edits together. Existing recovery copies and unsaved-navigation protection include subordinate edits.",
+    "Removing a node or unassigning an ORBAT retains its local profiles in Retained unit profiles. The same original ORBAT/node restores its association; a same-name replacement stays independent.",
+    "The diagram cannot be structurally dragged in Organizations. It fits its viewport, supports zoom, pan, expansion and keyboard selection, and the Save controls remain visible while scrolling.",
+    "Assigned ORBAT deletion is blocked until organizations unassign it. Organization permanent deletion confirmation counts its owned unit/personnel records.",
+    "Operation creation/import consumes immutable copies of the then-current tree, symbols, organization identity and staff; later edits do not rewrite existing operations or snapshots."
+  ],
+  "compatibility": {
+    "databaseMigration": "Not needed: an optional authoring field is stored in existing catalog JSON. Historical schemas, SQL migrations and engines are unchanged.",
+    "previousStandingRelationships": "Retained. Assigned ORBAT supplies the active structure; unassigning makes previous relationships available again.",
+    "compatibilityEditor": "Saving the root through the existing profile adapter preserves organization-owned ORBAT data.",
+    "consumptionLimit": "Existing immutable organization imports support at most 500 immediate subordinates per parent; larger flat structures produce an explicit error at consumption."
+  },
+  "verification": {
+    "typecheckAndBuild": "passed",
+    "formatting": "passed",
+    "gitDiffCheck": "passed",
+    "architectureModuleReferences": 1107,
+    "relatedUnitTests": {
+      "passed": 166,
+      "files": [
+        "tests/organization-orbat.test.ts",
+        "tests/catalog.test.ts",
+        "tests/workspace-session.test.ts",
+        "tests/milestone5.test.ts",
+        "tests/milestone5-contracts.test.ts",
+        "tests/closure.test.ts",
+        "tests/deletion.test.ts"
+      ],
+      "subsequentFocusedRun": {
+        "passed": 7,
+        "note": "Organization suite rerun after adding actual operation creation and unchanged-operation verification."
+      }
+    },
+    "desktopRun": {
+      "path": ".test-data/organization-orbat-2722f012-ac30-41e6-867b-70d6b5294259/acceptance.json",
+      "sha256": "15fec95a2f4e92b6757c15400fa374188f719ef6e3db9d659f358624eb6c46b8",
+      "checks": 8,
+      "exactBuildVerified": true,
+      "normalOfflineLifecycle": true
+    },
+    "visualReview": [
+      "organization-orbat-1500.png",
+      "organization-orbat-1280.png",
+      "organization-orbat-1000.png",
+      "retained-personnel.png"
+    ],
+    "viewportWidths": [1500, 1280, 1000],
+    "measuredChecks": [
+      "All diagram units remain inside the fitted canvas",
+      "No panel horizontal overflow",
+      "Save organization remains visible"
+    ],
+    "frozenFileHashesUnchanged": 69,
+    "frozenManifest": "tests/fixtures/deletion-frozen-implementations.json"
+  },
+  "excludedRuns": [
+    {
+      "path": ".test-data/organization-orbat-fd64a219-ec9c-4a07-aad9-4905143cc6f9/acceptance.json",
+      "reason": "Reopening from the catalog used the legacy editor document and omitted the assigned ORBAT from the view. Stored data was intact. The load path was corrected, and subsequent full workflow runs passed."
+    }
+  ],
+  "earlierSuccessfulRunsSupersededByFinalBuild": [
+    ".test-data/organization-orbat-5e333213-39b1-47f1-8bd9-53d1c8a2411f/acceptance.json",
+    ".test-data/organization-orbat-ef16043c-07a8-47b7-bbac-d0b8180e8b8d/acceptance.json"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "upstream": "mil-std-2525@0.2.5",
+  "catalogHash": "0269ed4d9e03ce0f458c5b91a2d4dc42274ab974740d02485ae2d60d58ca4b07",
+  "tables": [
+    {
+      "group": "SPC",
+      "upstreamFile": "2525c/space.tsv",
+      "upstreamHash": "12ba900f303e1270bcf4c757f8c0392d13b196d6c94ac8532fec0874b32ba0ea",
+      "referenceNormalizedHash": "2447caa607342caa27c9c63ab26edfe82e0ab500f3d46bfe85dcf0c47292e4f0",
+      "difference": "Exact normalized table",
+      "shipped": true
+    },
+    {
+      "group": "AIRTRK",
+      "upstreamFile": "2525c/air.tsv",
+      "upstreamHash": "1e46cbdb05ee684751d4947a2af08d760dd11b1919792cbcb6d75825cad74535",
+      "referenceNormalizedHash": "f3a826b82b94ae0cd0e441f5bc71fe7c2890666a057a6f0de92943981d802866",
+      "difference": "Exact normalized table",
+      "shipped": true
+    },
+    {
+      "group": "GRDTRK_UNT",
+      "upstreamFile": "2525c/ground-unit.tsv",
+      "upstreamHash": "d864d486c9036925f2077076f832a6434b91b71c8943dadfc2a5fda25534ef8a",
+      "referenceNormalizedHash": "c743f7835200a707a73b2aa9362024fa339359181f04cf523a98bc6776e8c0bc",
+      "difference": "reference omits the GROUND TRACK parent row",
+      "shipped": true
+    },
+    {
+      "group": "GRDTRK_EQT",
+      "upstreamFile": "2525c/ground-equipment.tsv",
+      "upstreamHash": "376c00de5779cdf9f6532d23a5d7136e1bc0cbf3c4b8146c97837551f9333745",
+      "referenceNormalizedHash": "f57616ecfe13bce6cbe7976b82a5facc674c2920cfc51beff60236b7bbd0fea8",
+      "difference": "Exact normalized table",
+      "shipped": true
+    },
+    {
+      "group": "GRDTRK_INS",
+      "upstreamFile": "2525c/ground-installation.tsv",
+      "upstreamHash": "bc206b64be05118b5b6fd1ed40b5207ad8b4cc568c8df57aba47f296bf8b3f32",
+      "referenceNormalizedHash": "d02cd55cad62639fb360c95560ec88d6d9b562dccf6709e53251e7bab0241c22",
+      "difference": "Exact normalized table",
+      "shipped": true
+    },
+    {
+      "group": "SSUF",
+      "upstreamFile": "2525c/sea-surface.tsv",
+      "upstreamHash": "6df51da3fd48792866153acaeed84aa272e2458f238fd7f66e1e2e26c35aec90",
+      "referenceNormalizedHash": "64ff6a2d0ec11035de081659110bff5e05110171cf045f8251b2f0a6f31ec5fa",
+      "difference": "Exact normalized table",
+      "shipped": true
+    },
+    {
+      "group": "SBSUF",
+      "upstreamFile": "2525c/sub-surface.tsv",
+      "upstreamHash": "32da9bbab2691f46275f915e1a67114e83f6ca1f17a541d343ac80ca6887f3b9",
+      "referenceNormalizedHash": "87497f1758805bc7c786266bfcf5fefb94c8c1fa2b079a7ec8f2fef2d950d1ba",
+      "difference": "Exact normalized table",
+      "shipped": true
+    },
+    {
+      "group": "SOFUNT",
+      "upstreamFile": "2525c/sof.tsv",
+      "upstreamHash": "86273af9c58a820af394605c9bf7d1e0770d0f397e0c7b677478207f4ee1b9ea",
+      "referenceNormalizedHash": "e44a3878c14bfdb8bfb885f89670551ff0fd1b8ef17001161515ec38bd4d1cb3",
+      "difference": "Exact normalized table",
+      "shipped": false
+    }
+  ],
+  "scope": "Seven inspected non-SOF selector groups. SOF breadth remains deferred. E crosswalk is a separate unresolved provenance item."
+}

@@ -1,0 +1,297 @@
+{
+  "recordedAt": "2026-10-15T18:22:06.467Z",
+  "version": "0.6.5",
+  "packaged": false,
+  "personalWorkspaceTouched": false,
+  "location": "Settings > Appearance > Color theme",
+  "themes": {
+    "light": ["Forest", "Ocean", "Sand", "Plum"],
+    "dark": ["Midnight", "Charcoal", "Pine", "Ember"]
+  },
+  "behavior": [
+    "Apply immediately; save a known theme ID in local appearance storage and initialize before React mounts.",
+    "Keep selection keyboard-accessible and show current palette swatches.",
+    "Share semantic colors across navigation, forms, tabs, dialogs, reviews, Organizations, and Symbols & ORBATs.",
+    "Keep document pages and military-symbol artwork in their original colors; use neutral drawing/thumbnail surfaces.",
+    "Retain safe Forest fallback if saved theme ID is unknown or local storage cannot be read; show an error if saving is unavailable."
+  ],
+  "verification": {
+    "build": "passed",
+    "lint": "passed",
+    "unitTests": {
+      "files": 34,
+      "passed": 645,
+      "newThemeTests": 11
+    },
+    "contrast": "All eight palettes pass 4.5:1 text contrast for tested normal, muted, selected, navigation, action and status pairs; focus and control boundaries pass 3:1 against tested surfaces.",
+    "frozenHistoricalFilesUnchanged": 69,
+    "desktopEvidence": ".test-data/themes-7256a4fa-3caf-4781-b9e5-9779360167c8/acceptance.json",
+    "desktopChecks": [
+      "Eight distinct light/dark palettes apply immediately, save locally, and leave planner preferences and dirty state unchanged",
+      "The theme selector works by keyboard and fits the narrower desktop layout",
+      "Theme changes preserve exact military-symbol SVG artwork and saved ORBAT data, with a neutral drawing surface",
+      "Organization profiles, selected tabs and dialogs use the selected palette",
+      "Changing the application theme leaves the exported-document preview HTML unchanged",
+      "The selected theme loads on normal restart before opening Settings, and Forest can be restored",
+      "Normal offline launch and shutdown complete without renderer errors"
+    ],
+    "rendererErrors": [],
+    "visualReview": {
+      "sameBuildScreenshots": ".test-data/themes-2854a625-b3d9-4569-969e-8ac82ab4384b",
+      "inspected": [
+        "settings-forest.png",
+        "settings-ocean.png",
+        "settings-sand.png",
+        "settings-plum.png",
+        "settings-midnight.png",
+        "settings-charcoal.png",
+        "settings-pine.png",
+        "settings-ember.png",
+        "organization-midnight.png",
+        "orbat-midnight.png"
+      ]
+    },
+    "screenshots": [
+      "settings-forest.png",
+      "settings-ocean.png",
+      "settings-sand.png",
+      "settings-plum.png",
+      "settings-midnight.png",
+      "settings-charcoal.png",
+      "settings-pine.png",
+      "settings-ember.png",
+      "settings-charcoal-narrow.png",
+      "orbat-forest.png",
+      "orbat-midnight.png",
+      "organization-midnight.png",
+      "organization-dialog-midnight.png",
+      "document-midnight.png"
+    ],
+    "computedThemeColors": [
+      {
+        "id": "forest",
+        "background": "rgb(239, 242, 239)",
+        "paper": "rgb(252, 253, 251)",
+        "text": "rgb(37, 60, 56)",
+        "input": "rgb(252, 253, 251)",
+        "inputText": "rgb(37, 60, 56)",
+        "colorScheme": "light",
+        "stored": "forest",
+        "focus": "#2e604d",
+        "overflow": false
+      },
+      {
+        "id": "ocean",
+        "background": "rgb(238, 243, 248)",
+        "paper": "rgb(251, 253, 255)",
+        "text": "rgb(35, 58, 80)",
+        "input": "rgb(251, 253, 255)",
+        "inputText": "rgb(35, 58, 80)",
+        "colorScheme": "light",
+        "stored": "ocean",
+        "focus": "#285e89",
+        "overflow": false
+      },
+      {
+        "id": "sand",
+        "background": "rgb(244, 240, 232)",
+        "paper": "rgb(255, 253, 247)",
+        "text": "rgb(64, 55, 43)",
+        "input": "rgb(255, 253, 247)",
+        "inputText": "rgb(64, 55, 43)",
+        "colorScheme": "light",
+        "stored": "sand",
+        "focus": "#79592e",
+        "overflow": false
+      },
+      {
+        "id": "plum",
+        "background": "rgb(243, 239, 245)",
+        "paper": "rgb(254, 252, 255)",
+        "text": "rgb(64, 52, 71)",
+        "input": "rgb(254, 252, 255)",
+        "inputText": "rgb(64, 52, 71)",
+        "colorScheme": "light",
+        "stored": "plum",
+        "focus": "#745181",
+        "overflow": false
+      },
+      {
+        "id": "midnight",
+        "background": "rgb(16, 26, 40)",
+        "paper": "rgb(25, 38, 56)",
+        "text": "rgb(229, 237, 247)",
+        "input": "rgb(25, 38, 56)",
+        "inputText": "rgb(229, 237, 247)",
+        "colorScheme": "dark",
+        "stored": "midnight",
+        "focus": "#95c8f5",
+        "overflow": false
+      },
+      {
+        "id": "charcoal",
+        "background": "rgb(24, 27, 30)",
+        "paper": "rgb(35, 40, 45)",
+        "text": "rgb(237, 240, 242)",
+        "input": "rgb(35, 40, 45)",
+        "inputText": "rgb(237, 240, 242)",
+        "colorScheme": "dark",
+        "stored": "charcoal",
+        "focus": "#becdd7",
+        "overflow": false
+      },
+      {
+        "id": "pine",
+        "background": "rgb(20, 35, 29)",
+        "paper": "rgb(30, 48, 39)",
+        "text": "rgb(230, 240, 233)",
+        "input": "rgb(30, 48, 39)",
+        "inputText": "rgb(230, 240, 233)",
+        "colorScheme": "dark",
+        "stored": "pine",
+        "focus": "#a3d0ae",
+        "overflow": false
+      },
+      {
+        "id": "ember",
+        "background": "rgb(37, 27, 25)",
+        "paper": "rgb(51, 38, 34)",
+        "text": "rgb(245, 233, 223)",
+        "input": "rgb(51, 38, 34)",
+        "inputText": "rgb(245, 233, 223)",
+        "colorScheme": "dark",
+        "stored": "ember",
+        "focus": "#efb58c",
+        "overflow": false
+      }
+    ]
+  },
+  "buildFiles": [
+    {
+      "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+      "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+    },
+    {
+      "path": "main\\chunks\\render-requests-BvOG60Iq.js",
+      "sha256": "ea3b42ee46ea897883cd564b57a46071bd5804312254155ba7bbcede24e327da"
+    },
+    {
+      "path": "main\\chunks\\symbol-catalog-izTTdGWY.js",
+      "sha256": "f5eed8b7ef45c62edd283827315e649d3ce6786bba3525ecae15aa5a760e072c"
+    },
+    {
+      "path": "main\\index.js",
+      "sha256": "0ffd68119e88bbd1bbe463f122cab247125fdebb2fc84d2b47d993511cc5b207"
+    },
+    {
+      "path": "main\\symbol-worker.js",
+      "sha256": "fa52a484ba092c96824f5372b237f29b3dd9e99af69e43ae2f178c7855cc1107"
+    },
+    {
+      "path": "preload\\index.js",
+      "sha256": "bf132659c7ad12de9e94d2c7b18b7495f3c755d0a095ea5add6cee45437517e0"
+    },
+    {
+      "path": "renderer\\assets\\OperationOrbatPanel-BT7__Wii.js",
+      "sha256": "d3b5506e2e2fccb209e1b6a72865b869f42fcee7ebe0fec69ead4d38209ee03e"
+    },
+    {
+      "path": "renderer\\assets\\OperationSymbolEditor-CiGniFWN.js",
+      "sha256": "f8c7428a731b6f1c7a57d5bcae9cfe42e02f6d8204e2ab848e5cc4595d80d1a1"
+    },
+    {
+      "path": "renderer\\assets\\ProfileSymbolEditor-BMjPzKQp.js",
+      "sha256": "3f668d787bd39d0845f4c5d71008d18b9b59d3fbf36ed6de188eb18f1d576752"
+    },
+    {
+      "path": "renderer\\assets\\SaveUnitSymbol-CIgXcQP2.js",
+      "sha256": "9aafb72c65bc142dbcfff835435537954346a73686c816a1672a9ea80f16b50f"
+    },
+    {
+      "path": "renderer\\assets\\SavedSymbolPicker-B9Q1sua-.js",
+      "sha256": "fce82edb9aeae97d242f7dac0f87b42bb0800f9a9efe245177137f3a50088019"
+    },
+    {
+      "path": "renderer\\assets\\SymbolEditor-UJ1Vp2Oe.js",
+      "sha256": "ea87b164463528253d89d790d64ee9cd0016e3fbbd339cac5ce3f135c6f7ff1f"
+    },
+    {
+      "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+      "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+    },
+    {
+      "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-Ww1FbYL_.js",
+      "sha256": "f756127ea92b1b107b4f2c5051be1234c0c0b4f589acd796d7a45bbeeb621829"
+    },
+    {
+      "path": "renderer\\assets\\index-BAKMKIuf.css",
+      "sha256": "9df30d88b4fa712ebc18870ef8ac9336ed398bbc65fc57b342b812c5de9d908d"
+    },
+    {
+      "path": "renderer\\assets\\index-BKfLXuWn.js",
+      "sha256": "e3945e38ecd056f6147af311aa5a5e5cda4ed710c8871b005a6b50f33e477f54"
+    },
+    {
+      "path": "renderer\\index.html",
+      "sha256": "30fe8bc4a36e640287e128010179306a301ebcd25eba0716dcd70dab48b5bfd3"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "src/renderer/src/themes.ts",
+      "sha256": "b68b506846343ccff46fe18df2b76ef8cabf2759c74d3fd5987727c904620839"
+    },
+    {
+      "path": "src/renderer/src/ThemeSettings.tsx",
+      "sha256": "e17906505fbf67d91448a2f13966f44ec5e73eebc3b2d9e2f5a1e6ee24cc3715"
+    },
+    {
+      "path": "src/renderer/src/themes.css",
+      "sha256": "e108296d92ec1e7072103579197c24d7a9c7b63cbc3a610838f0b415dab97ed6"
+    },
+    {
+      "path": "src/renderer/src/main.tsx",
+      "sha256": "bba01294134a54041b5f2242efe0b7b699ba7c1e6f72d4ee60292937b17169ef"
+    },
+    {
+      "path": "src/renderer/src/ApplicationShell.tsx",
+      "sha256": "a3ac7f3f4418c687b60bf5ffb85a96fc89847087b7cfc993429e4eea5cd90380"
+    },
+    {
+      "path": "src/renderer/src/GraphicPreview.tsx",
+      "sha256": "acdfffc6ef56584d575164452f69522b24b97b54f20cc5d9a257c54ecf3149ca"
+    },
+    {
+      "path": "src/renderer/src/style.css",
+      "sha256": "1d595c838f09e1181d05a3b837cc08cd8d71ef2668ff8b00a2d3949a895cdc91"
+    },
+    {
+      "path": "src/renderer/src/workspace.css",
+      "sha256": "2402ac8afcd6f0d7e2cf4759a6a74cae96ad7ea7416722010dc7e56142953a62"
+    },
+    {
+      "path": "src/renderer/src/workbench.css",
+      "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+    },
+    {
+      "path": "src/renderer/src/symbology.css",
+      "sha256": "53cf65f5953236342af6ec898d140daae4ef63bc92f448f596a1c6d64a6e770e"
+    },
+    {
+      "path": "src/renderer/src/reviews.css",
+      "sha256": "0d97af118d27bb063765b1cdbd1d25ea6097f69b7d605823c831aa8393170186"
+    },
+    {
+      "path": "src/renderer/src/organization-orbat.css",
+      "sha256": "bbd53e6a2a0e4e1f2a979a648259085555c2d21c8873ffbe3fba30033f9f28bb"
+    },
+    {
+      "path": "tests/themes.test.ts",
+      "sha256": "eb3ce9024807929f23ec8c3d274f27c2588b590e81e6fb91dbbd55210b202f02"
+    },
+    {
+      "path": "scripts/smoke-themes.cjs",
+      "sha256": "5d74113e12e24e5127ae70a2cba3a994b9d564cad6c89d5944fbfba5fbe5d60f"
+    }
+  ]
+}

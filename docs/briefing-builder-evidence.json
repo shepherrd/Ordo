@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "delivery": "Briefing builder",
+  "date": "2026-10-16T21:23:20.712Z",
+  "baseline": {
+    "path": ".test-data/briefing-baseline-2026-10-16T20-48-35-271Z/manifest.json",
+    "sha256": "67ed320aa5e54e5dd33aa31b701e1e188b8d0bd52c62fd298764f8b102a8c192",
+    "files": 545
+  },
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "architectureReferences": 1351,
+    "preexistingFrozenUnusedDiagnostics": 9,
+    "tests": {
+      "path": ".test-data/briefing-final-unit.json",
+      "sha256": "39e1d9991f9f284cb97fe445f5f0a94c83ba5d2ee2eeceed29d316b530e430df",
+      "passed": 675,
+      "failed": 0
+    },
+    "frozenFiles": {
+      "count": 69,
+      "changed": []
+    }
+  },
+  "desktop": [
+    {
+      "kind": "development",
+      "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/result.json",
+      "sha256": "3c133f42fb7c70a96b82e0232088936a0c72ad1de9dfd788bfdd1cc49947aac9",
+      "checks": [
+        "Create four layouts, add linked content, detach a copy, select a retained ORBAT, reorder, duplicate and remove slides, then save",
+        "Unified search opens the exact briefing slide by its note text",
+        "Keyboard presentation and presenter notes work; saved-source preview and a real four-slide PDF retain graphics and exclude notes",
+        "Working-copy recovery survives renderer failure; normal restart preserves retained PDFs and undo/redo covers briefing edits",
+        "Overfull slides fail export clearly and do not retain a clipped PDF",
+        "All eight themes and a narrow desktop show the briefing editor without page-level horizontal overflow",
+        "Backup and restore preserve slide layout, independent cards, graphics, and exact PDF bytes",
+        "Retained PDFs remain accessible after removing their editable briefing and after normal restart"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 22620
+        },
+        {
+          "stage": "exited",
+          "pid": 22620,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 3476
+        },
+        {
+          "stage": "exited",
+          "pid": 3476,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 8508
+        },
+        {
+          "stage": "exited",
+          "pid": 8508,
+          "exitCode": 0
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/presentation.png",
+          "sha256": "825bcdc2da4efac11e64e52bcf5144de36d571f7361de59df5f8ed28dafdda62"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-forest.png",
+          "sha256": "f21ddd9166b6210e61920cfa1c4d7236f10b18ad124f0367b0e48792185f1a26"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-ocean.png",
+          "sha256": "c468d9e823168ec5aaaaf9ed8c88e65d6ce9161d281703bfafed6a1ec3b81e53"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-sand.png",
+          "sha256": "d0e451326f30528dcc0d2bc6952545f85f039b1bf38c921ee21ffeea31bd49d7"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-plum.png",
+          "sha256": "11392e1784973f9a11e59b760d254b24cacc794a1170e496f71c7ca0afcb6ee5"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-midnight.png",
+          "sha256": "a874552c704639187d5eacc36cfc35ec79ed9c7f7b796595f5a5b08f4690652b"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-charcoal.png",
+          "sha256": "23b0e66444badfaf21b56d424c04fc1918b437ce97c32041330d386426ee5df4"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-pine.png",
+          "sha256": "98df031894e6742cd1c5e5c6b4d3f95f260716501d23c2d2acffe3e6eecd1aeb"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-ember.png",
+          "sha256": "36deab625110f375a7361732d05dd9c5c810fd0868633bd3666b3052911ea6ed"
+        },
+        {
+          "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing-narrow.png",
+          "sha256": "5b274f06311e59bc31817d1c2e34f766746ee24fa6db8df8f342a275b1de8983"
+        }
+      ],
+      "pdf": {
+        "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing.pdf",
+        "sha256": "6d7366247b577c3b89a772b785e46cb28442bbbd7924a2a850fc3c8e5a98506b"
+      },
+      "html": {
+        "path": ".test-data/briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242/briefing.html",
+        "sha256": "4d45dae181b746402430020fd0ffd05997df6f6e283705b823f871ea361e969d"
+      }
+    },
+    {
+      "kind": "packaged",
+      "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/result.json",
+      "sha256": "2a5e91a7837b6578061764d7d450739031fdcf127ea6db5d044cf3f6b053df67",
+      "checks": [
+        "Create four layouts, add linked content, detach a copy, select a retained ORBAT, reorder, duplicate and remove slides, then save",
+        "Unified search opens the exact briefing slide by its note text",
+        "Keyboard presentation and presenter notes work; saved-source preview and a real four-slide PDF retain graphics and exclude notes",
+        "Working-copy recovery survives renderer failure; normal restart preserves retained PDFs and undo/redo covers briefing edits",
+        "Overfull slides fail export clearly and do not retain a clipped PDF",
+        "All eight themes and a narrow desktop show the briefing editor without page-level horizontal overflow",
+        "Backup and restore preserve slide layout, independent cards, graphics, and exact PDF bytes",
+        "Retained PDFs remain accessible after removing their editable briefing and after normal restart"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 21520
+        },
+        {
+          "stage": "exited",
+          "pid": 21520,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 20000
+        },
+        {
+          "stage": "exited",
+          "pid": 20000,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 21848
+        },
+        {
+          "stage": "exited",
+          "pid": 21848,
+          "exitCode": 0
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/presentation.png",
+          "sha256": "0eda7866a1fbedf0b12ca9fc8ab268a12e608bb09ceea9a8a03afe31560dd91f"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-forest.png",
+          "sha256": "f21ddd9166b6210e61920cfa1c4d7236f10b18ad124f0367b0e48792185f1a26"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-ocean.png",
+          "sha256": "e9f1f9292af510195b2f437a25ec28ab48ef04aa22eb0fa7996e478fe544fa81"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-sand.png",
+          "sha256": "d0e451326f30528dcc0d2bc6952545f85f039b1bf38c921ee21ffeea31bd49d7"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-plum.png",
+          "sha256": "11392e1784973f9a11e59b760d254b24cacc794a1170e496f71c7ca0afcb6ee5"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-midnight.png",
+          "sha256": "a874552c704639187d5eacc36cfc35ec79ed9c7f7b796595f5a5b08f4690652b"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-charcoal.png",
+          "sha256": "e14b3517b1c6d0618d9ecf1d3c21a201d24c306489df8b614d1df32daa34a85d"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-pine.png",
+          "sha256": "98d3afc941f6b78634c44f159a492ff248e5b85ea436e2f47ae1d180bb5290f7"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-ember.png",
+          "sha256": "e681c0caca394b61b38c1e8772805ab92ef0da3133514675391cd05e68247398"
+        },
+        {
+          "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing-narrow.png",
+          "sha256": "5b274f06311e59bc31817d1c2e34f766746ee24fa6db8df8f342a275b1de8983"
+        }
+      ],
+      "pdf": {
+        "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing.pdf",
+        "sha256": "24549017eb50ffb65709a11f5d64b3833e5c3ccd2a6ce2dbce2e3a24688b74f4"
+      },
+      "html": {
+        "path": ".test-data/briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a/briefing.html",
+        "sha256": "96cbd1778d5f1f6f2beb89162f6516dff8c3298fae2161639b97614a08a0ff0b"
+      }
+    }
+  ],
+  "existingWorkflow": {
+    "path": ".test-data/timeline-desktop-3f3f3b15-eb50-4031-89a9-9550cf069547/result.json",
+    "sha256": "8d20632bdc33888a0c8be14bc3165e2103788a53c6c5846ba30b5e8a913a7989",
+    "checks": [
+      "1000 events use 60 rows; unit/staff/phase views, start/finish links, duration propagation, undo/redo and cycle/deletion protection work",
+      "Search opens and focuses the exact selected event even outside the current chart filter",
+      "Writing state, manual Ready, overdue dates, collapsible staff groups, direct writing navigation and readiness reopening work without approval",
+      "Unfinished duration and progress metadata survive deliberate renderer failure and explicit working-copy recovery",
+      "Explicit linked event cards retain correct start, finish, duration and unit in HTML and a real PDF",
+      "Normal clean restart verifies schedule, progress, retained HTML and PDF provenance",
+      "All eight themes and the narrow layout render with bounded charts, readable controls and no page-level horizontal overflow",
+      "Backup/restore restores schedule, due dates, Ready state and retained HTML/PDF without altering stored outputs"
+    ],
+    "lifecycle": [
+      {
+        "stage": "ready",
+        "pid": 19296
+      },
+      {
+        "stage": "renderer-failure-injection"
+      },
+      {
+        "stage": "exited",
+        "exitCode": 0,
+        "pid": 19296
+      },
+      {
+        "stage": "ready",
+        "pid": 4820
+      },
+      {
+        "stage": "exited",
+        "exitCode": 0,
+        "pid": 4820
+      },
+      {
+        "stage": "ready",
+        "pid": 22956
+      },
+      {
+        "stage": "exited",
+        "exitCode": 0,
+        "pid": 22956
+      }
+    ]
+  },
+  "visual": {
+    "themes": [
+      "Forest",
+      "Ocean",
+      "Sand",
+      "Pine",
+      "Midnight",
+      "Charcoal",
+      "Plum",
+      "Ember"
+    ],
+    "viewports": [
+      [1600, 1100],
+      [1050, 850]
+    ],
+    "inspected": [
+      "Theme control alignment, readability and selected-slide contrast",
+      "Narrow wrapping and presentation controls",
+      "All four PDF layouts, graphics and footer/page numbers"
+    ],
+    "details": [
+      {
+        "folder": ".test-data\\briefing-desktop-c7cd9a74-321f-4d68-9479-b7ef5e98d242",
+        "pages": 4,
+        "sizes": [
+          [960, 540],
+          [960, 540],
+          [960, 540],
+          [960, 540]
+        ],
+        "notesExcluded": true,
+        "previewTitleDarkPixels": {
+          "forest": 3927,
+          "ocean": 3927,
+          "sand": 3927,
+          "pine": 3927,
+          "midnight": 3927,
+          "charcoal": 3927,
+          "plum": 3927,
+          "ember": 3927
+        }
+      },
+      {
+        "folder": ".test-data\\briefing-desktop-a378792c-78cf-4896-9692-b54beee5636a",
+        "pages": 4,
+        "sizes": [
+          [960, 540],
+          [960, 540],
+          [960, 540],
+          [960, 540]
+        ],
+        "notesExcluded": true,
+        "previewTitleDarkPixels": {
+          "forest": 3927,
+          "ocean": 3927,
+          "sand": 3927,
+          "pine": 3927,
+          "midnight": 3927,
+          "charcoal": 3927,
+          "plum": 3927,
+          "ember": 3927
+        }
+      }
+    ]
+  },
+  "package": {
+    "candidate": ".test-data/briefing-candidate/win-unpacked/Ordo.exe",
+    "archive": {
+      "path": ".test-data/briefing-candidate/win-unpacked/resources/app.asar",
+      "sha256": "6a2af3fb3983514300a2420bfef794ae32d56d6ae300cce2dddcc43ec38125d6"
+    },
+    "compiledFilesMatch": true,
+    "compiledFiles": [
+      {
+        "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main\\chunks\\render-requests-Cw_Q3t7M.js",
+        "sha256": "6c51f82c4f9c86d14c16b173ea0c05ccc92eff9dc6a5899eb1acc6c809c48b1a"
+      },
+      {
+        "path": "main\\chunks\\symbol-catalog-BnkJPBqK.js",
+        "sha256": "e0a7bd4a4deffacaa8ca3314d9e02c43f0adcbcced5968fe018d9988c27e6996"
+      },
+      {
+        "path": "main\\index.js",
+        "sha256": "4b13e1abdfb9b2946bbd9708a357f871431cfa4ac2cc3c551f8d4048e0864bc3"
+      },
+      {
+        "path": "main\\symbol-worker.js",
+        "sha256": "fecc5684f8aeb40ee334ad96d7ba7931ad61b65f2d0558e26880b888802eb74a"
+      },
+      {
+        "path": "preload\\index.js",
+        "sha256": "39643b9cfe7df934ab7c2d16ff0e59ff19421c3404195d5d2319deae8b030fae"
+      },
+      {
+        "path": "renderer\\assets\\OperationOrbatPanel-BxCbZmor.js",
+        "sha256": "b2c34eb88cf2a4966d2de68595e248e548443f0cfa20031dc5556cdb8960a56c"
+      },
+      {
+        "path": "renderer\\assets\\OperationSymbolEditor-FeAFEaNR.js",
+        "sha256": "bcd8107cd86c0230171ac1e1765f35d83dd01c89f7375c83d4323664a6c4dd0c"
+      },
+      {
+        "path": "renderer\\assets\\ProfileSymbolEditor-DW9coWUo.js",
+        "sha256": "b00ff5fa9a5ffde4f7ea1822ab25918f4a4060fd296b9a61583627bb820e7012"
+      },
+      {
+        "path": "renderer\\assets\\SaveUnitSymbol-B5lgLJCa.js",
+        "sha256": "bbfc41c83a275f8a867226c6431c4a2651b04d6dd6720952ecc11b9d10c1d9a4"
+      },
+      {
+        "path": "renderer\\assets\\SavedSymbolPicker-DgqoA_Mq.js",
+        "sha256": "05fec2df39036b0209b67eb2f4ec837f43b7110bb54cecb21f691d410cb1059c"
+      },
+      {
+        "path": "renderer\\assets\\SymbolEditor-CY4ZG7ZT.js",
+        "sha256": "66f0801d980270b880dcb6f48a35f1edcd14167d0abfaf33cd9b80a1dbdfe021"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+        "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-DTKWyZX0.js",
+        "sha256": "34b38332f0b14dbfe7e22436bd58f276dd15eebcc1bbcda4be9d2b1b4aaef080"
+      },
+      {
+        "path": "renderer\\assets\\index-Cmt3qDrQ.css",
+        "sha256": "6dedc8cc5516d4354d158d772d56d66625bc07a0e9f895eee2faf6ea52f56b1f"
+      },
+      {
+        "path": "renderer\\assets\\index-g0guTbah.js",
+        "sha256": "34429dd397c6e315d9f2142128916b5d9e4e927686a0bf4884e2caba6789a508"
+      },
+      {
+        "path": "renderer\\index.html",
+        "sha256": "eb4d97164f4ea9e3198639ad9e3850309d2f63f95a4d34f45f7e31efcbe11ecb"
+      }
+    ],
+    "existingRelease": "release/0.6.5 was not rebuilt or replaced"
+  },
+  "sourceChanges": [
+    {
+      "path": "README.md",
+      "sha256": "1d95f3e751eb8cd3333e43ab1465af789b594058134d9150e1a46042473c51f1",
+      "baselineSha256": "4303b9d4db69eb009e1e7e5b7452a2e906f72477cd6b41da0ab1583df0fcbc12"
+    },
+    {
+      "path": "docs/briefing-builder-delivery.md",
+      "sha256": "2a8a17d75fc094395017bfbf6424a4f11305994b6a954dd453b757ecf0a0368b",
+      "baselineSha256": null
+    },
+    {
+      "path": "docs/connected-planning-implementation-plan.md",
+      "sha256": "5ae3c8751dd72ff255ca720dc1680b872add4680c47d375e3f87725a5baaba13",
+      "baselineSha256": "21839d31973e293cabd49c000fea25b4e2475858dd4d79872952246da0abf85d"
+    },
+    {
+      "path": "scripts/smoke-briefings.cjs",
+      "sha256": "5179758ef3cfb756ce412de31f4846fbf2d493569b13bd3d663fb1b1395681f7",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/bridge.ts",
+      "sha256": "6d63053953f380b16aedea179e98d7a5195107485a70a63f494202428c0809c2",
+      "baselineSha256": "f9340ea1e12bb4e22be0a623806bb2b6250e16689fedca10a6ee39cdedc33db9"
+    },
+    {
+      "path": "src/application/briefing-review.ts",
+      "sha256": "ded90a3f3cb38ffaee5f51b67ede68d3e959cea4918b1f1ed3467df3d66877da",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/briefing-service.ts",
+      "sha256": "a53eb9eeb83ff86fbd5df5bcb9877995fa088dd8f517350cdf9bd74ed5ae721e",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/document-layout-review.ts",
+      "sha256": "8a7a18d9281a70c874bdf7d1c2ca668939e35098f62cf8647bacb7d8cfc86949",
+      "baselineSha256": "118f7dfb4c9c43424e4642bda1ed3611f36a2916c5d4dbcf67b9f7c68b2ba6ca"
+    },
+    {
+      "path": "src/application/narrative-review-service.ts",
+      "sha256": "f3e75426edac8daf08bedcbdee675048f5c0267e1197a6a6355f7b9dd6f21bc0",
+      "baselineSha256": "a33bf47371e819067c614007d3c14df3a1f61eda07e8b976a33968065e704853"
+    },
+    {
+      "path": "src/domain/briefings.ts",
+      "sha256": "a130aa96e63c0f20fcde218271eeb23f60d4af940611e8ac00072cd579260d4e",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/domain/document-review.ts",
+      "sha256": "eee1f8931466a3fae5153ff74a92da65781d5991ac8007abf13121c1007cb094",
+      "baselineSha256": "d7dca8293bd28406a06e58aec3a565005bd9303b7d2acf162f736aba8fa9fa94"
+    },
+    {
+      "path": "src/domain/model.ts",
+      "sha256": "82e467952dd0300784dfb379063864574f0209117e5e22e1dc0cf6ab62b19894",
+      "baselineSha256": "0002c6a5ea6f8511606d07d70479078ac7ecd176c7669e000179de040e8fc44f"
+    },
+    {
+      "path": "src/domain/planning-card-actions.ts",
+      "sha256": "2777597a2fe641315c18c1f002568ac73324f37c145c91fc56d82ead95682459",
+      "baselineSha256": "07283fef66a98977667baf94824bab01ba8c0f33b4b665f8d21092acf74ec796"
+    },
+    {
+      "path": "src/domain/planning-target.ts",
+      "sha256": "f378685e7e0fae4b80b07e3f9d40c15420eb4e04f70229d5ae65fc790d3a780b",
+      "baselineSha256": "60fed3c31a19519cd054471b4bde75d668993802bc5df1de05ba98bd13d2a190"
+    },
+    {
+      "path": "src/domain/planning-usage.ts",
+      "sha256": "5fb52c25f73a0ac4ca2734de19194007757ce5ce62e3eb8499ce44fd86c2abbb",
+      "baselineSha256": "7060482f74c8eb83d2c9eb1312c466387bea99c3d2c706d770753539310b1a25"
+    },
+    {
+      "path": "src/domain/reviews.ts",
+      "sha256": "6217c0ff530c17719e10f126df2c3d4722ceb23e3ccfd387e393c79e898d8250",
+      "baselineSha256": "5643bda0cdb0278a31f228c3c481b918adf841a6bdfca0491c2c9ab82b1af08b"
+    },
+    {
+      "path": "src/domain/search-documents.ts",
+      "sha256": "6a26f4da56d363085f1c00de3a320606a88f0b40b199082e4f23f0058c533bcd",
+      "baselineSha256": "b393466590f3ab658993a0e31c545f4f0607739b73e91fd12d755867c53885d5"
+    },
+    {
+      "path": "src/domain/search.ts",
+      "sha256": "bb9f718ca69d9bfa9d7949b0440025abb269cdf98e14f2d7c056981697f37469",
+      "baselineSha256": "b5bd425983dac085bb8fc86bb453fefc17c9de10e76d6284fe17dcd83b3f4880"
+    },
+    {
+      "path": "src/export/briefing-v1.ts",
+      "sha256": "17abf3bf8d16b54f9565e1c8e8182094f7fcb71721af7bfd866a342bba7c6b7c",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/export/narrative-review-report.ts",
+      "sha256": "8c3a231ba7f6b7b95c38bcb7277916e89bb177efe935dcdf47f4f020da43cf01",
+      "baselineSha256": "c9946c7244124ca84712186e1a59b08629fb53e3033abd0f276f59cf6a1f60d4"
+    },
+    {
+      "path": "src/main/document-renderer.ts",
+      "sha256": "1fbfa8bf3b73c58a27f1e840498599006e6db2094c4a502395cb4be8db3600b1",
+      "baselineSha256": "f3b8f165a908b5f6734e83cb8e474ca950de6f308777d9d9f1005d1088ee4223"
+    },
+    {
+      "path": "src/main/index.ts",
+      "sha256": "36f5cb54db987ebb66ceb9a2ef485dc883bd10e9c06b2625701a0439e2bf4568",
+      "baselineSha256": "d20179e72260fdd28381a90a1be584ec173cdef167a16c958e53ff82031358cd"
+    },
+    {
+      "path": "src/persistence/briefing-store.ts",
+      "sha256": "271bfe7bd1121de3e9a2df31869295d3ce8ecfd44f42f255dd318d1ac6dc56da",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/deletion-store.ts",
+      "sha256": "7a9863f8b7eadb7cadb9a191c242145412c894230319e8ec08ea8406143c6d88",
+      "baselineSha256": "792989f6cace8c6d55f844582b34c8c9c01b3739018e608c817c53cf984f5ca9"
+    },
+    {
+      "path": "src/persistence/migrations/017.sql",
+      "sha256": "38838b6cd678d4560fb0012b5ed56aff49e23bc0a52d2b2de29d7d95f195456d",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/repository.ts",
+      "sha256": "4c941bfca9b5826d06d3dca4f389afb90507b95b35c14b795a361d23813faa2c",
+      "baselineSha256": "579938ef45a2e805cc44b93438b0c453fba8048129ee62cccd6f297b5371e5ec"
+    },
+    {
+      "path": "src/persistence/review-store.ts",
+      "sha256": "445e65bde3ad125cc48188ad1599c33dd9775c6291db07c14da791ec3d459772",
+      "baselineSha256": "62bafc170398bf72b77440337be0edb8ed5449a883aa435b012aab5b713713e2"
+    },
+    {
+      "path": "src/persistence/search-store.ts",
+      "sha256": "8fcbdc4c03e642d3317ffd46d62c6f0630867c85cd4fe189e97da4862d2b17f8",
+      "baselineSha256": "0069b7a831bc8312edbf73fca09764942afc06a076ed8c722a380ffbc537be02"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "34a6fb3a9ab890d47940a14cddeea1ed5ac418de3ed4e3437b1e4953ac3f0883",
+      "baselineSha256": "80f99e1391a92d0cbf73d1ef4e82f027b09442de01e2720fc24fe1eeecc71728"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "034d148099d842a1584bdd33ed0de3418d3e56913076822fc141f3180aabce9a",
+      "baselineSha256": "e81dd37516b754f1291e82f58d32035b5d73c6fa5341ba36bc613fcba76c472d"
+    },
+    {
+      "path": "src/renderer/src/BriefingCardPicker.tsx",
+      "sha256": "067e06e8256d00a32b19a44ea9e54e70aef6369a25bea5148a14de23d56a6599",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/BriefingPreview.tsx",
+      "sha256": "98178efcd18580162b04aaf91b7bb3a4a4e9b3a855a1dca30c420d5f844eaac8",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/BriefingWorkspace.tsx",
+      "sha256": "3a7ad5475abd40041d2b2f0e5eb5cf824be5d9e16b0e2c97be5f8eb6786dee49",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/CardSourceDeletion.tsx",
+      "sha256": "d16d146f790dc96104ca8228fb23df7d6f5c678d72eda50252aa673b2d9331cc",
+      "baselineSha256": "804dae6e5850e22fa30698d2a63e6bf4907fea20eaaef3876d62a866fe98bb59"
+    },
+    {
+      "path": "src/renderer/src/PlanningUsage.tsx",
+      "sha256": "a837711fec3296703107922e5a74716aabceb4ab0cc9c5dae723a9f127d5534f",
+      "baselineSha256": "ce1470ebe783df61a9bafe0e6a73b80cdea0f0b3f1a8bd567a7b2f7d42424c02"
+    },
+    {
+      "path": "src/renderer/src/ReviewWorkspace.tsx",
+      "sha256": "ade8eeda0779dbd9b7c3558162fae278fcc326eb9f14607898fc2e143f54daca",
+      "baselineSha256": "8abbf9194262efbf09cb6f86e32b1d44f61dd3db06a739e4213d980aa494b098"
+    },
+    {
+      "path": "src/renderer/src/briefing.css",
+      "sha256": "e8195bab56dbd2da52bfcf7e941aed10189cca4e74e78ca985ab587bc59b3255",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/search-navigation.ts",
+      "sha256": "6d3d61a77cc9ce00ac84de545756b3ab0f4632be787467bee956730453c7bb8c",
+      "baselineSha256": "1645d5c6f7e3ccea8fccaeac5d478a1709e4b157193ea483750020e2d0b73c3d"
+    },
+    {
+      "path": "src/renderer/src/workspace-session.ts",
+      "sha256": "705173099ce68effac9b16ed169fd677e7d046356912f3acd52c084e97207282",
+      "baselineSha256": "1261f5dcfd47bc037c296fb7ac905ee922c3ea54da27ddc64d9417784f0806b6"
+    },
+    {
+      "path": "tests/briefings.test.ts",
+      "sha256": "d90ae3ce57f0163749db89d298346f86381ede1131ff55fd20a45c0e2f839241",
+      "baselineSha256": null
+    },
+    {
+      "path": "tests/closure.test.ts",
+      "sha256": "03023864e185a7a7bd860063fdddc69f7e9e7fe2f97a3472094146063c7fa0be",
+      "baselineSha256": "4cf9f6765211ce290702b4ed7f625c8e60046a46ff45d85e5836d591a8d42079"
+    },
+    {
+      "path": "tests/milestone2-persistence.test.ts",
+      "sha256": "b9e75b1fb193b3668cfe7b1dcc699f873e88cf7d9432822ab63ea4d0f2da8f2d",
+      "baselineSha256": "47c8c75f0c3e982130c2ed5434090f2a572493e46ddd2497e61601520948ce14"
+    },
+    {
+      "path": "tests/milestone3.test.ts",
+      "sha256": "72381e9b7ab68874e85fc92c88c66f139739fe4851cf4b1abe3661981f1fc121",
+      "baselineSha256": "394d44ecfe8b322ba9bbf89ce9af50be1b5be1b199e77e8f0ec68f2a44d2d8b9"
+    },
+    {
+      "path": "tests/milestone4-reviews.test.ts",
+      "sha256": "fd25078d80dc66ace93d7c3e5c94408612be82fa36bad351849d2b7319cee004",
+      "baselineSha256": "4b2922693d6c0f42a0ff300adbcb2764a32f90b5bda52036c07f8baaaf75d88a"
+    },
+    {
+      "path": "tests/milestone5.test.ts",
+      "sha256": "f361a3b1d9ccdf6e8433cbc3bb08aa0a06d953e7f1a5d85eeea16442e046ff65",
+      "baselineSha256": "7f0cc40d431c63aef092c5f4a1f6ac4752855c7e9d619e638c7eef2bc758191f"
+    },
+    {
+      "path": "tests/milestone6-foundation.test.ts",
+      "sha256": "3166fb083b9b91da8d29af13f3de9b7be862363019f0bc68e5526af0d2db25e2",
+      "baselineSha256": "c12556965d86b29c939943dac908c9c3e09a2289d6a213a842b5b69852f44139"
+    },
+    {
+      "path": "tests/readable-order.test.ts",
+      "sha256": "f7454ce8f5211a2c0bd5fef1d3fb8520bb35fd44949c32d3e62f593dc232177a",
+      "baselineSha256": "d25430f71ff4a01aedcf8fe4bb732ad23e5c26e622cace857e6c3bac284e3f88"
+    }
+  ],
+  "removedBaselineFiles": [],
+  "excludedRuns": [
+    {
+      "path": ".test-data/briefing-desktop-9dc634ff-e9be-48be-8841-6d179802c4a4",
+      "reason": "Initial title-layout content-height overflow; corrected before final build."
+    },
+    {
+      "path": ".test-data/briefing-desktop-9cfc130b-4b8e-4e11-a432-b8f3904d1b3a",
+      "reason": "Successful earlier development build; superseded by final alignment and error-state fixes."
+    },
+    {
+      "path": ".test-data/briefing-desktop-d14f0623-71ed-4de5-94f0-5196db53e772",
+      "reason": "Ambiguous presenter-note test locator; application closed before cleanup completed."
+    },
+    {
+      "path": ".test-data/briefing-desktop-c5519574-7bce-45d3-bfcf-e84d3fc26cf5",
+      "reason": "Test waited indefinitely for animation-frame callback inside script-disabled iframe. Test-owned PID 14464 was terminated; excluded from lifecycle qualification."
+    },
+    {
+      "path": ".test-data/briefing-desktop-63a16acb-1932-42aa-8c3d-616f1ce94197",
+      "reason": "Successful final-runtime workflow; superseded by final screenshot repaint timing."
+    },
+    {
+      "path": ".test-data/briefing-desktop-21b72b1c-e60c-4036-a362-c725f1723b52",
+      "reason": "Successful final-runtime packaged workflow; superseded by final screenshot repaint timing."
+    }
+  ],
+  "scope": {
+    "layouts": ["title", "text", "cards", "graphic"],
+    "retainedRenderer": "briefing-v1",
+    "migration": 17,
+    "reviewRenderer": "review-html-v8",
+    "searchIndexFormat": 2,
+    "nextDelivery": "Editable DOCX/PPTX and controlled tabular import remain delivery 4."
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "delivery": "Planning whiteboard",
+  "date": "2026-10-19T22:18:02.236Z",
+  "baseline": {
+    "path": ".test-data/whiteboard-baseline-2026-10-19T21-44-41-456Z/manifest.json",
+    "sha256": "96502e9b6eb327b8b23ba1adb8e046ac891547faa34a7d70bfa4d6da8c7de02b",
+    "files": 580
+  },
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "architectureReferences": 1444,
+    "preexistingFrozenUnusedDiagnostics": 9,
+    "tests": {
+      "path": ".test-data/whiteboard-final-unit.json",
+      "sha256": "38d031b72b7dd1c98dd49059d27919ae07dc32c613afa08527ee7f87df350c52",
+      "passed": 708,
+      "failed": 0
+    },
+    "frozenFiles": {
+      "count": 69,
+      "changed": []
+    }
+  },
+  "desktop": [
+    {
+      "kind": "development",
+      "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/result.json",
+      "sha256": "aa0e9f0b0556ff4eb908b1dc56f61cc682f9a5266c060607eaff10f9aaf2fd4e",
+      "checks": [
+        "Create notes, text, shape, symbol, linked card and retained ORBAT; drag, resize, cancel, lock, keyboard nudge and undo; connectors remain visual",
+        "Unified search opens the exact whiteboard note",
+        "Real PNG and SVG snapshots include the military symbol, ORBAT and all board content",
+        "Insert clearly labeled independent snapshots into an order and briefing; generate HTML, PDF, DOCX and PPTX",
+        "Working-copy recovery survives renderer failure; snapshots and embedded images remain unchanged after later edits",
+        "Snapshot creation rejects overflowing content without retaining a clipped image",
+        "All eight themes and a narrow desktop fit the whiteboard controls without page overflow",
+        "Backup and restore preserve boards, snapshot provenance and exact image bytes",
+        "A 300-item board opens within five seconds, supports indexed selection, keyboard movement and undo",
+        "Normal restart reopens the saved board; all renderer processes exit cleanly"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 2552
+        },
+        {
+          "stage": "exit",
+          "pid": 2552,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 25396
+        },
+        {
+          "stage": "exit",
+          "pid": 25396,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 19200
+        },
+        {
+          "stage": "exit",
+          "pid": 19200,
+          "exitCode": 0
+        }
+      ],
+      "largeBoardMs": 71,
+      "pixels": {
+        "width": 1600,
+        "height": 900,
+        "colored": 20468
+      },
+      "screenshots": [
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-composition.png",
+          "sha256": "f85724d9e21fc8e1dd11a95b844a48e1eb27d1d81ac483a557dca4e7c3055439"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-forest.png",
+          "sha256": "fca6deed796304f5d57bcb0b6dc70d9ef391b14c233da86fea317bb9869cb54b"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-ocean.png",
+          "sha256": "68ba93205f10fb45d04d5c322c67d3485c15c3ade720392d2ed7f91ef7f5f240"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-sand.png",
+          "sha256": "2fcb4bc8226a5b0a1ade4b5f77f835409ff5c7fb8c921d9cac1f87f72c296a63"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-plum.png",
+          "sha256": "a92697c9a525289ecbc432953a24f23bf9b9cecb99e088941e6446b54ae617b9"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-midnight.png",
+          "sha256": "ec3dd2576fd385dee5a6595d9982f06cca01567c47e03183cdc9db63a39de48e"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-charcoal.png",
+          "sha256": "1fc60e060981abce27e723b157328815a2c8fe7c563b277089b8fae00a500938"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-pine.png",
+          "sha256": "39235709928ba7848e2079305bd13011e635066015dbc20a0990bb61f1de1791"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-ember.png",
+          "sha256": "6d71c4a6dbeeb062780d79213730e786444aef781da1703293419aa134243d42"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard-narrow.png",
+          "sha256": "60d500dfeaa10c8b0e50eb650cae66f2815a14953c240ffb0262fc5ac713c0b6"
+        }
+      ]
+    },
+    {
+      "kind": "packaged",
+      "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/result.json",
+      "sha256": "909a1d126edf9b40eea561616c9845bf210ba0f8c48df53883ebb021d5d1f5ae",
+      "checks": [
+        "Create notes, text, shape, symbol, linked card and retained ORBAT; drag, resize, cancel, lock, keyboard nudge and undo; connectors remain visual",
+        "Unified search opens the exact whiteboard note",
+        "Real PNG and SVG snapshots include the military symbol, ORBAT and all board content",
+        "Insert clearly labeled independent snapshots into an order and briefing; generate HTML, PDF, DOCX and PPTX",
+        "Working-copy recovery survives renderer failure; snapshots and embedded images remain unchanged after later edits",
+        "Snapshot creation rejects overflowing content without retaining a clipped image",
+        "All eight themes and a narrow desktop fit the whiteboard controls without page overflow",
+        "Backup and restore preserve boards, snapshot provenance and exact image bytes",
+        "A 300-item board opens within five seconds, supports indexed selection, keyboard movement and undo",
+        "Normal restart reopens the saved board; all renderer processes exit cleanly"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 26112
+        },
+        {
+          "stage": "exit",
+          "pid": 26112,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 24764
+        },
+        {
+          "stage": "exit",
+          "pid": 24764,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 8068
+        },
+        {
+          "stage": "exit",
+          "pid": 8068,
+          "exitCode": 0
+        }
+      ],
+      "largeBoardMs": 77,
+      "pixels": {
+        "width": 1600,
+        "height": 900,
+        "colored": 20468
+      },
+      "screenshots": [
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-composition.png",
+          "sha256": "67543a3770fc2a2443d8a5537ffe6a6544a53227c9addc806c98e58947e9a4b0"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-forest.png",
+          "sha256": "fca6deed796304f5d57bcb0b6dc70d9ef391b14c233da86fea317bb9869cb54b"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-ocean.png",
+          "sha256": "68ba93205f10fb45d04d5c322c67d3485c15c3ade720392d2ed7f91ef7f5f240"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-sand.png",
+          "sha256": "925cb747362dca8f7700f958679049d41c2e355ef0f7cf740b642c29a1785d7a"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-plum.png",
+          "sha256": "cf2a5461f82728b4a79602d8c39fe7dcac2cbb10b138b43ca055eef03f58d721"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-midnight.png",
+          "sha256": "1c9083d153cb6a68056156b6a86db4506c8e51cd42d89465907763341db1dd6b"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-charcoal.png",
+          "sha256": "89bb7366a00c97453f1f8d3f54cdec305680dd57aa014f62b85dfef9bbb44f23"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-pine.png",
+          "sha256": "39235709928ba7848e2079305bd13011e635066015dbc20a0990bb61f1de1791"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-ember.png",
+          "sha256": "6d71c4a6dbeeb062780d79213730e786444aef781da1703293419aa134243d42"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-df4c0b38-b276-4d33-97dc-ad0344c3b128/whiteboard-narrow.png",
+          "sha256": "60d500dfeaa10c8b0e50eb650cae66f2815a14953c240ffb0262fc5ac713c0b6"
+        }
+      ]
+    }
+  ],
+  "existingWorkflows": [
+    {
+      "kind": "Office exchange",
+      "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/result.json",
+      "sha256": "15e717d754310c7e50f6220bbdcae21863572c0802016077d7229b5cca209e46",
+      "checks": [
+        "DOCX order and four-layout editable PPTX generated and saved through the UI, with notes and retained ORBAT graphic",
+        "Mapping preview rejects invalid relationships, row exclusion refreshes in place, apply is draft-only and undo/redo precedes an explicit save",
+        "Real XLSX imports objectives, phases, tasks and linked timeline events with unit relationships and native Excel dates",
+        "Applied imports recover after renderer failure; explicit ID updates preserve blank and unmapped values, and a matching name with blank ID creates a separate record",
+        "A pending import and preview survive operation navigation, remain protected when hidden, and block workspace replacement",
+        "Office exchange checked across all eight themes and narrow desktop without page-level horizontal overflow",
+        "Backup and restore preserve all imported facts and both retained Office files with exact hashes",
+        "Normal restart verifies retained Office files and saves byte-identical copies"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 26284
+        },
+        {
+          "stage": "exit",
+          "pid": 26284,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 9356
+        },
+        {
+          "stage": "exit",
+          "pid": 9356,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 25120
+        },
+        {
+          "stage": "exit",
+          "pid": 25120,
+          "exitCode": 0
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-exports.png",
+          "sha256": "5e5712105926dabfb4d897c263e183a3098ca97df0ab940507b6048fce5b07b5"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-preview.png",
+          "sha256": "54a9c87f90744bff0f36a41902dcce9bdf9ec7257270ce858078b4f761a3ffb1"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-forest.png",
+          "sha256": "a4f16813841858cf93d899591e37de8a21379ffe552ee20e47d525e165727f66"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-forest.png",
+          "sha256": "c01a657d87f01aa5283f6df3be8adf3ff3390edd93a1d06831e254284641564f"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-ocean.png",
+          "sha256": "5948e82612e29ed6cad1c23ddaba3102429f29d43308c6751e6e98651f5216eb"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-ocean.png",
+          "sha256": "221e082990b14dee83579a5a3c1217bf73d425756699832e0f005ecf91f6e909"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-sand.png",
+          "sha256": "df9becf582e480b68acc67f0642e750b3e3265b6d0b3efeb7bdf7d57ea52ab2a"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-sand.png",
+          "sha256": "d29e3b4b63bfc5ee579c17225cca3c10001ceb6d5b9cf6b7f7e78cc3cbfd0597"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-plum.png",
+          "sha256": "468584b2c6e904fc7d2872ff4fee9d534f100ed7302e8dc71e0068a4cf5aa495"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-plum.png",
+          "sha256": "cc2846a39935fe618e92d6e95fd153e244d8e77568a00f9ccd13ee201de74bf2"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-midnight.png",
+          "sha256": "c4fceca94962fdfa390773c361e2b8812146714e329a4e07c69a72534b291041"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-midnight.png",
+          "sha256": "f3fd514b24397a3090fccd35aa917967244679defd849980d0586394fdcd2cf6"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-charcoal.png",
+          "sha256": "5d2294df7e5ce0625873f72916dc3af105ded227d0f1be095f02e2fd345a0d62"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-charcoal.png",
+          "sha256": "abff948081f1bd17295f3bb276587897476c615125b61a98ed8031e3fd4dc704"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-pine.png",
+          "sha256": "af2f1fb4f09081405ce6f4ba3c96f0f7b3ed30da3bfa9bf8614da49919ae9fbf"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-pine.png",
+          "sha256": "1dd529471dabac402f30b48d2174fe34639ed61ce6feef50bc6041bd8d7e5edb"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-ember.png",
+          "sha256": "d5ef230d7ab1fced25e4573aa4f7f3eba29e68dde4a49d58a65e8413eb789592"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-ember.png",
+          "sha256": "4629c63766749acd2fcf271d9dd610e7887857e8e2e16ef4b9b5b245b96cf247"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/office-narrow.png",
+          "sha256": "20c7592a483cf3a8f748b2d318a2a71489212ed8ca8a88d3943039bde51b064d"
+        },
+        {
+          "path": ".test-data/office-desktop-41436cdc-cdb4-4a0d-923e-af46112309e8/import-narrow.png",
+          "sha256": "15c75a885044aa324f01e2f6f89f781ad66ab94c561fe5d028fe1cf294b5cb00"
+        }
+      ]
+    }
+  ],
+  "visual": {
+    "themes": [
+      "Forest",
+      "Pine",
+      "Sand",
+      "Ocean",
+      "Midnight",
+      "Charcoal",
+      "Plum",
+      "Ember"
+    ],
+    "viewports": [
+      [1600, 1100],
+      [1050, 850]
+    ],
+    "inspected": [
+      "Eight-theme contact sheet, full light/dark screens, narrow controls",
+      "Real PNG includes embedded symbol and ORBAT; readable connector label after correction",
+      "Both order PDF pages including snapshot caption and configured footer",
+      "Both DOCX pages rendered with render_docx.py and LibreOffice; footer checked at full size",
+      "Both briefing slides and final snapshot PPTX slide rendered using LibreOffice"
+    ],
+    "officeRendering": "LibreOffice visual verification, not Microsoft Office version qualification",
+    "files": [
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard.png",
+        "sha256": "be95fcfe9be4bce0e9c8ce7c48c39b03e1a4a071e300468a0b21ebf17de82377"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/whiteboard.svg",
+        "sha256": "43cd10103d2c0734c9ed75c2877136b31db98b2463235f40bef8697805875e00"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/order.html",
+        "sha256": "05b3a240754010b19b4f65e2d2b8e01c7eeca6a284bfc0857f4f6e238132e2a1"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/order.pdf",
+        "sha256": "c5e6158bc86bc9894070ea3153319831c0288fc097a6427c3ab616eec149a94a"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/briefing.pdf",
+        "sha256": "5b336ba95c3c8c7b89bac99b1adbfb37274e8e7e01ec90391551c80a465de463"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/order.docx",
+        "sha256": "be430cb810a96f06e902bfce10dbbec72be54be49ff69f3a1e131baf6b6d15d1"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/briefing.pptx",
+        "sha256": "f3f97529796a4df2976672d25d5c39e3f425f815a17e8018ed26957725a14718"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/order-page-1.png",
+        "sha256": "2ca160d530f5b215f431081060db7d5bcb8e2f998acae9314bd44dc72b26d604"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/order-page-2.png",
+        "sha256": "9e82d2a856c26fe0eda14c5f54011ceaf90dbc6b6d8677ce1ef0af2229e28464"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/briefing-page-1.png",
+        "sha256": "566586f67579f95ad4319db01909d3f8ec8b340e5b5cc5d4664921da60701218"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/briefing-page-2.png",
+        "sha256": "9f0ef1ed301e236456d327ca5b49f53fcf8d4e67b355a142527a303385037448"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/docx-render/page-1.png",
+        "sha256": "a8410acb82de34854f0b126e5862cbf4b05906707f3ab8c8d9062d44b7334773"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/docx-render/page-2.png",
+        "sha256": "0ea2953185a856914286409f73456d003d9c0eba124c584748d645eac3be4f48"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/docx-render/footer-detail.png",
+        "sha256": "448be5212ee2d848fa2544490746444804e65d223b8865ca3f675022fac07bd8"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/pptx-render/page-1.png",
+        "sha256": "957a70dd96448b8d7f83fca41ab68f992a5239120cabf6f2ca7d2d540b58f4f0"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/pptx-render/page-2.png",
+        "sha256": "effe903fe692a95b09edd6ec76efcc2a6713cba52d88bcc2845b36847f0f4da4"
+      },
+      {
+        "path": ".test-data/whiteboard-desktop-e48e5a35-c7bc-447e-a2de-36799260d873/theme-contact-sheet.png",
+        "sha256": "ce28c96e74a10414585ae898d81de83d43ca120e6b0718c0d797adc2903fdea4"
+      }
+    ]
+  },
+  "package": {
+    "candidate": ".test-data/whiteboard-candidate/win-unpacked/Ordo.exe",
+    "archive": {
+      "path": ".test-data/whiteboard-candidate/win-unpacked/resources/app.asar",
+      "sha256": "33549b66029efa7a3224c59213437955eec693d5e89fdac2dc34a9f0ef2b7f98"
+    },
+    "compiledFilesMatch": true,
+    "compiledFiles": [
+      {
+        "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main\\chunks\\render-requests-jPmrNW2e.js",
+        "sha256": "0a265431585b6b8d8c4006861aa733696c55ba099c1405c18e563dec8cb6eb43"
+      },
+      {
+        "path": "main\\chunks\\symbol-catalog-Cqifio-s.js",
+        "sha256": "ae464fac5bb488c144d1319e182d80540953f5ceb91ab6164c6e6bd41203140f"
+      },
+      {
+        "path": "main\\index.js",
+        "sha256": "6d7cf82eb664812def6ffadf0b12127c5a0c1658e12d5f7089fdaaecc799d845"
+      },
+      {
+        "path": "main\\symbol-worker.js",
+        "sha256": "e83a62158aa0535a947be716d8e403ab643ba2e3f6192c607db34c0cb1981d9f"
+      },
+      {
+        "path": "preload\\index.js",
+        "sha256": "ac66a78deda875b36047c52070ac1e22e098ff738cd661b288d4da542320e750"
+      },
+      {
+        "path": "renderer\\assets\\OperationOrbatPanel-Bm5PnrCS.js",
+        "sha256": "3133d31bf82ce62d7beb7e78fb05531adecab89aa8b581a37113244e659b1dee"
+      },
+      {
+        "path": "renderer\\assets\\OperationSymbolEditor-CkbdCU_H.js",
+        "sha256": "76405bf2d255daaf853feef1f44b8157b2d15c15250f9c1ecf12a482a3be6cd0"
+      },
+      {
+        "path": "renderer\\assets\\ProfileSymbolEditor-CIYNkhHj.js",
+        "sha256": "291809b9f3ceab8b6950865f2ef62535fff2d126f98f4c31c19600c722c04920"
+      },
+      {
+        "path": "renderer\\assets\\SaveUnitSymbol-D00D6FVf.js",
+        "sha256": "4e56900cf056a68fdffefb514bc1f63186c176517aafc875146196d4be25ea7d"
+      },
+      {
+        "path": "renderer\\assets\\SymbolEditor-Db6P-QF_.js",
+        "sha256": "a2b6e444b4f3cfb472a58ef4429cf2451dc0037b606ac3ee759848ac59f5051b"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-B-24iuXU.js",
+        "sha256": "b526e4c1e0fb7bd3bc0d2b7d864460d7d88200b6ddeda53d9c371e207049bc5a"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+        "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+      },
+      {
+        "path": "renderer\\assets\\index-3cP1BdpT.css",
+        "sha256": "eb925c3887814a9a6afdd5e4adc5d6145e6406d84f0589db772a036ef930b957"
+      },
+      {
+        "path": "renderer\\assets\\index-K1rsrZ7P.js",
+        "sha256": "85f0fb1b822f7339336efa7d9e8b1f0afde8330552a3c24732d14facc34a6f25"
+      },
+      {
+        "path": "renderer\\index.html",
+        "sha256": "0f688f96a389909e26fa9812998208b52078a9e7384e1927bc374f04c2176339"
+      }
+    ],
+    "existingRelease": "release/0.6.5 was not rebuilt or replaced"
+  },
+  "sourceChanges": [
+    {
+      "path": "README.md",
+      "sha256": "49a4151f409789b85bbf6eec974f97e122017d8c9ad9f36bb176e4767d72c607",
+      "baselineSha256": "c5146177aab8ac22f56660115e61fa3953567bc14279b90f8b41dd75f4c7f7d1"
+    },
+    {
+      "path": "docs/connected-planning-implementation-plan.md",
+      "sha256": "69c05fb36057279dcbdfb561576b58b75ba46c381b0ffeb2f3e4577875c5f0bd",
+      "baselineSha256": "d38c3c56828ffe38a7b0ef6bb28de8ca1fdafe8fb651fc1a123b88238c601e34"
+    },
+    {
+      "path": "docs/office-exchange-delivery.md",
+      "sha256": "1ff1a5080612510cae8939aee22464042b1f534b37f7721a3f18ef6050418896",
+      "baselineSha256": "889bd982b430aa57c7a2f7c3f56857799f2e8adb703cd9fffbf063ea7597f8ee"
+    },
+    {
+      "path": "docs/planning-whiteboard-delivery.md",
+      "sha256": "aac452d59798b57f684380e8ec41526d3b1cec78ffc073ce744124dbd227aa27",
+      "baselineSha256": null
+    },
+    {
+      "path": "scripts/smoke-whiteboards.cjs",
+      "sha256": "a7645b89a20339dc592ae41011148dde214884d0bc1d4983c90dff7699856c0a",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/bridge.ts",
+      "sha256": "2bffee8c56c053a73fa8ee54cad67f5d9959be5070efa3fd2016179aa6ce6b84",
+      "baselineSha256": "7c153709623518ef1f2c389058d4ae4d03b2e32957b354308941366b53bf3690"
+    },
+    {
+      "path": "src/application/document-layout-review.ts",
+      "sha256": "f52c2388a30ca6df6c9819063abd241d90f7fde15a8734c0cd5021a586b173ee",
+      "baselineSha256": "8a7a18d9281a70c874bdf7d1c2ca668939e35098f62cf8647bacb7d8cfc86949"
+    },
+    {
+      "path": "src/application/narrative-review-service.ts",
+      "sha256": "31cd496aadc143fa5014a31d12c32f315763bf08a846aead540dea8cccb7c3ab",
+      "baselineSha256": "f3e75426edac8daf08bedcbdee675048f5c0267e1197a6a6355f7b9dd6f21bc0"
+    },
+    {
+      "path": "src/application/whiteboard-review.ts",
+      "sha256": "3dcffa4845afe16a3a8fa1a944ae45318a9a4fdcf609d82c19f131891d349254",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/whiteboard-service.ts",
+      "sha256": "283d267beab357b2d9317a2e0e24732228eac5905f1e134603be612d3701e0eb",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/domain/document-review.ts",
+      "sha256": "f9752525f97e6d15317a4b01f79e05a3b986006ce7ad96c290422c5ba3fb5b0f",
+      "baselineSha256": "eee1f8931466a3fae5153ff74a92da65781d5991ac8007abf13121c1007cb094"
+    },
+    {
+      "path": "src/domain/model.ts",
+      "sha256": "d05792e03965fc4a308f69f8e244d2cc786c8cba4d7f64d35ce0d09160f0b457",
+      "baselineSha256": "82e467952dd0300784dfb379063864574f0209117e5e22e1dc0cf6ab62b19894"
+    },
+    {
+      "path": "src/domain/planning-card-actions.ts",
+      "sha256": "ef013623e5d0fda369b399327cff79fa83ac5170cd2156a2269cadb38dffb1af",
+      "baselineSha256": "2777597a2fe641315c18c1f002568ac73324f37c145c91fc56d82ead95682459"
+    },
+    {
+      "path": "src/domain/planning-target.ts",
+      "sha256": "cfd114e978e0a5eff96300abe87b8bc245763f0cb434067219627eba5dc3cc24",
+      "baselineSha256": "f378685e7e0fae4b80b07e3f9d40c15420eb4e04f70229d5ae65fc790d3a780b"
+    },
+    {
+      "path": "src/domain/planning-usage.ts",
+      "sha256": "29304e07af98a630c3dc79f3b6376b62e52ce6a62d7f26e2b6d766b9ff9bd264",
+      "baselineSha256": "5fb52c25f73a0ac4ca2734de19194007757ce5ce62e3eb8499ce44fd86c2abbb"
+    },
+    {
+      "path": "src/domain/reviews.ts",
+      "sha256": "70af94c9125f03cbde939ab7a2a4c094854c6bf99154257144fba11c59acd79b",
+      "baselineSha256": "6217c0ff530c17719e10f126df2c3d4722ceb23e3ccfd387e393c79e898d8250"
+    },
+    {
+      "path": "src/domain/search-documents.ts",
+      "sha256": "8821d755fc7e0ab3ce8583f2c9d7a811634c96179e0ec822e2679d1132c6d863",
+      "baselineSha256": "6a26f4da56d363085f1c00de3a320606a88f0b40b199082e4f23f0058c533bcd"
+    },
+    {
+      "path": "src/domain/search.ts",
+      "sha256": "9312f52cbf5486f2b7d0b5fa948b90898f281728652764c6c551fdc1f76f565d",
+      "baselineSha256": "bb9f718ca69d9bfa9d7949b0440025abb269cdf98e14f2d7c056981697f37469"
+    },
+    {
+      "path": "src/domain/whiteboard-embedding.ts",
+      "sha256": "2c2746733559f64401a62839d2ccf601823bc4c6fbbab21ceb6bf1db565ae9f2",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/domain/whiteboards.ts",
+      "sha256": "8d70a0dc08686ad37e1dd34aab7a87462785a8bc946f56417374d8769ab4bed8",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/export/narrative-review-report.ts",
+      "sha256": "b45ffe1e92198f0bb3819346f21abd04929aaf8ad638bc17723ac7d432e87a97",
+      "baselineSha256": "8c3a231ba7f6b7b95c38bcb7277916e89bb177efe935dcdf47f4f020da43cf01"
+    },
+    {
+      "path": "src/export/resources/whiteboard-arial-v1.json",
+      "sha256": "eef0e323448a04b9bee7a66012eda53d84e510f01b85e60c4d609865fc8c3d05",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/export/whiteboard-v1.ts",
+      "sha256": "1bc589d546838894bdccc2d0d624465d1a842bcf62f97f291a326e45a7cdef62",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/main/document-renderer.ts",
+      "sha256": "1d974e677e160f7b60f2ca5f664d02ef53ce83950f6eb0e11cc07ca9721f7dea",
+      "baselineSha256": "5da77d111c651f45e8de0b09c7041c2ed244cf44303cd7c0486b5ba06a1d6b6d"
+    },
+    {
+      "path": "src/main/index.ts",
+      "sha256": "2bbbfa67c34e55bb63dd339fe30c5cf16525f101dc164a392c92359390db5779",
+      "baselineSha256": "c5132c0a69c599691847b6d7e6461c2f940597e790efb397f99a9cb817c60f35"
+    },
+    {
+      "path": "src/persistence/deletion-store.ts",
+      "sha256": "a8586040657e1d897c8711bc3d8adff33f750f8bd0f86c3691fe1f4cca8ef19e",
+      "baselineSha256": "aef0e5c569bf447cb1d7a234c678925d4a3beedef27fff292191bda82d1671ce"
+    },
+    {
+      "path": "src/persistence/migrations/019.sql",
+      "sha256": "0097efce4b22bd5a405bf8805c42e9a3bc4c3666c7d68873bf230a16e5637e3b",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/repository.ts",
+      "sha256": "90cef1fde9262b92ed938f3208c299b71e6c694a784ab2fd4b7be7fd29571d45",
+      "baselineSha256": "c8a0b952316c25c2489f25fe57f61c8c001467316b92a35e9cc5dcb8945ce648"
+    },
+    {
+      "path": "src/persistence/search-store.ts",
+      "sha256": "99dc047117b4f3d0f510344f121fb723c0f2c97ca2557be44215d795c6f3e6b0",
+      "baselineSha256": "8fcbdc4c03e642d3317ffd46d62c6f0630867c85cd4fe189e97da4862d2b17f8"
+    },
+    {
+      "path": "src/persistence/whiteboard-store.ts",
+      "sha256": "fbb3d46710f4081d5a325f6d950779e6748c76a1ffaf910a722db63722e353f9",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "7b9a0e2cd555ff6dae5a4b974906de89b3078c3e98d66be88e2f42a2697d6cf3",
+      "baselineSha256": "b83fac7b763d4f43026eadc20dcb679f08239e7b185ef8ab6a9a6c247f29371b"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "60f1860f8938c409a52a5fff2e76d2fba0d67913981bfbe5c52f276cc90e8394",
+      "baselineSha256": "b6bbf14965f12a84375452dfa61c4cddd8fe0e840f9f42f8112f189863915ab8"
+    },
+    {
+      "path": "src/renderer/src/BriefingCardPicker.tsx",
+      "sha256": "4d06f187f216b7421ef2ec368995292101614caadb7603180227848db6acded2",
+      "baselineSha256": "067e06e8256d00a32b19a44ea9e54e70aef6369a25bea5148a14de23d56a6599"
+    },
+    {
+      "path": "src/renderer/src/CardSourceDeletion.tsx",
+      "sha256": "b3c8dc7dd6587772735f1807a2975ea1f08e2d2f62956aeb83d36d427d1a753e",
+      "baselineSha256": "d16d146f790dc96104ca8228fb23df7d6f5c678d72eda50252aa673b2d9331cc"
+    },
+    {
+      "path": "src/renderer/src/PlanningUsage.tsx",
+      "sha256": "e72d6870588b359a2f21a7604910615e52c4492b5a810799caefbd576e55e2e8",
+      "baselineSha256": "a837711fec3296703107922e5a74716aabceb4ab0cc9c5dae723a9f127d5534f"
+    },
+    {
+      "path": "src/renderer/src/ReviewWorkspace.tsx",
+      "sha256": "b23c839014338782772da644c24004d308f0d65bc86679c85f17070e4b4b0344",
+      "baselineSha256": "ade8eeda0779dbd9b7c3558162fae278fcc326eb9f14607898fc2e143f54daca"
+    },
+    {
+      "path": "src/renderer/src/WhiteboardCanvas.tsx",
+      "sha256": "0451ac1a2a1a12691d3c02c4a55c132555859eef314d341d902fa5d80fd849b5",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/WhiteboardSnapshots.tsx",
+      "sha256": "dc12b722ab5dee3763a8a47542993c7813828d91ddeda8244c7af7f6af692109",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/WhiteboardWorkspace.tsx",
+      "sha256": "bcbfeafaebab1f2e782404dc1aab6e25eadbcfd82bb6c8ee1e127c3f9040e6a5",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/search-navigation.ts",
+      "sha256": "78c51140bc3ebf3d8b55f36d1ec21754f55c1cee0ea07bc7f4022f474f4bb276",
+      "baselineSha256": "6d3d61a77cc9ce00ac84de545756b3ab0f4632be787467bee956730453c7bb8c"
+    },
+    {
+      "path": "src/renderer/src/whiteboard.css",
+      "sha256": "10564bfe949dfca26b9993dc70571737cd07bd1b878949d6b93e03f76b698bde",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/workspace-session.ts",
+      "sha256": "ef78b54f0e7aa2ffdfff7711e45857dea33adfa71a0bfeeae44be2cca35d03fe",
+      "baselineSha256": "391d3f0d9b2e00a930b61e3d8ddaceabe4179f7922ee293bb1bb2d218ab36599"
+    },
+    {
+      "path": "src/validation/whiteboard-svg.ts",
+      "sha256": "67a3b4040065a00f6212c3b6d4b95b1e3c1f69fbacaf6d5e9a95a4c625fcb796",
+      "baselineSha256": null
+    },
+    {
+      "path": "tests/closure.test.ts",
+      "sha256": "5a03420301e3286bd7c5f4bda5726eb063ee052a5fc629af635d9c0bae5ea733",
+      "baselineSha256": "58163245d27e9b4dbf205baa56b2d3e994cfd0ceed025af710925eca666ab60c"
+    },
+    {
+      "path": "tests/milestone2-persistence.test.ts",
+      "sha256": "bf31790c2eacc1c22253c02a1380a916db9c289f93318c0ef3f5ec5c048a2533",
+      "baselineSha256": "64047fad35a6e809630a05639af93b84030d3379b3247575c472744c6bdb4281"
+    },
+    {
+      "path": "tests/milestone3.test.ts",
+      "sha256": "494192752ed99da9ef23c19c9681bb83b056bc3d99c3130646d291bec1c0274e",
+      "baselineSha256": "f38126b8f0417a96899d81745977bc6c5d46df39c014f7ae3ba323af87720c56"
+    },
+    {
+      "path": "tests/milestone4-reviews.test.ts",
+      "sha256": "ad45ebde093ff8f7a9ed43f1bbea29734feec9c01fadace1fa9f973a117e10eb",
+      "baselineSha256": "28f335a14ccff63093cbc566bb8c8753265263517d6fdf1c23fe6ede5084aaee"
+    },
+    {
+      "path": "tests/milestone5.test.ts",
+      "sha256": "1aa50c7b932b38de70be35a239caf49f7bdf860ff9c5ef031808d75bca6bd71b",
+      "baselineSha256": "63117de3ae14c01a8d1093c2f15588193f250f9b1908afb38300d4e0dd9f560e"
+    },
+    {
+      "path": "tests/milestone6-foundation.test.ts",
+      "sha256": "fe3f39446f3c15306c5972e4bc185eac2e437c3b52afd3b273ef36909e5e8288",
+      "baselineSha256": "83051d83480b62530577a14747ec0ea09fca4a417709b22f1fd47f89b4e6c958"
+    },
+    {
+      "path": "tests/readable-order.test.ts",
+      "sha256": "cf7a9e691021a10bbd633b8b38fb479dd2d8d94de8374141be2fec6ee52cf651",
+      "baselineSha256": "05b30e52ec3f9f12a9efacf0b73d6efb8290ebfbe7a38aee7740be33eecfe301"
+    },
+    {
+      "path": "tests/whiteboards.test.ts",
+      "sha256": "66df61c7fc412a5aced873e00cd7bebb875391c890d621f2abb9fac334ffc8cd",
+      "baselineSha256": null
+    }
+  ],
+  "removedBaselineFiles": [],
+  "excludedRuns": [
+    {
+      "path": ".test-data/whiteboard-unit.json",
+      "reason": "Initial migration version expectations were updated; the final full suite passes."
+    },
+    {
+      "path": ".test-data/whiteboard-desktop-ee057d31-b5f1-4927-9ede-29a391a9c0a9",
+      "reason": "Test drag coordinates were above the visible canvas; corrected test scrolling."
+    },
+    {
+      "path": ".test-data/whiteboard-desktop-073d4c84-7bd7-40d4-a85a-7c3c71845809",
+      "reason": "Initial successful desktop run superseded by corrected narrow name fields, wrapped connector labels, configured document layout and a 300-item check."
+    }
+  ],
+  "scope": {
+    "schema": "whiteboards-v1",
+    "renderer": "whiteboard-v1",
+    "migration": 19,
+    "reviewRenderer": "review-html-v9",
+    "searchIndexFormat": 3,
+    "snapshotDecision": "Explicit saved snapshot, clearly labeled; inserted images never follow later board edits.",
+    "limits": {
+      "boards": 12,
+      "itemsPerBoard": 300,
+      "connectorsPerBoard": 600,
+      "maxWidth": 3200,
+      "maxHeight": 2400
+    },
+    "nextDelivery": "Alternative plans"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "recordedAt": "2026-10-13T23:48:02.387Z",
+  "version": "0.6.5",
+  "packaged": false,
+  "personalWorkspaceTouched": false,
+  "scope": "Behavior-preserving code cleanup before optimization and visual/theme work",
+  "changes": [
+    "Removed unused maintained-code imports, an unused render port and an unused symbol catalog port.",
+    "Reused the existing document command schema and document repository/render contracts instead of duplicating them in the configured print service.",
+    "Removed unreachable organization command dispatch and always-true editability flags from organization and doctrine editors; retained dirty, busy and validation guards.",
+    "Removed retired symbol-gallery and builder-library-list styles, preserving every remaining selector and declaration.",
+    "Added check:unused to lint; only unused diagnostics in unchanged hash-verified historical files are exempt.",
+    "Normalized whitespace in four existing development evidence JSON files."
+  ],
+  "verification": {
+    "tests": {
+      "filesPassed": 33,
+      "testsPassed": 633
+    },
+    "buildAndTypecheck": "passed",
+    "lint": "passed",
+    "gitDiffCheck": "passed",
+    "architectureModuleReferences": 1110,
+    "unchangedFrozenFiles": 69,
+    "frozenUnusedDiagnosticsRetained": 9,
+    "staticAppModuleGraph": "No disconnected source modules found",
+    "cssClassScan": "No additional class-name candidates absent from source",
+    "retainedSymbologyCssRulesAndDeclarationsUnchanged": true,
+    "desktop": [
+      {
+        "evidence": ".test-data/organization-orbat-0920a06a-e157-4637-a4a6-51a3b651dc58/acceptance.json",
+        "checks": [
+          "Assign saved ORBAT, click its subordinate, edit identity, role and personnel, and save the organization",
+          "ORBAT staff is read-only; direct editing, keyboard collapse, tab context, and unsaved edits share the same unit records",
+          "Selections replace one inspector, preserve other unit profiles, and the root edits the owning organization",
+          "Organization diagram is fixed against dragging and supports keyboard selection",
+          "Role add, duplicate, reorder and remove work in the dedicated editor; both views fit desktop and narrower layouts",
+          "Organization headquarters staff can be edited without assigning an ORBAT",
+          "Two organizations sharing the same ORBAT keep different unit identities and personnel",
+          "Unfinished subordinate edits receive a recovery copy and block organization switching; discard restores saved staff",
+          "Saved source changes update the diagram; removed personnel remain editable and matching replacement names never inherit them",
+          "Unassigning and reassigning keeps organization-owned personnel",
+          "Normal offline exit and reopen retain the assignment, structure and personnel without renderer errors"
+        ],
+        "exactDevelopmentBuildVerified": true
+      },
+      {
+        "evidence": ".test-data/cleanup-desktop-03efa61d-1098-4cc0-add4-4a570239a01e/acceptance.json",
+        "checks": [
+          "Doctrine create, edit, add/remove role and save through the editor",
+          "Organization creation and symbol assignment/removal save through the editor",
+          "Shared document commands generate and save a PDF from retained HTML with matching provenance",
+          "Normal offline exit/reopen retains organization, doctrine and document changes without renderer errors"
+        ],
+        "exactDevelopmentBuildVerified": true
+      }
+    ]
+  },
+  "nextSteps": ["Optimization", "Visual aesthetics and theme customization"]
+}

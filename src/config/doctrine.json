@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "10000000-0000-4000-8000-000000000001",
+  "version": 1,
+  "name": "Traditional five-paragraph starter",
+  "productTypes": ["OPORD", "WARNORD", "FRAGO"],
+  "paragraphs": [
+    { "id": "situation", "title": "Situation", "required": true },
+    { "id": "mission", "title": "Mission", "required": true },
+    { "id": "execution", "title": "Execution", "required": true },
+    { "id": "sustainment", "title": "Sustainment", "required": true },
+    { "id": "command-signal", "title": "Command and Signal", "required": true }
+  ],
+  "staff": [
+    { "id": "ops", "name": "Operations" },
+    { "id": "intel", "name": "Intelligence" },
+    { "id": "signal", "name": "Signal" }
+  ],
+  "statuses": [
+    { "id": "not-started", "name": "Not Started" },
+    { "id": "draft", "name": "Draft" },
+    { "id": "in-review", "name": "In Review" },
+    { "id": "changes-required", "name": "Changes Required" },
+    { "id": "approved", "name": "Approved" }
+  ],
+  "annexCatalog": [
+    {
+      "id": "10000000-0000-4000-8000-00000000000a",
+      "code": "A",
+      "title": "Task Organization",
+      "editor": "task-organization",
+      "ownerId": "ops"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000000b",
+      "code": "B",
+      "title": "Intelligence",
+      "editor": "narrative",
+      "ownerId": "intel"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000000c",
+      "code": "C",
+      "title": "Operations",
+      "editor": "operations",
+      "ownerId": "ops"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000000d",
+      "code": "H",
+      "title": "Signal",
+      "editor": "signal",
+      "ownerId": "signal"
+    }
+  ],
+  "validationRuleIds": [
+    "task-unit",
+    "task-purpose",
+    "net-task-organization",
+    "base-summary"
+  ],
+  "publicationRequiredStatus": "approved",
+  "editingStatus": "draft"
+}

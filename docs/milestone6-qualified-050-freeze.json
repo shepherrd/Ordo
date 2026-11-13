@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "path": "C:/Ordo APP DEV/release/milestone6-qualified-0.5.0-freeze/freeze-manifest.json",
+  "sha256": "976a117d6a37ecfcf36d9d61f61fd4b16682630d7ab450e3cd11c7248daa5da7",
+  "candidate": {
+    "executable": "C:\\Ordo APP DEV\\.test-data\\m6-package-2026-10-04-qualified-697da571-04ee-4ae9-96a6-24cd7a50a2dd\\win-unpacked\\Ordo.exe",
+    "executableSha256": "66d2ce989002cec8c5145fd2207a0f3c338d632a96c8b6fd5f3f02098b893bc1",
+    "asarSha256": "67b46a6d486cbe570011bd4ca559f130266370dda51e1dc325cecc2c6d2660a6",
+    "packageTreeSha256": "67a7dc4b010c2fd30f2051ea3f0b619c2c4662bd42f3374176b343bcae0f9013"
+  },
+  "fileCount": 18498,
+  "protection": "SHA-256 inventory plus Windows read-only file attributes; this is not an immutable external storage guarantee."
+}

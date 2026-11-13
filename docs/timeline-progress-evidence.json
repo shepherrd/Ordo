@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "delivery": "Visual timeline and planning progress",
+  "date": "2026-10-15T22:23:00.689Z",
+  "baseline": {
+    "manifest": ".test-data/timeline-progress-baseline-2026-10-15T21-38-14-285Z/manifest.json",
+    "sha256": "9e43d34f8bbef645f94494d6186682adf22c60d9bf65bf8134c2b866999e0645",
+    "head": "f3c57645ec1b294068de9b8b4572715624799ff6"
+  },
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "architectureReferences": 1300,
+    "preexistingFrozenUnusedDiagnostics": 9,
+    "tests": {
+      "path": ".test-data/timeline-final-unit.json",
+      "sha256": "898e1205e20d6a0f8952e85a11ec8a6dd48fb09f359c896a4473e6d3cec057de",
+      "passed": 666,
+      "failed": 0
+    },
+    "frozenFiles": {
+      "count": 69,
+      "changed": []
+    }
+  },
+  "desktop": [
+    {
+      "kind": "development",
+      "path": ".test-data/timeline-desktop-388460c5-4ba4-48e1-8727-cc1228fcf13d/result.json",
+      "sha256": "466bb3392931537b5221f14113a6ed09ce87f7d008872348cd9bcbf3b31d187e",
+      "checks": [
+        "1000 events use 60 rows; unit/staff/phase views, start/finish links, duration propagation, undo/redo and cycle/deletion protection work",
+        "Search opens and focuses the exact selected event even outside the current chart filter",
+        "Writing state, manual Ready, overdue dates, collapsible staff groups, direct writing navigation and readiness reopening work without approval",
+        "Unfinished duration and progress metadata survive deliberate renderer failure and explicit working-copy recovery",
+        "Explicit linked event cards retain correct start, finish, duration and unit in HTML and a real PDF",
+        "Normal clean restart verifies schedule, progress, retained HTML and PDF provenance",
+        "All eight themes and the narrow layout render with bounded charts, readable controls and no page-level horizontal overflow",
+        "Backup/restore restores schedule, due dates, Ready state and retained HTML/PDF without altering stored outputs"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 17212
+        },
+        {
+          "stage": "renderer-failure-injection"
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 17212
+        },
+        {
+          "stage": "ready",
+          "pid": 6372
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 6372
+        },
+        {
+          "stage": "ready",
+          "pid": 17956
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 17956
+        }
+      ],
+      "timings": {
+        "timeline1000Ms": 135
+      }
+    },
+    {
+      "kind": "packaged",
+      "path": ".test-data/timeline-desktop-455d3564-6da8-4460-a692-51cf6b4db113/result.json",
+      "sha256": "10d114a43352a2a1a6da36566a4d6aded61ebd8fd9cf957c8336942393cdea19",
+      "checks": [
+        "1000 events use 60 rows; unit/staff/phase views, start/finish links, duration propagation, undo/redo and cycle/deletion protection work",
+        "Search opens and focuses the exact selected event even outside the current chart filter",
+        "Writing state, manual Ready, overdue dates, collapsible staff groups, direct writing navigation and readiness reopening work without approval",
+        "Unfinished duration and progress metadata survive deliberate renderer failure and explicit working-copy recovery",
+        "Explicit linked event cards retain correct start, finish, duration and unit in HTML and a real PDF",
+        "Normal clean restart verifies schedule, progress, retained HTML and PDF provenance",
+        "All eight themes and the narrow layout render with bounded charts, readable controls and no page-level horizontal overflow",
+        "Backup/restore restores schedule, due dates, Ready state and retained HTML/PDF without altering stored outputs"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 21288
+        },
+        {
+          "stage": "renderer-failure-injection"
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 21288
+        },
+        {
+          "stage": "ready",
+          "pid": 19844
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 19844
+        },
+        {
+          "stage": "ready",
+          "pid": 17800
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 17800
+        }
+      ],
+      "timings": {
+        "timeline1000Ms": 111
+      }
+    }
+  ],
+  "visual": {
+    "themes": [
+      "forest",
+      "ocean",
+      "sand",
+      "pine",
+      "midnight",
+      "charcoal",
+      "plum",
+      "ember"
+    ],
+    "viewports": [
+      [1600, 1100],
+      [1050, 850]
+    ],
+    "fitPanelOverflow": false,
+    "themeSheets": ".test-data/timeline-desktop-388460c5-4ba4-48e1-8727-cc1228fcf13d",
+    "pdfPagesInspected": [1, 35]
+  },
+  "excludedAttempts": [
+    {
+      "folder": ".test-data/timeline-desktop-c116c945-3928-488d-a991-fe2fd083c7ec",
+      "reason": "Reload correctly blocked by unsaved-change confirmation; harness used explicit failure injection instead."
+    },
+    {
+      "folder": ".test-data/timeline-desktop-c99a9d16-f02b-425c-829f-ad97d48ea709",
+      "reason": "Playwright page remained crashed; harness now starts a new app process before recovering."
+    },
+    {
+      "folder": ".test-data/timeline-desktop-0b55bafe-c5f0-485a-8105-5e3cc039c72b",
+      "reason": "Close requested before renderer-failure event completion; failed injected run required forced cleanup, exit 4294967295. Excluded from acceptance. Corrected harness waits for render-process-gone."
+    }
+  ],
+  "candidate": ".test-data/timeline-candidate/win-unpacked/Ordo.exe",
+  "runtimeFiles": [
+    {
+      "path": "main/chunks/flag-resources-D-TUROSO.js",
+      "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+    },
+    {
+      "path": "main/chunks/render-requests-CZDOxRrM.js",
+      "sha256": "82cede5fbc469444d38c0d5479959572bd3ecd7a40011c084bda3a8b244027f1"
+    },
+    {
+      "path": "main/chunks/symbol-catalog-0Xxfqmcx.js",
+      "sha256": "fea4a5b3d42f8fd8a84f9b9adac7bc5090ee5c9b0bc291775ed6624b48e94f6b"
+    },
+    {
+      "path": "main/index.js",
+      "sha256": "5c0c2968828fc644d36fc79b495285dc84e2a63e07dc225ec31ed5fe6e940fdc"
+    },
+    {
+      "path": "main/symbol-worker.js",
+      "sha256": "b129196657337c268ce6b40f1d602104614994b3fc389d2ca342256c1387249a"
+    },
+    {
+      "path": "preload/index.js",
+      "sha256": "2b8047c911c77fb4a48b235bbaeb2a7460691f334f695db068fc13435565dead"
+    },
+    {
+      "path": "renderer/assets/OperationOrbatPanel-Bbc9oLHY.js",
+      "sha256": "b715a53e1e07255d6c718279994e78f217f7d00b9bdfb5b057473e2ac8b576d7"
+    },
+    {
+      "path": "renderer/assets/OperationSymbolEditor-qVmmbTE4.js",
+      "sha256": "d6682b7ca41d214bfcfa7624c6b2a90d0c8ef9ff4ddef1d8ead9f9a643bfb777"
+    },
+    {
+      "path": "renderer/assets/ProfileSymbolEditor-DPnKyFXK.js",
+      "sha256": "2db3a482e6ff7f4656b5d0e1243ddf022d61a7bf4ab6c56571c747b41ad41b5d"
+    },
+    {
+      "path": "renderer/assets/SaveUnitSymbol-BZZ-vmLU.js",
+      "sha256": "6a602f44226a161b8167a125610bf4b5dc7991d7446f7131aeb20dbe3afa1e52"
+    },
+    {
+      "path": "renderer/assets/SavedSymbolPicker-xuiw1C44.js",
+      "sha256": "bb8891e07feb7bc1ecb78fea7844859efddd2032b5ed463717cbd68241c60e51"
+    },
+    {
+      "path": "renderer/assets/SymbolEditor-73BtvRpU.js",
+      "sha256": "7d2ab802f984d8778bfd964b885aaad3795b2ab597ed3edf86bd1b809231a32d"
+    },
+    {
+      "path": "renderer/assets/SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+      "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+    },
+    {
+      "path": "renderer/assets/SymbolsAndOrbatsWorkspace-CAEM8CKQ.js",
+      "sha256": "9243baea20b9c797e534f83cb7d1d01258e7930395b90d0fa96243fb18eb808a"
+    },
+    {
+      "path": "renderer/assets/index-Bb3KGEm-.js",
+      "sha256": "19b0287c3f9dc58553c1e8a69b5723932b39596fb5cfa9bec33684383f996523"
+    },
+    {
+      "path": "renderer/assets/index-DnTJfAah.css",
+      "sha256": "a2405c72ef390d374d218d329e354d32c314e2d288314472b7b2ce5de30d1aac"
+    },
+    {
+      "path": "renderer/index.html",
+      "sha256": "6baa9d405cfcca6efb021be66e1ace3d1411d48f11d1bebcef09e74da42b1a40"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": "docs/connected-planning-implementation-plan.md",
+      "sha256": "21839d31973e293cabd49c000fea25b4e2475858dd4d79872952246da0abf85d"
+    },
+    {
+      "path": "docs/timeline-progress-delivery.md",
+      "sha256": "7e2f3c3c81c421db13933bb7922b0b3ce5818b67adf75facd4d8368ace31d55c"
+    },
+    {
+      "path": "scripts/smoke-timeline-progress.cjs",
+      "sha256": "11399a2e5f4bbc380a06e7783aa48d90417504555801d56894ed2a312290d9d2"
+    },
+    {
+      "path": "src/application/document-layout-review.ts",
+      "sha256": "118f7dfb4c9c43424e4642bda1ed3611f36a2916c5d4dbcf67b9f7c68b2ba6ca"
+    },
+    {
+      "path": "src/application/narrative-review-service.ts",
+      "sha256": "a33bf47371e819067c614007d3c14df3a1f61eda07e8b976a33968065e704853"
+    },
+    {
+      "path": "src/application/planning-schedule-review.ts",
+      "sha256": "01c13b395cbf56d88c4aedc9a126cafa104da8414ab1b3fff4ad240e9d2e8b05"
+    },
+    {
+      "path": "src/domain/document-review.ts",
+      "sha256": "d7dca8293bd28406a06e58aec3a565005bd9303b7d2acf162f736aba8fa9fa94"
+    },
+    {
+      "path": "src/domain/order-progress.ts",
+      "sha256": "9a614f044d4b0e40de43a4b3606326bbd0fd85f1fe8a3931a3a5810ecf2ac468"
+    },
+    {
+      "path": "src/domain/planning-card-resolution.ts",
+      "sha256": "cad20040f7591218953843c8e8c16bbdb11936fe3f76e83fca4f24f7285a31d5"
+    },
+    {
+      "path": "src/domain/planning-cards.ts",
+      "sha256": "a6e0d9638a0d38b0943a4a2c3a55608efe7b5d2e7b15777ea07a7e00d97bc3e6"
+    },
+    {
+      "path": "src/domain/planning-progress.ts",
+      "sha256": "bcf5b66ec9408824484ded787811e1cb314b1edab172a0fd3928b7727807b05e"
+    },
+    {
+      "path": "src/domain/planning-schedule.ts",
+      "sha256": "ad05b6d50b1bb27fe574f18fed9fc53a5fc9269d268a7583a46188e28c03c95f"
+    },
+    {
+      "path": "src/domain/planning-usage.ts",
+      "sha256": "7060482f74c8eb83d2c9eb1312c466387bea99c3d2c706d770753539310b1a25"
+    },
+    {
+      "path": "src/export/narrative-review-report.ts",
+      "sha256": "c9946c7244124ca84712186e1a59b08629fb53e3033abd0f276f59cf6a1f60d4"
+    },
+    {
+      "path": "src/export/planning-cards.ts",
+      "sha256": "55112641758cd3ab5df659dae877f809f5198eaf55a5061c7f6764e6ec1e1a95"
+    },
+    {
+      "path": "src/renderer/src/PlanningProgress.tsx",
+      "sha256": "2820c7570013266189a1248f0231f438f48cae697413d1865ccede95b613c38c"
+    },
+    {
+      "path": "src/renderer/src/PlanningTimeline.tsx",
+      "sha256": "677ae9b5e9526c4dc97ede5ecd4897170c260309ee257e503ea2d29cf7bd1f9b"
+    },
+    {
+      "path": "src/renderer/src/order-progress.ts",
+      "sha256": "192956e6a13b84423da1499be9bdd5e7f81e29b3802e3a78e70d895b1912ef04"
+    },
+    {
+      "path": "src/renderer/src/planning-schedule.css",
+      "sha256": "bffd1a0015923f9e2a96c54306dc6448ffcdbf348045c3856ff720e0b8d4d5fa"
+    },
+    {
+      "path": "tests/planning-schedule.test.ts",
+      "sha256": "672e5b21d12272280ed827e19a93f2c09b9b927541ea37796955237c8b153da0"
+    },
+    {
+      "path": "src/application/service.ts",
+      "sha256": "c00facf149926866612c6a46cc3fabd5d5abd9b025be3b33c61e836c695f43dd"
+    },
+    {
+      "path": "src/domain/authoring.ts",
+      "sha256": "de6aae8904e17a59f71858c624003b0f7d0e745f340c4f74adf35b1448b41056"
+    },
+    {
+      "path": "src/domain/invariants.ts",
+      "sha256": "5489a61ba840b94e2849d1561634b700375320e0c230b92a417b8ed1d1141bd2"
+    },
+    {
+      "path": "src/domain/model.ts",
+      "sha256": "0002c6a5ea6f8511606d07d70479078ac7ecd176c7669e000179de040e8fc44f"
+    },
+    {
+      "path": "src/domain/reviews.ts",
+      "sha256": "5643bda0cdb0278a31f228c3c481b918adf841a6bdfca0491c2c9ab82b1af08b"
+    },
+    {
+      "path": "src/persistence/review-store.ts",
+      "sha256": "62bafc170398bf72b77440337be0edb8ed5449a883aa435b012aab5b713713e2"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "e81dd37516b754f1291e82f58d32035b5d73c6fa5341ba36bc613fcba76c472d"
+    },
+    {
+      "path": "src/renderer/src/ReviewWorkspace.tsx",
+      "sha256": "8abbf9194262efbf09cb6f86e32b1d44f61dd3db06a739e4213d980aa494b098"
+    }
+  ]
+}

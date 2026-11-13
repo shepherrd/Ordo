@@ -1,0 +1,16 @@
+{
+  "reviewId": "38413790-ea41-4379-b303-5edd17e4beb0",
+  "comparisonHash": "6d284ee1852d5024094b75af89667a47861e78e2ae4b2e00baa51919a9355365",
+  "eventsHash": "58f9d7b01bde96a77e77d72ae41906dd4e1a584b53a71d1be8e69f8993c3f5f8",
+  "reportHash": "68a188308393f140f720352ae4b611479dc8b52ef2318a091fabc49cedd58b55",
+  "changes": 21,
+  "events": 25,
+  "semantics": {
+    "src/domain/diff/v1.ts": "dcd9e2cd03b743c29ea9b86ad5c19574e81ea3762c13875e545ed3fe880e92a4",
+    "src/domain/diff/rich.ts": "7dcf7bf394cd00585a137b027fbe0be17fdbfbbf5f8da690ec0b65516335e6ad",
+    "src/domain/diff/sequence.ts": "8eae2a7c5f43cfb6a30b25e3dc5790b1905385120e0eaea7b25061083a59bdee",
+    "src/domain/diff/text.ts": "909b712b191df76cfa4772f3439fb107177004a70a998026b2b7ec7e6cc61840",
+    "src/application/review-impact.ts": "1256b0116790fc5b8e23c300c5e96194c62c7248e1752896046a24b7a4d51f2d",
+    "src/export/review-html.ts": "b489fa6ddc21fb34aa91adf25855928ba483ae2f912a399283bf63b9244eb816"
+  }
+}

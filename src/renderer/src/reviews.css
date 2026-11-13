@@ -1,0 +1,119 @@
+.review-workspace {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.review-panel,
+.review-history {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 20px;
+  margin: 18px 0;
+}
+.review-workspace summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 0;
+}
+.review-workspace small {
+  overflow-wrap: anywhere;
+}
+.review-workspace table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.review-workspace th,
+.review-workspace td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.review-history td:last-child button {
+  display: block;
+  margin-bottom: 8px;
+}
+.review-history td:last-child button:last-child {
+  margin-bottom: 0;
+}
+.review-panel > button {
+  margin-bottom: 16px;
+}
+.review-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+}
+.review-actions,
+.review-filters,
+.review-bulk {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+.review-filters {
+  align-items: flex-end;
+  padding: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.review-filters .field {
+  flex: 1;
+  min-width: 150px;
+  margin: 0;
+}
+.review-bulk {
+  background: var(--surface);
+  padding: 14px;
+}
+.review-workspace input:not([type="checkbox"]),
+.review-workspace textarea,
+.review-workspace select {
+  max-width: 100%;
+  padding: 8px;
+  border: 1px solid var(--control-line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.review-change {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 5px;
+  padding: 18px;
+  margin: 16px 0;
+}
+.review-workspace pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: inherit;
+  line-height: 1.6;
+  background: var(--surface);
+  padding: 14px;
+  max-height: 420px;
+  overflow: auto;
+}
+.review-workspace del {
+  background: var(--danger-bg);
+  color: var(--danger);
+  text-decoration: none;
+}
+.review-workspace ins {
+  background: var(--success-bg);
+  color: var(--success);
+  text-decoration: none;
+}
+.review-impact {
+  border-left: 3px solid var(--line);
+  padding: 12px;
+  margin: 10px 0;
+}
+.review-report {
+  width: 100%;
+  min-height: 680px;
+  border: 1px solid var(--line);
+  background: var(--document-paper);
+}

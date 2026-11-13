@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "upstreamHash": "176789ccec9be563eddede2bd84653672569e92ad39d5b6e6d97b590dbf256bc",
+  "upstreamRows": 1941,
+  "inspectedRows": 1835,
+  "counts": {
+    "MATCHED": 1237,
+    "AMBIGUOUS": 6,
+    "DISCREPANT": 588,
+    "UNVERIFIED": 4
+  },
+  "scope": "Ordo packages the five warfighting dimensions available in the legacy selector. Only verified exact matches yield a candidate. The inspected totals include source schemes outside the selector.",
+  "dataHash": "55e6aa5dad6c9e4ecf27e1fbef104d30bbb50c91ede713b14af6d5a7c613ac51",
+  "packagedRows": 730,
+  "packagedCounts": {
+    "MATCHED": 619,
+    "AMBIGUOUS": 0,
+    "DISCREPANT": 108,
+    "UNVERIFIED": 3
+  }
+}

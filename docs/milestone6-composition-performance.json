@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "STAGED_BACKEND_EVIDENCE",
+  "node": "v24.14.0",
+  "workerHash": "5b756eb93856b245267d379b02a55e9e12227a11b2cbd1245d3ed0a6a265e143",
+  "limits": {
+    "nodes": 2000,
+    "workerOldGenerationMiB": 384,
+    "timeoutMs": 20000,
+    "svgMiB": 16
+  },
+  "cases": [
+    {
+      "count": 20,
+      "requestBytes": 16744,
+      "svgBytes": 18561,
+      "svgHash": "ccf35c1943d3704b1ac296eac85c5f24517cffda39c029c4f06af0cbc18f68d3",
+      "canonicalNodes": 20,
+      "syntheticNodes": 3,
+      "renderManifests": 20,
+      "coldMs": 2038,
+      "warmMs": 3,
+      "maxObservedProcessRssBytes": 110215168,
+      "warmBytesExact": true
+    },
+    {
+      "count": 200,
+      "requestBytes": 165490,
+      "svgBytes": 183413,
+      "svgHash": "f2bcbce3d56603b37e9b902b15748b9d9679002e381bb45232599a293b16b2d1",
+      "canonicalNodes": 200,
+      "syntheticNodes": 12,
+      "renderManifests": 200,
+      "coldMs": 1216,
+      "warmMs": 20,
+      "maxObservedProcessRssBytes": 116772864,
+      "warmBytesExact": true
+    },
+    {
+      "count": 2000,
+      "requestBytes": 1654592,
+      "svgBytes": 1824678,
+      "svgHash": "64d33bb5bb0a52308648ae7e56a12db1321619b5a880aed05cb1f2054af0805a",
+      "canonicalNodes": 2000,
+      "syntheticNodes": 0,
+      "renderManifests": 2000,
+      "coldMs": 9441,
+      "warmMs": 106,
+      "maxObservedProcessRssBytes": 175198208,
+      "warmBytesExact": true
+    }
+  ],
+  "limitations": [
+    "Fresh worker per size; second request measures the bounded whole-request cache.",
+    "Process RSS includes parent and worker; this is not a precise worker heap measurement.",
+    "No dashboard startup, UI responsiveness, Electron lifecycle, or packaged workflow acceptance is claimed."
+  ]
+}

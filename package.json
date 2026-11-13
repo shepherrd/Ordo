@@ -1,0 +1,124 @@
+{
+  "name": "ordo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Offline operational planning and controlled publication workspace",
+  "author": "Ordo",
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "start": "electron-vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "npm run typecheck && electron-vite build",
+    "package": "npm run build && electron-builder --win --dir",
+    "dist": "npm run build && electron-builder --win nsis",
+    "smoke": "node scripts/smoke.cjs",
+    "check:boundaries": "node scripts/check-boundaries.cjs",
+    "check:unused": "node scripts/check-unused.cjs",
+    "benchmark:desktop": "node scripts/benchmark-desktop.cjs",
+    "benchmark:library": "node scripts/benchmark-library-desktop.cjs",
+    "format": "prettier --write src tests scripts *.ts *.json docs README.md",
+    "format:check": "prettier --check src tests scripts *.ts *.json docs README.md",
+    "setup:desktop": "install-electron",
+    "lint": "npm run format:check && npm run check:unused && npm run check:boundaries",
+    "smoke:milestone2": "node scripts/smoke-milestone2.cjs",
+    "smoke:milestone3": "node scripts/smoke-milestone3.cjs",
+    "smoke:milestone4": "node scripts/smoke-milestone4.cjs",
+    "smoke:milestone5": "node scripts/smoke-milestone5.cjs"
+  },
+  "build": {
+    "appId": "org.ordo.desktop",
+    "productName": "Ordo",
+    "directories": {
+      "output": "release/${version}"
+    },
+    "files": [
+      "out/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "docs/office-third-party-notices.txt",
+        "to": "licenses/office-third-party-notices.txt"
+      },
+      {
+        "from": "docs/milestone6-third-party-notices.txt",
+        "to": "licenses/milestone6-third-party-notices.txt"
+      },
+      {
+        "from": "docs/milestone6-crosswalk-third-party-notices.txt",
+        "to": "licenses/milestone6-crosswalk-third-party-notices.txt"
+      },
+      {
+        "from": "docs/milestone6-resource-notices.md",
+        "to": "licenses/milestone6-resource-notices.md"
+      },
+      {
+        "from": "docs/milestone6-provenance.json",
+        "to": "licenses/milestone6-provenance.json"
+      }
+    ],
+    "asarUnpack": [
+      "**/*.node"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico",
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false
+    },
+    "npmRebuild": false
+  },
+  "dependencies": {
+    "@noble/hashes": "2.4.0",
+    "@tiptap/core": "3.31.4",
+    "@tiptap/pm": "3.31.4",
+    "@tiptap/react": "3.31.4",
+    "@tiptap/starter-kit": "3.31.4",
+    "better-sqlite3": "13.0.3",
+    "docx": "9.12.0",
+    "drizzle-orm": "0.45.3",
+    "milsymbol": "3.0.4",
+    "parse5": "8.0.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@babel/parser": "7.29.9",
+    "@types/better-sqlite3": "9.6.0",
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/yauzl": "2.10.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3",
+    "electron-vite": "5.0.0",
+    "exceljs": "4.4.0",
+    "flag-icons": "7.5.0",
+    "mil-std-2525": "0.2.5",
+    "milstandard-e": "0.2.14",
+    "playwright": "1.63.0",
+    "pptxgenjs": "4.0.1",
+    "prettier": "3.9.9",
+    "typescript": "7.0.2",
+    "vite": "7.3.6",
+    "vitest": "5.0.3",
+    "yauzl": "3.4.0"
+  },
+  "overrides": {
+    "exceljs": {
+      "uuid": "11.1.1"
+    },
+    "pptxgenjs": {
+      "image-size": "2.0.4"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "upstream": "mil-std-2525@0.2.5",
+  "license": "MIT",
+  "upstreamFile": "node_modules/mil-std-2525/tsv-tables/2525c/sof.tsv",
+  "upstreamHash": "86273af9c58a820af394605c9bf7d1e0770d0f397e0c7b677478207f4ee1b9ea",
+  "referenceNormalizedHash": "e44a3878c14bfdb8bfb885f89670551ff0fd1b8ef17001161515ec38bd4d1cb3",
+  "difference": "Exact normalized SOF table",
+  "resource": "src/rendering/resources/legacy-sof-catalog-v1.json",
+  "resourceHash": "3fde54d57b4fb65de112cf26199fba2d806c0a78fad217fb021ea0033abfa091",
+  "rows": 29,
+  "scope": "Completes the eighth inspected reference legacy selector group. Existing seven-group resource, FM dataset, numeric selector and crosswalk outcomes remain unchanged. Original legacy codes are used directly; no numeric conversion."
+}

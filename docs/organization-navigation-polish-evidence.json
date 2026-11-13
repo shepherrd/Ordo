@@ -1,0 +1,38 @@
+{
+  "recordedAt": "2026-10-13T23:27:57.8024639Z",
+  "version": "0.6.5",
+  "packaged": false,
+  "personalWorkspaceTouched": false,
+  "scope": "Organization tab selection styling and diagram-driven unit selection",
+  "changes": [
+    "Selected organization and unit-profile tabs use dark green, bold white text, a bottom accent, and a separate keyboard focus outline.",
+    "The ORBAT overview shows one unit-name heading and uses diagram selection; its selected-unit dropdown was removed.",
+    "Staff & roles retains the Staff unit selector and direct editing of the selected unit."
+  ],
+  "verification": {
+    "buildAndTypecheck": "passed",
+    "formatting": "passed",
+    "architectureModuleReferences": 1111,
+    "gitDiffCheck": "passed",
+    "desktopRun": ".test-data/organization-orbat-ade38076-e257-4cdd-be67-e454276e302d/acceptance.json",
+    "exactDevelopmentBuildVerified": true,
+    "checks": [
+      "Assign saved ORBAT, click its subordinate, edit identity, role and personnel, and save the organization",
+      "ORBAT staff is read-only; direct editing, keyboard collapse, tab context, and unsaved edits share the same unit records",
+      "Selections replace one inspector, preserve other unit profiles, and the root edits the owning organization",
+      "Organization diagram is fixed against dragging and supports keyboard selection",
+      "Role add, duplicate, reorder and remove work in the dedicated editor; both views fit desktop and narrower layouts",
+      "Organization headquarters staff can be edited without assigning an ORBAT",
+      "Two organizations sharing the same ORBAT keep different unit identities and personnel",
+      "Unfinished subordinate edits receive a recovery copy and block organization switching; discard restores saved staff",
+      "Saved source changes update the diagram; removed personnel remain editable and matching replacement names never inherit them",
+      "Unassigning and reassigning keeps organization-owned personnel",
+      "Normal offline exit and reopen retain the assignment, structure and personnel without renderer errors"
+    ],
+    "visualReview": [
+      "organization-orbat-1280.png",
+      "organization-staff-1000.png"
+    ],
+    "capturedViewportWidths": [1500, 1280, 1000]
+  }
+}

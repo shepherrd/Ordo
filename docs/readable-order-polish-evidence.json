@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-09",
+  "version": "0.6.5",
+  "status": "DEVELOPMENT_POLISH_VERIFIED_NOT_PACKAGED",
+  "sourceFiles": [
+    {
+      "path": "src/export/readable-order.ts",
+      "sha256": "bcb25dde295411062873fa3787ea7783d32739c35723a41463000df91c52d216"
+    },
+    {
+      "path": "src/application/readable-order-export.ts",
+      "sha256": "be91655ab426a9db18344e6537710c3fa3c3f0211bbb6672c03786da4c91ff41"
+    },
+    {
+      "path": "src/application/verify-readable-order.ts",
+      "sha256": "ecaf6587e040cd60fcea41e9f6bcc517f5079ad3372803a72ca00fe13fd9bbb0"
+    },
+    {
+      "path": "src/application/service.ts",
+      "sha256": "06ac9763c483f5230561f7439f5448342d366bb07311acede1859023bb1c4f64"
+    },
+    {
+      "path": "src/domain/model.ts",
+      "sha256": "5c1f08bc0b94ff12a3bbf58c1924eebc9bee18c3cda5460e605c78764a93de64"
+    },
+    {
+      "path": "src/persistence/repository.ts",
+      "sha256": "b4c1b2f4d6fe0898fe41297a6370c0b9c5cd288e598e82a23ef13b7fa677ebc6"
+    },
+    {
+      "path": "src/persistence/migrations/013.sql",
+      "sha256": "e0a33a2628b908b06249a295958b310be3a99423a005d11f4908ea735040dae5"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "8db743c0abffcd31aad51d12c6e59959113301cb79dcf91c1c5d2e56f90b8ba6"
+    },
+    {
+      "path": "tests/readable-order.test.ts",
+      "sha256": "92b6a7f62b7d2c119a1401459b90cab41807cb737e1bf66f65a1a3eab0e94f51"
+    },
+    {
+      "path": "scripts/smoke-readable-order.cjs",
+      "sha256": "4fc676bbb8e73aef6ee16dd35b16525930b7d79d0554e12ca6ff26a608d44389"
+    }
+  ],
+  "tests": {
+    "path": ".test-data/readable-order-tests-final-20261009.json",
+    "sha256": "0994393dc47c1a2b054173994e4dfd63293088d97d914581f38a7d34b1b05211",
+    "passed": 586,
+    "failed": 0,
+    "files": 30,
+    "success": true
+  },
+  "desktop": {
+    "directory": ".test-data/readable-order-desktop-af27a746-e720-473d-ac5b-00f2e955cc39",
+    "artifacts": [
+      {
+        "path": ".test-data/readable-order-desktop-af27a746-e720-473d-ac5b-00f2e955cc39/acceptance.json",
+        "sha256": "ed00123ef3c063c9c7288de55f5e74ce8be68dfdd8c2ab2244654d6c6ed25032"
+      },
+      {
+        "path": ".test-data/readable-order-desktop-af27a746-e720-473d-ac5b-00f2e955cc39/clean-order.html",
+        "sha256": "2cbeddc7e947b802021cc8c3ce4f54a851ec6f894fafcceb645d5b9bab7efdae"
+      },
+      {
+        "path": ".test-data/readable-order-desktop-af27a746-e720-473d-ac5b-00f2e955cc39/clean-order.pdf",
+        "sha256": "2eb87d9f5ae5a08e1d03c07359238a42e8145f0af1accada8d917282b3f3617b"
+      },
+      {
+        "path": ".test-data/readable-order-desktop-af27a746-e720-473d-ac5b-00f2e955cc39/clean-order-preview.png",
+        "sha256": "119e52f0f602df9b11b97d530fb9157ab2b07558c38e6233b14404ce48d70241"
+      },
+      {
+        "path": ".test-data/readable-order-desktop-af27a746-e720-473d-ac5b-00f2e955cc39/clean-order-page-1.png",
+        "sha256": "ed7343d0c3bbea0e191580076a40238fd2116deb74c021a5b8145c9ad36d9db4"
+      }
+    ],
+    "checks": [
+      "live-preview-keeps-written-facts-without-an-appended-reference-table",
+      "retained-html-keeps-reference-dependencies-and-authored-text",
+      "pdf-generated-from-the-exact-clean-retained-html",
+      "normal-offline-clean-exit-reopen-and-retained-document"
+    ]
+  },
+  "frozen": {
+    "fixture": "tests/fixtures/deletion-frozen-implementations.json",
+    "count": 69,
+    "matched": true,
+    "recent": [
+      {
+        "path": "src/persistence/migrations/012.sql",
+        "sha256": "2d0ceba92bde71ae467bba8e592d8e52dc918fcc0ed4e3d8976292c605f1d377",
+        "matched": true
+      },
+      {
+        "path": "src/export/narrative-html.ts",
+        "sha256": "76bd4de847eb0de0a87be3fd99d9abea1bf154d144230d999531bc8238e676a8",
+        "matched": true
+      },
+      {
+        "path": "src/application/narrative-export-service.ts",
+        "sha256": "99c11fa07200a9825d7b579f8899cb5d30b8e922dec7376884e26a3fd6002706",
+        "matched": true
+      },
+      {
+        "path": "src/application/verify-narrative-export.ts",
+        "sha256": "6ff8c7fc8846a4998219d3022e62b126c9b0209afe11d94a2c5411739113b996",
+        "matched": true
+      }
+    ]
+  },
+  "visualReview": {
+    "electronPreview": "reviewed",
+    "pdfPages": 1,
+    "pdfRender": "Poppler",
+    "pdfPage": "reviewed",
+    "result": "No appended reference table; written narrative and existing provenance footer legible and unclipped."
+  },
+  "earlierFailures": [
+    ".test-data/readable-order-tests-20261009.json",
+    ".test-data/readable-order-desktop-c1ea4957-21c8-4e94-ab97-7284eebaa4da/acceptance.json"
+  ]
+}

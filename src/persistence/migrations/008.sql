@@ -1,0 +1,8 @@
+-- M6 continuation: shared, immutable evidence for reviewed library imports.
+-- 007 is already applied in staged workspaces and remains byte-for-byte unchanged.
+CREATE TABLE library_exchange_imports(id TEXT PRIMARY KEY, document TEXT NOT NULL CHECK(json_valid(document)),content_hash TEXT NOT NULL CHECK(length(content_hash)=64));
+CREATE TRIGGER library_exchange_import_binding BEFORE INSERT ON library_exchange_imports WHEN NEW.id IS NOT json_extract(NEW.document,'$.id') BEGIN SELECT RAISE(ABORT,'Exchange import identity mismatch'); END;
+CREATE TRIGGER immutable_library_exchange_imports_update BEFORE UPDATE ON library_exchange_imports BEGIN SELECT RAISE(ABORT,'Exchange import evidence is immutable'); END;
+CREATE TRIGGER immutable_library_exchange_imports_delete BEFORE DELETE ON library_exchange_imports BEGIN SELECT RAISE(ABORT,'Exchange import evidence is retained'); END;
+CREATE TRIGGER immutable_symbol_exchange_origin BEFORE UPDATE ON saved_symbol_versions WHEN json_extract(OLD.document,'$.exchangeOrigin.importId') IS NOT json_extract(NEW.document,'$.exchangeOrigin.importId') OR json_extract(OLD.document,'$.exchangeOrigin.targetVersionId') IS NOT json_extract(NEW.document,'$.exchangeOrigin.targetVersionId') BEGIN SELECT RAISE(ABORT,'Exchange origin is immutable'); END;
+CREATE TRIGGER immutable_orbat_exchange_origin BEFORE UPDATE ON saved_orbat_versions WHEN json_extract(OLD.document,'$.exchangeOrigin.importId') IS NOT json_extract(NEW.document,'$.exchangeOrigin.importId') OR json_extract(OLD.document,'$.exchangeOrigin.targetVersionId') IS NOT json_extract(NEW.document,'$.exchangeOrigin.targetVersionId') BEGIN SELECT RAISE(ABORT,'Exchange origin is immutable'); END;

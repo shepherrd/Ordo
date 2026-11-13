@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "status": "STAGED_DEVELOPMENT_AND_PACKAGED_EVIDENCE",
+  "applicationVersion": "0.5.0",
+  "milestoneStatus": "IN_PROGRESS",
+  "normalLifecycle": true,
+  "diagnosticStartupFlags": false,
+  "serviceChanges": false,
+  "development": [
+    {
+      "milestone": "M1",
+      "path": ".test-data/smoke-b4658ccb-7ef0-458f-b9a5-e1227a7653ab/acceptance.json",
+      "sha256": "2b48ff102e7d1f9733a5d62e21381eacbb262b989fbaff3cad136cab77f0eea7",
+      "checks": 13,
+      "packaged": false
+    },
+    {
+      "milestone": "M2",
+      "path": ".test-data/milestone2-smoke-b83a1d08-52fb-4371-b088-ad9a16eff39f/acceptance.json",
+      "sha256": "6598a59c3851e5e9b6b55b0e869aaad42277b3eec07786ebb2ea52c9d0541ab1",
+      "checks": 20,
+      "packaged": false
+    },
+    {
+      "milestone": "M3",
+      "path": ".test-data/milestone3-smoke-18213d1a-12b5-4eea-a64d-c6d05fc0f627/acceptance.json",
+      "sha256": "0737fd3107f68d81c67864b0ebbd836e440571d5eceee5655f315ceaa3788277",
+      "checks": 50,
+      "packaged": false
+    },
+    {
+      "milestone": "M4",
+      "path": ".test-data/milestone4-smoke-f2126683-af21-44f3-8af8-9000ba6a54aa/acceptance.json",
+      "sha256": "ed3a88787e049106c9200dcc03063021b2642beda3f91cef33cc963a69977d4a",
+      "checks": 64,
+      "packaged": false
+    },
+    {
+      "milestone": "M5",
+      "path": ".test-data/milestone5-smoke-dff476b6-f341-49e0-b842-6a96a8a65dbd/acceptance.json",
+      "sha256": "2c55763806cb6dbf7640c8645b187a054ca26463de8b1bebf0afe68c729f9609",
+      "checks": 77,
+      "packaged": false
+    },
+    {
+      "milestone": "M6",
+      "path": ".test-data/milestone6-smoke-6aee0e74-047e-48df-9d77-1987e538e015/acceptance.json",
+      "sha256": "f2aca0a07f0f0bca5969661bd71c196fc0c40c470ae7fa059cb556d1c9b6370d",
+      "checks": 14,
+      "packaged": false
+    }
+  ],
+  "packaged": [
+    {
+      "milestone": "M1",
+      "path": ".test-data/smoke-7db2cb7c-c117-49e6-bdbd-fdca3d55dab5/acceptance.json",
+      "sha256": "fcf6aa9f0723004e2cbe60912a0d477be21528541ff311e2b8d549195efd1213",
+      "checks": 13,
+      "packaged": true
+    },
+    {
+      "milestone": "M2",
+      "path": ".test-data/milestone2-smoke-90a4ab9f-ee20-47df-9d90-53a934e21dd3/acceptance.json",
+      "sha256": "f0b43bfadcfe75625829d00a9a62cc3c5530665f7fd3472769158da28036ad88",
+      "checks": 20,
+      "packaged": true
+    },
+    {
+      "milestone": "M3",
+      "path": ".test-data/milestone3-smoke-caff71cc-5947-42c2-a323-733bfbb86498/acceptance.json",
+      "sha256": "98e989fe415cebc57472b25247b7d0b499fba384285d0bfc84d641951853f734",
+      "checks": 50,
+      "packaged": true
+    },
+    {
+      "milestone": "M4",
+      "path": ".test-data/milestone4-smoke-71134704-174d-4a17-8d42-bb7360dd1981/acceptance.json",
+      "sha256": "afc630875ba3e64a9bf2c25ac3e43235f64ddf62b11a4c6debc27ab38304951b",
+      "checks": 64,
+      "packaged": true
+    },
+    {
+      "milestone": "M5",
+      "path": ".test-data/milestone5-smoke-62c81c46-81d7-45f4-a51c-cc41e9c13e2b/acceptance.json",
+      "sha256": "86bef77f60ee649a9527d34b749bb9bd21c36053e3699b3d7cbe0f1147f862ec",
+      "checks": 77,
+      "packaged": true
+    },
+    {
+      "milestone": "M6",
+      "path": ".test-data/milestone6-smoke-31e41f07-3243-45eb-b6a9-ed6945f759e1/acceptance.json",
+      "sha256": "a4d32f2def5eecb4e807deeb50043a558dc00253a17a7784ac757102f782dd93",
+      "checks": 14,
+      "packaged": true
+    }
+  ],
+  "limitations": [
+    "M1-M5 retained full workflows and 36 recorded M6 checks across five staged workflows. These checks do not constitute full milestone acceptance.",
+    "Pending provenance and visual/readability gates prevent milestone closure.",
+    "Historical netprofm failure remains an external environment incident; no service workaround was introduced."
+  ],
+  "packagedBuild": ".test-data/m6-package-2026-10-03-v5-v3/win-unpacked",
+  "latestCodeNote": "M1-M6 full retained workflows passed before the final folded-annotation privacy correction. All affected M6 native workflows were repeated on the corrected development build and/or corrected test package, as recorded separately.",
+  "interactionRuns": [
+    {
+      "path": ".test-data/milestone6-interactions-55a35472-6613-4710-be65-4b5485581d8b/acceptance.json",
+      "sha256": "8682b3ef836ddce830484b2dba1070fa8f3878a60ba0e0cc5420f99406205e42",
+      "checks": 7,
+      "packaged": false
+    },
+    {
+      "path": ".test-data/milestone6-interactions-fc04b13e-6495-4798-b71a-2c15b50e163d/acceptance.json",
+      "sha256": "6ecd7cf8718a6e6df7573aed3b3ff12e3fabc43fdcb7de80f767f06feaeed64f",
+      "checks": 7,
+      "packaged": true
+    }
+  ],
+  "privacyCorrectionRuns": [
+    {
+      "milestone": "M6",
+      "packaged": false,
+      "path": ".test-data/milestone6-smoke-88234b13-150f-457f-8623-cef1608cb366/acceptance.json",
+      "sha256": "8f7a3850ddbda4c16ccdf0f53ada78194a21337bf92d324c482cd140502c053e",
+      "checks": 14
+    },
+    {
+      "milestone": "M6",
+      "packaged": true,
+      "path": ".test-data/milestone6-smoke-fb24fafc-8995-475c-97c0-bb7f4a71f333/acceptance.json",
+      "sha256": "ff32e73a0f874b64f3f78309aebb0f117de517bb707715d0721d105d8a7b24a9",
+      "checks": 14
+    },
+    {
+      "milestone": "M6 interactions",
+      "packaged": true,
+      "path": ".test-data/milestone6-interactions-ddfd0ecc-06da-4e96-800d-03e7356af162/acceptance.json",
+      "sha256": "6ecd7cf8718a6e6df7573aed3b3ff12e3fabc43fdcb7de80f767f06feaeed64f",
+      "checks": 7
+    },
+    {
+      "milestone": "M6 import/gallery UI",
+      "packaged": false,
+      "path": ".test-data/milestone6-import-ui-ca877d1b-cbef-4b03-8b06-2e04bf2ecde5/acceptance.json",
+      "sha256": "4fe4a379671a8404e3d6cf8dbc4a9f051aa717a02a5564b7765078be9d0250b8",
+      "checks": 6
+    },
+    {
+      "milestone": "M6 import/gallery UI",
+      "packaged": true,
+      "path": ".test-data/milestone6-import-ui-61e20247-c64c-4d98-b4f3-13d3423896cd/acceptance.json",
+      "sha256": "11e66c222c8fda1bffa49d05782f8ddeba1f8d1642709f8cdffc3eace8a1ed40",
+      "checks": 6
+    },
+    {
+      "milestone": "M6 catalog UI",
+      "packaged": false,
+      "path": ".test-data/milestone6-catalog-ui-0feacbac-9eac-4ad0-9c52-82a9ecf65624/acceptance.json",
+      "sha256": "1e0748f2805997f0bba2aae8a64b43b09d3ebc7bcef67b18ba25492123fad64f",
+      "checks": 6
+    },
+    {
+      "milestone": "M6 catalog UI",
+      "packaged": true,
+      "path": ".test-data/milestone6-catalog-ui-26913671-e159-459e-8349-aaf6996f46bc/acceptance.json",
+      "sha256": "92ee4f855a93e2482118eb5a43bf5b65719aace86bbfb50404ecaae9bda4e8d5",
+      "checks": 6
+    },
+    {
+      "milestone": "M6 two-operation independence",
+      "packaged": false,
+      "path": ".test-data/milestone6-independence-af24a30f-9484-48a3-bb11-54856322a80d/acceptance.json",
+      "sha256": "764b29bb4271daac2868c20b12d69d3ef329e6c84965bbb5113afb7f4a97e4cc",
+      "checks": 3
+    },
+    {
+      "milestone": "M6 two-operation independence",
+      "packaged": true,
+      "path": ".test-data/milestone6-independence-51266552-bf50-4c44-908c-c43d4b248096/acceptance.json",
+      "sha256": "6715c9736c4625215a2880a4b96e37d302b6920a05d3a35f823df515f672ad23",
+      "checks": 3
+    }
+  ],
+  "privacyCorrectionPackagedBuild": ".test-data/m6-package-2026-10-03-v5-v3-privacy/win-unpacked",
+  "failedAttempts": [
+    {
+      "kind": "import/gallery close before UI save acknowledgement",
+      "status": "FAILED_NOT_ACCEPTANCE",
+      "paths": [
+        ".test-data/milestone6-import-ui-7368037c-e1cc-4005-94c9-0c1e34316438",
+        ".test-data/milestone6-import-ui-1713edc0-7f22-4e50-9764-4c79da2e7b02"
+      ],
+      "note": "Pending beforeunload/dialog; read-only wait chain did not establish netprofm. Only isolated failed Electron processes were stopped for cleanup. Harness now asserts UI save acknowledgement and clean authoring surfaces before closing normally."
+    },
+    {
+      "kind": "Catalog fixture Flag locator did not match the current accessible name",
+      "status": "FAILED_NOT_ACCEPTANCE",
+      "paths": [
+        ".test-data/milestone6-catalog-ui-bf5e9791-1f2b-43cd-bef7-2ad38416a18f"
+      ],
+      "note": "Failure occurred with dirty isolated test data; cleanup encountered a pending beforeunload dialog. The exact failed Electron tree was stopped. Corrected selector and failure-only explicit discard permit later runs to close normally; successful runs still require clean normal exit and reopen."
+    }
+  ]
+}

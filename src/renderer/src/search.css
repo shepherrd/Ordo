@@ -1,0 +1,73 @@
+.modal.search-dialog {
+  width: min(1100px, 94vw);
+  max-width: min(1100px, 94vw);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.modal.search-dialog .panel-heading {
+  margin: 0;
+}
+.modal.search-dialog h2 {
+  margin: 0;
+}
+.modal.card-picker {
+  width: min(1000px, 94vw);
+  max-width: min(1000px, 94vw);
+}
+.search-dialog .panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-filters {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.search-filters label {
+  flex: 1;
+  min-width: 130px;
+}
+.search-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 180px;
+  overflow: hidden;
+  gap: 1rem;
+}
+.search-results > * {
+  overflow: auto;
+  min-width: 0;
+  padding: 0.25rem;
+}
+.search-result {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.search-result span {
+  font-weight: normal;
+  overflow-wrap: anywhere;
+}
+.search-result.active {
+  border-color: var(--accent);
+  box-shadow: inset 3px 0 var(--accent);
+}
+.search-preview-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 750px) {
+  .search-results {
+    grid-template-columns: 1fr;
+    overflow: auto;
+  }
+  .search-results > * {
+    overflow: visible;
+  }
+}

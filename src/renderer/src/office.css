@@ -1,0 +1,88 @@
+.office-import {
+  min-width: 0;
+}
+.office-controls,
+.office-mapping {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+  align-items: start;
+}
+.office-import .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  min-width: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.office-import .field > span {
+  margin: 0;
+}
+.office-import small {
+  display: block;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 12px;
+}
+.office-table-scroll {
+  overflow: auto;
+  max-height: 55vh;
+  margin: 16px 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.office-import-preview {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.office-import-preview th,
+.office-import-preview td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+.office-import-preview th {
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  z-index: 1;
+}
+.office-import-preview td:nth-child(1),
+.office-import-preview td:nth-child(3) {
+  white-space: nowrap;
+}
+.office-import-preview td:nth-child(2) {
+  min-width: 140px;
+}
+.office-import-preview td:nth-child(4) {
+  min-width: 240px;
+  max-width: 620px;
+  white-space: pre-wrap;
+}
+.office-import-preview p {
+  margin: 0 0 6px;
+}
+.office-mapping {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+@media (max-width: 1100px) {
+  .office-controls,
+  .office-mapping {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 780px) {
+  .office-controls,
+  .office-mapping {
+    grid-template-columns: 1fr;
+  }
+}

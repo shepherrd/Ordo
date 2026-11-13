@@ -1,0 +1,36 @@
+{
+  "versionGatePassedAt": "2026-10-03T12:42:10.927Z",
+  "candidateVersion": "0.3.0",
+  "automatedTests": 303,
+  "originalTests": 194,
+  "newTests": 109,
+  "architectureReferences": 199,
+  "evidence": {
+    "development": {
+      "m1": "smoke-e7ba42c6-151a-450a-98c3-0a6d1460a173",
+      "m2": "milestone2-smoke-951c877d-d467-4ca0-a5a9-8e5a0b741282",
+      "m3": "milestone3-smoke-afbfc8d7-78bc-4dd7-8047-50a9a218b4fc",
+      "m4": "milestone4-smoke-59d85ab3-51a7-4eef-b488-ee8098f80633"
+    },
+    "candidate": {
+      "m1": "smoke-a7e78166-97ca-4742-b97b-76e3131e9cc2",
+      "m2": "milestone2-smoke-3c6417bb-5e1e-48ba-905e-6103b5a20ed9",
+      "m3": "milestone3-smoke-170c40c8-d3e8-40f2-957c-0a5c4733ebeb",
+      "m4": "milestone4-smoke-a11bffe8-1fb3-4df2-82d2-48681a3533b9"
+    }
+  },
+  "finalRelease": {
+    "version": "0.4.0",
+    "completedAt": "2026-10-03T12:50:15.715Z",
+    "installer": "release/0.4.0/Ordo Setup 0.4.0.exe",
+    "bytes": 123627644,
+    "sha256": "2b54fd1a22e911a9124eb0d311c0966a832dc01544bd6e27408049d8301ba86b",
+    "packagedEvidence": {
+      "m1": "smoke-7f1a0cb8-d7a2-4f46-b4a2-1bc3976b827a",
+      "m2": "milestone2-smoke-6428208c-4861-41e2-bb15-ed41090cf5bb",
+      "m3": "milestone3-smoke-8eea548e-a45e-4b3c-80e1-7a85e67bd6a4",
+      "m4": "milestone4-smoke-440f0839-52dd-4681-b5e2-edd132ccdb97"
+    },
+    "acceptanceStepsPassed": 68
+  }
+}

@@ -1,0 +1,284 @@
+/* Dense editor controls, scoped to the shared symbol / ORBAT workspace. */
+.symbol-workbench {
+  grid-template-columns: 242px minmax(0, 1fr);
+  gap: 14px;
+}
+.symbol-workbench button,
+.symbol-workbench input:not([type="checkbox"]):not([type="color"]),
+.symbol-workbench select {
+  font-size: 13px;
+  line-height: 1.35;
+  min-height: 32px;
+  padding: 6px 9px;
+  border-radius: 5px;
+}
+.symbol-workbench .button-row,
+.symbol-workbench .builder-command-bar {
+  gap: 6px;
+  margin-top: 0;
+}
+.symbol-workbench .field {
+  margin-bottom: 8px;
+}
+.symbol-workbench .field > span {
+  margin-bottom: 4px;
+}
+.symbol-workbench .field-grid {
+  gap: 8px 12px;
+  margin-bottom: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.symbol-workbench .field-grid > .field {
+  margin: 0;
+}
+.symbol-workbench .workbench-tabs {
+  padding-bottom: 7px;
+  margin-bottom: 8px;
+}
+.workbench-editor-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.symbol-workbench .symbol-authoring {
+  padding: 12px;
+  border-radius: 8px;
+}
+.symbol-workbench .authoring-toolbar {
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+.symbol-workbench .authoring-toolbar h2 {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.symbol-workbench .authoring-toolbar > div:first-child {
+  min-width: 0;
+  flex: 1 1 140px;
+}
+.symbol-workbench .save-status {
+  font-size: 11px;
+}
+.symbol-workbench .authoring-toolbar .symbol-name-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.symbol-workbench .authoring-toolbar > div:has(.workbench-name-field) {
+  flex-basis: 240px;
+}
+.symbol-workbench .authoring-toolbar .workbench-name-field {
+  margin: 0 0 4px;
+}
+.symbol-workbench .builder-command-bar,
+.symbol-workbench .orbat-file-tools {
+  margin-bottom: 8px;
+  gap: 6px;
+}
+.symbol-workbench .orbat-file-tools .builder-command-bar {
+  margin: 0;
+}
+.symbol-workbench .orbat-file-tools .orbat-map-switcher {
+  flex: 1 1 280px;
+  grid-template-columns: minmax(90px, 0.65fr) minmax(155px, 1.5fr);
+  gap: 8px;
+}
+.symbol-workbench .orbat-map-switcher .field {
+  margin: 0;
+}
+.symbol-workbench .builder-document-options,
+.symbol-workbench .symbol-controls details,
+.symbol-workbench .symbol-authoring > details {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+.symbol-workbench .builder-document-options > summary,
+.symbol-workbench .symbol-controls summary {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding: 3px 0;
+}
+.symbol-workbench details[open] > summary {
+  margin-bottom: 8px;
+}
+.symbol-workbench .symbol-authoring > .builder-document-options {
+  border: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.symbol-workbench .orbat-unit-strip > fieldset {
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.symbol-workbench .orbat-unit-strip .field {
+  margin: 0;
+}
+.symbol-workbench .orbat-controls-toolbar {
+  gap: 6px;
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.symbol-workbench .orbat-controls-toolbar > .field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 4px 0 0;
+}
+.symbol-workbench .orbat-controls-toolbar .field > span {
+  margin: 0;
+}
+.symbol-workbench .orbat-controls-toolbar input {
+  width: 52px;
+}
+.symbol-workbench .orbat-controls-toolbar select {
+  width: 90px;
+}
+.orbat-edit-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.symbol-workbench [aria-pressed="true"] {
+  border-color: var(--line);
+  background-color: var(--accent-soft);
+  color: var(--accent-ink);
+}
+.symbol-workbench .orbat-library .builder-focused .orbat-inspector {
+  padding: 10px;
+}
+.symbol-workbench .workbench-current {
+  padding: 10px;
+  min-height: 80px;
+}
+.symbol-workbench .workbench-current h3 {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.symbol-workbench .workbench-current .graphic-canvas {
+  height: 142px;
+  min-height: 142px;
+  max-height: 142px;
+  padding: 8px;
+}
+.workbench-unit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 7px;
+}
+.workbench-unit-actions > button {
+  flex: 1 1 auto;
+}
+.workbench-unit-actions > p {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 12px;
+}
+.symbol-workbench .workbench-saved {
+  padding: 10px;
+  gap: 6px;
+}
+.symbol-workbench .workbench-saved .field {
+  margin: 0;
+}
+.symbol-workbench .workbench-symbol-card {
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px;
+  margin-bottom: 4px;
+}
+.symbol-workbench .workbench-symbol-card .saved-symbol-thumbnail {
+  width: 52px;
+  min-height: 48px;
+}
+.symbol-workbench .workbench-symbol-card strong {
+  font-size: 12px;
+  line-height: 1.35;
+}
+.symbol-workbench .symbol-component-choice {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 12px;
+  text-align: left;
+  gap: 3px 8px;
+  padding: 8px 10px;
+  width: 100%;
+}
+.symbol-workbench .symbol-main-choice > button {
+  margin-bottom: 8px;
+}
+.symbol-workbench .symbol-modifier-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.symbol-workbench .symbol-editor-external-preview > .symbol-preview-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 8px 16px;
+  padding-top: 10px;
+}
+.symbol-workbench .symbol-preview-options {
+  flex: 1 1 200px;
+}
+.workbench-icon {
+  display: block;
+  flex-shrink: 0;
+}
+.symbol-workbench .workbench-icon-button,
+.graphic-preview-compact .workbench-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+  padding: 6px;
+}
+.graphic-preview-compact > .button-row {
+  gap: 5px;
+  padding: 6px 8px;
+  align-items: center;
+}
+.graphic-preview-compact > .button-row label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.graphic-preview-compact > .button-row span {
+  min-width: 3ch;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+@media (min-width: 1280px) {
+  .symbol-workbench .symbol-controls > fieldset > .field-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 1200px) {
+  .symbol-workbench {
+    grid-template-columns: 218px minmax(0, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 850px) {
+  .symbol-workbench {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .symbol-workbench .workbench-rail {
+    height: 400px;
+  }
+  .symbol-workbench .workbench-current {
+    max-height: 260px;
+  }
+}

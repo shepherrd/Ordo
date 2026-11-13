@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "userAuthorization": {
+    "source": "Direct rights-holder authorization recorded October 2026",
+    "scope": "AIA-authored or controlled application material, including the curated FM rows and layout behavior, for private, noncommercial use in Ordo. Separately licensed resources retain their terms."
+  },
+  "resources": [
+    {
+      "id": "milsymbol",
+      "name": "milsymbol",
+      "version": "3.0.4",
+      "gitHead": "b05f2d7cbadb0845ca637d346a2d7d8163ab59cb",
+      "integrity": "sha512-Jrs1RBCag2IzyEJwI476i2+pNHdi8WMwAp2mDD23g3TR48ERdHmdQgPXZUosRKyhPMr58/eOPyyLE53lMPPAgw==",
+      "sha256": "51f45f50e6c1a51b4b52db9d99b8d9cd032338669abd4ce2c31b811119226e33",
+      "files": 91,
+      "tarball": "https://registry.npmjs.org/milsymbol/-/milsymbol-3.0.4.tgz",
+      "origin": "THIRD_PARTY",
+      "license": "MIT",
+      "reuse": "CLEARED_UPSTREAM_PACKAGE",
+      "modifications": "None"
+    },
+    {
+      "id": "milstandard-e",
+      "name": "milstandard-e",
+      "version": "0.2.14",
+      "gitHead": "7aeef2974638b9eed85b481229e8bc3660942c09",
+      "integrity": "sha512-DUL1SzdcdW4ZkgLr7zcXdUcIjsfaHXzuRGUqIyz+UblQxnG6b7yZT63LEQMTorYSKxygiOCZ0fCrdz7rf6GxSQ==",
+      "sha256": "47312d163bbc7ed5110541c03e4130ed3abdceedd885cf704272fa9622400315",
+      "files": 57,
+      "tarball": "https://registry.npmjs.org/milstandard-e/-/milstandard-e-0.2.14.tgz",
+      "origin": "THIRD_PARTY",
+      "license": "MIT",
+      "reuse": "CLEARED_UPSTREAM_PACKAGE",
+      "modifications": "None"
+    },
+    {
+      "id": "aia-authored-application-material",
+      "origin": "AIA_AUTHORED_ONLY",
+      "reuse": "AUTHORIZED_BY_RIGHTS_HOLDER",
+      "scope": "Only portions demonstrably authored or controlled by the user; no automatic attribution of all embedded code."
+    },
+    {
+      "id": "reference-legacy-crosswalk",
+      "origin": "UNRESOLVED",
+      "reuse": "PARTIALLY_VERIFIED_UPSTREAM_SUBSET",
+      "action": "Read-only preview exposes only licensed exact targets. 588 discrepancies and four unverified mappings await origin clarification; six ambiguous matches are not selected automatically.",
+      "evidence": "docs/milestone6-crosswalk-evidence.json",
+      "userProjectAuthorization": "Private, noncommercial reuse explicitly authorized by the user, including A1; origin and disputed mapping verification remain unresolved."
+    },
+    {
+      "id": "curated-fm",
+      "origin": "AIA_RIGHTS_HOLDER_CONFIRMED",
+      "reuse": "AUTHORIZED_BY_RIGHTS_HOLDER",
+      "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+      "rows": 453,
+      "unavailable": 23,
+      "action": "Preserve all 453 supplied rows and mapping caveats."
+    },
+    {
+      "id": "diagram-layout-compatibility",
+      "origin": "AIA_RIGHTS_HOLDER_CONFIRMED",
+      "reuse": "AUTHORIZED_BY_RIGHTS_HOLDER",
+      "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+      "scope": "Documented layout and compatibility behavior; separately implemented native typed modules."
+    },
+    {
+      "id": "flag-icons@7.5.0",
+      "origin": "THIRD_PARTY",
+      "license": "MIT",
+      "reuse": "CLEARED_UPSTREAM_PACKAGE",
+      "source": "https://github.com/lipis/flag-icons/tree/v7.5.0",
+      "scope": "4x3 SVG flag resources"
+    },
+    {
+      "id": "mil-std-2525@0.2.5",
+      "origin": "THIRD_PARTY",
+      "license": "MIT",
+      "reuse": "CLEARED_UPSTREAM_PACKAGE",
+      "integrity": "sha512-h/H5AiDD6D1U/4O990/pm12RfQLHi0Fa2C/JsvIEOwu3nOo4B19FDL7EBuKYFw8WtAtV11BO8jE6X+8WqJOuow==",
+      "scope": "833 rows in seven non-SOF legacy selectors; inspected GROUND TRACK omission preserved",
+      "evidence": "docs/milestone6-legacy-catalog-evidence.json"
+    },
+    {
+      "id": "convert-symbology@1.0.2",
+      "origin": "THIRD_PARTY",
+      "license": "MIT; upstream mapping data credits Esri JMSML under Apache-2.0",
+      "reuse": "CLEARED_STATIC_SUBSET",
+      "integrity": "sha512-FpnPXS16/C+ay7FVPLhTkRH2NmREKxhJ+pifqcW9NpsbORH94S14qU8Eyl2ofMP7upxQYNvw2qpTok5I3P4QKw==",
+      "scope": "Static exact target comparison, no upstream fallback converter; source crosswalk differences are withheld",
+      "notices": "docs/milestone6-crosswalk-third-party-notices.txt"
+    },
+    {
+      "id": "ordo-arial-advances-v1",
+      "origin": "INDEPENDENT_MEASUREMENT",
+      "reuse": "NEW_RESOURCE_NO_FONT_FILES",
+      "scope": "Independently measured Arial regular and bold advance widths. Font programs and outlines are excluded.",
+      "evidence": "docs/milestone6-resource-visual-evidence.json"
+    },
+    {
+      "id": "ordo-nato-flag-replacement-v1",
+      "origin": "THIRD_PARTY",
+      "reuse": "DOCUMENTED_PUBLIC_DOMAIN_US_REPLACEMENT",
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_NATO.svg",
+      "revision": "2024-09-06T18:21:00Z",
+      "sourceSha256": "81e92b6f2a5223a43089f30717f51619b0abcc160b96b52696a69a3e10dd0533",
+      "scope": "Source states PD-US-not renewed; no claim about other jurisdictions or insignia restrictions. ViewBox and static fill normalization only.",
+      "notices": "docs/milestone6-resource-notices.md"
+    },
+    {
+      "id": "ordo-symbol-metadata-overlay-v1",
+      "origin": "AIA_RIGHTS_HOLDER_CONFIRMED",
+      "reuse": "AUTHORIZED_COMPATIBILITY_ADAPTER",
+      "scope": "Inspected self-propelled entry, point-only/disused filtering, unspecified and modifier selectors; raw upstream metadata and FM dictionary unchanged."
+    },
+    {
+      "id": "ordo-symbol-path-corrections-v1",
+      "origin": "AIA_RIGHTS_HOLDER_CONFIRMED",
+      "reuse": "AUTHORIZED_COMPATIBILITY_ADAPTER",
+      "scope": "Three reviewed path-sequence/order corrections applied after unchanged upstream rendering",
+      "evidence": "docs/milestone6-core-pixel-evidence.json"
+    }
+  ]
+}

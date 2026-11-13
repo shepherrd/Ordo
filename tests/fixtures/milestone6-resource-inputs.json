@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "method": "Inspected reference full symbol engine isolated without app/DOM initialization; reference SVGs remain local because their original flags and metrics are not redistributed.",
+  "cases": [
+    {
+      "id": "label-0-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "",
+        "additionalInformation": ""
+      }
+    },
+    {
+      "id": "label-0-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "",
+        "additionalInformation": ""
+      }
+    },
+    {
+      "id": "label-1-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "Alpha",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-1-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "Alpha",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-2-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "Long Fictional Battalion Headquarters",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-2-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "Long Fictional Battalion Headquarters",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-3-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "WWWW iiiii Narrow Wide Unit",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-3-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "WWWW iiiii Narrow Wide Unit",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-4-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "AVATAR To Wa Test Battalion",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-4-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "AVATAR To Wa Test Battalion",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-5-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "LongUnbrokenFictionalDesignationWithoutSpaces",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-5-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "LongUnbrokenFictionalDesignationWithoutSpaces",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-6-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "Équipe démonstration",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-6-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "Équipe démonstration",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-7-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "Пример подразделения",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-7-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "Пример подразделения",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-8-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "架空部隊 Alpha",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-8-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "架空部隊 Alpha",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-9-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "Fictional 🚀 Unit",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-9-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "Fictional 🚀 Unit",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-10-right",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "uniqueDesignation": "First line\nSecond line",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "label-10-left",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "left",
+        "uniqueDesignation": "First line\nSecond line",
+        "additionalInformation": "Fictional supporting text"
+      }
+    },
+    {
+      "id": "flag-USA-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "USA",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-USA-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "USA",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "flag-GBR-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "GBR",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-GBR-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "GBR",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "flag-FRA-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "FRA",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-FRA-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "FRA",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "flag-NPL-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "NPL",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-NPL-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "NPL",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "flag-UN-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "UN",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-UN-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "UN",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "flag-XKX-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "XKX",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-XKX-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "XKX",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "flag-NATO-small",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "NATO",
+        "full_frame_flag": false
+      }
+    },
+    {
+      "id": "flag-NATO-full",
+      "group": "FLAG_ARTWORK",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "country_flag": "NATO",
+        "full_frame_flag": true
+      }
+    },
+    {
+      "id": "marks-stars1",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "generalStars": 1
+      }
+    },
+    {
+      "id": "marks-stars5",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "generalStars": 5
+      }
+    },
+    {
+      "id": "marks-reinforced",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "reinforced": "(+)"
+      }
+    },
+    {
+      "id": "marks-reduced",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "reinforced": "(-)"
+      }
+    },
+    {
+      "id": "marks-both",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "reinforced": "(±)"
+      }
+    },
+    {
+      "id": "marks-signature",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "signature": "!"
+      }
+    },
+    {
+      "id": "marks-hq",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "specialheadquarter": "STAFF"
+      }
+    },
+    {
+      "id": "marks-stack",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "stack": 4
+      }
+    },
+    {
+      "id": "marks-combined",
+      "group": "COMPATIBILITY_MARKS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 50,
+        "infoFields": false,
+        "generalStars": 3,
+        "reinforced": "(+)",
+        "signature": "!",
+        "specialheadquarter": "HQ",
+        "stack": 2
+      }
+    },
+    {
+      "id": "combined-flag-label",
+      "group": "TEXT_METRICS",
+      "options": {
+        "sidc": "130310000012110000000000000000",
+        "size": 30,
+        "infoFields": false,
+        "padding": 20,
+        "orbatLabel": true,
+        "orbatLabelAlign": "right",
+        "country_flag": "USA",
+        "stack": 2,
+        "uniqueDesignation": "Long Fictional Brigade Headquarters",
+        "additionalInformation": "Fictional supporting text"
+      }
+    }
+  ]
+}

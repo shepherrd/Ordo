@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.5.0",
+  "milestoneStatus": "IN PROGRESS",
+  "releaseGatePassed": false,
+  "trigger": {
+    "source": "Direct user message in this task",
+    "statement": "Restart is complete"
+  },
+  "build": {
+    "compiledTreeSha256": "008c8a84253d734b7c1821db7c8a96dbdfa0d15f9bd625ad1151448ad8715575",
+    "sourceTreeSha256": "1a44f29f38b05000b0bcb4732456ad91c9af2e1c415968ff5d9c4d1fa9bd8059",
+    "packageSha256": "48170d9c9d2c0583aa1d3e44cf0c94a0b1fda149af55c4b85f49ba185028a80b",
+    "packageLockSha256": "0bb7bd8f92a25186268e7b814b181cebcee9a0f9daf20bc543ffaa1e02bc9ca0",
+    "harnessTreeSha256": "974beaf6654473905d60709880c4ef665010440f4e198d333138098fb977bdfc",
+    "fixtureTreeSha256": "2f89dc849f38ccf7e3c0d3e5a00e0f98faff3512548ec261e8507dc67262c342"
+  },
+  "verification": {
+    "rebuild": "PASS_AFTER_SANDBOX_SPAWN_PERMISSION",
+    "typecheck": "PASS",
+    "unchangedCompiledSourceHarnessAndFixtures": true,
+    "frozenFilesVerified": 22,
+    "unitTestRerun": false,
+    "unitTestNote": "No product or acceptance-script changes in this turn. The prior 494-test result remains attributed to its own run."
+  },
+  "environment": {
+    "netprofmPidAtInitialReadOnlyQuery": 2388,
+    "serviceControlsSent": false,
+    "note": "A changed service PID was not accepted as recovery proof; the lifecycle checks below were required."
+  },
+  "narrowDiagnostics": {
+    "instrumented": {
+      "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/diagnostic.json",
+      "sha256": "5215d329a118dd4b7d6ee96672bd6e188f5dc709792b664b9e0f1bef39d5a3a6",
+      "releaseEvidence": false,
+      "status": "PASSED_NARROW_DIAGNOSTIC",
+      "traces": [
+        {
+          "label": "first",
+          "source": {
+            "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/first-stages.jsonl",
+            "sha256": "909eb6f8877f85c0aec335dd6b385051ec0be105d7d47c620de7da273442e220"
+          },
+          "milestones": [
+            {
+              "at": "2026-10-04T10:09:49.021Z",
+              "monotonicMs": 3397.794,
+              "pid": 1144,
+              "event": "single-instance.return",
+              "acquired": true
+            },
+            {
+              "at": "2026-10-04T10:09:49.264Z",
+              "monotonicMs": 3640.8842,
+              "pid": 1144,
+              "event": "app.ready"
+            },
+            {
+              "at": "2026-10-04T10:09:49.266Z",
+              "monotonicMs": 3642.1757,
+              "pid": 1144,
+              "event": "database.open.begin",
+              "path": "C:\\Ordo APP DEV\\.test-data\\m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274\\ordo.db"
+            },
+            {
+              "at": "2026-10-04T10:09:49.348Z",
+              "monotonicMs": 3724.3921,
+              "pid": 1144,
+              "event": "database.open.end"
+            },
+            {
+              "at": "2026-10-04T10:09:49.601Z",
+              "monotonicMs": 3977.9481,
+              "pid": 1144,
+              "event": "app.browser-window-created"
+            },
+            {
+              "at": "2026-10-04T10:09:50.086Z",
+              "monotonicMs": 4462.5486,
+              "pid": 1144,
+              "event": "webContents.did-finish-load",
+              "id": 1
+            },
+            {
+              "at": "2026-10-04T10:09:51.092Z",
+              "monotonicMs": 5468.5367,
+              "pid": 1144,
+              "event": "renderer.state",
+              "preload": true,
+              "shell": true,
+              "heading": "Dashboard"
+            },
+            {
+              "at": "2026-10-04T10:09:53.421Z",
+              "monotonicMs": 7797.5858,
+              "pid": 1144,
+              "event": "app.before-quit"
+            },
+            {
+              "at": "2026-10-04T10:09:53.426Z",
+              "monotonicMs": 7802.1833,
+              "pid": 1144,
+              "event": "database.close.end"
+            },
+            {
+              "at": "2026-10-04T10:09:53.426Z",
+              "monotonicMs": 7802.7787,
+              "pid": 1144,
+              "event": "app.quit"
+            }
+          ]
+        },
+        {
+          "label": "reopen",
+          "source": {
+            "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/reopen-stages.jsonl",
+            "sha256": "84a379771efa28d0d3f51f43172e7b058a1fe22b02e6c05b92e7cde62b4a9eaa"
+          },
+          "milestones": [
+            {
+              "at": "2026-10-04T10:09:55.014Z",
+              "monotonicMs": 273.3418,
+              "pid": 9256,
+              "event": "single-instance.return",
+              "acquired": true
+            },
+            {
+              "at": "2026-10-04T10:09:55.047Z",
+              "monotonicMs": 306.5359,
+              "pid": 9256,
+              "event": "app.ready"
+            },
+            {
+              "at": "2026-10-04T10:09:55.048Z",
+              "monotonicMs": 307.5955,
+              "pid": 9256,
+              "event": "database.open.begin",
+              "path": "C:\\Ordo APP DEV\\.test-data\\m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274\\ordo.db"
+            },
+            {
+              "at": "2026-10-04T10:09:55.051Z",
+              "monotonicMs": 311.1632,
+              "pid": 9256,
+              "event": "database.open.end"
+            },
+            {
+              "at": "2026-10-04T10:09:55.148Z",
+              "monotonicMs": 408.1336,
+              "pid": 9256,
+              "event": "app.browser-window-created"
+            },
+            {
+              "at": "2026-10-04T10:09:55.337Z",
+              "monotonicMs": 596.9629,
+              "pid": 9256,
+              "event": "webContents.did-finish-load",
+              "id": 1
+            },
+            {
+              "at": "2026-10-04T10:09:56.341Z",
+              "monotonicMs": 1600.2856,
+              "pid": 9256,
+              "event": "renderer.state",
+              "preload": true,
+              "shell": true,
+              "heading": "Dashboard"
+            },
+            {
+              "at": "2026-10-04T10:09:59.689Z",
+              "monotonicMs": 4948.4378,
+              "pid": 9256,
+              "event": "app.before-quit"
+            },
+            {
+              "at": "2026-10-04T10:09:59.691Z",
+              "monotonicMs": 4950.6553,
+              "pid": 9256,
+              "event": "database.close.end"
+            },
+            {
+              "at": "2026-10-04T10:09:59.691Z",
+              "monotonicMs": 4951.1263,
+              "pid": 9256,
+              "event": "app.quit"
+            }
+          ]
+        }
+      ],
+      "temporaryEntryRemoved": true,
+      "scope": "Logging wrapper requires unchanged compiled bytes, with no Electron/Chromium startup switches. Reached dashboard/preload and quit normally on both launches. This is diagnostic evidence only."
+    },
+    "discardedObserverAttempt": {
+      "path": ".test-data/m6-restart-health-plain-72175693-ccfe-458d-82e4-ab5bf0ba441f/diagnostic.json",
+      "sha256": "e6f6f3cf8994911a3219eef5dfc5238982afe90426c69b0326053e19017eead6",
+      "status": "FAILED_NARROW_DIAGNOSTIC",
+      "reason": "The native observer initially traversed parent PIDs without verifying creation time, falsely treating two old AMD processes as Electron descendants after Windows reused a parent PID. Both AMD processes predated the diagnostic. No process was terminated. This failure was retained, and the scratch observer was corrected to require creation-time identity before a new run."
+    },
+    "directUninstrumented": {
+      "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/diagnostic.json",
+      "sha256": "5d8d818b95290a1f104c6fc4881b6356776c63b89fc8c75c564934e689843f17",
+      "releaseEvidence": false,
+      "status": "PASSED_NARROW_DIAGNOSTIC",
+      "noStartupSwitches": true,
+      "scope": "Normal compiled entry; exact Ordo window observed. First and reopened processes exited 0 after WM_CLOSE; root and tracked descendants verified absent using PID plus creation time. Shell milestones are documented separately by the logging probe.",
+      "runs": [
+        {
+          "label": "first",
+          "pid": 1684,
+          "created": "2026-10-04T10:12:00.084Z",
+          "readyAt": "2026-10-04T10:12:02.441Z",
+          "closeRequest": "2026-10-04T10:12:02.442Z",
+          "exit": {
+            "at": "2026-10-04T10:12:03.894Z",
+            "monotonicMs": 4049.6151,
+            "event": "first.process.exit",
+            "pid": 1684,
+            "code": 0,
+            "signal": null
+          },
+          "knownProcesses": [
+            {
+              "id": 1684,
+              "parent": 13252,
+              "name": "electron.exe",
+              "threads": 43,
+              "startUtc": "2026-10-04T10:12:00.0812082Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            },
+            {
+              "id": 17076,
+              "parent": 1684,
+              "name": "electron.exe",
+              "threads": 24,
+              "startUtc": "2026-10-04T10:12:00.4272915Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            },
+            {
+              "id": 10484,
+              "parent": 1684,
+              "name": "electron.exe",
+              "threads": 22,
+              "startUtc": "2026-10-04T10:12:00.4313784Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            },
+            {
+              "id": 2848,
+              "parent": 1684,
+              "name": "electron.exe",
+              "threads": 13,
+              "startUtc": "2026-10-04T10:12:00.5083380Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            }
+          ],
+          "afterClose": {
+            "observedAt": "2026-10-04T10:12:05.0833693Z",
+            "root": 1684,
+            "notBeforeUtc": "2026-10-04T10:12:00.071Z",
+            "processes": [],
+            "windows": []
+          },
+          "cleanExit": true
+        },
+        {
+          "label": "reopen",
+          "pid": 3644,
+          "created": "2026-10-04T10:12:05.381Z",
+          "readyAt": "2026-10-04T10:12:06.998Z",
+          "closeRequest": "2026-10-04T10:12:06.998Z",
+          "exit": {
+            "at": "2026-10-04T10:12:08.347Z",
+            "monotonicMs": 8502.7953,
+            "event": "reopen.process.exit",
+            "pid": 3644,
+            "code": 0,
+            "signal": null
+          },
+          "knownProcesses": [
+            {
+              "id": 3644,
+              "parent": 13252,
+              "name": "electron.exe",
+              "threads": 43,
+              "startUtc": "2026-10-04T10:12:05.3808946Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            },
+            {
+              "id": 12404,
+              "parent": 3644,
+              "name": "electron.exe",
+              "threads": 23,
+              "startUtc": "2026-10-04T10:12:05.7417954Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            },
+            {
+              "id": 7228,
+              "parent": 3644,
+              "name": "electron.exe",
+              "threads": 22,
+              "startUtc": "2026-10-04T10:12:05.7494146Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            },
+            {
+              "id": 15744,
+              "parent": 3644,
+              "name": "electron.exe",
+              "threads": 13,
+              "startUtc": "2026-10-04T10:12:05.8237774Z",
+              "path": "C:\\Ordo APP DEV\\node_modules\\electron\\dist\\electron.exe"
+            }
+          ],
+          "afterClose": {
+            "observedAt": "2026-10-04T10:12:09.5657097Z",
+            "root": 3644,
+            "notBeforeUtc": "2026-10-04T10:12:05.372Z",
+            "processes": [],
+            "windows": []
+          },
+          "cleanExit": true
+        }
+      ]
+    },
+    "retainedEvidence": [
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/diagnostic.json",
+        "sha256": "5215d329a118dd4b7d6ee96672bd6e188f5dc709792b664b9e0f1bef39d5a3a6"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/events.jsonl",
+        "sha256": "b7dfe59a2d3fac08969574bbfe6b544e2f74aab90026c41f43081563e89c4f02"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/first-stages.jsonl",
+        "sha256": "909eb6f8877f85c0aec335dd6b385051ec0be105d7d47c620de7da273442e220"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100947-458.json",
+        "sha256": "38fd7b54ff6b2cb7c28eb4548b04057717887bf60b5a5be90b0f8e29c97b9801"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100949-802.json",
+        "sha256": "c8a0a47047f2f19d05fd4e9c3b4b7dc7f437ca34440db2e1fb267377250cca86"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100952-115.json",
+        "sha256": "be36bad58633e355e9fe23c825a8b856a7109d28ccbb3201ed2e982448a3b57a"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100953-414.json",
+        "sha256": "78102909f8c38c9c3431a228901e312a4dac6827b399fc2c0fa1c20dc991eaf0"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100954-546.json",
+        "sha256": "037f0c016b9633f9fb0c584188f418d9873adbf24b1aa0d87e3fd84a74b58380"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100956-051.json",
+        "sha256": "be3bd70a5c038315d401f18cb701cfca30a7d253f2756ab8f2a61ad8095699a1"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100958-342.json",
+        "sha256": "007cd9d1d3e89c68d22e931c5f729c27222b675fbeef1944ae0bb24afa9a05c2"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-100959-684.json",
+        "sha256": "8e4c7e70332746e7d319d931d46fd0cadb526a359a04f98b004e21d685d3d95a"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/process-20261004-101000-686.json",
+        "sha256": "aff28debf4b6b6939d59e2e50da70f7eff768ef0242dc7b9666bb70cfda753be"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/reopen-stages.jsonl",
+        "sha256": "84a379771efa28d0d3f51f43172e7b058a1fe22b02e6c05b92e7cde62b4a9eaa"
+      },
+      {
+        "path": ".test-data/m6-restart-health-observed-b6e4b31f-6a5b-481e-a28f-6962eee4f274/stage-observer.cjs.txt",
+        "sha256": "3dae03bb0f2e7a8d2eb9ea307ebf1541f38c58c1c52e92e4e4aac12872096630"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/controller-source.cjs.txt",
+        "sha256": "e8edc861643258c66059ea604c9856f68449e64fcf191fdb9fd4c24ff6b2db53"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/diagnostic.json",
+        "sha256": "5d8d818b95290a1f104c6fc4881b6356776c63b89fc8c75c564934e689843f17"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/events.jsonl",
+        "sha256": "cfadd84ced5908daabd8cdb40c3e90010e995f289bdc830fcfb7ba8ca23898ec"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-20261004-101202-208.json",
+        "sha256": "42925a21b456c351e8943783f968d01a46223f607f3f6af7b29321f435b4b0cd"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-20261004-101203-746.json",
+        "sha256": "ecb3b80060f92f2d351559ed5abd20b9c59d548ad18d883a5552a7af30de448b"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-20261004-101205-213.json",
+        "sha256": "87120ed3ba1b2c3e8a7044a8be5cc7c16de3a3ee4aeaec6429866fe926a41b76"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-20261004-101206-842.json",
+        "sha256": "6d66ac558ce41cbade6f6437f889095abab1b26d8a9f58e66be0bac18c263eea"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-20261004-101208-245.json",
+        "sha256": "bdd6f08052b43b3d0aba75c241b89850f7d72e9543a83396247a21dfc77054d8"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-20261004-101209-694.json",
+        "sha256": "120c737309a01f18227f164d1efd2b82b3ff7f6d7f5df78a29b8c99ea85f3862"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-22128540-a051-420d-951a-3a776eb027b7/process-observer-source.ps1.txt",
+        "sha256": "8cd89c68a1623e25c22af6a6ab0eacdc658cc5d4f9d32eaeb30f322ab32e768a"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-72175693-ccfe-458d-82e4-ab5bf0ba441f/diagnostic.json",
+        "sha256": "e6f6f3cf8994911a3219eef5dfc5238982afe90426c69b0326053e19017eead6"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-72175693-ccfe-458d-82e4-ab5bf0ba441f/events.jsonl",
+        "sha256": "7e256d8cfe7c75c5441864fa3f105e697ff47c6b975114f19a92e6be97e3b0fb"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-72175693-ccfe-458d-82e4-ab5bf0ba441f/process-20261004-101026-308.json",
+        "sha256": "430cdbe0182391ee53650652524e4607bd8719abab45b7dea3a8f6264e0868e8"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-72175693-ccfe-458d-82e4-ab5bf0ba441f/process-20261004-101027-639.json",
+        "sha256": "eeee029b27bd6cb23a281cbfb995ab91d0823344c12926b88d5881af4d2f2eb8"
+      },
+      {
+        "path": ".test-data/m6-restart-health-plain-72175693-ccfe-458d-82e4-ab5bf0ba441f/process-20261004-101028-936.json",
+        "sha256": "18e9139bb7da09eded54f542231843235a62db31e77beb67ec7a854ef464d0ad"
+      }
+    ],
+    "attributionLimit": "The previously documented RPC wait applies to the earlier probes. Recovery is demonstrated by the new lifecycle observations; the earlier M1 failure cause and unrecorded prior-exit timeline are not rewritten."
+  },
+  "freshDevelopment": {
+    "path": ".test-data/m6-regressions-development-eafe0bdb-6e3f-4ea6-a9e7-6f1c64c63132/acceptance.json",
+    "sha256": "4fd9400aaa6b493d867dfac6b03c41e44275cf0db0976f2f06ce76e527414bfd",
+    "schemaVersion": 3,
+    "status": "PASSED_STAGED_WORKFLOWS",
+    "freshSequence": true,
+    "workflowCount": 12,
+    "checks": 286,
+    "resumed": false,
+    "spliced": false,
+    "runEvidenceVerified": true,
+    "finalProcessInventory": {
+      "path": ".test-data/m6-regressions-development-eafe0bdb-6e3f-4ea6-a9e7-6f1c64c63132/final-process-inventory.json",
+      "sha256": "c3e8787773947e2b4295f6ec15204e359e2ea84012315480ea6837b7a710dc13",
+      "observation": {
+        "at": "2026-10-04T10:36:24.8731949Z",
+        "processes": []
+      }
+    },
+    "visual": {
+      "path": ".test-data/milestone6-visuals-0d4c9b03-7b05-4cdc-8807-516ee700ca59/acceptance.json",
+      "sha256": "faca65109eab5eb68af99f1bffcb6e82873cd510b4c06755a4635b9d00bf676d",
+      "checks": 20,
+      "captures": 18,
+      "packaged": false
+    },
+    "performance": {
+      "path": ".test-data/milestone6-smoke-f4710977-e341-40ef-8cc5-c21283c3d8b0/large-composition.json",
+      "sha256": "27015516ba62e2fdb0bc9d6a86203790d8e773302265fca7b2c8f03f607b93ab",
+      "result": {
+        "elapsedMs": 5412,
+        "rendererTimerTicks": 107,
+        "nodes": 2000,
+        "svgBytes": 1879785,
+        "svgHash": "3383bb901f01b10fbf7c5d2b541a45444fea9f1b433f758b309370f932236916",
+        "manifests": 2000
+      }
+    }
+  },
+  "constraints": {
+    "migrations007Through009Unchanged": true,
+    "historicalEnginesUnchanged": true,
+    "acceptanceSchema": 3,
+    "lifecycleTimeoutMs": 60000,
+    "noDiagnosticStartupSwitches": true,
+    "noManualForceTermination": true,
+    "noServicesRestarted": true,
+    "noNetworkPolicyChanges": true,
+    "profile1Default": true,
+    "profile2OptIn": true,
+    "unresolvedCrosswalkRows": 598,
+    "unsupportedSquareCanvasCases": 5
+  },
+  "packagedAcceptance": {
+    "status": "NOT_STARTED",
+    "candidateBuiltThisTurn": false,
+    "note": "No prior package hash, diagnostic pass or earlier 18-composition run is substituted for current packaged acceptance."
+  },
+  "remaining": [
+    "Current 0.5.0 candidate and exact-binary packaged workflows, including all 18 whole-composition captures/review, remain pending.",
+    "Crosswalk provenance gate remains open; no inferred, normalized or nearest-match conversions.",
+    "No release promotion, Milestone 6 Completion Report or Milestone 7 work."
+  ]
+}

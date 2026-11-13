@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "delivery": "Alternative plans",
+  "date": "2026-10-19T22:48:07.199Z",
+  "baseline": {
+    "path": ".test-data/alternatives-baseline-2026-10-19T22-29-55-057Z/manifest.json",
+    "sha256": "2b3d18c060d1996e7ecd18636f7a935814153249f8a8d4e4c4fb0878e99970f2",
+    "files": 597
+  },
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "gitDiffCheck": "passed",
+    "architectureReferences": 1468,
+    "preexistingFrozenUnusedDiagnostics": 9,
+    "tests": {
+      "path": ".test-data/alternatives-final-unit.json",
+      "sha256": "0e9c459d822aa3a37ff26daf11ed896720f2c3ead92138991c057699dba10717",
+      "passed": 715,
+      "failed": 0,
+      "suites": 75
+    },
+    "frozenFiles": {
+      "count": 69,
+      "changed": []
+    }
+  },
+  "desktop": [
+    {
+      "kind": "development",
+      "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/result.json",
+      "sha256": "f42c268172ecd71c05c3eeb4b1f49d1de911282fbfd523c063c8024c538af8ab",
+      "checks": [
+        "Two named alternatives start from the same saved revision with remapped connected content",
+        "Normal editing, undo, redo, saving, and sibling comparison preserve both other plans",
+        "Hidden source drafts are preserved and alternative creation requires a saved operation",
+        "Unexpected renderer exit recovers alternative edits without changing its baseline",
+        "The copied whiteboard opens and alternative order output uses its own facts; retained source output stays unchanged",
+        "Comparison and creation controls fit all eight themes and a narrow desktop",
+        "Workspace backup and restore preserve alternative origins, copies, and comparisons",
+        "A 1,000-task alternative creates and compares within five seconds, with bounded result pages",
+        "Normal restart preserves comparisons and all desktop processes exit cleanly"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 4200
+        },
+        {
+          "stage": "exit",
+          "pid": 4200,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 10236
+        },
+        {
+          "stage": "exit",
+          "pid": 10236,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 6980
+        },
+        {
+          "stage": "exit",
+          "pid": 6980,
+          "exitCode": 0
+        }
+      ],
+      "largeCreateMs": 415,
+      "largeCompareMs": 95,
+      "screenshots": [
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-comparison.png",
+          "sha256": "7b6abecec5ddde917b15d1fc14690e372a861566ad103cd47ee7cb160d624879"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-forest.png",
+          "sha256": "e9b1f0109f319bd0f667c1cb07fd0ae7dc0e2e4e98cf34159c91e0f180bc2d55"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-ocean.png",
+          "sha256": "1703eeece2ef2094bf7f9adf4dd0011ef09d8c11acc1f80295cf947c3e6a393c"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-sand.png",
+          "sha256": "29d62e1dad76807eee506cc522881903e9ffb67367b8ddf77959433d0daa1a39"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-plum.png",
+          "sha256": "7a2ed71a91266a35c8575ec331a67c8cc37d4c4a864cbbf44241392e903f2777"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-midnight.png",
+          "sha256": "0d5677718ec6b68fc113a8dcbdc44c4f34905be1cf697dd1b0b5d48dfaf83691"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-charcoal.png",
+          "sha256": "0038f8a049afab56f9df914b75f79a5e1b01a01ef3bdad4d158ff4ae98c56bcf"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-pine.png",
+          "sha256": "004d09b516a4fa9d633f73157868fb8f021a83243342c226d7cfdbd206398154"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-ember.png",
+          "sha256": "f2633ba9416637cced1ba937ac1115274a578bb53ff2640f68437b56369c761b"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-narrow.png",
+          "sha256": "df2712e238936f12dcfda6a6a833636a5ac7bfcbc80cd49002cb84e24eff6eaa"
+        }
+      ]
+    },
+    {
+      "kind": "packaged",
+      "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/result.json",
+      "sha256": "40c143d4c9390ef20f60cd097c2c51d1fdd54238a63cfa80482d6b439b377657",
+      "checks": [
+        "Two named alternatives start from the same saved revision with remapped connected content",
+        "Normal editing, undo, redo, saving, and sibling comparison preserve both other plans",
+        "Hidden source drafts are preserved and alternative creation requires a saved operation",
+        "Unexpected renderer exit recovers alternative edits without changing its baseline",
+        "The copied whiteboard opens and alternative order output uses its own facts; retained source output stays unchanged",
+        "Comparison and creation controls fit all eight themes and a narrow desktop",
+        "Workspace backup and restore preserve alternative origins, copies, and comparisons",
+        "A 1,000-task alternative creates and compares within five seconds, with bounded result pages",
+        "Normal restart preserves comparisons and all desktop processes exit cleanly"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 7848
+        },
+        {
+          "stage": "exit",
+          "pid": 7848,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 22096
+        },
+        {
+          "stage": "exit",
+          "pid": 22096,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 21596
+        },
+        {
+          "stage": "exit",
+          "pid": 21596,
+          "exitCode": 0
+        }
+      ],
+      "largeCreateMs": 384,
+      "largeCompareMs": 88,
+      "screenshots": [
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-comparison.png",
+          "sha256": "7b6abecec5ddde917b15d1fc14690e372a861566ad103cd47ee7cb160d624879"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-forest.png",
+          "sha256": "28f42f17e5984ba5cf1be749d433301206adce113447d3622955354c87b6870d"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-ocean.png",
+          "sha256": "88d4255d66f4ce0b310833469ecb36becb5d0a8ac9f2606e253f3e1d7868f080"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-sand.png",
+          "sha256": "29d62e1dad76807eee506cc522881903e9ffb67367b8ddf77959433d0daa1a39"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-plum.png",
+          "sha256": "b67f94ef2ce4f2baef3127613bb74236ac777f6a98df183c2b7304e77a0a67aa"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-midnight.png",
+          "sha256": "500dfb109130de8b306f08cb9eaddbfbd3f930c5f7f9fc0abac79570c7fa85be"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-charcoal.png",
+          "sha256": "02d78132a775b051a952b87e8cb6d7f22596509f9a6f2ff016d3cfbaed3e8529"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-pine.png",
+          "sha256": "7d80d4942217a5fc7d2ee50ea511045a5f76e1c18794cefa68a8a5f52b02b2a4"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-ember.png",
+          "sha256": "57d6b9a295ff99241704f8dc638d807371d8fc9e88788393727a34e0abb9ad6a"
+        },
+        {
+          "path": ".test-data/alternatives-desktop-48a09576-027b-4ab0-9cac-180f2ec80eca/alternative-narrow.png",
+          "sha256": "43b12ef7a3e4d0453ba65609d3b559256449c1d7050a69eb794f19e338898526"
+        }
+      ]
+    }
+  ],
+  "existingWorkflows": [
+    {
+      "kind": "Whiteboard, snapshots and document exchange",
+      "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/result.json",
+      "sha256": "1c56e1b2a1a01e99a977a3ec7a284adb1774e230792b937c695d0d0486716269",
+      "checks": [
+        "Create notes, text, shape, symbol, linked card and retained ORBAT; drag, resize, cancel, lock, keyboard nudge and undo; connectors remain visual",
+        "Unified search opens the exact whiteboard note",
+        "Real PNG and SVG snapshots include the military symbol, ORBAT and all board content",
+        "Insert clearly labeled independent snapshots into an order and briefing; generate HTML, PDF, DOCX and PPTX",
+        "Working-copy recovery survives renderer failure; snapshots and embedded images remain unchanged after later edits",
+        "Snapshot creation rejects overflowing content without retaining a clipped image",
+        "All eight themes and a narrow desktop fit the whiteboard controls without page overflow",
+        "Backup and restore preserve boards, snapshot provenance and exact image bytes",
+        "A 300-item board opens within five seconds, supports indexed selection, keyboard movement and undo",
+        "Normal restart reopens the saved board; all renderer processes exit cleanly"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 3408
+        },
+        {
+          "stage": "exit",
+          "pid": 3408,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 23216
+        },
+        {
+          "stage": "exit",
+          "pid": 23216,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 19544
+        },
+        {
+          "stage": "exit",
+          "pid": 19544,
+          "exitCode": 0
+        }
+      ],
+      "largeBoardMs": 58,
+      "screenshots": [
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-composition.png",
+          "sha256": "309d30eb4d3dd75623aa7c3cac8d1eb0bd8ea3a918ee8ab9d78f53282f6d4159"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-forest.png",
+          "sha256": "0171e59959594175409737e79b3bcb01d4ae4a8ce992347f0ac3ae97ebbc0a16"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-ocean.png",
+          "sha256": "56f823ba337c1f2a4978e62e1caece5f1115fc54cd3d8b94277ddf0a29cf7d65"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-sand.png",
+          "sha256": "ea6309909d946a5fa60dfa619af936ad0abe38a0496cf48455c149be1d9f831c"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-plum.png",
+          "sha256": "2c59da569790229948b07f8a427d14ebe4ac420741b79a7d9834bb5fbabdf639"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-midnight.png",
+          "sha256": "2993ed4813bd4edde070de2710e2e6289105b48c04aa7fa3eacdc786970652ce"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-charcoal.png",
+          "sha256": "152986a8352232c33a85d75c5819e5035ddd198c978a8aa0e28d70926e3efa0a"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-pine.png",
+          "sha256": "2be77c307f05f6d75a8aa2e6d25242a439c0c3bd685f9638685b7962dba61283"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-ember.png",
+          "sha256": "71f57347062dbe38a5fe646dd8cff37646b401bb1c3097d459e52ffd9678058c"
+        },
+        {
+          "path": ".test-data/whiteboard-desktop-b9ef8a55-4708-44b4-85d1-40921eb49f92/whiteboard-narrow.png",
+          "sha256": "75497e9d3a3134dc7e9306861e11ab4f5326dcc455c75caa495cbb5270db1c26"
+        }
+      ]
+    }
+  ],
+  "performance": {
+    "fixture": "1,000 tasks created from a saved independent alternative; all 1,000 purposes changed; first comparison page is 50 changes",
+    "limitMs": 5000,
+    "environment": {
+      "platform": "win32",
+      "release": "10.0.26200",
+      "architecture": "x64",
+      "cpu": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+      "logicalProcessors": 6,
+      "memoryBytes": 7932272640,
+      "electron": "44.5.1",
+      "node": "v24.14.0"
+    }
+  },
+  "visual": {
+    "themes": [
+      "Forest",
+      "Pine",
+      "Sand",
+      "Ocean",
+      "Midnight",
+      "Charcoal",
+      "Plum",
+      "Ember"
+    ],
+    "viewports": [
+      [1600, 1100],
+      [1050, 850]
+    ],
+    "inspected": [
+      "All eight interface themes; baseline information aligned after correction",
+      "Before/After comparison and category selector",
+      "Narrow creation and comparison controls without page overflow"
+    ],
+    "files": [
+      {
+        "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/original-order.html",
+        "sha256": "8066b2c4f1cd6554689357b4fc355de84fe0a3b561589087822bedf0e4963549"
+      },
+      {
+        "path": ".test-data/alternatives-desktop-30decafd-22f5-4c04-863a-f73d854c9c68/alternative-order.html",
+        "sha256": "9039f2bcfd8eddbf54821a160ab0ecdf71eb7af26f6d66c50efed4ec9e66a3e9"
+      }
+    ]
+  },
+  "package": {
+    "candidate": ".test-data/alternatives-candidate/win-unpacked/Ordo.exe",
+    "archive": {
+      "path": ".test-data/alternatives-candidate/win-unpacked/resources/app.asar",
+      "sha256": "92cd69f046a5a18a6fc9921662a07f2e0103722a11ad1c0e8da649ad0b75b233"
+    },
+    "compiledFilesMatch": true,
+    "compiledFiles": [
+      {
+        "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main\\chunks\\render-requests-jPmrNW2e.js",
+        "sha256": "0a265431585b6b8d8c4006861aa733696c55ba099c1405c18e563dec8cb6eb43"
+      },
+      {
+        "path": "main\\chunks\\symbol-catalog-Cqifio-s.js",
+        "sha256": "ae464fac5bb488c144d1319e182d80540953f5ceb91ab6164c6e6bd41203140f"
+      },
+      {
+        "path": "main\\index.js",
+        "sha256": "0f6bae4d80828c6b002b7f33860c7096a5303803421740f9d31668d77d05431f"
+      },
+      {
+        "path": "main\\symbol-worker.js",
+        "sha256": "e83a62158aa0535a947be716d8e403ab643ba2e3f6192c607db34c0cb1981d9f"
+      },
+      {
+        "path": "preload\\index.js",
+        "sha256": "69d0aa937a18995a8fe49e5f341d8ea2744e38039d4d1f454901593b6f52cb65"
+      },
+      {
+        "path": "renderer\\assets\\OperationOrbatPanel-DZMem44V.js",
+        "sha256": "72640480534c90d218224b65f63341b01692e6d5085a45bfa086e419cb155b26"
+      },
+      {
+        "path": "renderer\\assets\\OperationSymbolEditor-06U3Zl_E.js",
+        "sha256": "ffd54468329eafb12952fe823e9e798ca2a03620883f199ffcf17c97d525fcf8"
+      },
+      {
+        "path": "renderer\\assets\\ProfileSymbolEditor-DTKU2ghi.js",
+        "sha256": "fec892dc8a94747b1ac2efe8fe9abd79cb24549bce91eb64244b6ab3984e76e3"
+      },
+      {
+        "path": "renderer\\assets\\SaveUnitSymbol-Dvjc4OO8.js",
+        "sha256": "1cede47a0a668f4456cf8ad056c9224aae9b5ee28d9e34f03d7c326887e7cb15"
+      },
+      {
+        "path": "renderer\\assets\\SymbolEditor-tP5RI8Fz.js",
+        "sha256": "9dce589eb8c9bc09e815a181c558a833d878f6dc08d1481da7e81d267b1e8add"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-B_rgQRCu.js",
+        "sha256": "d18e56fed917f30a2fe399357bb64bb9ece05a647f5ce20301370f9029231182"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+        "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+      },
+      {
+        "path": "renderer\\assets\\index-BIMnzSUJ.css",
+        "sha256": "5c1cd2e8e4acec8ad1c4e42ab1899a932e9fb2ce99f40d9a25dcb6f920834376"
+      },
+      {
+        "path": "renderer\\assets\\index-Ds7Rx6Km.js",
+        "sha256": "97b1f1682f0f27d8a4d7f0f00b86a2bd3d2cc0e0f30ac680a8876f603220f50a"
+      },
+      {
+        "path": "renderer\\index.html",
+        "sha256": "061343423ff3447666aea5742195f82b9c2cd06940fa46b2ddfdd07d13dda896"
+      }
+    ],
+    "existingRelease": "release/0.6.5 was not rebuilt or replaced"
+  },
+  "sourceChanges": [
+    {
+      "path": "README.md",
+      "sha256": "bf4871d1565901de065cd135ea2a4d54bbaa8d11acda9c643125aacd4f0cd0cf",
+      "baselineSha256": "49a4151f409789b85bbf6eec974f97e122017d8c9ad9f36bb176e4767d72c607"
+    },
+    {
+      "path": "docs/alternative-plans-delivery.md",
+      "sha256": "91273fc1e7f0078b4da821cf0d2605d18e5b4ed72ff844afa3f012492a9d944a",
+      "baselineSha256": null
+    },
+    {
+      "path": "docs/connected-planning-implementation-plan.md",
+      "sha256": "6d167683ce44f7385558734e3ac890fd51662be11f0b8cf0edb4b7649e2a9c78",
+      "baselineSha256": "69c05fb36057279dcbdfb561576b58b75ba46c381b0ffeb2f3e4577875c5f0bd"
+    },
+    {
+      "path": "docs/planning-whiteboard-delivery.md",
+      "sha256": "b3075c6a6bf8cc209c568426b2a6ad873f5c4a1e8c1aba206207b32c0b1d7c80",
+      "baselineSha256": "aac452d59798b57f684380e8ec41526d3b1cec78ffc073ce744124dbd227aa27"
+    },
+    {
+      "path": "scripts/smoke-alternatives.cjs",
+      "sha256": "f1fb9849a525fa933a973e7b6d5d71ac94a45399a6345ba94e14b389a8f57b9c",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/alternative-comparison.ts",
+      "sha256": "72506b474cfb7305f37b0be127843adccca2ba5a9e1fc921525fcf0be204b2c7",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/alternative-service.ts",
+      "sha256": "c5eb256232d42a5ac507a75be3f2eb0975fd6450692d9d832cfa49c821831a6e",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/bridge.ts",
+      "sha256": "ed0f232c068f0f4da32cd5cb728f1c0c33c482b9df5fa349899d71e4229ecd03",
+      "baselineSha256": "2bffee8c56c053a73fa8ee54cad67f5d9959be5070efa3fd2016179aa6ce6b84"
+    },
+    {
+      "path": "src/domain/alternative-plan.ts",
+      "sha256": "63a928e252a09fbef287c57df8230038bd0ba10c8bf44a28381fea2b8140cfce",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/main/index.ts",
+      "sha256": "62afeaa83b176ae0f77dcfb0b8ee244691587abfe234b05f2f038ded0e8ee4b0",
+      "baselineSha256": "2bbbfa67c34e55bb63dd339fe30c5cf16525f101dc164a392c92359390db5779"
+    },
+    {
+      "path": "src/persistence/alternative-store.ts",
+      "sha256": "6687bf34c998caec54e60621b8b2f5746aa15363d1338faf7479bbfd45f8eeaf",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/deletion-store.ts",
+      "sha256": "b005c944ffbf6419cf25c7907c9e5d44295cf3850403cb12cf734cd0f7fc900c",
+      "baselineSha256": "a8586040657e1d897c8711bc3d8adff33f750f8bd0f86c3691fe1f4cca8ef19e"
+    },
+    {
+      "path": "src/persistence/migrations/020.sql",
+      "sha256": "1142c72b69145be186d0daa5332d2de631d8850f2c32ac5052c8dff2b407cc3c",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/repository.ts",
+      "sha256": "fd4db05c4fafa28d8df35ae7749f3d41302500f480251b52abd47da308ea444c",
+      "baselineSha256": "90cef1fde9262b92ed938f3208c299b71e6c694a784ab2fd4b7be7fd29571d45"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "9ce9a7ef54c488b2d60eb82171a40ac31b0818bbee89b4af18fdad807f55e7d9",
+      "baselineSha256": "7b9a0e2cd555ff6dae5a4b974906de89b3078c3e98d66be88e2f42a2697d6cf3"
+    },
+    {
+      "path": "src/renderer/src/AlternativePlans.tsx",
+      "sha256": "6b09d637453c74770a0d8f59c35596db86fc2c1e8bbc161f20691e3caee24708",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "9c43b51d17f7418737b1c7dcbbfc9c072010e5ca4059760e4848752cfdb89deb",
+      "baselineSha256": "60f1860f8938c409a52a5fff2e76d2fba0d67913981bfbe5c52f276cc90e8394"
+    },
+    {
+      "path": "src/renderer/src/alternatives.css",
+      "sha256": "e5d20c3f657ef36cb6113cd32ba354c69ab77e690561d8c71e4800dd625a635a",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/workspace-session.ts",
+      "sha256": "1409c040bc63a58322a4a940c1abbde2a4a16ba05e823b41169b26f6a9229ed5",
+      "baselineSha256": "ef78b54f0e7aa2ffdfff7711e45857dea33adfa71a0bfeeae44be2cca35d03fe"
+    },
+    {
+      "path": "tests/alternative-plans.test.ts",
+      "sha256": "d22e370932e6a7e4664ffd8f4e8807e7271051919d316360b8ac897625bf96d1",
+      "baselineSha256": null
+    },
+    {
+      "path": "tests/closure.test.ts",
+      "sha256": "cebf046cd012f7245ef694abdf06609312c8ff5f8d8a2f7d73ce073c8892273d",
+      "baselineSha256": "5a03420301e3286bd7c5f4bda5726eb063ee052a5fc629af635d9c0bae5ea733"
+    },
+    {
+      "path": "tests/milestone2-persistence.test.ts",
+      "sha256": "8bef499cd0de8d36a4aa09bd23027042d05de2add2443b76656323c6e3105b2e",
+      "baselineSha256": "bf31790c2eacc1c22253c02a1380a916db9c289f93318c0ef3f5ec5c048a2533"
+    },
+    {
+      "path": "tests/milestone3.test.ts",
+      "sha256": "a70bb1aff43dacb730480feca84103c37c3d591baaa80effff034d2c9bb20ca5",
+      "baselineSha256": "494192752ed99da9ef23c19c9681bb83b056bc3d99c3130646d291bec1c0274e"
+    },
+    {
+      "path": "tests/milestone4-reviews.test.ts",
+      "sha256": "30133dc1db0bb38c94cc426b3e64d8ff55ee00c95092f2caaca45194facf4e61",
+      "baselineSha256": "ad45ebde093ff8f7a9ed43f1bbea29734feec9c01fadace1fa9f973a117e10eb"
+    },
+    {
+      "path": "tests/milestone5.test.ts",
+      "sha256": "19bc945c0ff78ac78344b8b64d63ef865ce2c6280ca03cc8b05aef761ac6a490",
+      "baselineSha256": "1aa50c7b932b38de70be35a239caf49f7bdf860ff9c5ef031808d75bca6bd71b"
+    },
+    {
+      "path": "tests/milestone6-foundation.test.ts",
+      "sha256": "3d1102b1c3f2aede4cd8c42f31bd8efcf2c4b306b5574e9abba0af3ac792fed1",
+      "baselineSha256": "fe3f39446f3c15306c5972e4bc185eac2e437c3b52afd3b273ef36909e5e8288"
+    },
+    {
+      "path": "tests/readable-order.test.ts",
+      "sha256": "d41c7fd1ed1eb012c191ea6953c38ade87a1811e1966cba28b4c3e208285b9fe",
+      "baselineSha256": "cf7a9e691021a10bbd633b8b38fb479dd2d8d94de8374141be2fec6ee52cf651"
+    }
+  ],
+  "removedBaselineFiles": [],
+  "excludedRuns": [
+    {
+      "path": ".test-data/alternatives-desktop-d027292e-2936-41e0-8458-050f5b157af0",
+      "reason": "Initial passing workflow superseded by corrected origin-row spacing, condensed copy text, and singular change counts."
+    }
+  ],
+  "scope": {
+    "migration": 20,
+    "provenance": "Immutable source operation/configuration snapshot, source revision, baseline hash, creation actor/time, and explicit identity map; verified against alternative revision 1.",
+    "copy": "Independent operation content and managed files; immutable catalog and graphic snapshots remain pinned.",
+    "comparison": "Saved revisions against the frozen starting baseline or a sibling from the exact same baseline, with 50 changes per page.",
+    "excluded": [
+      "Merging/conflict resolution",
+      "Choosing a winning plan",
+      "Live cross-operation synchronization"
+    ],
+    "next": "Release integration or a separately scoped major milestone."
+  }
+}

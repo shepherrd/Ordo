@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "status": "UNRELEASED_TEST_PACKAGE",
+  "version": "0.5.0",
+  "path": ".test-data/m6-package-2026-10-03-v5-v3-privacy/win-unpacked",
+  "executableSha256": "0f5cc78f352f968431a430096e9067d9c8380bd32ca2919e9db5213dc2afa771",
+  "asarSha256": "5188a22bd809af6d955b31db59f459200ab74e393af549e85c19c5481573cce3",
+  "notices": [
+    {
+      "name": "milestone6-crosswalk-third-party-notices.txt",
+      "sha256": "36e9c7e07c467c969e33b936b034599552d27f117879a5aeab5b41faff9dbdea",
+      "bytes": 10368
+    },
+    {
+      "name": "milestone6-provenance.json",
+      "sha256": "4c3bc0fbe605441ac7588a070168e820e3e4c71a35f352d70f89044fbacd4c7b",
+      "bytes": 6840
+    },
+    {
+      "name": "milestone6-resource-notices.md",
+      "sha256": "218271201f0be20d2c64174b4b654f869b6e6f3d6b4e646a58d44d109163c68a",
+      "bytes": 2534
+    },
+    {
+      "name": "milestone6-third-party-notices.txt",
+      "sha256": "4a734f4cd7908ecdab2e9734d0deb37130a875302bcc3af4f49d5db2c7c24570",
+      "bytes": 4505
+    }
+  ],
+  "limitations": [
+    "Unpacked unsigned Windows test build; no installer or release promoted.",
+    "Crosswalk provenance remains unresolved; packaging notices does not establish missing rights."
+  ],
+  "previousBuilds": [
+    {
+      "schemaVersion": 1,
+      "status": "UNRELEASED_TEST_PACKAGE",
+      "version": "0.5.0",
+      "path": ".test-data/m6-package-2026-10-03-v5-v3/win-unpacked",
+      "executableSha256": "72b5b8794b05f02ed8be0477d928df0aa2a3d4bf8260970e8ab02cfec2878370",
+      "asarSha256": "a86f466c0f4d92fac0803af188146d68130a533af474c449c9f8ae757d98b5bc",
+      "notices": [
+        {
+          "name": "milestone6-crosswalk-third-party-notices.txt",
+          "sha256": "36e9c7e07c467c969e33b936b034599552d27f117879a5aeab5b41faff9dbdea",
+          "bytes": 10368
+        },
+        {
+          "name": "milestone6-provenance.json",
+          "sha256": "4c3bc0fbe605441ac7588a070168e820e3e4c71a35f352d70f89044fbacd4c7b",
+          "bytes": 6840
+        },
+        {
+          "name": "milestone6-resource-notices.md",
+          "sha256": "218271201f0be20d2c64174b4b654f869b6e6f3d6b4e646a58d44d109163c68a",
+          "bytes": 2534
+        },
+        {
+          "name": "milestone6-third-party-notices.txt",
+          "sha256": "4a734f4cd7908ecdab2e9734d0deb37130a875302bcc3af4f49d5db2c7c24570",
+          "bytes": 4505
+        }
+      ],
+      "limitations": [
+        "Unpacked unsigned Windows test build; no installer or release promoted.",
+        "Crosswalk provenance remains unresolved; packaging notices does not establish missing rights."
+      ]
+    }
+  ],
+  "changeFromPrevious": "Consumed ORBAT projection clears raw annotations after resolving visible symbol labels; folded source text stays only in local retained provenance."
+}

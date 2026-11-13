@@ -1,0 +1,79 @@
+/* Semantic colors are initialized before React mounts, including on restart. */
+:root {
+  color: var(--ink);
+  background: var(--background);
+}
+a {
+  color: var(--accent-ink);
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+.theme-settings {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px;
+}
+.theme-settings .field {
+  flex: 1 1 240px;
+  margin: 0;
+}
+.theme-palette {
+  display: flex;
+  gap: 6px;
+  padding: 4px 0;
+}
+.theme-swatch {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--control-line);
+  border-radius: 6px;
+}
+.theme-swatch-nav {
+  background: var(--nav);
+}
+.theme-swatch-accent {
+  background: var(--accent);
+}
+.theme-swatch-surface {
+  background: var(--surface);
+}
+.theme-swatch-paper {
+  background: var(--paper);
+}
+.theme-description {
+  margin: 14px 0 6px;
+  color: var(--ink);
+}
+.symbol-thumbnail {
+  background: var(--diagram-paper);
+  color: var(--diagram-ink);
+  border-radius: 3px;
+}
+.symbol-thumbnail small {
+  color: var(--diagram-ink);
+}
+.graphic-canvas {
+  color-scheme: light;
+  color: var(--diagram-ink);
+}
+.document-frame,
+.module-preview,
+.review-report,
+.document-header-preview {
+  color-scheme: light;
+}
+@media (prefers-reduced-motion: reduce) {
+  button {
+    transition: none;
+  }
+}

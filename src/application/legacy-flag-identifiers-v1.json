@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 1,
+  "id": "legacy-flag-identifiers-v1",
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "regionSource": "Windows .NET System.Globalization.RegionInfo captured on 2026-10-03; identity facts only",
+  "resource": "flag-icons@7.5.0-4x3 + ordo-nato-flag-replacement-v1",
+  "entries": {
+    "AFG": {
+      "target": "AF",
+      "name": "Afghanistan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "AGO": {
+      "target": "AO",
+      "name": "Angola",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ALB": {
+      "target": "AL",
+      "name": "Albania",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ARE": {
+      "target": "AE",
+      "name": "United Arab Emirates",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ARG": {
+      "target": "AR",
+      "name": "Argentina",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ARM": {
+      "target": "AM",
+      "name": "Armenia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ATG": {
+      "target": "AG",
+      "name": "Antigua and Barbuda",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "AUS": {
+      "target": "AU",
+      "name": "Australia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "AUT": {
+      "target": "AT",
+      "name": "Austria",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "AZE": {
+      "target": "AZ",
+      "name": "Azerbaijan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BDI": {
+      "target": "BI",
+      "name": "Burundi",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BEL": {
+      "target": "BE",
+      "name": "Belgium",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BEN": {
+      "target": "BJ",
+      "name": "Benin",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BFA": {
+      "target": "BF",
+      "name": "Burkina Faso",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BGD": {
+      "target": "BD",
+      "name": "Bangladesh",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BGR": {
+      "target": "BG",
+      "name": "Bulgaria",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BHR": {
+      "target": "BH",
+      "name": "Bahrain",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BHS": {
+      "target": "BS",
+      "name": "Bahamas",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BIH": {
+      "target": "BA",
+      "name": "Bosnia and Herzegovina",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BLM": {
+      "target": "BL",
+      "name": "Saint Barthélemy",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BLR": {
+      "target": "BY",
+      "name": "Belarus",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BLZ": {
+      "target": "BZ",
+      "name": "Belize",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BOL": {
+      "target": "BO",
+      "name": "Bolivia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BRA": {
+      "target": "BR",
+      "name": "Brazil",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BRB": {
+      "target": "BB",
+      "name": "Barbados",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BRN": {
+      "target": "BN",
+      "name": "Brunei Darussalam",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BTN": {
+      "target": "BT",
+      "name": "Bhutan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "BWA": {
+      "target": "BW",
+      "name": "Botswana",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CAF": {
+      "target": "CF",
+      "name": "Central African Republic",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CAN": {
+      "target": "CA",
+      "name": "Canada",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CHE": {
+      "target": "CH",
+      "name": "Switzerland",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CHL": {
+      "target": "CL",
+      "name": "Chile",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CHN": {
+      "target": "CN",
+      "name": "China",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CIV": {
+      "target": "CI",
+      "name": "Côte d'Ivoire",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CMR": {
+      "target": "CM",
+      "name": "Cameroon",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "COD": {
+      "target": "CD",
+      "name": "Democratic Republic of the Congo",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "COG": {
+      "target": "CG",
+      "name": "Republic of the Congo",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "COL": {
+      "target": "CO",
+      "name": "Colombia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "COM": {
+      "target": "KM",
+      "name": "Comoros",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CPV": {
+      "target": "CV",
+      "name": "Cabo Verde",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CRI": {
+      "target": "CR",
+      "name": "Costa Rica",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CUB": {
+      "target": "CU",
+      "name": "Cuba",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CUW": {
+      "target": "CW",
+      "name": "Curaçao",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CYP": {
+      "target": "CY",
+      "name": "Cyprus",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "CZE": {
+      "target": "CZ",
+      "name": "Czech Republic",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "DEU": {
+      "target": "DE",
+      "name": "Germany",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "DJI": {
+      "target": "DJ",
+      "name": "Djibouti",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "DNK": {
+      "target": "DK",
+      "name": "Denmark",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "DOM": {
+      "target": "DO",
+      "name": "Dominican Republic",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "DZA": {
+      "target": "DZ",
+      "name": "Algeria",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ECU": {
+      "target": "EC",
+      "name": "Ecuador",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "EGY": {
+      "target": "EG",
+      "name": "Egypt",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ERI": {
+      "target": "ER",
+      "name": "Eritrea",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ESP": {
+      "target": "ES",
+      "name": "Spain",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "EST": {
+      "target": "EE",
+      "name": "Estonia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ETH": {
+      "target": "ET",
+      "name": "Ethiopia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "FIN": {
+      "target": "FI",
+      "name": "Finland",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "FJI": {
+      "target": "FJ",
+      "name": "Fiji",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "FRA": {
+      "target": "FR",
+      "name": "France",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GAB": {
+      "target": "GA",
+      "name": "Gabon",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GBR": {
+      "target": "GB",
+      "name": "United Kingdom",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GEO": {
+      "target": "GE",
+      "name": "Georgia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GHA": {
+      "target": "GH",
+      "name": "Ghana",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GIN": {
+      "target": "GN",
+      "name": "Guinea",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GMB": {
+      "target": "GM",
+      "name": "Gambia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GNB": {
+      "target": "GW",
+      "name": "Guinea-Bissau",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GNQ": {
+      "target": "GQ",
+      "name": "Equatorial Guinea",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GRC": {
+      "target": "GR",
+      "name": "Greece",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GTM": {
+      "target": "GT",
+      "name": "Guatemala",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "GUY": {
+      "target": "GY",
+      "name": "Guyana",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "HND": {
+      "target": "HN",
+      "name": "Honduras",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "HRV": {
+      "target": "HR",
+      "name": "Croatia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "HTI": {
+      "target": "HT",
+      "name": "Haiti",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "HUN": {
+      "target": "HU",
+      "name": "Hungary",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "IDN": {
+      "target": "ID",
+      "name": "Indonesia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "IND": {
+      "target": "IN",
+      "name": "India",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "IRL": {
+      "target": "IE",
+      "name": "Ireland",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "IRN": {
+      "target": "IR",
+      "name": "Iran",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "IRQ": {
+      "target": "IQ",
+      "name": "Iraq",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ISL": {
+      "target": "IS",
+      "name": "Iceland",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ISR": {
+      "target": "IL",
+      "name": "Israel",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ITA": {
+      "target": "IT",
+      "name": "Italy",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "JAM": {
+      "target": "JM",
+      "name": "Jamaica",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "JOR": {
+      "target": "JO",
+      "name": "Jordan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "JPN": {
+      "target": "JP",
+      "name": "Japan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KAZ": {
+      "target": "KZ",
+      "name": "Kazakhstan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KEN": {
+      "target": "KE",
+      "name": "Kenya",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KGZ": {
+      "target": "KG",
+      "name": "Kyrgyzstan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KHM": {
+      "target": "KH",
+      "name": "Cambodia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KNA": {
+      "target": "KN",
+      "name": "Saint Kitts and Nevis",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KOR": {
+      "target": "KR",
+      "name": "South Korea",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "KWT": {
+      "target": "KW",
+      "name": "Kuwait",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LAO": {
+      "target": "LA",
+      "name": "Laos",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LBN": {
+      "target": "LB",
+      "name": "Lebanon",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LBR": {
+      "target": "LR",
+      "name": "Liberia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LBY": {
+      "target": "LY",
+      "name": "Libya",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LKA": {
+      "target": "LK",
+      "name": "Sri Lanka",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LSO": {
+      "target": "LS",
+      "name": "Lesotho",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LTU": {
+      "target": "LT",
+      "name": "Lithuania",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LUX": {
+      "target": "LU",
+      "name": "Luxembourg",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "LVA": {
+      "target": "LV",
+      "name": "Latvia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MAC": {
+      "target": "MO",
+      "name": "Macau",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MAR": {
+      "target": "MA",
+      "name": "Morocco",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MCO": {
+      "target": "MC",
+      "name": "Monaco",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MDA": {
+      "target": "MD",
+      "name": "Moldova",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MDG": {
+      "target": "MG",
+      "name": "Madagascar",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MDV": {
+      "target": "MV",
+      "name": "Maldives",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MEX": {
+      "target": "MX",
+      "name": "Mexico",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MKD": {
+      "target": "MK",
+      "name": "North Macedonia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MLI": {
+      "target": "ML",
+      "name": "Mali",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MLT": {
+      "target": "MT",
+      "name": "Malta",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MMR": {
+      "target": "MM",
+      "name": "Myanmar",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MNE": {
+      "target": "ME",
+      "name": "Montenegro",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MNG": {
+      "target": "MN",
+      "name": "Mongolia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MOZ": {
+      "target": "MZ",
+      "name": "Mozambique",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MRT": {
+      "target": "MR",
+      "name": "Mauritania",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MUS": {
+      "target": "MU",
+      "name": "Mauritius",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MWI": {
+      "target": "MW",
+      "name": "Malawi",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "MYS": {
+      "target": "MY",
+      "name": "Malaysia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NAM": {
+      "target": "NA",
+      "name": "Namibia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NATO": {
+      "target": "NATO",
+      "name": "North Atlantic Treaty Organization",
+      "basis": "Exact licensed resource identifier"
+    },
+    "NER": {
+      "target": "NE",
+      "name": "Niger",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NGA": {
+      "target": "NG",
+      "name": "Nigeria",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NIC": {
+      "target": "NI",
+      "name": "Nicaragua",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NLD": {
+      "target": "NL",
+      "name": "Netherlands",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NOR": {
+      "target": "NO",
+      "name": "Norway",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NPL": {
+      "target": "NP",
+      "name": "Nepal",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "NZL": {
+      "target": "NZ",
+      "name": "New Zealand",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "OMN": {
+      "target": "OM",
+      "name": "Oman",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PAK": {
+      "target": "PK",
+      "name": "Pakistan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PAN": {
+      "target": "PA",
+      "name": "Panama",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PER": {
+      "target": "PE",
+      "name": "Peru",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PHL": {
+      "target": "PH",
+      "name": "Philippines",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PNG": {
+      "target": "PG",
+      "name": "Papua New Guinea",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "POL": {
+      "target": "PL",
+      "name": "Poland",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PRK": {
+      "target": "KP",
+      "name": "North Korea",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PRT": {
+      "target": "PT",
+      "name": "Portugal",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PRY": {
+      "target": "PY",
+      "name": "Paraguay",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "PSE": {
+      "target": "PS",
+      "name": "State of Palestine",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "QAT": {
+      "target": "QA",
+      "name": "Qatar",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ROU": {
+      "target": "RO",
+      "name": "Romania",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "RUS": {
+      "target": "RU",
+      "name": "Russia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "RWA": {
+      "target": "RW",
+      "name": "Rwanda",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SAU": {
+      "target": "SA",
+      "name": "Saudi Arabia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SDN": {
+      "target": "SD",
+      "name": "Sudan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SEN": {
+      "target": "SN",
+      "name": "Senegal",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SGP": {
+      "target": "SG",
+      "name": "Singapore",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SLE": {
+      "target": "SL",
+      "name": "Sierra Leone",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SLV": {
+      "target": "SV",
+      "name": "El Salvador",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SMR": {
+      "target": "SM",
+      "name": "San Marino",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SOM": {
+      "target": "SO",
+      "name": "Somalia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SRB": {
+      "target": "RS",
+      "name": "Serbia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SSD": {
+      "target": "SS",
+      "name": "South Sudan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "STP": {
+      "target": "ST",
+      "name": "Sao Tome and Principe",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SUR": {
+      "target": "SR",
+      "name": "Suriname",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SVK": {
+      "target": "SK",
+      "name": "Slovakia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SVN": {
+      "target": "SI",
+      "name": "Slovenia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SWE": {
+      "target": "SE",
+      "name": "Sweden",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SWZ": {
+      "target": "SZ",
+      "name": "Eswatini",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SYC": {
+      "target": "SC",
+      "name": "Seychelles",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "SYR": {
+      "target": "SY",
+      "name": "Syria",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TCD": {
+      "target": "TD",
+      "name": "Chad",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TGO": {
+      "target": "TG",
+      "name": "Togo",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "THA": {
+      "target": "TH",
+      "name": "Thailand",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TJK": {
+      "target": "TJ",
+      "name": "Tajikistan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TKM": {
+      "target": "TM",
+      "name": "Turkmenistan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TLS": {
+      "target": "TL",
+      "name": "Timor-Leste",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TON": {
+      "target": "TO",
+      "name": "Tonga",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TTO": {
+      "target": "TT",
+      "name": "Trinidad and Tobago",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TUN": {
+      "target": "TN",
+      "name": "Tunisia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TUR": {
+      "target": "TR",
+      "name": "Türkiye",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TWN": {
+      "target": "TW",
+      "name": "Taiwan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "TZA": {
+      "target": "TZ",
+      "name": "Tanzania",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "UGA": {
+      "target": "UG",
+      "name": "Uganda",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "UKR": {
+      "target": "UA",
+      "name": "Ukraine",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "UN": {
+      "target": "UN",
+      "name": "United Nations",
+      "basis": "Exact licensed resource identifier"
+    },
+    "URY": {
+      "target": "UY",
+      "name": "Uruguay",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "USA": {
+      "target": "US",
+      "name": "United States of America",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "UZB": {
+      "target": "UZ",
+      "name": "Uzbekistan",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "VEN": {
+      "target": "VE",
+      "name": "Venezuela",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "VNM": {
+      "target": "VN",
+      "name": "Vietnam",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "VUT": {
+      "target": "VU",
+      "name": "Vanuatu",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "XKX": {
+      "target": "XK",
+      "name": "Kosovo",
+      "basis": "Exact Kosovo labels in inspected reference HTML and pinned flag-icons country.json"
+    },
+    "YEM": {
+      "target": "YE",
+      "name": "Yemen",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ZAF": {
+      "target": "ZA",
+      "name": "South Africa",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ZMB": {
+      "target": "ZM",
+      "name": "Zambia",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    },
+    "ZWE": {
+      "target": "ZW",
+      "name": "Zimbabwe",
+      "basis": "Windows .NET RegionInfo ISO identifiers"
+    }
+  }
+}

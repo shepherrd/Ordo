@@ -1,0 +1,5670 @@
+{
+  "schemaVersion": 1,
+  "provenance": "Fictional Ordo composition fixtures from the reviewed 2026-10-03 profile-1 checkpoint. Original reference resource bytes are not included.",
+  "cases": [
+    {
+      "id": "grouped-folded-flags",
+      "input": {
+        "nodes": [
+          {
+            "id": "96000000-0000-4000-8000-000000000001",
+            "parentId": null,
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000001",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL TASK FORCE / DEMONSTRATION"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000002",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000002",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 1 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000003",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000003",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 2 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000004",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000004",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 3 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000005",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000005",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 4 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000006",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000006",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 5 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000007",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000007",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 6 / LONG DESIGNATION TEXT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000008",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000008",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 7 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000009",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000009",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 8 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000010",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000010",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 9 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000011",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000011",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 10 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000012",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000012",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 11 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000013",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000013",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 12 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000014",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000014",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 13 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000015",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000015",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 14 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000016",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000016",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 1"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000017",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000017",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 2"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000018",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000018",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 3"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000019",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000019",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 4"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          }
+        ],
+        "layout": {
+          "schemaVersion": 1,
+          "layoutId": "9c9f299d-e288-49ca-816b-5b2654d4fa80",
+          "algorithm": "ordo-layout-v1",
+          "mode": "SMART",
+          "commandLevels": 2,
+          "labelProfile": "ordo-labels-v1",
+          "hints": [
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000002",
+              "folded": true,
+              "hqStaff": false,
+              "offset": null
+            }
+          ],
+          "siblingOrder": []
+        },
+        "symbolSize": 30
+      },
+      "profile1SvgHash": "59229c0490186fcc6c6b3cee49d62c09f8b06e2671ca4f914d8b1b3cf7dee466"
+    },
+    {
+      "id": "simple-folded-flags",
+      "input": {
+        "nodes": [
+          {
+            "id": "96000000-0000-4000-8000-000000000001",
+            "parentId": null,
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000001",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL TASK FORCE / DEMONSTRATION"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000002",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000002",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 1 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000003",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000003",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 2 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000004",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000004",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 3 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000005",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000005",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 4 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000006",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000006",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 5 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000007",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000007",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 6 / LONG DESIGNATION TEXT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000008",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000008",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 7 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000009",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000009",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 8 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000010",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000010",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 9 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000011",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000011",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 10 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000012",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000012",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 11 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000013",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000013",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 12 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000014",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000014",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 13 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000015",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000015",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 14 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000016",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000016",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 1"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000017",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000017",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 2"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000018",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000018",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 3"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000019",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000019",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 4"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          }
+        ],
+        "layout": {
+          "schemaVersion": 1,
+          "layoutId": "9c9f299d-e288-49ca-816b-5b2654d4fa80",
+          "algorithm": "ordo-layout-v1",
+          "mode": "SIMPLE",
+          "commandLevels": 2,
+          "labelProfile": "ordo-labels-v1",
+          "hints": [
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000002",
+              "folded": true,
+              "hqStaff": false,
+              "offset": null
+            }
+          ],
+          "siblingOrder": []
+        },
+        "symbolSize": 30
+      },
+      "profile1SvgHash": "8d11cebb6143df427303d84f637d55c36cb26bc4e553d4ca2ebf9c7a4e4d4329"
+    },
+    {
+      "id": "expanded-flags",
+      "input": {
+        "nodes": [
+          {
+            "id": "96000000-0000-4000-8000-000000000001",
+            "parentId": null,
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000001",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL TASK FORCE / DEMONSTRATION"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000002",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000002",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 1 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000003",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000003",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 2 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000004",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000004",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 3 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000005",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000005",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 4 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000006",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000006",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 5 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000007",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000007",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 6 / LONG DESIGNATION TEXT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000008",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000008",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 7 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000009",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000009",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 8 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000010",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000010",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 9 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000011",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000011",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 10 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000012",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000012",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 11 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000013",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000013",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 12 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000014",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000014",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 13 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000015",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000015",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 14 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000016",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000016",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 1"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000017",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000017",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 2"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000018",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000018",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 3"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000019",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000019",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 4"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          }
+        ],
+        "layout": {
+          "schemaVersion": 1,
+          "layoutId": "9c9f299d-e288-49ca-816b-5b2654d4fa80",
+          "algorithm": "ordo-layout-v1",
+          "mode": "SMART",
+          "commandLevels": 2,
+          "labelProfile": "ordo-labels-v1",
+          "hints": [],
+          "siblingOrder": []
+        },
+        "symbolSize": 30
+      },
+      "profile1SvgHash": "a92001b70a7976160982e7b5600e12b9afa81f8f1b25e02bf842a504a380d247"
+    },
+    {
+      "id": "root-fold",
+      "input": {
+        "nodes": [
+          {
+            "id": "96000000-0000-4000-8000-000000000001",
+            "parentId": null,
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000001",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL TASK FORCE / DEMONSTRATION"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000002",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000002",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 1 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000003",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000003",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 2 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000004",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000004",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 3 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000005",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000005",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 4 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000006",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000006",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 5 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000007",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000007",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 6 / LONG DESIGNATION TEXT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000008",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000008",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 7 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000009",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000009",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 8 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000010",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000010",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 9 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000011",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000011",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 10 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000012",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000012",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 11 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000013",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000013",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 12 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000014",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000014",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 13 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000015",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000015",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 14 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000016",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000016",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 1"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000017",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000017",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 2"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000018",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000018",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 3"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000019",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000019",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 4"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          }
+        ],
+        "layout": {
+          "schemaVersion": 1,
+          "layoutId": "9c9f299d-e288-49ca-816b-5b2654d4fa80",
+          "algorithm": "ordo-layout-v1",
+          "mode": "SMART",
+          "commandLevels": 2,
+          "labelProfile": "ordo-labels-v1",
+          "hints": [
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000001",
+              "folded": true,
+              "hqStaff": false,
+              "offset": null
+            }
+          ],
+          "siblingOrder": []
+        },
+        "symbolSize": 30
+      },
+      "profile1SvgHash": "a1b3e48691d36623e1221c12fa2a1c1fd4c22aaef5f75f6c77fe823480d1aa6d"
+    },
+    {
+      "id": "hq-pairs",
+      "input": {
+        "nodes": [
+          {
+            "id": "96000000-0000-4000-8000-000000000001",
+            "parentId": null,
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000001",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL TASK FORCE / DEMONSTRATION"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000002",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000002",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 1 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000003",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000003",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 2 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000004",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000004",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 3 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000005",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000005",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 4 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000006",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000006",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 5 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000007",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000007",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 6 / LONG DESIGNATION TEXT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000008",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000008",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 7 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000009",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000009",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 8 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000010",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000010",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 9 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000011",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000011",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 10 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000012",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000012",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 11 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000013",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000013",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 12 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000014",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000014",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 13 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000015",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000015",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 14 / UNIT"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000016",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000016",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 1"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000017",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000017",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 2"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000018",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000018",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 3"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000019",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000019",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FOLDED CHILD 4"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 0,
+                "generalStars": 0,
+                "reinforced": "",
+                "signature": "",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          }
+        ],
+        "layout": {
+          "schemaVersion": 1,
+          "layoutId": "9c9f299d-e288-49ca-816b-5b2654d4fa80",
+          "algorithm": "ordo-layout-v1",
+          "mode": "SMART",
+          "commandLevels": 2,
+          "labelProfile": "ordo-labels-v1",
+          "hints": [
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000002",
+              "folded": true,
+              "hqStaff": false,
+              "offset": null
+            },
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000003",
+              "folded": false,
+              "hqStaff": true,
+              "offset": null
+            },
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000004",
+              "folded": false,
+              "hqStaff": true,
+              "offset": null
+            },
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000005",
+              "folded": false,
+              "hqStaff": true,
+              "offset": null
+            },
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000006",
+              "folded": false,
+              "hqStaff": true,
+              "offset": null
+            }
+          ],
+          "siblingOrder": []
+        },
+        "symbolSize": 30
+      },
+      "profile1SvgHash": "4937f98249b9bddc553f69aa980436a3924b7fadbb473d806461c8ec405978ed"
+    },
+    {
+      "id": "long-label-marks",
+      "input": {
+        "nodes": [
+          {
+            "id": "96000000-0000-4000-8000-000000000001",
+            "parentId": null,
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000001",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 0 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000002",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000002",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 1 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000003",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000003",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 2 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000004",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000004",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 3 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000005",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000005",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 4 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000006",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000006",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 5 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000007",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000007",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 6 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000008",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000008",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 7 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000009",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000009",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 8 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000010",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000010",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 9 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "CA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000011",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000011",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 10 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "GB",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000012",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000012",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 11 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "FR",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000013",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000013",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 12 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "UA",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000014",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000014",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 13 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "NATO",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000015",
+            "parentId": "96000000-0000-4000-8000-000000000001",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000015",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 14 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": null,
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000016",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000016",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 15 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000017",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000017",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 16 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000018",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000018",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 17 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          },
+          {
+            "id": "96000000-0000-4000-8000-000000000019",
+            "parentId": "96000000-0000-4000-8000-000000000002",
+            "name": "",
+            "annotation": "",
+            "symbol": {
+              "schemaVersion": 1,
+              "definitionId": "96000000-0000-4000-8000-000000000019",
+              "code": {
+                "dialect": "NUMERIC",
+                "sidc": "130310000012110000000000000000",
+                "assertedStandard": "UNVERIFIED",
+                "sourceConvention": "NATIVE"
+              },
+              "amplifiers": {
+                "uniqueDesignation": "FICTIONAL 18 / \u00c9quipe d\u00e9monstration",
+                "additionalInformation": "Long supporting annotation"
+              },
+              "appearance": {
+                "convention": "2525",
+                "colorMode": "Light",
+                "fill": true,
+                "frame": true,
+                "icon": true,
+                "infoFields": false,
+                "fillOpacity": 1,
+                "outlineWidth": 0,
+                "strokeWidth": 4
+              },
+              "compatibility": {
+                "schemaVersion": 1,
+                "stack": 2,
+                "generalStars": 3,
+                "reinforced": "",
+                "signature": "!",
+                "specialHeadquarters": "",
+                "flagId": "US",
+                "flagMode": "SMALL"
+              },
+              "renderProfile": {
+                "id": "ordo-symbol",
+                "version": 1
+              },
+              "origin": {
+                "kind": "MANUAL"
+              }
+            },
+            "boundary": false
+          }
+        ],
+        "layout": {
+          "schemaVersion": 1,
+          "layoutId": "9c9f299d-e288-49ca-816b-5b2654d4fa80",
+          "algorithm": "ordo-layout-v1",
+          "mode": "SMART",
+          "commandLevels": 2,
+          "labelProfile": "ordo-labels-v1",
+          "hints": [
+            {
+              "nodeId": "96000000-0000-4000-8000-000000000002",
+              "folded": true,
+              "hqStaff": false,
+              "offset": null
+            }
+          ],
+          "siblingOrder": []
+        },
+        "symbolSize": 30
+      },
+      "profile1SvgHash": "5f1f03b5a3a735ee6aecfd0e7ae3609972275f1abd22b65d48d7a1cd23f4b830"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "fixturesHash": "497728c7c0d186f45454429d4a809dc67de8412957d20311cbae6261b176b79e",
+  "browser": "154.0.4258.53",
+  "method": "All 18 fixed-measurement cases compare canonical and synthetic nodes plus connector routes in tests. Pair plots show source slot-based viewport versus Ordo measured clipping-safe viewport. Source references omit hidden descendants and group artwork. No desktop acceptance implied.",
+  "cases": [
+    {
+      "id": "single",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 155,
+        "height": 95
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 170,
+        "height": 125
+      }
+    },
+    {
+      "id": "root-5",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 650,
+        "height": 197
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 650,
+        "height": 227.5
+      }
+    },
+    {
+      "id": "root-6",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 207,
+        "height": 472
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 207.5,
+        "height": 502.5
+      }
+    },
+    {
+      "id": "root-7",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 327,
+        "height": 472
+      },
+      "ordoBounds": {
+        "x": -57.5,
+        "y": 0,
+        "width": 310,
+        "height": 502.5
+      }
+    },
+    {
+      "id": "lower-3",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 455,
+        "height": 280
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 440,
+        "height": 310
+      }
+    },
+    {
+      "id": "lower-4",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 222,
+        "height": 445
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 207.5,
+        "height": 475
+      }
+    },
+    {
+      "id": "lower-6",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 222,
+        "height": 555
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 207.5,
+        "height": 585
+      }
+    },
+    {
+      "id": "lower-7",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 357,
+        "height": 555
+      },
+      "ordoBounds": {
+        "x": -57.5,
+        "y": 0,
+        "width": 325,
+        "height": 585
+      }
+    },
+    {
+      "id": "balanced",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 590,
+        "height": 280
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 575,
+        "height": 310
+      }
+    },
+    {
+      "id": "smart-wide",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 447,
+        "height": 472
+      },
+      "ordoBounds": {
+        "x": -57.5,
+        "y": 0,
+        "width": 430,
+        "height": 502.5
+      }
+    },
+    {
+      "id": "simple-wide",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 1730,
+        "height": 197
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 1730,
+        "height": 227.5
+      }
+    },
+    {
+      "id": "hq-pairs",
+      "sourceBounds": {
+        "x": -167,
+        "y": 0,
+        "width": 437,
+        "height": 368
+      },
+      "ordoBounds": {
+        "x": -127.5,
+        "y": 0,
+        "width": 357.5,
+        "height": 398
+      }
+    },
+    {
+      "id": "deep-vertical",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 305,
+        "height": 500
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 230,
+        "height": 530
+      }
+    },
+    {
+      "id": "mixed-branches",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 507,
+        "height": 527
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 492.5,
+        "height": 557.5
+      }
+    },
+    {
+      "id": "folded-branch",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 290,
+        "height": 197
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 290,
+        "height": 297
+      }
+    },
+    {
+      "id": "one-command-level",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 335,
+        "height": 307
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 320,
+        "height": 337.5
+      }
+    },
+    {
+      "id": "root-fold",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 155,
+        "height": 95
+      },
+      "ordoBounds": {
+        "x": -75,
+        "y": 0,
+        "width": 170,
+        "height": 189.5
+      }
+    },
+    {
+      "id": "planned-group",
+      "sourceBounds": {
+        "x": -50,
+        "y": 0,
+        "width": 327,
+        "height": 472
+      },
+      "ordoBounds": {
+        "x": -57.5,
+        "y": 0,
+        "width": 310,
+        "height": 502.5
+      }
+    }
+  ]
+}

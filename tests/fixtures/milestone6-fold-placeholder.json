@@ -1,0 +1,27 @@
+{
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "options": {
+    "sidc": "130310000000000000000000000000",
+    "fillColor": "#DCDEDF",
+    "stack": 4,
+    "size": 20,
+    "padding": 20,
+    "infoFields": false,
+    "orbatLabel": false
+  },
+  "expected": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" width=\"51.6\" height=\"37.6\" viewBox=\"1 26 258 188\"><g transform=\"translate(60,36)\" ></g><g transform=\"translate(45,27)\" ></g><g transform=\"translate(30,18)\" ></g><g transform=\"translate(15,9)\" ></g><g transform=\"translate(60,36)\" ><path d=\"M25,50 l150,0 0,100 -150,0 z\" stroke-width=\"4\" stroke=\"black\" fill=\"#DCDEDF\" fill-opacity=\"1\" ></path></g><g transform=\"translate(45,27)\" ><path d=\"M25,50 l150,0 0,100 -150,0 z\" stroke-width=\"4\" stroke=\"black\" fill=\"#DCDEDF\" fill-opacity=\"1\" ></path></g><g transform=\"translate(30,18)\" ><path d=\"M25,50 l150,0 0,100 -150,0 z\" stroke-width=\"4\" stroke=\"black\" fill=\"#DCDEDF\" fill-opacity=\"1\" ></path></g><g transform=\"translate(15,9)\" ><path d=\"M25,50 l150,0 0,100 -150,0 z\" stroke-width=\"4\" stroke=\"black\" fill=\"#DCDEDF\" fill-opacity=\"1\" ></path></g><path d=\"M25,50 l150,0 0,100 -150,0 z\" stroke-width=\"4\" stroke=\"black\" fill=\"#DCDEDF\" fill-opacity=\"1\" ></path></svg>",
+    "size": {
+      "width": 51.6,
+      "height": 37.6
+    },
+    "anchor": {
+      "x": 19.8,
+      "y": 14.8
+    },
+    "octagon": {
+      "x": 19.8,
+      "y": 14.8
+    }
+  }
+}

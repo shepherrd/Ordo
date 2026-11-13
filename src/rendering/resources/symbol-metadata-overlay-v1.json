@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ordo-symbol-metadata-overlay-v1",
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "sourceLocation": "Inspected se -> E builder preprocessing, readable source lines 26234-26326",
+  "basis": "User-authorized reference compatibility behavior; upstream tables retain their MIT attribution",
+  "mainInsertion": {
+    "symbolSet": "10",
+    "afterCode": "130300",
+    "row": {
+      "Code": "130301",
+      "Entity": "Fires",
+      "Entity Type": "Field Artillery",
+      "Entity Subtype": "Self-propelled",
+      "Remarks": "Removed from 2525E"
+    }
+  },
+  "emptyModifierSets": ["25"],
+  "omitUnspecifiedMainSets": ["02", "06", "25"],
+  "hiddenMainGeometry": "Any Geometric Rendering other than Point",
+  "hiddenValues": [
+    "{Disused}",
+    "{Reserved for future use}",
+    "Version Extension Flag"
+  ],
+  "priorityModifier1": "Headquarters or Headquarters Staff Element",
+  "priorityModifier2": "Supply",
+  "separateCommonModifierControls": true
+}

@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "delivery": "Office exchange",
+  "date": "2026-10-19T16:17:31.414Z",
+  "baseline": {
+    "path": ".test-data/office-baseline-2026-10-19T15-25-55-291Z/manifest.json",
+    "sha256": "5f88f5bfa4e18a4271920bffcd13ac606b88efddf97d81aac08d9f6c7903d0ef",
+    "files": 559
+  },
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "architectureReferences": 1380,
+    "preexistingFrozenUnusedDiagnostics": 9,
+    "tests": {
+      "path": ".test-data/office-final-unit.json",
+      "sha256": "68756266b8033960c9f8e7b852dc26cae158647e03523fe1a3a31efbfe2073f1",
+      "passed": 701,
+      "failed": 0
+    },
+    "productionAudit": {
+      "path": ".test-data/office-audit-final.json",
+      "sha256": "2313628e0c05930d7550f2dbb47d70ffb8e12bd55276656f05fc77d150590a66",
+      "knownVulnerabilities": 0
+    },
+    "frozenFiles": {
+      "count": 69,
+      "changed": []
+    }
+  },
+  "desktop": [
+    {
+      "kind": "development",
+      "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/result.json",
+      "sha256": "1b08473a926285953114cf216adb52cb12d31a8dc5959152a2dddc5ffc512db9",
+      "checks": [
+        "DOCX order and four-layout editable PPTX generated and saved through the UI, with notes and retained ORBAT graphic",
+        "Mapping preview rejects invalid relationships, row exclusion refreshes in place, apply is draft-only and undo/redo precedes an explicit save",
+        "Real XLSX imports objectives, phases, tasks and linked timeline events with unit relationships and native Excel dates",
+        "Applied imports recover after renderer failure; explicit ID updates preserve blank and unmapped values, and a matching name with blank ID creates a separate record",
+        "A pending import and preview survive operation navigation, remain protected when hidden, and block workspace replacement",
+        "Office exchange checked across all eight themes and narrow desktop without page-level horizontal overflow",
+        "Backup and restore preserve all imported facts and both retained Office files with exact hashes",
+        "Normal restart verifies retained Office files and saves byte-identical copies"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 10352
+        },
+        {
+          "stage": "exit",
+          "pid": 10352,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 24284
+        },
+        {
+          "stage": "exit",
+          "pid": 24284,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 26672
+        },
+        {
+          "stage": "exit",
+          "pid": 26672,
+          "exitCode": 0
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-exports.png",
+          "sha256": "34840c1b8dd685eb2c153a5747a71d8decf8cf494028449c151b96b01e673113"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-preview.png",
+          "sha256": "c88399af24ce898c803e3c4ad98e8e4dba6dd8494923fef2dd98b5e2e1f220cf"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-forest.png",
+          "sha256": "cf29a55e15defb4b18ce77b051c310dc23e96b58175b9a876375d75c97c5bb66"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-forest.png",
+          "sha256": "d7d1c61742468e2875be9434f463e2938d727a001093924aa4420fd73bfb3a74"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-ocean.png",
+          "sha256": "4cc19da0e058f48e2210a36181dae1ec73c97b6a274a5e06d27e9c7f096b7da3"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-ocean.png",
+          "sha256": "95691f80a93458216bf71a6a3578962a716c240227d08ce82c2ec19974fb440e"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-sand.png",
+          "sha256": "d4f43f614aeb9bc856d638e5dfd60cd8b1cbbdeae8cd04b7b274ea1ca35dc3a0"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-sand.png",
+          "sha256": "2fc4a3d49cfb4d90baa08651100965762710034cdc43b9a26558dbea89fb831f"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-plum.png",
+          "sha256": "62d808f396054fbbf1762155fa1acf3af620e8974c9fafdd96f39fb15fa0d1f3"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-plum.png",
+          "sha256": "cb558a0ad320f4e8e2c634877a791691c851c7ac8ef1516f4b37b47889a12044"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-midnight.png",
+          "sha256": "d75a9c55c4b5c8bdead7210303be8d4d9b25ae892e3474d2e4a607206b0036d2"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-midnight.png",
+          "sha256": "f3ce265b4c380975cb752719cbbec9f2f9b25d9d435bba2c63413ac32e680eb5"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-charcoal.png",
+          "sha256": "6b9000081b7f890582daa1247c5a41abca032e2c878eb13d261403b95cfa9f6f"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-charcoal.png",
+          "sha256": "94e708ca68f40a32d39e543fcb04eeb42856765f4a47aaba2cccbbaef2839d31"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-pine.png",
+          "sha256": "50d6d5267dad9c86512dba2ad2432a26e695c568ff92cce1bcca35219cdfcf73"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-pine.png",
+          "sha256": "e731064de41242fe2fda23b92e53ca3c447e97bc3c664547319c84376dab5b43"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-ember.png",
+          "sha256": "5a2ec3d4ab4bc6e06dc95fc776ced6941b83042b5412804d07464293adda0825"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-ember.png",
+          "sha256": "c4a184590833aad73167d26a17a3de9d69f13d0297a5960cf925fbeb8950573d"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/office-narrow.png",
+          "sha256": "d645e855a23e27756abb6651be7b9d4440694f8ddec0389c81b47c74078bd9fe"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/import-narrow.png",
+          "sha256": "e6a1be76a8a0d396d13455ec91b3349649a434c2998f7b6e2cde1a5ed092ab73"
+        }
+      ],
+      "documents": [
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/order.docx",
+          "sha256": "7615ef5042595d87be9454da86d5e636883ae377d9dab3b026ba76266c50961a"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/reopened-order.docx",
+          "sha256": "7615ef5042595d87be9454da86d5e636883ae377d9dab3b026ba76266c50961a"
+        },
+        {
+          "path": ".test-data/office-desktop-9002adda-4d1c-4e99-b729-3138e3ce956f/briefing.pptx",
+          "sha256": "e2acf196726e57ad6d254d8f87953c50404278b208ac6caa941a01739b61a4b4"
+        }
+      ]
+    },
+    {
+      "kind": "packaged",
+      "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/result.json",
+      "sha256": "a780dc8efb4ab469c27c46be63b6a4af30434f4ee74b9da3c07bc08251b7206e",
+      "checks": [
+        "DOCX order and four-layout editable PPTX generated and saved through the UI, with notes and retained ORBAT graphic",
+        "Mapping preview rejects invalid relationships, row exclusion refreshes in place, apply is draft-only and undo/redo precedes an explicit save",
+        "Real XLSX imports objectives, phases, tasks and linked timeline events with unit relationships and native Excel dates",
+        "Applied imports recover after renderer failure; explicit ID updates preserve blank and unmapped values, and a matching name with blank ID creates a separate record",
+        "A pending import and preview survive operation navigation, remain protected when hidden, and block workspace replacement",
+        "Office exchange checked across all eight themes and narrow desktop without page-level horizontal overflow",
+        "Backup and restore preserve all imported facts and both retained Office files with exact hashes",
+        "Normal restart verifies retained Office files and saves byte-identical copies"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 24356
+        },
+        {
+          "stage": "exit",
+          "pid": 24356,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 4136
+        },
+        {
+          "stage": "exit",
+          "pid": 4136,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 504
+        },
+        {
+          "stage": "exit",
+          "pid": 504,
+          "exitCode": 0
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-exports.png",
+          "sha256": "886522fc89f7ed28eb2eccbdaa562a6722e8cb9f5240343233474d6f524ff84c"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-preview.png",
+          "sha256": "c88399af24ce898c803e3c4ad98e8e4dba6dd8494923fef2dd98b5e2e1f220cf"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-forest.png",
+          "sha256": "ac1c8dbe89760e60b457584babfbdec01c8e308ad4b5a3f2b360b504189f9515"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-forest.png",
+          "sha256": "d7d1c61742468e2875be9434f463e2938d727a001093924aa4420fd73bfb3a74"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-ocean.png",
+          "sha256": "1a7a5cf13de954415eabb96d9f39ac90c7abe3815e6a709e795d074fafa64548"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-ocean.png",
+          "sha256": "527e7d89144ae962aff2852f89c83f3c3db01dece01cb637ca5d259f4be38f88"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-sand.png",
+          "sha256": "f01d27f76e86ee890fcedfb0fe7498cc5520de7762f725420d1b2121696c6092"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-sand.png",
+          "sha256": "4bf4883b69bc2ff31d97169f5c245063bfcbc0f33ab466375244b391bfca1ec7"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-plum.png",
+          "sha256": "19acbd777cec5b7e71c3b9c7ded8d0efe583a76398853bf3c09881c6c0065c4f"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-plum.png",
+          "sha256": "32e1ecb421dcdc1dcbc91474b15338571397ab47eb15af6d08dd9b911d10ee44"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-midnight.png",
+          "sha256": "f01fd546737f697923f75d8cc45177c3c8786effea74f41df4c23185bdf7756a"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-midnight.png",
+          "sha256": "cf58c9221466198c587dc234eea0eab234b6ec7abe9b50646808994be82a1542"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-charcoal.png",
+          "sha256": "a3e3ac691b484e4435bd1caf885d8a6ff0e0b09d908bee0d037d3b4e3c90a521"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-charcoal.png",
+          "sha256": "4cff3d2b1e59b5182073dadbad1405b675b3cecfbac2e1274e037abe4148982a"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-pine.png",
+          "sha256": "30a026b41a2e6a132fc9c3b88791b24e275a6e59ca7f82398bed1f2e76a92518"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-pine.png",
+          "sha256": "5107663d2f7c4d74955ad32a9ac6abb9468983298cdd060293b74af7d8f348a0"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-ember.png",
+          "sha256": "2fce357cab53f16bb059d618bc999ec0181ef6a8ad4d92ba3ac05a3fc8826040"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-ember.png",
+          "sha256": "c4a184590833aad73167d26a17a3de9d69f13d0297a5960cf925fbeb8950573d"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/office-narrow.png",
+          "sha256": "5b89c76e89a1189baad80b9ee1966709a36c457dbf971bf582d77a77715cd998"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/import-narrow.png",
+          "sha256": "19a81526e6cf102eb0fc25ce3fc47254e2608d78d48de2512f0cce57786748bd"
+        }
+      ],
+      "documents": [
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/order.docx",
+          "sha256": "3046ba33998c191e0ca7d2134c0f1d14cdd6b08feffe2824fba1cad6e8624f14"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/reopened-order.docx",
+          "sha256": "3046ba33998c191e0ca7d2134c0f1d14cdd6b08feffe2824fba1cad6e8624f14"
+        },
+        {
+          "path": ".test-data/office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7/briefing.pptx",
+          "sha256": "68aa0106c71322d3c04478527427035e4d84b1110fdae9e755847b781bfb286e"
+        }
+      ]
+    }
+  ],
+  "existingWorkflows": [
+    {
+      "kind": "briefings",
+      "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/result.json",
+      "sha256": "aed915945d1bebdf81aaa5509f70917cf155358b30b6dd9dcbeb00b984478e62",
+      "checks": [
+        "Create four layouts, add linked content, detach a copy, select a retained ORBAT, reorder, duplicate and remove slides, then save",
+        "Unified search opens the exact briefing slide by its note text",
+        "Keyboard presentation and presenter notes work; saved-source preview and a real four-slide PDF retain graphics and exclude notes",
+        "Working-copy recovery survives renderer failure; normal restart preserves retained PDFs and undo/redo covers briefing edits",
+        "Overfull slides fail export clearly and do not retain a clipped PDF",
+        "All eight themes and a narrow desktop show the briefing editor without page-level horizontal overflow",
+        "Backup and restore preserve slide layout, independent cards, graphics, and exact PDF bytes",
+        "Retained PDFs remain accessible after removing their editable briefing and after normal restart"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 19708
+        },
+        {
+          "stage": "exited",
+          "pid": 19708,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 10888
+        },
+        {
+          "stage": "exited",
+          "pid": 10888,
+          "exitCode": 0
+        },
+        {
+          "stage": "ready",
+          "pid": 1864
+        },
+        {
+          "stage": "exited",
+          "pid": 1864,
+          "exitCode": 0
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/presentation.png",
+          "sha256": "825bcdc2da4efac11e64e52bcf5144de36d571f7361de59df5f8ed28dafdda62"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-forest.png",
+          "sha256": "fc80ca4880fc7908b49d78e95028578f06aa81ebfe486df232b02f89acc95634"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-ocean.png",
+          "sha256": "c57366828222cda90a704c9de379366b3a6aeff27678fdaf9477bdeb698c6af5"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-sand.png",
+          "sha256": "8a76aade7c87f766a623900b35baa11124b880774b9fb38102fe8d3c6e6bdd38"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-plum.png",
+          "sha256": "0e812e78b548d50559baaa98dcf3fae1cbc5315afedd95daaad4cf5fd033d9ff"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-midnight.png",
+          "sha256": "d104846405ffd18f2da90404409cef9f1ffa3274a35664bcc239ab2cec843453"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-charcoal.png",
+          "sha256": "7f92c7e0c40267fd6b0f3fc2d7481f63358c6c98495f6bee6aa564ba44cbced4"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-pine.png",
+          "sha256": "f91d7ce518bad36d021a2e9ef3214513f15db4f87369a67ae255ccf60a7c4552"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-ember.png",
+          "sha256": "28a905b45effbe2b29146c2595207ac4d2e6fb49c3db6b4498af34a166cc1079"
+        },
+        {
+          "path": ".test-data/briefing-desktop-5f623b60-52ca-41f6-af7b-927fad4bc8b1/briefing-narrow.png",
+          "sha256": "dd8fd2018625638906003d6f125aa4dd6b49968e8ff885d1390be70fa7a74154"
+        }
+      ]
+    },
+    {
+      "kind": "timeline and planning progress",
+      "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/result.json",
+      "sha256": "a9cfd4091e39be083687386139a6bbfb5d19baf3c4e0c6aa30738c2ff90b13e0",
+      "checks": [
+        "1000 events use 60 rows; unit/staff/phase views, start/finish links, duration propagation, undo/redo and cycle/deletion protection work",
+        "Search opens and focuses the exact selected event even outside the current chart filter",
+        "Writing state, manual Ready, overdue dates, collapsible staff groups, direct writing navigation and readiness reopening work without approval",
+        "Unfinished duration and progress metadata survive deliberate renderer failure and explicit working-copy recovery",
+        "Explicit linked event cards retain correct start, finish, duration and unit in HTML and a real PDF",
+        "Normal clean restart verifies schedule, progress, retained HTML and PDF provenance",
+        "All eight themes and the narrow layout render with bounded charts, readable controls and no page-level horizontal overflow",
+        "Backup/restore restores schedule, due dates, Ready state and retained HTML/PDF without altering stored outputs"
+      ],
+      "lifecycle": [
+        {
+          "stage": "ready",
+          "pid": 21988
+        },
+        {
+          "stage": "renderer-failure-injection"
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 21988
+        },
+        {
+          "stage": "ready",
+          "pid": 6544
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 6544
+        },
+        {
+          "stage": "ready",
+          "pid": 21752
+        },
+        {
+          "stage": "exited",
+          "exitCode": 0,
+          "pid": 21752
+        }
+      ],
+      "screenshots": [
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-forest.png",
+          "sha256": "69c44ab8774edeeb170f119b4c4cbbbd6271ca86df18400165423f4f66fe42a5"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-forest.png",
+          "sha256": "39eeb3b657d3357a4b1b0236bd31d5a2d33de0c5081c5ed46f87f4d0580a7ac2"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-ocean.png",
+          "sha256": "2193ca44bcd997776d0d8ce848045dc9fe6637870ba5191748a1621a610e2d4a"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-ocean.png",
+          "sha256": "d0f71a875eccc5003e4eeb44638a9525cb7d5b96fa986268d8ebe8940ddc8c4b"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-sand.png",
+          "sha256": "f8fe82cd2c4fa529b1017e4705712b40a8dc285baae07edc5a7813dd8770a1b0"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-sand.png",
+          "sha256": "3ef501e0efbec8e3b5bf317e06ae7f87ed6b3713451476c5b1017f4321e5144f"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-plum.png",
+          "sha256": "f353ca1a14f50081eb301e203dfd643d8b1435be220e2ee97a87329e821b5109"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-plum.png",
+          "sha256": "9d4d154f4678cf874aeacd389ed47fe20bf1c54cb73ec20d18afb3d7d5199401"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-midnight.png",
+          "sha256": "9115b5f9c6f4e5287cbad98c740af9c28aab6c88546657ff1bb2e732294db2f9"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-midnight.png",
+          "sha256": "bc75270019a4edcbce360bda814bd9e6f23c2ccb21209ac67835d5d274a0a4a3"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-charcoal.png",
+          "sha256": "5ac901bc4f6511c0b133e07c9a18a9f6be6edcf2165c47c415d351046f93b510"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-charcoal.png",
+          "sha256": "37b1e4150d87453a16fb3e96797878b84c2a8d65e3ec07e9db1123d04d45a2bd"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-pine.png",
+          "sha256": "f998d6ac662256ead8f661365455095f0eda93b1b2ad2c65975e781922483eb3"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-pine.png",
+          "sha256": "985d009cc0506b252045075d073787563bde800f9fc35395f4b50b17a9bfcaeb"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-ember.png",
+          "sha256": "d40368973fcf1428658dc6e35e5ffc3153691a921d3dd23798b1d34cb640affa"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/progress-ember.png",
+          "sha256": "4675afa7cdf1517acafb143f32a273da56c6771abdd5b00c457a908874c4ebed"
+        },
+        {
+          "path": ".test-data/timeline-desktop-cb576035-89ce-4197-8f21-4b692914560f/timeline-narrow.png",
+          "sha256": "b9f07a1ee628714ff8d8f4991ae4fe988672f3d2190e4cee8db238428ce08482"
+        }
+      ]
+    }
+  ],
+  "documentCoverage": {
+    "path": ".test-data/office-documents-22967373-c60e-43a8-ac81-417ec5efc615/result.json",
+    "sha256": "da8d2163a43a74a940edf4c80b34cd0e93d805e7a7ce07677d52d039a5975174",
+    "checks": [
+      "Generated A4 portrait DOCX from verified saved modules",
+      "Generated A4 landscape DOCX from verified saved modules"
+    ],
+    "exitCode": 0,
+    "documents": [
+      {
+        "path": ".test-data/office-documents-22967373-c60e-43a8-ac81-417ec5efc615/portrait.docx",
+        "sha256": "ed774a4381e1686b6b239ef3536603e84f99143f6cad9f2f63302e7ba28d84ed"
+      },
+      {
+        "path": ".test-data/office-documents-22967373-c60e-43a8-ac81-417ec5efc615/landscape.docx",
+        "sha256": "d5d05ad4825bd940fe7f7c15e5707678f5155bbb57b00a658dbe5501e8babcfb"
+      }
+    ]
+  },
+  "visual": {
+    "themes": [
+      "Forest",
+      "Ocean",
+      "Sand",
+      "Pine",
+      "Midnight",
+      "Charcoal",
+      "Plum",
+      "Ember"
+    ],
+    "viewports": [
+      [1600, 1100],
+      [1050, 850]
+    ],
+    "inspected": [
+      "All Office/import theme screens and narrow controls",
+      "All four editable PPTX slides rendered to PDF",
+      "All Word pages including logo, nested lists, repeated long-table headings, footer page fields, and intrinsic diagram sizing"
+    ],
+    "report": {
+      "path": ".test-data/office-visual-qa.json",
+      "sha256": "26c462dd3eab7a61dbcadb80c95e2e7149de131f6b6df66f3cfce9668149a929"
+    },
+    "details": {
+      "renderer": "LibreOffice and Poppler",
+      "files": [
+        {
+          "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\order.docx",
+          "pages": 2,
+          "editableTables": 3,
+          "editableParagraphs": 40,
+          "embeddedImages": 0
+        },
+        {
+          "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait.docx",
+          "pages": 4,
+          "editableTables": 4,
+          "editableParagraphs": 220,
+          "embeddedImages": 2
+        },
+        {
+          "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape.docx",
+          "pages": 6,
+          "editableTables": 4,
+          "editableParagraphs": 220,
+          "embeddedImages": 2
+        }
+      ],
+      "pptx": {
+        "slides": 4,
+        "editableTextShapes": 30,
+        "embeddedPictures": 1,
+        "presenterNoteRetained": true
+      }
+    },
+    "outputs": [
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\briefing.pdf",
+        "sha256": "398d298d049eebf17892ca644d70ca18234233118d0c21f18a8e8dc019173f3b"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-charcoal.png",
+        "sha256": "4cff3d2b1e59b5182073dadbad1405b675b3cecfbac2e1274e037abe4148982a"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-ember.png",
+        "sha256": "c4a184590833aad73167d26a17a3de9d69f13d0297a5960cf925fbeb8950573d"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-forest.png",
+        "sha256": "d7d1c61742468e2875be9434f463e2938d727a001093924aa4420fd73bfb3a74"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-midnight.png",
+        "sha256": "cf58c9221466198c587dc234eea0eab234b6ec7abe9b50646808994be82a1542"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-narrow.png",
+        "sha256": "19a81526e6cf102eb0fc25ce3fc47254e2608d78d48de2512f0cce57786748bd"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-ocean.png",
+        "sha256": "527e7d89144ae962aff2852f89c83f3c3db01dece01cb637ca5d259f4be38f88"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-pine.png",
+        "sha256": "5107663d2f7c4d74955ad32a9ac6abb9468983298cdd060293b74af7d8f348a0"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-plum.png",
+        "sha256": "32e1ecb421dcdc1dcbc91474b15338571397ab47eb15af6d08dd9b911d10ee44"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-preview.png",
+        "sha256": "c88399af24ce898c803e3c4ad98e8e4dba6dd8494923fef2dd98b5e2e1f220cf"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-sand.png",
+        "sha256": "4bf4883b69bc2ff31d97169f5c245063bfcbc0f33ab466375244b391bfca1ec7"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\import-themes.png",
+        "sha256": "1e2b2eac473fa5b5c55ad05fb4639c7422ed79ab9897feb5e04b658702da03da"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-charcoal.png",
+        "sha256": "a3e3ac691b484e4435bd1caf885d8a6ff0e0b09d908bee0d037d3b4e3c90a521"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-ember.png",
+        "sha256": "2fce357cab53f16bb059d618bc999ec0181ef6a8ad4d92ba3ac05a3fc8826040"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-exports.png",
+        "sha256": "886522fc89f7ed28eb2eccbdaa562a6722e8cb9f5240343233474d6f524ff84c"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-forest.png",
+        "sha256": "ac1c8dbe89760e60b457584babfbdec01c8e308ad4b5a3f2b360b504189f9515"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-midnight.png",
+        "sha256": "f01fd546737f697923f75d8cc45177c3c8786effea74f41df4c23185bdf7756a"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-narrow.png",
+        "sha256": "5b89c76e89a1189baad80b9ee1966709a36c457dbf971bf582d77a77715cd998"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-ocean.png",
+        "sha256": "1a7a5cf13de954415eabb96d9f39ac90c7abe3815e6a709e795d074fafa64548"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-pine.png",
+        "sha256": "30a026b41a2e6a132fc9c3b88791b24e275a6e59ca7f82398bed1f2e76a92518"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-plum.png",
+        "sha256": "19acbd777cec5b7e71c3b9c7ded8d0efe583a76398853bf3c09881c6c0065c4f"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-sand.png",
+        "sha256": "f01d27f76e86ee890fcedfb0fe7498cc5520de7762f725420d1b2121696c6092"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\office-themes.png",
+        "sha256": "5d41fdefa4c40af2e5094ca08168c109cd5feb00975b8d94857fce1fb2b57f96"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\slide-1.png",
+        "sha256": "356a4d027ebc1cd7df8430017e6fa01bbb812b3b7bc03069b9e3deadb1bee67d"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\slide-2.png",
+        "sha256": "4a6eec69526fabf6f90e45ca0d690d2fe1d9cbea8c8aeb019fd5610bd8e143e7"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\slide-3.png",
+        "sha256": "5a76282e839bcda79fe662cbf78e3c353b695031351da518d09c626be6877e17"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\slide-4.png",
+        "sha256": "26da1989dacf6be39f2303afa4bcc7493f48be7687dd7d7b571d14a00d51ea84"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\slides.png",
+        "sha256": "f06b359129af9f1bf81dd636562e229b369799b22cb9372ee8902259046cac4f"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\word-render\\footer-2.png",
+        "sha256": "eb3043c27647929f4ea87e9f7abcd87370ae2b8fa998647255a56bd03f14cd3b"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\word-render\\order.pdf",
+        "sha256": "0e4871b8e2c54eab2a6138ba58246975225316f5bf99f915d35a90412b351f42"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\word-render\\page-1.png",
+        "sha256": "b594b93ce21b916ec45634251f04aba6fb335f110c9cf1b3d9889b60c4f1ea3c"
+      },
+      {
+        "path": ".test-data\\office-desktop-4cb7c087-7e52-413c-a81c-491cf05c85c7\\word-render\\page-2.png",
+        "sha256": "9afd9254fcb0728918928a5d2907efdd920f63df4dedfb80b41d2835e1ef12d1"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\fictional-logo.png",
+        "sha256": "37be1e2f37c72affb4571fe731afdb160473b2f3f38e9c11f48b8fcb0522bf57"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-pages.png",
+        "sha256": "8f385524ca7b297df4ccf843b6a7947830c2e6ab1caf528eb71a04f0edead329"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait-pages.png",
+        "sha256": "e4b25ffc86013f89812a9582be63296d71b853ab82bb20bda1baa99635c91137"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\landscape.pdf",
+        "sha256": "f2c572a8b81b6759235d30e51c1aafe54b76aa5d51101ed18b6b7fbe993d25ad"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\page-1.png",
+        "sha256": "9f1d09badb38bbb994a7d35e96e7946b2302c7313af2f7c146960894ded38b72"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\page-2.png",
+        "sha256": "aca31cf2bf82a7abef3568b877b2b7125cf6ebf9b0c596c79a22f79492633933"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\page-3.png",
+        "sha256": "567749877ce06ecbe9a4d980c4f87bd9af0203021c6440721f0e3a77dd8555e5"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\page-4.png",
+        "sha256": "700a33f73030a9319e9cb673a376e64d1540f0b41d5620873b2b76ccf69f604f"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\page-5.png",
+        "sha256": "8a505bea5d3aeb06a66e0d9e113086559bb91b7258e4db47b7f30e12c8df6c5f"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\landscape-render\\page-6.png",
+        "sha256": "2c76788d2ca2571912200e9ba10308ee35926da05b1f6a91ce9938167b0a1038"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait-render\\page-1.png",
+        "sha256": "4b9e53dfa8702b4fe6e94beaa700fd28ff45fdc7e2ea168dd7a4deeccffdaee9"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait-render\\page-2.png",
+        "sha256": "9a4ef5a4d6c85dbb3ba5f197653c3a740466d323a5313d494b1b3b9b1bf1ef2c"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait-render\\page-3.png",
+        "sha256": "c685c465e6e8a00041eb4fc887f2e95f19601f0a9843c759da19f9a284c6148f"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait-render\\page-4.png",
+        "sha256": "6677ea56665100fb5757edf89fe5870d84e69f69b1a299448100d5eab945fcd3"
+      },
+      {
+        "path": ".test-data\\office-documents-22967373-c60e-43a8-ac81-417ec5efc615\\portrait-render\\portrait.pdf",
+        "sha256": "f5325afb0d5996242af9abe629027b5d2df59b83588f08ba86c682bc1e45c628"
+      }
+    ]
+  },
+  "package": {
+    "candidate": ".test-data/office-candidate/win-unpacked/Ordo.exe",
+    "archive": {
+      "path": ".test-data/office-candidate/win-unpacked/resources/app.asar",
+      "sha256": "ca81e0600dfe2a8ce09c53c3467421b57476836d77d941c674cfaab7bacfc7f8"
+    },
+    "compiledFilesMatch": true,
+    "compiledFiles": [
+      {
+        "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main\\chunks\\render-requests-Cw_Q3t7M.js",
+        "sha256": "6c51f82c4f9c86d14c16b173ea0c05ccc92eff9dc6a5899eb1acc6c809c48b1a"
+      },
+      {
+        "path": "main\\chunks\\symbol-catalog-BnkJPBqK.js",
+        "sha256": "e0a7bd4a4deffacaa8ca3314d9e02c43f0adcbcced5968fe018d9988c27e6996"
+      },
+      {
+        "path": "main\\index.js",
+        "sha256": "31cf3a44c9dad41f4ea292b4aef14a2413b0bbd53d728827ddde192f751ac87d"
+      },
+      {
+        "path": "main\\symbol-worker.js",
+        "sha256": "fecc5684f8aeb40ee334ad96d7ba7931ad61b65f2d0558e26880b888802eb74a"
+      },
+      {
+        "path": "preload\\index.js",
+        "sha256": "db0a3db400c9bfc66b519af8e842a2d893b16f97c51ea6ebf60e74016fd0191f"
+      },
+      {
+        "path": "renderer\\assets\\OperationOrbatPanel-9XfMenED.js",
+        "sha256": "06d553c71a966347aafc4a1cfb10142e91e0df88101cbe446465c73355b14c2b"
+      },
+      {
+        "path": "renderer\\assets\\OperationSymbolEditor-Y7qBmoFh.js",
+        "sha256": "51059108d6510e9964c5007ea228486a631fa3924c32964dc28b040d99ead73c"
+      },
+      {
+        "path": "renderer\\assets\\ProfileSymbolEditor-Bk1aqpA3.js",
+        "sha256": "0bd9532bdf451a4786294bc5e4293d723589795fd3b26830d7d9875f42bb62ad"
+      },
+      {
+        "path": "renderer\\assets\\SaveUnitSymbol-BLjsXIXs.js",
+        "sha256": "8d60af9f761c8dfeccce6d2dffcf0a9d3875768e37acdbbff5c277385f490f19"
+      },
+      {
+        "path": "renderer\\assets\\SavedSymbolPicker-B_AGWdhe.js",
+        "sha256": "edd6ae8641125cd35aea6876f82867bdc592563112fe32d765856f7c9c2bc156"
+      },
+      {
+        "path": "renderer\\assets\\SymbolEditor-CGEYJjKB.js",
+        "sha256": "78bbb8b852338ebdd8c9d49cfab02a099a03e0e38a890b72b6bf670a18eb8601"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-C-Ft57gP.css",
+        "sha256": "547aa388cf4c2641c327f3dd1eda07b68cae10433751f4d7b0ad954ba2aa7e04"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-D-kPmgsT.js",
+        "sha256": "86f3a392480d0481f7245bde5f151950aa0f12f932e3493761a643ea2b69cdc8"
+      },
+      {
+        "path": "renderer\\assets\\index-BofvjWJx.js",
+        "sha256": "66801a6336c92c1a31476db7056fcbc27046903ebfcbf931b456c8c2eadf07b1"
+      },
+      {
+        "path": "renderer\\assets\\index-DULL49um.css",
+        "sha256": "f954ca59cbec8b5dfba28934ca913d73c4d0cc8ecb97ddc837c067e8ecd75ce5"
+      },
+      {
+        "path": "renderer\\index.html",
+        "sha256": "f9f7832831aae771648b5993055a2e120114e444c392cc739c01cddcef9c42ee"
+      }
+    ],
+    "notices": {
+      "path": ".test-data/office-candidate/win-unpacked/resources/licenses/office-third-party-notices.txt",
+      "sha256": "564425f37847f52ab6c00fa5af5396cff8f6a2f861dabfd55abdf1105330948b"
+    },
+    "existingRelease": "release/0.6.5 was not rebuilt or replaced"
+  },
+  "sourceChanges": [
+    {
+      "path": "README.md",
+      "sha256": "c5146177aab8ac22f56660115e61fa3953567bc14279b90f8b41dd75f4c7f7d1",
+      "baselineSha256": "1d95f3e751eb8cd3333e43ab1465af789b594058134d9150e1a46042473c51f1"
+    },
+    {
+      "path": "docs/connected-planning-implementation-plan.md",
+      "sha256": "d38c3c56828ffe38a7b0ef6bb28de8ca1fdafe8fb651fc1a123b88238c601e34",
+      "baselineSha256": "5ae3c8751dd72ff255ca720dc1680b872add4680c47d375e3f87725a5baaba13"
+    },
+    {
+      "path": "docs/office-exchange-delivery.md",
+      "sha256": "889bd982b430aa57c7a2f7c3f56857799f2e8adb703cd9fffbf063ea7597f8ee",
+      "baselineSha256": null
+    },
+    {
+      "path": "docs/office-license-saxes.txt",
+      "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+      "baselineSha256": null
+    },
+    {
+      "path": "docs/office-third-party-notices.txt",
+      "sha256": "564425f37847f52ab6c00fa5af5396cff8f6a2f861dabfd55abdf1105330948b",
+      "baselineSha256": null
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "c408ec6c39c9ad37be44351a95918cebbbf18849b4f3a29ad3f26825103c8cff",
+      "baselineSha256": "a737c0ed973cb8750d708ad9e6951e98ec974be4c6dd20bca81a5288876c9a4b"
+    },
+    {
+      "path": "package.json",
+      "sha256": "3e39625df9ab93b32263184b9deb31e265ef0a5911f4349b54b8e2edf52ba63a",
+      "baselineSha256": "ac5bcb39c100a970711187861273bbf33453e8da8b5899e3256a6ff27b50485a"
+    },
+    {
+      "path": "scripts/generate-office-notices.cjs",
+      "sha256": "c00d7878fe9d10d6ae6dc10271d953e2c71479e92c9bdf6ea30f921ef75d6524",
+      "baselineSha256": null
+    },
+    {
+      "path": "scripts/smoke-office-documents.cjs",
+      "sha256": "25e49d686cc93095863e44a885ff47164ec1e83e8b271686fe4e4440d3e45bc0",
+      "baselineSha256": null
+    },
+    {
+      "path": "scripts/smoke-office.cjs",
+      "sha256": "502a086d7bdc7b4f7e53cc8082e33c4a6dbad453e44e0356e9b6b1d090f5429b",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/bridge.ts",
+      "sha256": "7c153709623518ef1f2c389058d4ae4d03b2e32957b354308941366b53bf3690",
+      "baselineSha256": "6d63053953f380b16aedea179e98d7a5195107485a70a63f494202428c0809c2"
+    },
+    {
+      "path": "src/application/office-layout.ts",
+      "sha256": "c52affa3fa7c4d6dc9433856d753693b5e2221ae37aa164868e3aba04b575a46",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/application/office-service.ts",
+      "sha256": "282ec0828ca0599d08ad4dc0da860bf17e57bcf9d8bc80251359d3c651e2a9d8",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/domain/table-import.ts",
+      "sha256": "9bb59ae0888bf6d418df7418b4dd28dc55d709a9c01eb57559bcc308a87d0a9a",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/main/document-renderer.ts",
+      "sha256": "5da77d111c651f45e8de0b09c7041c2ed244cf44303cd7c0486b5ba06a1d6b6d",
+      "baselineSha256": "1fbfa8bf3b73c58a27f1e840498599006e6db2094c4a502395cb4be8db3600b1"
+    },
+    {
+      "path": "src/main/index.ts",
+      "sha256": "c5132c0a69c599691847b6d7e6461c2f940597e790efb397f99a9cb817c60f35",
+      "baselineSha256": "36f5cb54db987ebb66ceb9a2ef485dc883bd10e9c06b2625701a0439e2bf4568"
+    },
+    {
+      "path": "src/main/office-docx.ts",
+      "sha256": "c415d0743bf23a646b65e6040e0994cf0918bb93e997019882a3562cabc7cf3b",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/main/office-import.ts",
+      "sha256": "b5f91b9bc172cf17e98b9bb17ca05ba69a649a506aa0dc8f2b261bde7e81d454",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/main/office-pptx.ts",
+      "sha256": "41b54cf151b373d859525b32aae77154ca95e92b34aa4fda17664bbe4f523cea",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/main/office-renderer.ts",
+      "sha256": "8ab19947d958b1d4b9201f9836fa528b1725e96e6c825e027eeafeaf14906d47",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/deletion-store.ts",
+      "sha256": "aef0e5c569bf447cb1d7a234c678925d4a3beedef27fff292191bda82d1671ce",
+      "baselineSha256": "7a9863f8b7eadb7cadb9a191c242145412c894230319e8ec08ea8406143c6d88"
+    },
+    {
+      "path": "src/persistence/migrations/018.sql",
+      "sha256": "538eadf4a8bd643c5b1d84bcaf1c90d7e355ca8cbe1b3a5da0fd36ba6c4ee5ea",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/office-store.ts",
+      "sha256": "d0a8974c9594e74cf1ef9ef3e9596856cdf0b8e57719e6fc70c1f45ce3699a8b",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/persistence/repository.ts",
+      "sha256": "c8a0b952316c25c2489f25fe57f61c8c001467316b92a35e9cc5dcb8945ce648",
+      "baselineSha256": "4c941bfca9b5826d06d3dca4f389afb90507b95b35c14b795a361d23813faa2c"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "b83fac7b763d4f43026eadc20dcb679f08239e7b185ef8ab6a9a6c247f29371b",
+      "baselineSha256": "34a6fb3a9ab890d47940a14cddeea1ed5ac418de3ed4e3437b1e4953ac3f0883"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "b6bbf14965f12a84375452dfa61c4cddd8fe0e840f9f42f8112f189863915ab8",
+      "baselineSha256": "034d148099d842a1584bdd33ed0de3418d3e56913076822fc141f3180aabce9a"
+    },
+    {
+      "path": "src/renderer/src/OfficeExchange.tsx",
+      "sha256": "f41c036582bde99fcc57fbbc2819fab6ebbe4929ab33a50ea56c459d5947f426",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/TableImport.tsx",
+      "sha256": "dcbfd0fa25ed628d5b970397ced1147ae49ca66fb2edb80bc20c2e25269a6e60",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/office.css",
+      "sha256": "73b06877b8f548f5a78ce689c37d69942b32fb0f4113102d49c2b6c70e4fa790",
+      "baselineSha256": null
+    },
+    {
+      "path": "src/renderer/src/workspace-session.ts",
+      "sha256": "391d3f0d9b2e00a930b61e3d8ddaceabe4179f7922ee293bb1bb2d218ab36599",
+      "baselineSha256": "705173099ce68effac9b16ed169fd677e7d046356912f3acd52c084e97207282"
+    },
+    {
+      "path": "tests/closure.test.ts",
+      "sha256": "58163245d27e9b4dbf205baa56b2d3e994cfd0ceed025af710925eca666ab60c",
+      "baselineSha256": "03023864e185a7a7bd860063fdddc69f7e9e7fe2f97a3472094146063c7fa0be"
+    },
+    {
+      "path": "tests/milestone2-persistence.test.ts",
+      "sha256": "64047fad35a6e809630a05639af93b84030d3379b3247575c472744c6bdb4281",
+      "baselineSha256": "b9e75b1fb193b3668cfe7b1dcc699f873e88cf7d9432822ab63ea4d0f2da8f2d"
+    },
+    {
+      "path": "tests/milestone3.test.ts",
+      "sha256": "f38126b8f0417a96899d81745977bc6c5d46df39c014f7ae3ba323af87720c56",
+      "baselineSha256": "72381e9b7ab68874e85fc92c88c66f139739fe4851cf4b1abe3661981f1fc121"
+    },
+    {
+      "path": "tests/milestone4-reviews.test.ts",
+      "sha256": "28f335a14ccff63093cbc566bb8c8753265263517d6fdf1c23fe6ede5084aaee",
+      "baselineSha256": "fd25078d80dc66ace93d7c3e5c94408612be82fa36bad351849d2b7319cee004"
+    },
+    {
+      "path": "tests/milestone5.test.ts",
+      "sha256": "63117de3ae14c01a8d1093c2f15588193f250f9b1908afb38300d4e0dd9f560e",
+      "baselineSha256": "f361a3b1d9ccdf6e8433cbc3bb08aa0a06d953e7f1a5d85eeea16442e046ff65"
+    },
+    {
+      "path": "tests/milestone6-foundation.test.ts",
+      "sha256": "83051d83480b62530577a14747ec0ea09fca4a417709b22f1fd47f89b4e6c958",
+      "baselineSha256": "3166fb083b9b91da8d29af13f3de9b7be862363019f0bc68e5526af0d2db25e2"
+    },
+    {
+      "path": "tests/office-export.test.ts",
+      "sha256": "f6c91194e24b7efb5814c2957a6815ac3fdfa2acaf61c1f1d4d5e9ac26168c89",
+      "baselineSha256": null
+    },
+    {
+      "path": "tests/office-import.test.ts",
+      "sha256": "3d1aa3f814cb9f2bfaa601a0e2312805eed32c5b716545ffaf6752f1ba2f568c",
+      "baselineSha256": null
+    },
+    {
+      "path": "tests/readable-order.test.ts",
+      "sha256": "05b30e52ec3f9f12a9efacf0b73d6efb8290ebfbe7a38aee7740be33eecfe301",
+      "baselineSha256": "f7454ce8f5211a2c0bd5fef1d3fb8520bb35fd44949c32d3e62f593dc232177a"
+    }
+  ],
+  "removedBaselineFiles": [],
+  "excludedRuns": [
+    {
+      "path": ".test-data/office-unit.json",
+      "reason": "Initial migration-expectation failures corrected; final suite has 701 passing tests."
+    },
+    {
+      "path": ".test-data/office-desktop-246cf12d-b4b3-4a73-a6db-de38470250fc",
+      "reason": "Invalid test card source kind corrected in fixture."
+    },
+    {
+      "path": ".test-data/office-documents-6083ad12-7f27-407b-affa-9b3bcef25b67",
+      "reason": "Invalid test field type corrected in fixture."
+    },
+    {
+      "path": ".test-data/office-documents-316128a3-5384-4c84-a89c-ba0d7ee69c6e",
+      "reason": "Duplicate test managed-asset ownership corrected in fixture."
+    },
+    {
+      "reason": "All other earlier successful Office runs are superseded by the listed final builds, including sharper graphics, intrinsic Word image sizing, pending-import navigation preservation, and narrow-table readability."
+    }
+  ],
+  "scope": {
+    "formats": ["DOCX", "PPTX", "XLSX", "CSV", "TSV"],
+    "importKinds": ["units", "tasks", "objectives", "phases", "events"],
+    "updates": "Only exact explicit Ordo IDs update; blank IDs create.",
+    "renderer": "office-v1",
+    "migration": 18,
+    "reviewRenderer": "review-html-v8",
+    "searchIndexFormat": 2,
+    "nextDelivery": "Planning whiteboard; general DOCX/PPTX extraction remains deferred."
+  }
+}

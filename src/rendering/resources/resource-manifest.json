@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "release": "milstandard-e@0.2.14",
+    "hash": "c058a755b58e843b17db4358fc235eca3fa3dee783cbe70ab21a6da42da333ad"
+  },
+  "flags": {
+    "id": "flag-icons@7.5.0-4x3",
+    "hash": "e1ce269b9c2d1e64abafb3602c6153f9d0a5501144fa877b887150b7edd1e50a",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons/tree/v7.5.0",
+    "entries": 271
+  }
+}

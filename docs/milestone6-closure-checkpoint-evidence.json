@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "version": "0.5.0",
+  "milestoneStatus": "IN PROGRESS",
+  "status": "INDEPENDENT_CHECKS_PASSED_DESKTOP_ENVIRONMENT_BLOCKED",
+  "release": false,
+  "parityClaim": false,
+  "acceptedBaselines": {
+    "source": "Direct user checkpoint in this task",
+    "workspaceSidebar": "Accepted navigation/layout baseline only; no operation-domain semantics.",
+    "rendering": "Profile 1 default and historical; profile 2 explicit opt-in. Mixed diagrams preserve exact symbol profiles. No silent migration.",
+    "profile2Spacing": "Resolved design choice; exact-current-package visual verification still required."
+  },
+  "verification": {
+    "tests": {
+      "path": ".test-data/m6-closure-tests-2026-10-03-corrected.json",
+      "sha256": "1904c3c2e3ebf7ea14074542bca8b0a805558b1db50efdaf73099b99100e748a",
+      "passed": 494,
+      "files": 21,
+      "failed": 0
+    },
+    "build": "PASS",
+    "typecheck": "PASS",
+    "formatting": "PASS",
+    "architectureReferences": 636,
+    "frozenImplementations": {
+      "path": "tests/fixtures/milestone6-frozen-implementations.json",
+      "sha256": "a82b7f8cfae5e2342c51708e41846e87826147a750b02883f77489317c0f531e"
+    },
+    "migrations": [
+      {
+        "path": "src/persistence/migrations/007.sql",
+        "sha256": "1242a46394ba713cdaa8064f90fea519b8e27e1f1bd890e3c62a51d8139001b5"
+      },
+      {
+        "path": "src/persistence/migrations/008.sql",
+        "sha256": "62b51a39cb526f64f042d4a9114d35b52c29cb17da66b5e9fea2da065051fdb4"
+      },
+      {
+        "path": "src/persistence/migrations/009.sql",
+        "sha256": "0e2e6d2411a84697b995fafe24403dd9b1dd4ce2c6776edb695574c28091e249"
+      }
+    ],
+    "rawCrosswalk": {
+      "path": "src/application/legacy-crosswalk-v1.json",
+      "sha256": "06e9a35d5ffe9adb6baef228d5fcf3772bad6436c4e115c198b0a5932173c292"
+    },
+    "unresolvedCrosswalkCounts": {
+      "discrepant": 588,
+      "ambiguous": 6,
+      "unverified": 4
+    },
+    "unresolvedBehavior": "Exhaustive unresolved-row guard preserves raw evidence and source codes. Usable unresolved codes return no candidate; the empty invalid placeholder is not fabricated into a code. Provenance remains unresolved.",
+    "retainedFailedUnitHarnessAttempt": {
+      "path": ".test-data/m6-closure-tests-2026-10-03.json",
+      "sha256": "0e6a928067960ad3b1b65ee9d2931c704c1f1444736f5ac89ecc088157db641f"
+    }
+  },
+  "currentBuild": {
+    "compiledTreeSha256": "008c8a84253d734b7c1821db7c8a96dbdfa0d15f9bd625ad1151448ad8715575",
+    "sourceTreeSha256": "1a44f29f38b05000b0bcb4732456ad91c9af2e1c415968ff5d9c4d1fa9bd8059",
+    "packageSha256": "48170d9c9d2c0583aa1d3e44cf0c94a0b1fda149af55c4b85f49ba185028a80b",
+    "packageLockSha256": "0bb7bd8f92a25186268e7b814b181cebcee9a0f9daf20bc543ffaa1e02bc9ca0",
+    "harnessTreeSha256": "c9aa63fa7e79f51b2c2c0a4cbca6c6bd5ff41999c9221bf66ffe33994f4cea24",
+    "fixtureTreeSha256": "2f89dc849f38ccf7e3c0d3e5a00e0f98faff3512548ec261e8507dc67262c342"
+  },
+  "currentCandidate": {
+    "executable": "C:\\Ordo APP DEV\\.test-data\\m6-package-2026-10-03-label-profile-v2\\win-unpacked\\Ordo.exe",
+    "executableSha256": "66d2ce989002cec8c5145fd2207a0f3c338d632a96c8b6fd5f3f02098b893bc1",
+    "asarSha256": "67b46a6d486cbe570011bd4ca559f130266370dda51e1dc325cecc2c6d2660a6",
+    "packageTreeSha256": "34f75d647d8a01d14105bb7a80f6109f4476a4b4656834c8f2b7c48a1dd87e11",
+    "status": "COMPILED_ASSETS_AND_NOTICES_MATCH_CURRENT_BUILD_DESKTOP_NOT_ACCEPTED",
+    "validation": "Read-only comparison of every ASAR compiled asset and all four notices; full candidate folder fingerprint includes runtime/native resources. No desktop result inferred."
+  },
+  "runner": {
+    "schemaVersion": 3,
+    "script": {
+      "path": "scripts/run-milestone6-regressions.cjs",
+      "sha256": "0c90b660da7f2d994c6aca06d1344adacfac7765de8b91a809b9ecded47d8772"
+    },
+    "contract": {
+      "path": "scripts/milestone6-acceptance.cjs",
+      "sha256": "9cf10555928e3eb27813435e61e6911c065f1851c9b0df30aad7c4a8456d266b"
+    },
+    "freshSequenceRequired": true,
+    "resumeAllowed": false,
+    "sequence": [
+      ["smoke", 13],
+      ["smoke-milestone2", 20],
+      ["smoke-milestone3", 50],
+      ["smoke-milestone4", 64],
+      ["smoke-milestone5", 77],
+      ["smoke-milestone6", 14],
+      ["smoke-milestone6-interactions", 7],
+      ["smoke-milestone6-import-ui", 6],
+      ["smoke-milestone6-catalog-ui", 6],
+      ["smoke-milestone6-independence", 3],
+      ["smoke-operation-navigation", 6],
+      ["smoke-milestone6-visuals", 20]
+    ],
+    "packagedPrerequisite": "A complete fresh development pass from the same compiled/source/harness/fixture identity; intact per-workflow evidence; packaged compiled assets must match. Recheck build and candidate integrity throughout.",
+    "development": "NOT_RUN_WINDOWS_RECOVERY_FAILED",
+    "packaged": "NOT_RUN_DEVELOPMENT_PREREQUISITE_UNMET"
+  },
+  "visualReview": {
+    "status": "EXPANDED_HARNESS_READY_NOT_DESKTOP_EXECUTED",
+    "script": {
+      "path": "scripts/smoke-milestone6-visuals.cjs",
+      "sha256": "3be3450a15fac70fad8bcad337636cfae4d73aa84b4b92892277edc506eecf2a"
+    },
+    "fixtures": {
+      "path": "tests/fixtures/milestone6-composition-inputs.json",
+      "sha256": "c9fbc14f2dc42425a7405680e7477d8e6b8f301241bb820a2f0010edec535391"
+    },
+    "compositions": [
+      "grouped-folded-flags",
+      "simple-folded-flags",
+      "expanded-flags",
+      "root-fold",
+      "hq-pairs",
+      "long-label-marks"
+    ],
+    "variants": ["profile-1", "profile-2", "mixed-profiles"],
+    "plannedCaptures": 18,
+    "plannedChecks": 20,
+    "checks": [
+      "Six historical profile-1 SVG hashes before/after rendering",
+      "Exact source/manifest profiles in SVG and PNG",
+      "Profile-2 label/mark overlaps and clipping",
+      "Historical profile-1 overlaps recorded without coercion",
+      "Exact bytes and node profiles after normal close/reopen"
+    ],
+    "requiredHumanReview": [
+      "Historical profile 1",
+      "Accepted profile-2 spacing",
+      "Mixed profiles",
+      "Flags and long labels",
+      "Signature and additional information",
+      "Synthetic groups/folds",
+      "HQ pairs",
+      "SMART/SIMPLE",
+      "Replacement metrics and viewport differences",
+      "NATO artwork difference"
+    ],
+    "noParityClaim": true
+  },
+  "environment": {
+    "status": "BLOCKED_EXTERNAL_NETPROFM",
+    "recoveries": [
+      {
+        "path": ".test-data/m6-netprofm-elevated-recovery-2026-10-03.json",
+        "sha256": "99f2caa3758a750ab7452a016409d2fb3c1b3365948322c1a234a8a902fbd076",
+        "result": {
+          "service": "netprofm",
+          "status": "FAILED_NO_FORCE_OR_DEPENDENT_SERVICE_ACTION",
+          "actions": [],
+          "startedUtc": "2026-10-04T06:19:39.1847429Z",
+          "error": "Cannot find type [System.ServiceProcess.ServiceController]: verify that the assembly containing this type is loaded.",
+          "finishedUtc": "2026-10-04T06:19:42.5463922Z"
+        }
+      },
+      {
+        "path": ".test-data/m6-netprofm-elevated-recovery-2026-10-03-retry.json",
+        "sha256": "c54fb03adff6c9310696548d616d7972c56ebf3bba19bdb44219ef0e4055914c",
+        "result": {
+          "service": "netprofm",
+          "status": "FAILED_NO_FORCE_OR_DEPENDENT_SERVICE_ACTION",
+          "actions": ["Normal Stop request sent to netprofm only"],
+          "startedUtc": "2026-10-04T06:21:41.4638789Z",
+          "administrator": true,
+          "initialState": "Running",
+          "stopResponse": "\r\nSERVICE_NAME: netprofm \r\n        TYPE               : 30  WIN32  \r\n        STATE              : 4  RUNNING \r\n                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)\r\n        WIN32_EXIT_CODE    : 0  (0x0)\r\n        SERVICE_EXIT_CODE  : 0  (0x0)\r\n        CHECKPOINT         : 0x0\r\n        WAIT_HINT          : 0x0\r\n",
+          "error": "Exception calling \"WaitForStatus\" with \"2\" argument(s): \"Time out has expired and the operation has not been completed.\"",
+          "finalState": "Running",
+          "finishedUtc": "2026-10-04T06:22:05.1008315Z"
+        }
+      }
+    ],
+    "observation": "Windows administrator elevation succeeded on retry. Normal netprofm-only stop request was accepted but did not reach Stopped in 20 seconds. It still reported Running with host PID 2344. No start request was sent because Stopped was not observed.",
+    "unrelatedServicesTouched": false,
+    "forcedServiceTermination": false,
+    "diagnosticProductFlags": false,
+    "recoveryNeeded": "Windows recovery outside Ordo. A fresh normal development sequence must pass before any packaged workflows."
+  },
+  "releaseGate": {
+    "passed": false,
+    "required": "Provenance, exact-current-package visual review, healthy normal lifecycle, restore, complete development and packaged acceptance. No 0.6.0 release or M6 Completion Report until prerequisites and required final-binary verification pass.",
+    "milestone7Authorized": false
+  }
+}

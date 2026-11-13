@@ -1,0 +1,637 @@
+{
+  "versionGatePassedAt": "2026-10-03T15:04:28.027Z",
+  "candidateVersion": "0.4.0",
+  "automatedTests": 373,
+  "originalTests": 303,
+  "newTests": 70,
+  "architectureReferences": 267,
+  "quality": {
+    "format": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "test": "PASS",
+    "build": "PASS"
+  },
+  "candidatePath": "release/milestone5-candidate-final/win-unpacked/Ordo.exe",
+  "candidateAsarSha256": "e816549f2d88a9864b89cc918fba591aafb92170bae35bdc99e295bba78c87d8",
+  "sourceMainSha256": "a74c2585ddd09e2aa54b780756a7db9f44ce29e41b134a4eb00ddd346bdd6426",
+  "migration006Sha256": "5b3d817ba497d0d0227cb2b01f12689c0d55975ffc1d964c55fc26df49d8ab25",
+  "frozenGuards": {
+    "src/persistence/migrations/001.sql": "430687e11d8195831f617ae90a446dd4d3877746b05dc450ffd1ac98e01bab5b",
+    "src/persistence/migrations/002.sql": "1e10f49f452da5c0bed9d1ddbb44468945dbbfea95a80e8f4a64585c5bc96996",
+    "src/persistence/migrations/003.sql": "a87431731467a2de327c6496cec25305c03758291680013fbbc6162fe3328bed",
+    "src/persistence/migrations/004.sql": "6cb308c38c3e00198c04cbb690c4bac7e79fcada1a2d64d91396a58127ff6ad3",
+    "src/persistence/migrations/005.sql": "f88d5a4d16a529db94eec72bf2914cdc0ad811d5bf33ea6a5eceaf3856434ee5",
+    "src/export/projections/v1.ts": "b124aff2e2b7b200bd0a9df946d2bdf00ca213d0f01461f197bc528751789c07",
+    "src/export/projections/v2.ts": "bdcc423df3f5e4fe666e8f443183c2859c74ad906072477fd4c904b366a8942b",
+    "src/export/projections/v3.ts": "18d52b1a6f3a1a4c981c27fe114f74ab10946bae58e8fdce491bb3b33825be9e",
+    "src/export/projections/v4.ts": "a894c83cf79d2e3ef01750df8ad8fb63e3755d3a61e3274c02b1ca573fca727e",
+    "src/export/html.ts": "7af040467ccacbd2bd3f3c0cc7d53aafe10f161e4e758d8bc026b8dfa0db534b",
+    "src/export/modular-html.ts": "7d9d79f710db5fb3b1d4e4ec8e3b934733867e679f3bb41eb2098ff214e6cda4",
+    "src/export/module-render.ts": "cd2b4c828b0732fd781cd148e447b3be0348d3293ed378e65d4078ca2952a0a1",
+    "src/config/doctrine.json": "70d318b62f0c83c4f057ad9819d7358815b6647dd0b6e2a8a0d152de20e732ff",
+    "src/config/us-army-orders.json": "e39ff6bd1f293441023748b4612bbe038e0d9e4516f453d7eaf0531d891d1a4d",
+    "src/domain/diff/v1.ts": "dcd9e2cd03b743c29ea9b86ad5c19574e81ea3762c13875e545ed3fe880e92a4",
+    "src/domain/diff/rich.ts": "7dcf7bf394cd00585a137b027fbe0be17fdbfbbf5f8da690ec0b65516335e6ad",
+    "src/domain/diff/sequence.ts": "8eae2a7c5f43cfb6a30b25e3dc5790b1905385120e0eaea7b25061083a59bdee",
+    "src/domain/diff/text.ts": "909b712b191df76cfa4772f3439fb107177004a70a998026b2b7ec7e6cc61840",
+    "src/application/review-impact.ts": "1256b0116790fc5b8e23c300c5e96194c62c7248e1752896046a24b7a4d51f2d",
+    "src/export/review-html.ts": "b489fa6ddc21fb34aa91adf25855928ba483ae2f912a399283bf63b9244eb816"
+  },
+  "evidence": {
+    "development": {
+      "m1": {
+        "folder": "smoke-8faed6ec-7f4a-4e76-8144-7ef6c5e88d1c",
+        "checks": 13,
+        "result": "PASS",
+        "sha256": "13c6fb8b552749e69f55a3fafdd59572ce65f0d686c657709ab861c2bad7c796",
+        "runtime": null
+      },
+      "m2": {
+        "folder": "milestone2-smoke-f10f0369-63c0-415b-a867-001a7d1aba89",
+        "checks": 20,
+        "result": "PASS",
+        "sha256": "b4af4376fe92d6b328a9f9f7170124a7b5c82c31d6d0242ec3d523da985a3957",
+        "runtime": {
+          "version": "44.5.1",
+          "packaged": false,
+          "platform": "win32",
+          "architecture": "x64",
+          "electron": "44.5.1"
+        }
+      },
+      "m3": {
+        "folder": "milestone3-smoke-cf3fd2e5-91ba-4911-bb51-86d831e9d7ad",
+        "checks": 50,
+        "result": "PASS",
+        "sha256": "9c3c61bbd4d92eab996bf69d0ea221ac920117d4905cab854202ef4617cee1e0",
+        "runtime": {
+          "version": "44.5.1",
+          "packaged": false,
+          "electron": "44.5.1"
+        }
+      },
+      "m4": {
+        "folder": "milestone4-smoke-b735bc95-3530-4e17-9d8c-9cd48ec7509e",
+        "checks": 64,
+        "result": "PASS",
+        "sha256": "d78852f0cf08911c263a01bf8178b5f6ed4fd028e2057b8d3e9ded3e50eae4c4",
+        "runtime": {
+          "version": "44.5.1",
+          "packaged": false,
+          "electron": "44.5.1"
+        }
+      },
+      "m5": {
+        "folder": "milestone5-smoke-ba73cee3-0ea8-4ee6-b812-ffbb8d6f5e35",
+        "checks": 77,
+        "result": "PASS",
+        "sha256": "3cf1c71a1d2e217833bcd4fe483025e918d2953ab3b43e3a5543200bc0881a49",
+        "runtime": {
+          "version": "44.5.1",
+          "packaged": false,
+          "electron": "44.5.1"
+        }
+      }
+    },
+    "candidate": {
+      "m1": {
+        "folder": "smoke-1cf872c1-f6a6-4e44-a1f8-58d23e3571c2",
+        "checks": 13,
+        "result": "PASS",
+        "sha256": "971cc3a7e57f5cafc876ee18dd884e6ce914633967af05e04f0356bd4cc450c1",
+        "runtime": {
+          "version": "0.4.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      },
+      "m4": {
+        "folder": "milestone4-smoke-1b57c67e-7d3a-4b11-99d3-6e798c65f7d0",
+        "checks": 64,
+        "result": "PASS",
+        "sha256": "fe6d6f4649b7aaf6442c59817245ba59e7560d8e03ef575814bab6da96b1f92c",
+        "runtime": {
+          "version": "0.4.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      },
+      "m2": {
+        "folder": "milestone2-smoke-b8cb98bb-9753-469a-b270-7eb8cb3be49e",
+        "checks": 20,
+        "result": "PASS",
+        "sha256": "ba1624a0b5011b57ef87a170ae5ea1bf26af98799b42708b3bd77984e68b27c0",
+        "runtime": {
+          "version": "0.4.0",
+          "packaged": true,
+          "platform": "win32",
+          "architecture": "x64",
+          "electron": "44.5.1"
+        }
+      },
+      "m3": {
+        "folder": "milestone3-smoke-967eb9a7-23f5-4123-a2c0-8a609850f288",
+        "checks": 50,
+        "result": "PASS",
+        "sha256": "f80cb1f0b8a07bdaa53fdc8b01325ae8b00e6218b458c9799aa224f8f7c5e9cd",
+        "runtime": {
+          "version": "0.4.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      },
+      "m5": {
+        "folder": "milestone5-smoke-c2dcb2b6-97ab-4b43-aa19-45c3e5babadc",
+        "checks": 77,
+        "result": "PASS",
+        "sha256": "0e470c6d8c45eb32a66c3615399594f14019fefe95a41026679c68a980d02d93",
+        "runtime": {
+          "version": "0.4.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      }
+    }
+  },
+  "finalRelease": {
+    "version": "0.5.0",
+    "completedAt": "2026-10-03T15:11:19.216Z",
+    "installer": "release/0.5.0/Ordo Setup 0.5.0.exe",
+    "bytes": 123650680,
+    "sha256": "a67f5573e9d46556f4637c7f08c6d4140b1575110071c7064bf4643be5b847d8",
+    "asarSha256": "72fc65426c401e960bd8318b6799047783410c8049bed1aee1f1220e77d72e6e",
+    "packagedEvidence": {
+      "m1": {
+        "folder": "smoke-3f07d07a-060a-4760-989d-853823f7ab7e",
+        "checks": 13,
+        "result": "PASS",
+        "sha256": "c1b558328e15374f0f6aca18137c422ce975f58d427caa4eb29c8ded4a3c4f17",
+        "runtime": {
+          "version": "0.5.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      },
+      "m4": {
+        "folder": "milestone4-smoke-75b15de4-c016-4b9b-b72a-becb5de465b6",
+        "checks": 64,
+        "result": "PASS",
+        "sha256": "9f42738215bd40fbb3bc6deecee04694a73dc3c47c237e699437898ec7946edb",
+        "runtime": {
+          "version": "0.5.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      },
+      "m2": {
+        "folder": "milestone2-smoke-4fa17d34-3931-4fa1-b454-f6496f1ef7f4",
+        "checks": 20,
+        "result": "PASS",
+        "sha256": "020e2111a1a2b2a891471b8ba3d321187bd752a8163287d6c10e7d7dc4742a2a",
+        "runtime": {
+          "version": "0.5.0",
+          "packaged": true,
+          "platform": "win32",
+          "architecture": "x64",
+          "electron": "44.5.1"
+        }
+      },
+      "m3": {
+        "folder": "milestone3-smoke-b09304cb-ef1b-412e-a4e7-bfddd38757af",
+        "checks": 50,
+        "result": "PASS",
+        "sha256": "7f95907fd81167356abede11b5b28565bb38259bec8b0244e964a20f1d147043",
+        "runtime": {
+          "version": "0.5.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      },
+      "m5": {
+        "folder": "milestone5-smoke-e0245cb5-ef34-4b74-9e97-e1f8be730bd3",
+        "checks": 77,
+        "result": "PASS",
+        "sha256": "1b9ad62514b728f55247a32c947b165f0dcd74e7b8a8d662e83fd05aa0639f83",
+        "runtime": {
+          "version": "0.5.0",
+          "packaged": true,
+          "electron": "44.5.1"
+        }
+      }
+    },
+    "acceptanceStepsPassed": 82
+  },
+  "acceptance": [
+    {
+      "step": 1,
+      "result": "PASS",
+      "note": "Real Ordo 0.4.0/schema-005 upgraded through 006; existing asset blobs and owners preserved"
+    },
+    {
+      "step": 2,
+      "result": "PASS",
+      "note": "Historical operations, configuration, publications, exports, assets, and frozen reviews remain readable"
+    },
+    {
+      "step": 3,
+      "result": "PASS",
+      "note": "Normal startup opens Dashboard"
+    },
+    {
+      "step": 4,
+      "result": "PASS",
+      "note": "All six global navigation destinations are available"
+    },
+    {
+      "step": 5,
+      "result": "PASS",
+      "note": "Operations browser works without selecting an operation"
+    },
+    {
+      "step": 6,
+      "result": "PASS",
+      "note": "Legacy operation opens without inferred organization"
+    },
+    {
+      "step": 7,
+      "result": "PASS",
+      "note": "Return to Dashboard without restarting"
+    },
+    {
+      "step": 8,
+      "result": "PASS",
+      "note": "Existing Doctrine Builder opens globally"
+    },
+    {
+      "step": 9,
+      "result": "PASS",
+      "note": "Created fictional brigade Unit Profile through UI"
+    },
+    {
+      "step": 10,
+      "result": "PASS",
+      "note": "Configured identity, custom type/echelon, callsign and description"
+    },
+    {
+      "step": 11,
+      "result": "PASS",
+      "note": "Created seven configurable staff sections"
+    },
+    {
+      "step": 12,
+      "result": "PASS",
+      "note": "Created eight reusable staff positions"
+    },
+    {
+      "step": 13,
+      "result": "PASS",
+      "note": "Assigned semantic OPERATIONS role to Brigade S-3"
+    },
+    {
+      "step": 14,
+      "result": "PASS",
+      "note": "Added informational incumbent metadata without changing position identity"
+    },
+    {
+      "step": 15,
+      "result": "PASS",
+      "note": "Draft profile, staff, incumbent and managed insignia survive save/restart exactly"
+    },
+    {
+      "step": 16,
+      "result": "PASS",
+      "note": "Published immutable version 1.0.0"
+    },
+    {
+      "step": 17,
+      "result": "PASS",
+      "note": "UI and application guards reject in-place published edits"
+    },
+    {
+      "step": 18,
+      "result": "PASS",
+      "note": "Created a new Draft version in the same family"
+    },
+    {
+      "step": 19,
+      "result": "PASS",
+      "note": "New staff draft preserves old published content and continuing position identities"
+    },
+    {
+      "step": 20,
+      "result": "PASS",
+      "note": "Created fictional subordinate profile through validated workspace command"
+    },
+    {
+      "step": 21,
+      "result": "PASS",
+      "note": "Published exact Battalion version"
+    },
+    {
+      "step": 22,
+      "result": "PASS",
+      "note": "Added exact published Battalion version as a standing subordinate"
+    },
+    {
+      "step": 23,
+      "result": "PASS",
+      "note": "A newer Battalion version does not change the existing exact standing pin"
+    },
+    {
+      "step": 24,
+      "result": "PASS",
+      "note": "Read-only standing hierarchy preview shows exact child version"
+    },
+    {
+      "step": 25,
+      "result": "PASS",
+      "note": "Self-parent relationship rejected"
+    },
+    {
+      "step": 26,
+      "result": "PASS",
+      "note": "Transitive family cycle across profile versions rejected"
+    },
+    {
+      "step": 27,
+      "result": "PASS",
+      "note": "Exact default doctrine was configured before publication and remains inspectable"
+    },
+    {
+      "step": 28,
+      "result": "PASS",
+      "note": "Opened improved Create Operation flow"
+    },
+    {
+      "step": 29,
+      "result": "PASS",
+      "note": "Selected exact Brigade 1.0.0"
+    },
+    {
+      "step": 30,
+      "result": "PASS",
+      "note": "Organization default doctrine preselected"
+    },
+    {
+      "step": 31,
+      "result": "PASS",
+      "note": "Planner can override doctrine recommendation"
+    },
+    {
+      "step": 32,
+      "result": "PASS",
+      "note": "Returned to exact recommended doctrine"
+    },
+    {
+      "step": 33,
+      "result": "PASS",
+      "note": "Created operation with independently selected organization and doctrine"
+    },
+    {
+      "step": 34,
+      "result": "PASS",
+      "note": "Operation stores exact organization version and resolved snapshot"
+    },
+    {
+      "step": 35,
+      "result": "PASS",
+      "note": "Publishing 1.1.0 does not silently adopt it into the operation"
+    },
+    {
+      "step": 36,
+      "result": "PASS",
+      "note": "Operation header shows organization, doctrine and revision"
+    },
+    {
+      "step": 37,
+      "result": "PASS",
+      "note": "Responsible Staff resolves Operations to Brigade S-3"
+    },
+    {
+      "step": 38,
+      "result": "PASS",
+      "note": "Doctrine owner semantics remain inspectable"
+    },
+    {
+      "step": 39,
+      "result": "PASS",
+      "note": "Typed operation-specific staff override saved in a revision"
+    },
+    {
+      "step": 40,
+      "result": "PASS",
+      "note": "Restoring default returns organization/doctrine-derived ownership"
+    },
+    {
+      "step": 41,
+      "result": "PASS",
+      "note": "Created profile without OPERATIONS role"
+    },
+    {
+      "step": 42,
+      "result": "PASS",
+      "note": "Missing role displays unresolved warning without inventing a position"
+    },
+    {
+      "step": 43,
+      "result": "PASS",
+      "note": "No-organization operation remains fully supported"
+    },
+    {
+      "step": 44,
+      "result": "PASS",
+      "note": "Opened canonical Task Organization"
+    },
+    {
+      "step": 45,
+      "result": "PASS",
+      "note": "Opened exact profile selector from Task Organization"
+    },
+    {
+      "step": 46,
+      "result": "PASS",
+      "note": "Searched and selected exact saved Battalion version"
+    },
+    {
+      "step": 47,
+      "result": "PASS",
+      "note": "Instantiated unit-only import"
+    },
+    {
+      "step": 48,
+      "result": "PASS",
+      "note": "Operation unit has independent UUID and exact source provenance"
+    },
+    {
+      "step": 49,
+      "result": "PASS",
+      "note": "Operational rename leaves global Unit Profile unchanged"
+    },
+    {
+      "step": 50,
+      "result": "PASS",
+      "note": "Deliberate subtree import permits confirmed independent profile reuse"
+    },
+    {
+      "step": 51,
+      "result": "PASS",
+      "note": "Imported parent links reference operation-owned units"
+    },
+    {
+      "step": 52,
+      "result": "PASS",
+      "note": "Global profile edits do not mutate Task Organization"
+    },
+    {
+      "step": 53,
+      "result": "PASS",
+      "note": "Create Operation offers explicit Task Organization initialization"
+    },
+    {
+      "step": 54,
+      "result": "PASS",
+      "note": "Selected standing structure instantiated exactly once"
+    },
+    {
+      "step": 55,
+      "result": "PASS",
+      "note": "Saved multiple planning revisions"
+    },
+    {
+      "step": 56,
+      "result": "PASS",
+      "note": "V2 comparison and controlled review detect typed operational staff override"
+    },
+    {
+      "step": 57,
+      "result": "PASS",
+      "note": "New global version alone creates no operation changes and leaves frozen review exact"
+    },
+    {
+      "step": 58,
+      "result": "PASS",
+      "note": "Published OPORD freezes exact organization snapshot and staff overrides"
+    },
+    {
+      "step": 59,
+      "result": "PASS",
+      "note": "Published another global organization version"
+    },
+    {
+      "step": 60,
+      "result": "PASS",
+      "note": "Historical publication remains unchanged"
+    },
+    {
+      "step": 61,
+      "result": "PASS",
+      "note": "Legacy operation continues using original ownership data and renderer behavior"
+    },
+    {
+      "step": 62,
+      "result": "PASS",
+      "note": "Organization browser search, status/echelon filters and sorting work"
+    },
+    {
+      "step": 63,
+      "result": "PASS",
+      "note": "Duplication creates independent family/Draft and remaps staff identities"
+    },
+    {
+      "step": 64,
+      "result": "PASS",
+      "note": "Retired version remains resolvable for pinned operation"
+    },
+    {
+      "step": 65,
+      "result": "PASS",
+      "note": "Global preferences available outside operation context"
+    },
+    {
+      "step": 66,
+      "result": "PASS",
+      "note": "Managed global library supports organization imagery without Symbol/ORBAT placeholders"
+    },
+    {
+      "step": 67,
+      "result": "PASS",
+      "note": "Dashboard shows recent saved operation activity"
+    },
+    {
+      "step": 68,
+      "result": "PASS",
+      "note": "Dashboard shows open Change Review information"
+    },
+    {
+      "step": 69,
+      "result": "PASS",
+      "note": "Dashboard action creates operation"
+    },
+    {
+      "step": 70,
+      "result": "PASS",
+      "note": "Dashboard action opens new Organization flow"
+    },
+    {
+      "step": 71,
+      "result": "PASS",
+      "note": "Dashboard action opens doctrine creation controls"
+    },
+    {
+      "step": 72,
+      "result": "PASS",
+      "note": "Backed up saved workspace with organization, assets, staff, pins and review history"
+    },
+    {
+      "step": 73,
+      "result": "PASS",
+      "note": "Made additional profile/staff/operation changes after backup"
+    },
+    {
+      "step": 74,
+      "result": "PASS",
+      "note": "Restored backup through guarded global Settings action"
+    },
+    {
+      "step": 75,
+      "result": "PASS",
+      "note": "Restart returns to Dashboard after restore"
+    },
+    {
+      "step": 76,
+      "result": "PASS",
+      "note": "Exact profile versions, staff/hierarchy/defaults, organization pins, frozen publication/review and staff resolution restored"
+    },
+    {
+      "step": 77,
+      "result": "PASS",
+      "note": "Milestone 1 retained workflow passes in development and packaged Electron (sections 31–33)."
+    },
+    {
+      "step": 78,
+      "result": "PASS",
+      "note": "Milestone 2 retained workflow passes in development and packaged Electron (sections 31–33)."
+    },
+    {
+      "step": 79,
+      "result": "PASS",
+      "note": "Milestone 3 retained workflow passes in development and packaged Electron (sections 31–33)."
+    },
+    {
+      "step": 80,
+      "result": "PASS",
+      "note": "Milestone 4 retained workflow passes in development and packaged Electron (sections 31–33)."
+    },
+    {
+      "step": 81,
+      "result": "PASS",
+      "note": "M5 development workflow passes, including offline/security and zero-renderer-error assertions."
+    },
+    {
+      "step": 82,
+      "result": "PASS",
+      "note": "All five workflows pass on both the final 0.4.0 candidate and final 0.5.0 packaged release."
+    }
+  ]
+}

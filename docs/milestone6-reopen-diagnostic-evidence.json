@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.5.0",
+  "milestoneStatus": "IN PROGRESS",
+  "releaseEvidence": false,
+  "status": "BLOCKED_BEFORE_ELECTRON_READY_WITH_LIVE_RPC_WAIT",
+  "scope": "Narrow diagnostic after the user rejected the post-restart acceptance attempt. Neither diagnostic is acceptance, and no full regression or packaged sequence was started.",
+  "build": {
+    "compiledTreeSha256": "008c8a84253d734b7c1821db7c8a96dbdfa0d15f9bd625ad1151448ad8715575",
+    "sourceTreeSha256": "1a44f29f38b05000b0bcb4732456ad91c9af2e1c415968ff5d9c4d1fa9bd8059",
+    "packageSha256": "48170d9c9d2c0583aa1d3e44cf0c94a0b1fda149af55c4b85f49ba185028a80b",
+    "packageLockSha256": "0bb7bd8f92a25186268e7b814b181cebcee9a0f9daf20bc543ffaa1e02bc9ca0",
+    "harnessTreeSha256": "974beaf6654473905d60709880c4ef665010440f4e198d333138098fb977bdfc",
+    "fixtureTreeSha256": "2f89dc849f38ccf7e3c0d3e5a00e0f98faff3512548ec261e8507dc67262c342"
+  },
+  "lifecycleTimeoutMs": 60000,
+  "finding": {
+    "currentDiagnostic": "Electron enters the compiled application and acquires its isolated single-instance lock, but does not emit ready within 60000ms. Two instrumented-process snapshots and the uninstrumented probe show the main thread waiting on RPC endpoint \\RPC Control\\nlaplg, with target PID 2160. Independent tasklist /svc evidence identifies netprofm as the only service listed for that PID.",
+    "attributionLimit": "This establishes the live pre-ready RPC wait in the new probes. It does not retrospectively prove the cause of the earlier M1 timeout, explain why netprofm is not servicing the call, or establish a product, database or acceptance-harness defect.",
+    "nextGate": "Normal startup and complete clean shutdown/reopen must be demonstrated after environment recovery. A fresh complete schema-3 development sequence from M1 remains required before any packaged acceptance."
+  },
+  "stages": [
+    {
+      "stage": "process creation",
+      "status": "OBSERVED",
+      "pid": 16492,
+      "at": "2026-10-04T08:19:45.950Z",
+      "detail": "Direct electron.exe spawn; the sole argument is the diagnostic entry wrapper. No Chromium/Electron switches or NODE_OPTIONS. The wrapper loads unchanged out/main/index.js."
+    },
+    {
+      "stage": "compiled application entry",
+      "status": "OBSERVED",
+      "begin": "2026-10-04T08:19:46.025Z",
+      "end": "2026-10-04T08:19:46.249Z"
+    },
+    {
+      "stage": "single-instance lock",
+      "status": "ACQUIRED",
+      "begin": "2026-10-04T08:19:46.237Z",
+      "end": "2026-10-04T08:19:46.248Z",
+      "detail": "Original method return true. A unique isolated desktop-profile path avoids touching the planner workspace."
+    },
+    {
+      "stage": "Electron ready",
+      "status": "NOT_OBSERVED_BY_60000MS",
+      "deadlineObservation": "2026-10-04T08:20:45.971Z",
+      "detail": "No ready event; ready=false when compiled entry returns. The external timer observes failure without altering Electron lifecycle."
+    },
+    {
+      "stage": "workspace/database open",
+      "status": "NOT_REACHED",
+      "detail": "better-sqlite3 module loading is observed, but its database constructor is never called. Ordo openRepository is inside app.whenReady().then."
+    },
+    {
+      "stage": "migration/restore verification",
+      "status": "NOT_REACHED",
+      "detail": "No database constructor or pragma/exec calls. Opening the copied failed workspace did not reach repository initialization; no restore was requested in the narrow probe."
+    },
+    {
+      "stage": "render-worker startup",
+      "status": "NOT_REQUESTED",
+      "detail": "The source starts SymbolRenderHost lazily on a render request. No window, IPC registration or request was reached."
+    },
+    {
+      "stage": "BrowserWindow creation",
+      "status": "NOT_REACHED",
+      "detail": "No browser-window-created event. Native snapshots contain only an untitled internal Chrome_WidgetWin_0, a power-message window and IME window; none is Ordo BrowserWindow readiness."
+    },
+    {
+      "stage": "renderer load",
+      "status": "NOT_REACHED",
+      "detail": "No web-contents-created or renderer load events."
+    },
+    {
+      "stage": "preload/IPC initialization",
+      "status": "NOT_REACHED",
+      "detail": "No web contents or Ordo IPC handler registrations. No preload error or dialog was observed."
+    },
+    {
+      "stage": "application-shell readiness",
+      "status": "NOT_REACHED",
+      "detail": "No renderer was created; no shell-ready claim."
+    },
+    {
+      "stage": "pending modal/dialog",
+      "status": "NOT_OBSERVED",
+      "detail": "No dialog calls in the logging wrapper and no modal dialog windows in native enumeration."
+    },
+    {
+      "stage": "OS/RPC/service wait",
+      "status": "OBSERVED",
+      "detail": "Uninstrumented PID 13080 / thread 8356 and instrumented PID 16492 / thread 10224 wait on \\RPC Control\\nlaplg to PID 2160. Instrumented native snapshots at 08:20:08.586Z and 08:20:43.528Z retain the same RPC chain. netprofm identity is separately retained."
+    }
+  ],
+  "shutdownAndReopen": {
+    "earlierM1Run": "The earlier failed manifest did not retain the first Electron process tree, quit-event timestamp, or descendant-exit timestamps. These cannot be reconstructed as a confirmed clean exit. Playwright uses shell:true on Windows, so its logged launched PID is not by itself proof of the entire Electron tree state.",
+    "beforeNewProbes": "A read-only process enumeration before the new probes found no electron process. This is a current observation, not retrospective evidence of the earlier close/reopen boundary.",
+    "uninstrumentedProbe": {
+      "pid": 13080,
+      "spawnAt": "2026-10-04T08:17:26.780Z",
+      "closeRequestAt": "2026-10-04T08:17:38.558Z",
+      "stillAliveAt": "2026-10-04T08:18:40.508Z",
+      "exitCode": null,
+      "reopenAttempted": false,
+      "observationCorrection": "The first native observer incorrectly treated an untitled internal Chrome_WidgetWin_0 as a candidate window and posted WM_CLOSE to it. It did not observe a real Ordo window, clean exit, or shell readiness. That probe is not valid lifecycle success evidence; its live wait chain is retained. The scratch observer now requires the exact Ordo title before posting WM_CLOSE."
+    },
+    "instrumentedProbe": {
+      "pid": 16492,
+      "spawnAt": "2026-10-04T08:19:45.950Z",
+      "aliveAtFailureBoundary": "2026-10-04T08:20:45.971Z",
+      "ready": false,
+      "closeRequested": false,
+      "quitEventObserved": false,
+      "exitCodeObserved": false,
+      "reopenAttempted": false
+    },
+    "finalInventory": {
+      "at": "2026-10-04T08:22:34.4653406Z",
+      "processes": []
+    },
+    "finalInventoryLimit": "Both diagnostic PIDs were absent by the later inventory. No child-exit event or application quit event was retained after the bounded diagnostic controllers ended; disappearance is not accepted as a clean shutdown. No manual force-kill command was issued.",
+    "requirementStillPending": "A successful normal shutdown with timestamped root/descendant exit confirmation followed by normal reopen remains unfulfilled because normal initial startup is blocked."
+  },
+  "instrumentation": {
+    "productFilesChanged": false,
+    "compiledBytesChanged": false,
+    "harnessOrFixtureBytesChanged": false,
+    "method": "A separate scratch entry wrapper attaches event/log observers, records original lock/database/IPC/dialog calls and requires the current compiled main entry. The direct uninstrumented probe independently records the same RPC target.",
+    "removal": "The active .test-data/m6-startup-observer.cjs entry was moved to startup-observer-source.cjs.txt in the evidence folder after both probes were absent. Product source/out never contained this logging. Acceptance paths do not reference the wrapper.",
+    "acceptanceEligible": false
+  },
+  "constraints": {
+    "version": "0.5.0",
+    "frozenHashesVerified": 22,
+    "noStartupSwitches": true,
+    "noServiceControls": true,
+    "noManualForcedProcessTermination": true,
+    "noTimeoutInflation": true,
+    "noNetworkPolicyChange": true,
+    "noFullSequenceStarted": true,
+    "noPackagedAcceptanceStarted": true,
+    "noSplicing": true
+  },
+  "serviceRecovery": {
+    "status": "AWAITING_SEPARATE_USER_AUTHORIZATION_OR_EXTERNAL_RECOVERY",
+    "actionProposed": "Normal administrator-level restart of netprofm only, with no forced stop or dependent/unrelated service action. No control has been sent."
+  },
+  "retainedEvidence": [
+    {
+      "path": ".test-data/m6-normal-reopen-diagnostic-5a698f04-db68-4144-b2bb-1a7fda908a82/events.jsonl",
+      "sha256": "354f101f3770159c149f1031aafbe10d7f06179a2be3af9ee23184ddb7478373"
+    },
+    {
+      "path": ".test-data/m6-normal-reopen-diagnostic-5a698f04-db68-4144-b2bb-1a7fda908a82/live-waitchain-before-shutdown-limit.jsonl",
+      "sha256": "2fe13f96a101685253f3cbf2285625bc53401194b41ea04230f1f8c3be72154e"
+    },
+    {
+      "path": ".test-data/m6-normal-reopen-diagnostic-5a698f04-db68-4144-b2bb-1a7fda908a82/diagnostic.json",
+      "sha256": "8f119a07eae1c6532c3116c84267f4a5a29cabda1a7fe889b8833e8ee2875509"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/captured-harness.jsonl",
+      "sha256": "84185b323747734a436ecd88abb122126ab5f27eaadf2ace02d2e82a816aa2bf"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/captured-startup.jsonl",
+      "sha256": "885879a5e1ceab3dd469d95b7fa6c457c586883fd4868c26dabbe1157422f684"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/process-20261004-082008-677.json",
+      "sha256": "775f5818e6499b8e7587625abf9d880e15414c3415eb082213a85c249ac40462"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/process-20261004-082043-614.json",
+      "sha256": "60c235dfc5deb682c58db58ef2739821b809d7ad4c3e513a38e685c56291e086"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/process-20261004-082146-956.json",
+      "sha256": "9878103631ca117418e0da7571544c5fb1e4021ed841e76dd91b2b8df27a880c"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/waitchain-16492-082008.jsonl",
+      "sha256": "adc65e0f9942d71ba4960a808bd70df8950aa4cb1808306b6ead13604a056562"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/waitchain-16492-082043.jsonl",
+      "sha256": "e14f7825bdd28aae4e98ae973ac41cb0dda5cf5d035af9155df975623942f83b"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/netprofm-query.txt",
+      "sha256": "535c72985915ea4d27d05aae853c25fe3e88a3bf7ece7671d4c134372173edd1"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/service-host-membership.json",
+      "sha256": "00f9df485bde64eb894a2b10cec5694170584f72972e3f26b2f6314cd3e4e893"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/final-electron-inventory.json",
+      "sha256": "156aa259d634c1b11ae72903b14c6580bef8a852cd1d775ad19d5f5cfd74a1c1"
+    },
+    {
+      "path": ".test-data/m6-observed-startup-ba819260-2658-40a2-83f5-e4f1e95592f9/startup-observer-source.cjs.txt",
+      "sha256": "df75a415b6aa4655f742b87f7e3f369262ec0594ff95931d445fa0f3fcfd0444"
+    }
+  ]
+}

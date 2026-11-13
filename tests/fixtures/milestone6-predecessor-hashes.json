@@ -1,0 +1,38 @@
+{
+  "operationId": "bc444643-9b92-473e-9969-5bfd0435bb29",
+  "frozen": {
+    "operation_revisions": {
+      "count": 2,
+      "hash": "cb7a431a54a6cfff66cec36dbeccc9a043db17ed15c5ad6e0ecbc04794ff42d8"
+    },
+    "publications": {
+      "count": 1,
+      "hash": "5afddde5fd83a0897ef036900b2ea1dbb3b0c75579fb89df5e7b41ecb924a638"
+    },
+    "exports": {
+      "count": 2,
+      "hash": "297695e4d4129932f2f009c8a93e3178d0daf04ba5dd55fb33d3026f7e3a3094"
+    },
+    "unit_profile_versions": {
+      "count": 1,
+      "hash": "8c131ad345d56da8d61111220ca0ae727088f4cccf1e7fccf8c2cef6097d36fa"
+    },
+    "change_review_changes": {
+      "count": 2,
+      "hash": "8ee96d3dfe34facb0065d840a0cff1646e2e6b363648b41f7654da12670125b4"
+    },
+    "change_review_events": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "change_reviews": {
+      "count": 1,
+      "hash": "50e7b19a66d7a28242eb47bc62a86ecbce51797cc9f5ebc6f8514a5517516fe6"
+    },
+    "revision_identities": {
+      "count": 2,
+      "hash": "6b27ce04be10d6a5ed5671a2e8537c0686ddc2fded3a56d6a0e97631cf223bcd"
+    }
+  },
+  "fixtureSha256": "8c3d668053dae1a0e1398164e247a3cb25c7457c0b120bf6340e615c7acb21a6"
+}

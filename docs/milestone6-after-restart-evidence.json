@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "status": "IN_PROGRESS",
+  "version": "0.5.0",
+  "releaseGatePassed": false,
+  "parityClaim": false,
+  "trigger": {
+    "source": "Direct user message in this task",
+    "statement": "restart completed"
+  },
+  "changes": {
+    "productSource": "UNCHANGED",
+    "compiledOutput": "UNCHANGED",
+    "migrations007Through009": "UNCHANGED",
+    "closureRunner": "SCHEMA_3_UNCHANGED",
+    "fixtures": "UNCHANGED",
+    "visualHarness": {
+      "path": "scripts/smoke-milestone6-visuals.cjs",
+      "reason": "The previous idle SVG remained visible while gallery selection asynchronously loaded a different ORBAT. An idle-canvas check alone measured the prior profile-1 render as if it were the requested profile-2 composition.",
+      "correction": "Wait for aria-busy=false AND exact expected SVG DOM serialization before measuring. The existing 25-second preview budget, overlap/clipping assertions and all workflow counts remain unchanged.",
+      "previousHarnessTreeSha256": "c9aa63fa7e79f51b2c2c0a4cbca6c6bd5ff41999c9221bf66ffe33994f4cea24",
+      "currentHarnessTreeSha256": "974beaf6654473905d60709880c4ef665010440f4e198d333138098fb977bdfc",
+      "handling": "Original failed run retained unchanged; the changed harness received a new fingerprint and the full sequence restarted at M1. No previous successes were resumed or accepted under the new fingerprint."
+    }
+  },
+  "build": {
+    "compiledTreeSha256": "008c8a84253d734b7c1821db7c8a96dbdfa0d15f9bd625ad1151448ad8715575",
+    "sourceTreeSha256": "1a44f29f38b05000b0bcb4732456ad91c9af2e1c415968ff5d9c4d1fa9bd8059",
+    "packageSha256": "48170d9c9d2c0583aa1d3e44cf0c94a0b1fda149af55c4b85f49ba185028a80b",
+    "packageLockSha256": "0bb7bd8f92a25186268e7b814b181cebcee9a0f9daf20bc543ffaa1e02bc9ca0",
+    "harnessTreeSha256": "974beaf6654473905d60709880c4ef665010440f4e198d333138098fb977bdfc",
+    "fixtureTreeSha256": "2f89dc849f38ccf7e3c0d3e5a00e0f98faff3512548ec261e8507dc67262c342"
+  },
+  "verification": {
+    "buildAndTypecheck": "PASS",
+    "lint": "PASS_636_MODULE_REFERENCES",
+    "unitTests": {
+      "path": ".test-data/m6-after-restart-tests-2026-10-04.json",
+      "sha256": "7dbc2d0c2962fc695b1e6e316b016aa527d9b4a652e112101f9f3ff65f471a67",
+      "passed": 494,
+      "failed": 0,
+      "files": 21
+    },
+    "frozenImplementations": {
+      "result": "PASS",
+      "count": 22,
+      "fixture": {
+        "path": "tests/fixtures/milestone6-frozen-implementations.json",
+        "sha256": "a82b7f8cfae5e2342c51708e41846e87826147a750b02883f77489317c0f531e"
+      }
+    }
+  },
+  "firstFreshDevelopmentSequence": {
+    "path": ".test-data/m6-regressions-development-7aca4dde-7b3b-4eff-9ab8-730726238b43/acceptance.json",
+    "sha256": "97dfa585cf05318b2620edc271d5728b7b4801e71df8aa2a8023b271c84ee93e",
+    "status": "FAILED",
+    "completedWorkflows": 11,
+    "failure": "Final visual workflow measured the previous composition; isolated reproduction established a readiness race in the visual harness. The full sequence is FAILED, despite 11 completed workflows.",
+    "failedVisual": {
+      "path": ".test-data/milestone6-visuals-9e1167cd-c5b6-4dbd-b23f-560956c1181b/acceptance.json",
+      "sha256": "b8990e1730513ecc4f788431bfdda74b2305a7f82d7707cca4facec8632b668f"
+    },
+    "largeComposition": {
+      "path": ".test-data/milestone6-smoke-a517405a-13f8-4d07-b64b-c535511cecc9/large-composition.json",
+      "sha256": "258829d46c222610e178148fb8f3187a1d32d78550ee560c5f064b4ee9f89673",
+      "elapsedMs": 5722,
+      "rendererTimerTicks": 113,
+      "nodes": 2000,
+      "svgBytes": 1879785,
+      "svgHash": "47f3845b71251a1192fadfe72c3230444d915c3c019b14e8374e6842272ff569",
+      "manifests": 2000
+    },
+    "acceptedAsCompleteSequence": false
+  },
+  "visualReadinessInvestigation": {
+    "path": ".test-data/m6-preview-investigation-384a4e6b-95aa-47e9-bf5c-0d61f9739901/investigation.json",
+    "sha256": "fb375d8874a88d7b193e0e277eb45e86197c00b250ccea69e1b8fff5cd1e4774",
+    "observedTransitions": 3,
+    "result": "In 3 of 3 transitions the old readiness check observed profile 1, with annotation x=295; the eventual expected profile-2 SVG used x=324.6.",
+    "originalDatabaseUnchanged": true,
+    "copiedDatabaseOnly": true,
+    "normalShutdown": true,
+    "diagnosticStartupFlagsAdded": false
+  },
+  "focusedDevelopmentVisualValidation": {
+    "path": ".test-data/milestone6-visuals-ec570e7b-7907-4968-89b9-a2635bfc7a7d/acceptance.json",
+    "sha256": "bac67eb70879e7f010336ff055d41427e8dd81bb47e5ab33520554b502746454",
+    "status": "PASS",
+    "checks": 20,
+    "captures": 18,
+    "normalShutdownAndReopen": true,
+    "packaged": false,
+    "substitutesForFullSequence": false,
+    "manuallyInspectedThisTurn": [
+      "long-label-marks-profile-1",
+      "long-label-marks-profile-2",
+      "long-label-marks-mixed-profiles"
+    ],
+    "observations": "Profile 1 retains historical crowding; profile 2 places the label column clear of flags/signatures; mixed compositions retain both exact profiles. This is development evidence, not the required packaged whole-composition review.",
+    "retainedManifest": "Each case in the referenced acceptance file retains exact SVG/PNG/source/profile data. Known replacement-metric, viewport and NATO artwork differences remain documented."
+  },
+  "latestFreshDevelopmentSequence": {
+    "path": ".test-data/m6-regressions-development-e560153b-053b-4934-b9e8-cd0a7ac21706/acceptance.json",
+    "sha256": "bf6df548db93e6a1bfba2626214dec94777436d1c80769840cca0dd9918ddf4f",
+    "status": "FAILED",
+    "startedAtM1": true,
+    "completedWorkflows": 0,
+    "failedWorkflow": {
+      "path": ".test-data/smoke-b2bb34f4-8d8d-45bb-aabe-f29b2b4dcf95/acceptance.json",
+      "sha256": "cb61b1e7e7159073e7decb9792278557e34ab8326a0615f804aa8350606c818a",
+      "partialChecks": 9,
+      "minimumRequiredChecks": 13
+    },
+    "failureLog": {
+      "path": ".test-data/m6-regressions-development-e560153b-053b-4934-b9e8-cd0a7ac21706/smoke.log",
+      "sha256": "0e06e8a652e32b209648c76d1970e7fabf083e6adce7e96bf2508ed2312ff5d0"
+    },
+    "failure": "Normal Electron startup after M1 backup restore and close exceeded the unchanged 60000ms launch timeout at scripts/smoke.cjs:364. The timed-out Electron PID 7492 had exited before a live wait chain could be captured.",
+    "rootCause": "UNCONFIRMED_AFTER_RESTART",
+    "netprofmObservation": "Read-only service query reported Running under PID 2160 after restart. Running status alone does not prove responsiveness; the earlier confirmed netprofm wait chain is historical and does not establish the cause of this new timeout.",
+    "eventLogQuery": "Read-only System event-log query did not return evidence. No clean-log or new causal finding is claimed.",
+    "restoredDatabase": {
+      "path": ".test-data\\smoke-b2bb34f4-8d8d-45bb-aabe-f29b2b4dcf95\\ordo.db",
+      "sha256": "4b912f8112344461a838a9f715de23c0f8fc801eacdc1fe4942e1f095cf77398",
+      "readOnly": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "foreignKeys": [],
+      "databaseHashUnchanged": true
+    },
+    "acceptedAsCompleteSequence": false
+  },
+  "preservedConstraints": {
+    "noServiceControls": true,
+    "noManualForcedProcessTermination": true,
+    "noDiagnosticStartupFlagsAdded": true,
+    "noTimeoutInflation": true,
+    "noNetworkPolicyChanges": true,
+    "noPartialOrSplicedAcceptance": true,
+    "renderProfile1RemainsDefault": true,
+    "profile2ExplicitOptIn": true,
+    "unresolvedCrosswalkRows": 598,
+    "unsupportedSquareCanvasCases": 5
+  },
+  "pending": [
+    "Establish reliable normal Windows/Electron startup; latest timeout has no confirmed live wait-chain diagnosis. Make no product changes solely to work around the earlier Windows blocker.",
+    "Run a new complete schema-3 development sequence from M1 on the exact current build. Neither failed run nor the focused visual pass qualifies.",
+    "Only after full development success, build one current 0.5.0 candidate containing the current provenance notice and verify all packaged workflows plus the complete 18-capture visual review against that exact candidate.",
+    "Resolve separate legacy-crosswalk source/reuse provenance or explicitly verify a replacement with recorded differences; no mapping inference or normalization.",
+    "Promotion and final exact-binary 0.6.0 acceptance remain conditional on every gate. No Milestone 6 Completion Report or Milestone 7 work."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-05T16:38:05.350Z",
+  "status": "VERIFIED_DEVELOPMENT_UPDATE",
+  "packagedQualification": false,
+  "sourceTreeSha256": "95a9704b5bcefbca2721f9b637ddc80e724d38e82a3129770a951d1a792f6347",
+  "compiledTreeSha256": "7e3246d145190e015fdaf8c932cc59a8873825e2e6e025e0019f12cdbc0abad0",
+  "buildDirectory": "C:\\Ordo APP DEV\\.test-data\\open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d",
+  "workflows": {
+    "openOperations": {
+      "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/open-operations-ebc2b363-32c2-4c9e-a37d-ff39be959ae1/acceptance.json",
+      "sha256": "b259cd4f55b4b4ef238e1eac363cefe68150752b7726bcca9683cf315ab5c730",
+      "checks": 7
+    },
+    "retainedNavigation": {
+      "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/operation-navigation-32a0033c-640b-4957-849d-507cb80a6ad9/acceptance.json",
+      "sha256": "5d17988c2b0095c2bba1179d3abdd3d5e74ddfab4ae715135d07c49745de146c",
+      "checks": 6
+    },
+    "retainedWorkspace": {
+      "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/milestone5-smoke-c7d01f4e-6d8e-4a96-b7c1-9a4e7cfd1b2a/acceptance.json",
+      "sha256": "bac403777ca3f929d74268d93f7ef0f386b56cd0a41664b44ed194d74cc15b6a",
+      "checks": 77
+    }
+  },
+  "totalChecks": 90,
+  "visualReview": {
+    "status": "MANUALLY_REVIEWED",
+    "captures": [
+      {
+        "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/open-operations-ebc2b363-32c2-4c9e-a37d-ff39be959ae1/open-operations-1500.png",
+        "sha256": "15562e76de5a7e0037df155d96ae02f393666622df58792a50ccf057ec3de9ba"
+      },
+      {
+        "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/open-operations-ebc2b363-32c2-4c9e-a37d-ff39be959ae1/open-operations-1120.png",
+        "sha256": "201af15959286fd3864ad8b4fafe82c8d8f6ec8be9b9138765b01cda666867d2"
+      },
+      {
+        "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/open-operations-ebc2b363-32c2-4c9e-a37d-ff39be959ae1/close-unsaved-operation.png",
+        "sha256": "852d45052137b4ad17327c04dd2742dd22e736358eaa3d0d77a819aba9883dbc"
+      }
+    ]
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "formatting": "PASS",
+    "architectureBoundaries": "PASS_638_REFERENCES",
+    "frozenImplementations": 22,
+    "qualifiedReleaseBytesUnchanged": true
+  },
+  "productFiles": [
+    {
+      "path": "C:/Ordo APP DEV/src/renderer/src/App.tsx",
+      "sha256": "a5c0bc899b42038f6d105b951a46fc692977314e5e266be4676178894f8b84fd"
+    },
+    {
+      "path": "C:/Ordo APP DEV/src/renderer/src/ApplicationShell.tsx",
+      "sha256": "55eaedf4246fbc7ccf18e1d8cadd6ac7f2b34718da8ea2bde2e4395e5bb3ae4e"
+    },
+    {
+      "path": "C:/Ordo APP DEV/src/renderer/src/workspace.css",
+      "sha256": "7e92d35ea6cabeb3819d52efb02ba388161f84fe0e2bcfc307209fe9497c9772"
+    },
+    {
+      "path": "C:/Ordo APP DEV/src/renderer/src/operation-tabs.ts",
+      "sha256": "dd5730623357312faac8cee2cdb0e6a83b9c953796f7f5a9dcd35ca63bb31ec6"
+    }
+  ],
+  "preservedRelease": {
+    "path": "C:/Ordo APP DEV/docs/milestone6-final-release-evidence.json",
+    "sha256": "5173df160d816285d90855ff525a2b43ac6683ec54645ef8195cac27b94edd3c",
+    "candidate": {
+      "executable": "C:\\Ordo APP DEV\\release\\0.6.0\\win-unpacked\\Ordo.exe",
+      "executableSha256": "101036eb8264c19797258b26533d1f5e7edc29bf1829c34a93e48f914ae57e52",
+      "asarSha256": "746697d449de93c6525ec144ae39e4e46665bf64d71ed67b9f5ee3f0e22e1d0c",
+      "packageTreeSha256": "cc178bb581509c79622b91fe8691401a58973f0c815c8cd85563c1bb5e15f960"
+    },
+    "installer": {
+      "path": "C:/Ordo APP DEV/release/0.6.0/Ordo Setup 0.6.0.exe",
+      "sha256": "774523af61e9df12922770b43e1c9e98940ab6f7c0aa12a273adfe456d9deb6a"
+    }
+  },
+  "semantics": {
+    "navigationCreatesRevisions": false,
+    "saveAndCloseUsesExistingRevisionCommand": true,
+    "stableIds": true,
+    "unsavedDraftsRetainedBetweenTabs": true,
+    "closeGuard": ["SAVE", "DISCARD", "CANCEL"],
+    "failedSaveKeepsTab": true,
+    "persistedTabState": "IDS_ONLY",
+    "operationDataPersistedOnlyThroughExistingSaveCommands": true
+  },
+  "priorAttempts": {
+    "directory": ".test-data/open-operations-build-04b748fa-1a7d-4eb0-8aea-b17c2f88d7c6/.test-data",
+    "finalBuildRestoreGuardFailure": {
+      "path": "C:/Ordo APP DEV/.test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/.test-data/milestone5-smoke-4ac82a59-8d01-4def-97f5-d5b8abae325e/failure.txt",
+      "sha256": "9edb6fde978a71ff0a68e39f836b25459778799653f3bb08193c41b4ae5e242d"
+    },
+    "note": "Earlier selector failures, the restore-guard failure, and staged passes are retained separately and not counted here. M5 now distinguishes hidden editors and explicitly closes its retained fictional drafts before restore; cleanup uses normal close rather than its former process-kill fallback. No earlier M6 acceptance is claimed for this new source."
+  },
+  "finalProcessInventory": {
+    "path": ".test-data/open-operations-final-27af14c6-9a73-4606-893d-953f6ca06e0d/final-process-inventory.json",
+    "sha256": "5b2d5f99d5ae3384b05059fec8f65872a21178257b6f70150249cbe737a77c61"
+  }
+}

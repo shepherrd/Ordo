@@ -1,0 +1,94 @@
+{
+  "recordedAt": "2026-10-13T22:57:53.206Z",
+  "version": "0.6.5",
+  "packaged": false,
+  "releaseQualified": false,
+  "personalWorkspaceTouched": false,
+  "scope": "Read-only organization ORBAT staff overview with a dedicated Staff & roles editor",
+  "behavior": [
+    "ORBAT > Staff & roles displays read-only role, rank and personnel summaries, vacancy labels and filled-role counts. Sections collapse; existing descriptions, contact and personnel notes can be read by expanding a role.",
+    "Edit staff & roles opens the same selected organization-owned unit in the dedicated editor. View in ORBAT returns to its overview. Staff unit selects headquarters, active subordinates or retained profiles.",
+    "The editor has collapsible sections and role cards. Add and duplicate open the new role for editing. Reorder stays within the section.",
+    "Section collapse state is shared across the overview and editor and kept per unit while the organization is open. Role-card state is kept separately for reading and editing.",
+    "Both views use the same organization draft. Unsaved edits appear in the overview, recovery and save/discard preserve their existing behavior, and switching tabs keeps the selected unit.",
+    "Headquarters staff remains editable with no assigned ORBAT. Organizations sharing a map retain separate personnel, and removed unit profiles remain available."
+  ],
+  "verification": {
+    "buildAndTypecheck": "passed",
+    "formatting": "passed",
+    "gitDiffCheck": "passed",
+    "architectureModuleReferences": 1111,
+    "regressionTests": {
+      "passed": 20,
+      "files": [
+        "tests/organization-orbat.test.ts",
+        "tests/workspace-session.test.ts"
+      ]
+    },
+    "desktopRun": {
+      "path": ".test-data/organization-orbat-56e42251-ba7b-4c6b-ba96-7e50b49222f1/acceptance.json",
+      "sha256": "f91614afbb5cabd3b6f666165f7e6cf5ffeb07e27f6a90490e98464673c0cf02",
+      "checks": [
+        "Assign saved ORBAT, click its subordinate, edit identity, role and personnel, and save the organization",
+        "ORBAT staff is read-only; direct editing, keyboard collapse, tab context, and unsaved edits share the same unit records",
+        "Selections replace one inspector, preserve other unit profiles, and the root edits the owning organization",
+        "Organization diagram is fixed against dragging and supports keyboard selection",
+        "Role add, duplicate, reorder and remove work in the dedicated editor; both views fit desktop and narrower layouts",
+        "Organization headquarters staff can be edited without assigning an ORBAT",
+        "Two organizations sharing the same ORBAT keep different unit identities and personnel",
+        "Unfinished subordinate edits receive a recovery copy and block organization switching; discard restores saved staff",
+        "Saved source changes update the diagram; removed personnel remain editable and matching replacement names never inherit them",
+        "Unassigning and reassigning keeps organization-owned personnel",
+        "Normal offline exit and reopen retain the assignment, structure and personnel without renderer errors"
+      ],
+      "exactBuildVerified": true,
+      "normalOfflineLifecycle": true
+    },
+    "visualReview": [
+      "organization-orbat-1280.png",
+      "organization-staff-1000.png"
+    ],
+    "captures": [
+      "organization-orbat-1500.png",
+      "organization-orbat-1280.png",
+      "organization-orbat-1000.png",
+      "organization-staff-1500.png",
+      "organization-staff-1000.png",
+      "retained-personnel.png"
+    ],
+    "viewportWidths": [1500, 1280, 1000],
+    "frozenFileHashesUnchanged": 69,
+    "frozenManifest": "tests/fixtures/deletion-frozen-implementations.json"
+  },
+  "files": [
+    {
+      "path": "src/renderer/src/OrganizationWorkspace.tsx",
+      "sha256": "4fdad6a09cec498fcf2a4ea22bead4944cf8302c9bfbf9e9c1113435058a578e"
+    },
+    {
+      "path": "src/renderer/src/OrganizationOrbatPanel.tsx",
+      "sha256": "9adad44edb8ac4471926ff7291d31c63e974bcb8591a38d3136cf2330118a23e"
+    },
+    {
+      "path": "src/renderer/src/OrganizationStaffEditor.tsx",
+      "sha256": "bda6debba85eec5cedfe13d4220326d9e718503ed2af881bba7f35faea3a94c7"
+    },
+    {
+      "path": "src/renderer/src/OrganizationStaffView.tsx",
+      "sha256": "a7661e688e8283c817e56306fc614469863aaec0e3efe2e766f145c368cdc03c"
+    },
+    {
+      "path": "src/renderer/src/organization-orbat.css",
+      "sha256": "67860824d58502a4f53f54c5bc60610235fd38c72e9e6876ad520a01ef2c4152"
+    },
+    {
+      "path": "scripts/smoke-organization-orbat.cjs",
+      "sha256": "5244bb0b1ecc0dd216949e0e41898b3beb7160adbedcdc06658a7490d326cde2"
+    },
+    {
+      "path": "scripts/smoke-catalog-polish.cjs",
+      "sha256": "8030dddf14c5a77ef85b5e8c87b8cd64ff58b27b8c1de4d4e901d51eb922a3fc"
+    }
+  ],
+  "priorSuccessfulDevelopmentRun": ".test-data/organization-orbat-6715e251-b014-4239-ba0d-890855d5ddc9/acceptance.json"
+}

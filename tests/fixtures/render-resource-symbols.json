@@ -1,0 +1,2394 @@
+[
+  {
+    "id": "label-0-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "",
+        "uniqueDesignation": "",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-0-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "",
+        "uniqueDesignation": "",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-1-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Alpha",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-1-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Alpha",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-2-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Long Fictional Battalion Headquarters",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-2-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Long Fictional Battalion Headquarters",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-3-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "WWWW iiiii Narrow Wide Unit",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-3-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "WWWW iiiii Narrow Wide Unit",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-4-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "AVATAR To Wa Test Battalion",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-4-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "AVATAR To Wa Test Battalion",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-5-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "LongUnbrokenFictionalDesignationWithoutSpaces",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-5-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "LongUnbrokenFictionalDesignationWithoutSpaces",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-6-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Équipe démonstration",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-6-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Équipe démonstration",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-7-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Пример подразделения",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-7-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Пример подразделения",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-8-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "架空部隊 Alpha",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-8-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "架空部隊 Alpha",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-9-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Fictional 🚀 Unit",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-9-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Fictional 🚀 Unit",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "label-10-right",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "First line\nSecond line",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "label-10-left",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "First line\nSecond line",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "LEFT"
+  },
+  {
+    "id": "flag-USA-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "US",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-USA-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "US",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-GBR-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "GB",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-GBR-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "GB",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-FRA-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "FR",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-FRA-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "FR",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-NPL-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "NP",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-NPL-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "NP",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-UN-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "UN",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-UN-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "UN",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-XKX-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "XK",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-XKX-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "XK",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-NATO-small",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "NATO",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "flag-NATO-full",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "NATO",
+        "flagMode": "FULL_FRAME"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-stars1",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 1,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-stars5",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 5,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-reinforced",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "+",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-reduced",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "-",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-both",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "±",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-signature",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "!",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-hq",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 0,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "STAFF",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-stack",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 4,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "marks-combined",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 2,
+        "generalStars": 3,
+        "reinforced": "+",
+        "signature": "!",
+        "specialHeadquarters": "HQ",
+        "flagId": null,
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 50,
+    "context": "SYMBOL",
+    "labelSide": "RIGHT"
+  },
+  {
+    "id": "combined-flag-label",
+    "definition": {
+      "schemaVersion": 1,
+      "definitionId": "00000000-0000-4000-8000-000000000001",
+      "code": {
+        "dialect": "NUMERIC",
+        "sidc": "130310000012110000000000000000",
+        "assertedStandard": "UNVERIFIED",
+        "sourceConvention": "NUMERIC_13"
+      },
+      "amplifiers": {
+        "additionalInformation": "Fictional supporting text",
+        "uniqueDesignation": "Long Fictional Brigade Headquarters",
+        "engagementType": "TARGET"
+      },
+      "appearance": {
+        "convention": "2525",
+        "colorMode": "Light",
+        "fill": true,
+        "frame": true,
+        "icon": true,
+        "infoFields": false,
+        "outlineColor": "#efefef",
+        "fillOpacity": 1,
+        "outlineWidth": 0,
+        "strokeWidth": 4
+      },
+      "compatibility": {
+        "schemaVersion": 1,
+        "stack": 2,
+        "generalStars": 0,
+        "reinforced": "",
+        "signature": "",
+        "specialHeadquarters": "",
+        "flagId": "US",
+        "flagMode": "SMALL"
+      },
+      "renderProfile": {
+        "id": "ordo-symbol",
+        "version": 1
+      },
+      "origin": {
+        "kind": "IMPORT",
+        "fileHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "importerVersion": "archived-import-v1",
+        "originalCode": "130310000012110000000000000000"
+      }
+    },
+    "size": 30,
+    "context": "ORBAT_NODE",
+    "labelSide": "RIGHT"
+  }
+]

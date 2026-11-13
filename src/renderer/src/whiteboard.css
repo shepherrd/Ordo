@@ -1,0 +1,352 @@
+.workspace.whiteboard-page {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+}
+.panel.whiteboard-workspace {
+  flex: 1 0 auto;
+  min-width: 0;
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.modal.panel.whiteboard-workspace.whiteboard-expanded {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  background: var(--paper);
+  border-radius: 0;
+}
+.whiteboard-workspace label.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+  min-width: 0;
+}
+.whiteboard-workspace label.field > span {
+  margin-bottom: 0;
+}
+.whiteboard-workspace input,
+.whiteboard-workspace select,
+.whiteboard-workspace textarea {
+  min-width: 0;
+}
+.whiteboard-workspace small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+.whiteboard-topbar,
+.whiteboard-canvas-tools,
+.whiteboard-actions,
+.whiteboard-heading {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.whiteboard-heading {
+  padding: 0.5rem 0.75rem;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+.whiteboard-heading .whiteboard-name {
+  display: block;
+  flex: 1 1 150px;
+  margin: 0;
+  max-width: 32rem;
+}
+.whiteboard-name input {
+  border-color: transparent;
+  background: transparent;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 650;
+  padding: 0.35rem 0.45rem;
+}
+.whiteboard-name input:hover,
+.whiteboard-name input:focus {
+  border-color: var(--control-line);
+}
+.whiteboard-workspace .button-row {
+  flex-wrap: wrap;
+}
+.whiteboard-heading .button-row {
+  margin-left: auto;
+}
+.whiteboard-workspace .wb-expand {
+  padding: 0.4rem;
+  display: inline-flex;
+  align-items: center;
+}
+.wb-start {
+  margin: auto;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.whiteboard-topbar {
+  align-items: end;
+}
+.whiteboard-dialog .whiteboard-topbar .field {
+  flex: 1 1 145px;
+}
+.whiteboard-workspace .button-row {
+  gap: 0.35rem;
+  margin: 0;
+}
+.whiteboard-workspace button {
+  padding: 0.5rem 0.7rem;
+  font-size: 13px;
+}
+.whiteboard-item-list [aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+.whiteboard-item-list [aria-pressed="true"] small {
+  color: inherit;
+}
+.whiteboard-canvas-panel {
+  flex: 1 0 190px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.whiteboard-canvas-tools {
+  padding: 0.35rem 0.7rem;
+  justify-content: space-between;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+.whiteboard-canvas-tools .wb-insert-tools {
+  padding-right: 0.6rem;
+  border-right: 1px solid var(--line);
+}
+.whiteboard-canvas-tools > .button-row {
+  margin-left: auto;
+}
+.whiteboard-actions {
+  gap: 0.45rem;
+}
+.whiteboard-canvas-tools .button-row button[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--ink);
+  border-color: var(--accent);
+}
+.whiteboard-viewport {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-height: 170px;
+  overflow: auto;
+  padding: 12px;
+  background: var(--background);
+  overscroll-behavior: contain;
+}
+.whiteboard-canvas {
+  position: relative;
+  flex: none;
+  margin: auto;
+  box-shadow: 0 2px 12px #0002;
+  touch-action: none;
+}
+.whiteboard-viewport.fit-mode {
+  overflow: hidden;
+}
+.whiteboard-workspace textarea.whiteboard-inline-text {
+  position: absolute;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0.4em;
+  resize: none;
+  font-family: Arial, sans-serif;
+  border: 2px solid #006eab;
+  border-radius: 0;
+  line-height: 1.25;
+}
+.whiteboard-drawing {
+  position: absolute;
+  inset: 0;
+  transform-origin: top left;
+  pointer-events: none;
+}
+.whiteboard-drawing svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.whiteboard-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(#68798155 1px, transparent 1px);
+}
+.whiteboard-workspace button.whiteboard-hit {
+  position: absolute;
+  background: transparent;
+  border: 2px solid transparent;
+  padding: 0;
+  border-radius: 0;
+  min-height: 0;
+  cursor: move;
+  box-shadow: none;
+}
+.whiteboard-workspace button.whiteboard-hit:hover {
+  background: #4b90b014;
+  border-color: #146e9a;
+}
+.whiteboard-workspace button.whiteboard-hit.selected,
+.whiteboard-workspace button.whiteboard-hit:focus-visible {
+  border-color: #006eab;
+  outline: 2px solid white;
+  outline-offset: 0;
+}
+.whiteboard-workspace button.whiteboard-hit.connector-start {
+  border-color: #b65413;
+}
+.whiteboard-workspace button.whiteboard-resize {
+  position: absolute;
+  background: #006eab;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  padding: 0;
+  min-height: 0;
+  width: 14px;
+  height: 14px;
+  cursor: nwse-resize;
+}
+.whiteboard-viewport.pan-mode,
+.whiteboard-viewport.pan-mode .whiteboard-hit {
+  cursor: grab;
+}
+.whiteboard-empty {
+  position: absolute;
+  inset: 35% 10% auto;
+  text-align: center;
+  color: #52656a;
+  pointer-events: none;
+}
+.whiteboard-tool-status,
+.whiteboard-issues {
+  padding: 0.4rem 0.7rem;
+  margin: 0;
+  font-size: 12px;
+}
+.whiteboard-issues p {
+  margin: 0.2rem 0;
+}
+.whiteboard-canvas-settings {
+  margin-top: 0.7rem;
+}
+.whiteboard-canvas-settings p {
+  flex: 3;
+  min-width: 220px;
+  font-size: 12px;
+  margin: 0;
+}
+.whiteboard-dialog {
+  width: min(490px, 94vw);
+  max-height: 85vh;
+  overflow: auto;
+}
+.whiteboard-dialog > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.whiteboard-dialog > header h2 {
+  margin: 0;
+}
+.whiteboard-dialog:has(.whiteboard-snapshots) {
+  width: min(780px, 94vw);
+}
+.whiteboard-dialog .whiteboard-snapshots {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.whiteboard-dialog .wb-insert-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.whiteboard-dialog .button-row {
+  margin: 0.6rem 0;
+}
+.whiteboard-properties {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.4rem;
+}
+.whiteboard-workspace input[type="color"] {
+  height: 36px;
+  padding: 4px;
+  width: 100%;
+}
+.whiteboard-item-list {
+  display: grid;
+  gap: 0.3rem;
+  max-height: 230px;
+  overflow: auto;
+  margin-bottom: 0.7rem;
+}
+.whiteboard-item-list button {
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.whiteboard-connector {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin: 0.6rem 0;
+  padding: 0.6rem;
+}
+.whiteboard-snapshots {
+  border-top: 1px solid var(--line);
+  margin-top: 1.2rem;
+  padding-top: 0.8rem;
+}
+.whiteboard-snapshots > p {
+  font-size: 13px;
+}
+.whiteboard-snapshot-list article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--line);
+}
+.whiteboard-snapshot-list strong {
+  overflow-wrap: anywhere;
+}
+.whiteboard-snapshot-preview {
+  width: min(1200px, 94vw);
+}
+.whiteboard-snapshot-preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  margin: 1rem auto;
+}
+@media (max-width: 980px) {
+  .workspace.whiteboard-page {
+    padding: 6px;
+  }
+  .whiteboard-heading,
+  .whiteboard-canvas-tools {
+    padding: 0.3rem 0.4rem;
+  }
+}

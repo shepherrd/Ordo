@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-05T00:57:40.233Z",
+  "status": "FINAL_0_6_0_QUALIFICATION_PENDING",
+  "releaseVersion": "0.6.0",
+  "milestoneStatus": "IN PROGRESS",
+  "crosswalkClosure": {
+    "path": "docs/milestone6-crosswalk-unsupported-closure.json",
+    "sha256": "3d4eba9091c59b29d10235da93088bcd51ac22509cbacf505061d0572c418bd9"
+  },
+  "frozen050": {
+    "path": "docs/milestone6-qualified-050-freeze.json",
+    "sha256": "569bbe345bd2ef262938c01f50fb484df60741f51ecc9bced199f49a40eec4a8"
+  },
+  "accepted050EvidencePreserved": true,
+  "provenanceResolutionChangedShippedBytes": false,
+  "promotionChanges": {
+    "packageAndLock": "Only root application version 0.5.0 to 0.6.0; dependency versions unchanged",
+    "productSource": "Only displayed v0.5 to v0.6 labels in App.tsx and ApplicationShell.tsx",
+    "sourceFiles": [
+      "renderer/src/App.tsx",
+      "renderer/src/ApplicationShell.tsx"
+    ],
+    "harness": "Allow explicitly requested exact 0.6.0 in addition to the existing default 0.5.0 verifier. Cross-version manifests still fail; complete matching source/compiled/package/harness/fixture hashes, ordered workflows, no-resume/no-splice, package resources and evidence hashes remain required.",
+    "harnessFiles": [
+      "milestone6-acceptance.cjs",
+      "run-milestone6-regressions.cjs"
+    ],
+    "test": "One new exact-version acceptance contract; all previous tests and fixtures unchanged"
+  },
+  "build": {
+    "compiledTreeSha256": "7f2b0cc8959ab0e076b94b6a2b248011869f099dbc59aea8440d181b74ce836f",
+    "sourceTreeSha256": "fd5b9dbcf0e321921930851752cd75059a4740b13b483925520d45af7fa590f8",
+    "packageSha256": "87e0d8f0aca58b7eecab83212c139574bebc8458f23b6fc8eded1258ec6c57f9",
+    "packageLockSha256": "807cfc98c5ae6d519b1ea496e34300a9e250181bb825bc24b4bc79fe78f826ca",
+    "harnessTreeSha256": "ae861ed45f8846f3dcd2f4b091513269f2ebd1777ff85a62c9cbff51be09a2d9",
+    "fixtureTreeSha256": "2f89dc849f38ccf7e3c0d3e5a00e0f98faff3512548ec261e8507dc67262c342"
+  },
+  "frozenImplementations": {
+    "count": 22,
+    "unchanged": true
+  },
+  "preflight": {
+    "build": "PASS_WITH_TYPECHECK",
+    "format": "PASS",
+    "architecture": "PASS_636_MODULE_REFERENCES",
+    "unitInitialAttempt": {
+      "status": "FAILED",
+      "passed": 490,
+      "failed": 5,
+      "total": 495,
+      "reason": "EPERM while five existing tests attempted to overwrite read-only prior .test-data/m6-visual evidence. No rendering assertion failure was reported in those five tests.",
+      "files": [
+        "core-corpus-result.json",
+        "ordo-resource-results.json",
+        "ordo-core-results.json",
+        "graphical-order.html",
+        "ordo-layout-results.json"
+      ],
+      "priorEvidenceOverwritten": false
+    },
+    "freshUnitInputIdentity": {
+      "path": "C:/Ordo APP DEV/.test-data/m6-final-unit-workspace-2de3d7b3-792c-4558-b8f2-38e6141339bc/input-identity.json",
+      "sha256": "323f134f8091d664932527d66d90a49d1cdd0a7d70280a4f074dce8685a58792"
+    },
+    "freshUnitResults": {
+      "path": "C:/Ordo APP DEV/.test-data/m6-final-unit-workspace-2de3d7b3-792c-4558-b8f2-38e6141339bc/unit-results.json",
+      "sha256": "9ad44ff5ce16d16495e4eb1c0eb6945e42a0977954c800b660b7eb7ec260aa32"
+    }
+  },
+  "qualificationPolicy": "New full schema-3 development sequence required by changed release metadata, displayed version labels and exact-version harness fingerprints. Then one final 0.6.0 package, all twelve packaged workflows and eighteen composition captures on that exact binary. No 0.5.0 or partial result reused as a 0.6.0 success.",
+  "constraints": {
+    "migrationsUnchanged": true,
+    "historicalEnginesUnchanged": true,
+    "crosswalkBytesUnchanged": true,
+    "renderProfilesUnchanged": true,
+    "lifecycleTimeoutMs": 60000,
+    "diagnosticStartupFlagsAdded": false,
+    "servicesControlled": false,
+    "networkPolicyWeakened": false,
+    "milestone7Authorized": false
+  }
+}

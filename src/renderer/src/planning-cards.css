@@ -1,0 +1,44 @@
+.planning-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.75rem 0;
+}
+.planning-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+.planning-card h4 {
+  margin: 0 0 0.5rem;
+}
+.planning-card dl > div {
+  display: grid;
+  grid-template-columns: minmax(100px, 20%) 1fr;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+}
+.planning-card dt {
+  font-weight: 600;
+}
+.planning-card dd {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.planning-card.compact dl {
+  font-size: 0.9em;
+}
+.card-inspector,
+.card-usage {
+  border-top: 1px solid var(--line);
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
+.card-picker {
+  width: min(1000px, 94vw);
+}
+.card-picker .search-results {
+  max-height: 45vh;
+}

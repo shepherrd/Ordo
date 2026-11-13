@@ -1,0 +1,52 @@
+.planning-card-picker label.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.planning-card-picker {
+  width: min(1000px, 94vw);
+  max-height: 90vh;
+  overflow: auto;
+}
+.planning-card-picker-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.planning-card-sources,
+.planning-card-fields {
+  max-height: 48vh;
+  overflow: auto;
+}
+.planning-card-sources button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.4rem;
+}
+.planning-card-sources small,
+.planning-card-fields small {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.planning-card-fields .check {
+  align-items: start;
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+@media (max-width: 780px) {
+  .planning-card-picker-columns {
+    grid-template-columns: 1fr;
+  }
+  .planning-card-sources {
+    max-height: 25vh;
+  }
+  .planning-card-fields {
+    max-height: 25vh;
+  }
+}

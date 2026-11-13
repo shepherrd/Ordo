@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "id": "ordo-legacy-sof-selector-v1",
+  "release": "mil-std-2525@0.2.5/2525c",
+  "source": "https://github.com/spatialillusions/mil-std-2525/tree/v0.2.5",
+  "license": "MIT",
+  "groups": [
+    {
+      "id": "SOFUNT",
+      "name": "Special Operations Forces (SOF)",
+      "entries": [
+        {
+          "id": "SOFUNT:SOFUNT",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "------",
+          "name": "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+          "names": ["SPECIAL OPERATIONS FORCES (SOF) UNIT"],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "A-----",
+          "name": "SOF UNIT AVIATION",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AF----",
+          "name": "SOF UNIT FIXED WING",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD.ATK",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AFA---",
+          "name": "SOF UNIT ATTACK",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING",
+            "SOF UNIT ATTACK"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD.RFE",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AFK---",
+          "name": "SOF UNIT REFUEL",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING",
+            "SOF UNIT REFUEL"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD.UTY",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AFU---",
+          "name": "SOF UNIT UTILITY",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING",
+            "SOF UNIT UTILITY"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD.UTY.LIT",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AFUL--",
+          "name": "SOF UNIT UTILITY (LIGHT)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING",
+            "SOF UNIT UTILITY",
+            "SOF UNIT UTILITY (LIGHT)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD.UTY.MDM",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AFUM--",
+          "name": "SOF UNIT UTILITY (MEDIUM)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING",
+            "SOF UNIT UTILITY",
+            "SOF UNIT UTILITY (MEDIUM)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.FIXD.UTY.HVY",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AFUH--",
+          "name": "SOF UNIT UTILITY (HEAVY)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT FIXED WING",
+            "SOF UNIT UTILITY",
+            "SOF UNIT UTILITY (HEAVY)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.VSTOL",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AV----",
+          "name": "SOF UNIT V/STOL",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT V/STOL"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AH----",
+          "name": "SOF UNIT ROTARY WING",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT.CSAR",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AHH---",
+          "name": "SOF UNIT COMBAT SEARCH AND RESCUE",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING",
+            "SOF UNIT COMBAT SEARCH AND RESCUE"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT.ATK",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AHA---",
+          "name": "SOF UNIT ATTACK",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING",
+            "SOF UNIT ATTACK"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT.UTY",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AHU---",
+          "name": "SOF UNIT UTILITY",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING",
+            "SOF UNIT UTILITY"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT.UTY.LIT",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AHUL--",
+          "name": "SOF UNIT UTILITY (LIGHT)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING",
+            "SOF UNIT UTILITY",
+            "SOF UNIT UTILITY (LIGHT)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT.UTY.MDM",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AHUM--",
+          "name": "SOF UNIT UTILITY (MEDIUM)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING",
+            "SOF UNIT UTILITY",
+            "SOF UNIT UTILITY (MEDIUM)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.AVN.ROT.UTY.HVY",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "AHUH--",
+          "name": "SOF UNIT UTILITY (HEAVY)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT AVIATION",
+            "SOF UNIT ROTARY WING",
+            "SOF UNIT UTILITY",
+            "SOF UNIT UTILITY (HEAVY)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.NAV",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "N-----",
+          "name": "SOF UNIT SOF UNIT NAVAL",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT SOF UNIT NAVAL"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.NAV.SEAL",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "NS----",
+          "name": "SOF UNIT SEAL",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT SOF UNIT NAVAL",
+            "SOF UNIT SEAL"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.NAV.UH2DML",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "NU----",
+          "name": "SOF UNIT UNDERWATER DEMOLITION TEAM",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT SOF UNIT NAVAL",
+            "SOF UNIT UNDERWATER DEMOLITION TEAM"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.NAV.SBT",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "NB----",
+          "name": "SOF UNIT SPECIAL BOAT",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT SOF UNIT NAVAL",
+            "SOF UNIT SPECIAL BOAT"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.NAV.SSSNR",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "NN----",
+          "name": "SOF UNIT SPECIAL SSNR",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT SOF UNIT NAVAL",
+            "SOF UNIT SPECIAL SSNR"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.GRD",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "G-----",
+          "name": "SOF UNIT GROUND",
+          "names": ["SPECIAL OPERATIONS FORCES (SOF) UNIT", "SOF UNIT GROUND"],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.GRD.SOF",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "GS----",
+          "name": "SOF UNIT SPECIAL FORCES",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT GROUND",
+            "SOF UNIT SPECIAL FORCES"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.GRD.RGR",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "GR----",
+          "name": "SOF UNIT RANGER",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT GROUND",
+            "SOF UNIT RANGER"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.GRD.PSYOP",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "GP----",
+          "name": "SOF UNIT PSYCHOLOGICAL OPERATIONS (PSYOP)",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT GROUND",
+            "SOF UNIT PSYCHOLOGICAL OPERATIONS (PSYOP)"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.GRD.PSYOP.FIXAVN",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "GPA---",
+          "name": "SOF UNIT FIXED WING AVIATION",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT GROUND",
+            "SOF UNIT PSYCHOLOGICAL OPERATIONS (PSYOP)",
+            "SOF UNIT FIXED WING AVIATION"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.GRD.CVLAFF",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "GC----",
+          "name": "SOF UNIT CIVIL AFFAIRS",
+          "names": [
+            "SPECIAL OPERATIONS FORCES (SOF) UNIT",
+            "SOF UNIT GROUND",
+            "SOF UNIT CIVIL AFFAIRS"
+          ],
+          "remarks": ""
+        },
+        {
+          "id": "SOFUNT:SOFUNT.SUP",
+          "scheme": "S",
+          "dimension": "F",
+          "functionId": "B-----",
+          "name": "SOF UNIT SUPPORT",
+          "names": ["SPECIAL OPERATIONS FORCES (SOF) UNIT", "SOF UNIT SUPPORT"],
+          "remarks": ""
+        }
+      ]
+    }
+  ]
+}

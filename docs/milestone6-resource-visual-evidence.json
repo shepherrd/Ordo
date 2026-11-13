@@ -1,0 +1,3471 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "b0ad4f30b97f55273c4b777f8dcefc9dcd5c9f8e463a9cb850e5ea3bf142b5c1",
+  "inputsHash": "b06224a396007e7824463a5c7f1de06dd33a5483fd0accb71cea84da9f09f411",
+  "browser": "154.0.4258.53",
+  "method": "Actual browser text extents and SVG bounds/anchors; same-process pair display. Source SVGs remain in local ignored storage; original flags and metrics are not shipped. Geometry equality does not imply artwork equality. This is not normal desktop acceptance.",
+  "results": [
+    {
+      "id": "label-0-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 59.4,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 59.4,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-0-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 59.4,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 59.4,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-1-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Alpha",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.200889587402344,
+              "top": 8.699325561523438,
+              "right": 92.02120208740234,
+              "bottom": 22.199325561523438
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.698898315429688,
+              "right": 185.54779052734375,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Alpha",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.19921875,
+              "top": 8.699325561523438,
+              "right": 92.01953125,
+              "bottom": 22.199325561523438
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.69921875,
+              "top": 20.698898315429688,
+              "right": 185.546142578125,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-1-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Alpha",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 119.87722778320312,
+              "top": 8.699310302734375,
+              "right": 153.69754028320312,
+              "bottom": 22.199310302734375
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 20.69891357421875,
+              "right": 153.86476135253906,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Alpha",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 101.80859375,
+              "top": 8.699310302734375,
+              "right": 135.62890625,
+              "bottom": 22.199310302734375
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.94921875,
+              "top": 20.69891357421875,
+              "right": 135.796142578125,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-2-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Long Fictional",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 8.699310302734375,
+              "right": 140.6618194580078,
+              "bottom": 22.199310302734375
+            },
+            "outside": false
+          },
+          {
+            "text": "Battalion Headquarters",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.69891357421875,
+              "right": 190.67745971679688,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 32.698486328125,
+              "right": 185.54779052734375,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 198.629296875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Long Fictional",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.699066162109375,
+              "top": 8.699432373046875,
+              "right": 140.65997314453125,
+              "bottom": 22.199432373046875
+            },
+            "outside": false
+          },
+          {
+            "text": "Battalion Headquarters",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.699066162109375,
+              "top": 20.6990966796875,
+              "right": 190.67559814453125,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.699066162109375,
+              "top": 32.69873046875,
+              "right": 185.54595947265625,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-2-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Long Fictional",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 71.7365951538086,
+              "top": 8.699310302734375,
+              "right": 153.69752502441406,
+              "bottom": 22.199310302734375
+            },
+            "outside": false
+          },
+          {
+            "text": "Battalion Headquarters",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 21.72098159790039,
+              "top": 20.69891357421875,
+              "right": 153.69755935668945,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 32.698486328125,
+              "right": 153.86476135253906,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 198.629296875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 168.929296875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 168.929296875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Long Fictional",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 58.964996337890625,
+              "top": 8.699432373046875,
+              "right": 140.9259033203125,
+              "bottom": 22.199432373046875
+            },
+            "outside": false
+          },
+          {
+            "text": "Battalion Headquarters",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.949371337890625,
+              "top": 20.6990966796875,
+              "right": 140.9259033203125,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 14.246246337890625,
+              "top": 32.69873046875,
+              "right": 141.0931396484375,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-3-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "WWWW iiiii",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.200889587402344,
+              "top": 8.6993408203125,
+              "right": 123.98995971679688,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Narrow Wide Unit",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.69891357421875,
+              "right": 159.0612335205078,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 32.698486328125,
+              "right": 185.54779052734375,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "WWWW iiiii",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.198974609375,
+              "top": 8.699462890625,
+              "right": 123.988037109375,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "Narrow Wide Unit",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 20.6990966796875,
+              "right": 159.059326171875,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 32.69873046875,
+              "right": 185.5458984375,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-3-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "WWWW iiiii",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 87.9084701538086,
+              "top": 8.6993408203125,
+              "right": 153.69754028320312,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Narrow Wide Unit",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 53.83816146850586,
+              "top": 20.69891357421875,
+              "right": 154.19851303100586,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 32.698486328125,
+              "right": 153.86476135253906,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "WWWW iiiii",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 69.840087890625,
+              "top": 8.699462890625,
+              "right": 135.629150390625,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "Narrow Wide Unit",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 35.769775390625,
+              "top": 20.6990966796875,
+              "right": 136.130126953125,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.949462890625,
+              "top": 32.69873046875,
+              "right": 135.79638671875,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-4-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "AVATAR To Wa",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.200889587402344,
+              "top": 8.6993408203125,
+              "right": 143.09933471679688,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Test Battalion",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.69891357421875,
+              "right": 137.12277221679688,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 32.698486328125,
+              "right": 185.54779052734375,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "AVATAR To Wa",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.198974609375,
+              "top": 8.699462890625,
+              "right": 143.097412109375,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "Test Battalion",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 20.6990966796875,
+              "right": 137.120849609375,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 32.69873046875,
+              "right": 185.5458984375,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-4-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "AVATAR To Wa",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 68.79910278320312,
+              "top": 8.6993408203125,
+              "right": 153.69754028320312,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Test Battalion",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 75.2756576538086,
+              "top": 20.69891357421875,
+              "right": 153.69754028320312,
+              "bottom": 34.19891357421875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 32.698486328125,
+              "right": 153.86476135253906,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "AVATAR To Wa",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 50.730712890625,
+              "top": 8.699462890625,
+              "right": 135.629150390625,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "Test Battalion",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 57.207275390625,
+              "top": 20.6990966796875,
+              "right": 135.629150390625,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.949462890625,
+              "top": 32.69873046875,
+              "right": 135.79638671875,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-5-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 371.00000000000006,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "LongUnbrokenFictionalDesignationWithoutSpaces",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.742092590332035,
+              "top": 9.128201904296876,
+              "right": 348.4947488403321,
+              "bottom": 22.378201904296876
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.742092590332035,
+              "top": 21.127021484375003,
+              "right": 185.7877410888672,
+              "bottom": 34.37702148437501
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 356.60390625,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "LongUnbrokenFictionalDesignationWithoutSpaces",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.72994704055787,
+              "top": 9.008004714693342,
+              "right": 348.5661397721427,
+              "bottom": 22.253292661121915
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.72994704055787,
+              "top": 21.006012292180746,
+              "right": 185.66530390753067,
+              "bottom": 34.25130023860932
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-5-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 371.00000000000006,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 341.30000000000007,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 341.30000000000007,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "LongUnbrokenFictionalDesignationWithoutSpaces",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 23.56524307250977,
+              "top": 9.128201904296876,
+              "right": 313.3178993225098,
+              "bottom": 22.37813720703125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 186.647907409668,
+              "top": 21.127021484375003,
+              "right": 313.69355590820317,
+              "bottom": 34.37702148437501
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 356.60390625,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 326.90390625,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 326.90390625,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "LongUnbrokenFictionalDesignationWithoutSpaces",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 9.0566658748218,
+              "top": 9.008004714693342,
+              "right": 298.8928275130136,
+              "bottom": 22.253292661121915
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 172.18700207356045,
+              "top": 21.00595010539464,
+              "right": 299.1223589405333,
+              "bottom": 34.25123805182321
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-6-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Équipe démonstration",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 8.1993408203125,
+              "right": 185.32589721679688,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.6988525390625,
+              "right": 185.54779052734375,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Équipe démonstration",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.69921875,
+              "top": 8.1993408203125,
+              "right": 185.32421875,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.69921875,
+              "top": 20.6988525390625,
+              "right": 185.546142578125,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-6-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Équipe démonstration",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.072525024414062,
+              "top": 8.1993408203125,
+              "right": 153.69752502441406,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 20.6988525390625,
+              "right": 153.86476135253906,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Équipe démonstration",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 9.00390625,
+              "top": 8.1993408203125,
+              "right": 135.62890625,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.94921875,
+              "top": 20.6988525390625,
+              "right": 135.796142578125,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-7-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 216.6,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Пример подразделения",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698638916015625,
+              "top": 8.6993408203125,
+              "right": 200.40176391601562,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698638916015625,
+              "top": 20.6988525390625,
+              "right": 185.54554748535156,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 208.52578125,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Пример подразделения",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.700439453125,
+              "top": 8.6993408203125,
+              "right": 200.403564453125,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.700439453125,
+              "top": 20.6988525390625,
+              "right": 185.54736328125,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-7-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 216.6,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 186.9,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 186.9,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Пример подразделения",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 17.191984176635742,
+              "top": 8.6993408203125,
+              "right": 158.89510917663574,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 32.215415954589844,
+              "top": 20.6988525390625,
+              "right": 159.0623321533203,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 208.52578125,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 178.82578125,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 178.82578125,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Пример подразделения",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 9.119873046875,
+              "top": 8.6993408203125,
+              "right": 150.822998046875,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 24.143280029296875,
+              "top": 20.6988525390625,
+              "right": 150.990234375,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-8-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "架空部隊 Alpha",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 8.6993408203125,
+              "right": 143.33370971679688,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.6988525390625,
+              "right": 185.54779052734375,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "架空部隊 Alpha",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.69921875,
+              "top": 8.6993408203125,
+              "right": 143.33203125,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.69921875,
+              "top": 20.6988525390625,
+              "right": 185.546142578125,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-8-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "架空部隊 Alpha",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 69.0647201538086,
+              "top": 8.6993408203125,
+              "right": 153.69754028320312,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 20.6988525390625,
+              "right": 153.86476135253906,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "架空部隊 Alpha",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 50.99609375,
+              "top": 8.6993408203125,
+              "right": 135.62890625,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.94921875,
+              "top": 20.6988525390625,
+              "right": 135.796142578125,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-9-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Fictional",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 8.6993408203125,
+              "right": 108.02120208740234,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "🚀 Unit",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.6988525390625,
+              "right": 102.32518005371094,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 32.698486328125,
+              "right": 185.54779052734375,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Fictional",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 8.699462890625,
+              "right": 108.019287109375,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "🚀 Unit",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 20.6990966796875,
+              "right": 102.32327270507812,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 32.69873046875,
+              "right": 185.5458984375,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-9-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Fictional",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 104.37722778320312,
+              "top": 8.6993408203125,
+              "right": 153.69754028320312,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "🚀 Unit",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 110.57254028320312,
+              "top": 20.6988525390625,
+              "right": 154.1968231201172,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 32.698486328125,
+              "right": 153.86476135253906,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Fictional",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 86.308837890625,
+              "top": 8.699462890625,
+              "right": 135.629150390625,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "🚀 Unit",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 92.504150390625,
+              "top": 20.6990966796875,
+              "right": 136.12841796875,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.949462890625,
+              "top": 32.69873046875,
+              "right": 135.79638671875,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-10-right",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "First",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 8.6993408203125,
+              "right": 85.19950866699219,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "line\nSecond line",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 20.6988525390625,
+              "right": 150.02120971679688,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.70088195800781,
+              "top": 32.698486328125,
+              "right": 185.54779052734375,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "First",
+            "x": 195,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 8.699462890625,
+              "right": 85.19760131835938,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "line\nSecond line",
+            "x": 195,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 20.6990966796875,
+              "right": 150.019287109375,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 195,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 58.698974609375,
+              "top": 32.69873046875,
+              "right": 185.5458984375,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "label-10-left",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 211.39999999999998,
+            "height": 44.4
+          },
+          "anchor": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 181.69999999999996,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "First",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 127.69754028320312,
+              "top": 8.6993408203125,
+              "right": 154.19615173339844,
+              "bottom": 22.1993408203125
+            },
+            "outside": false
+          },
+          {
+            "text": "line\nSecond line",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 62.377227783203125,
+              "top": 20.6988525390625,
+              "right": 153.69754028320312,
+              "bottom": 34.1988525390625
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 27.017845153808594,
+              "top": 32.698486328125,
+              "right": 153.86476135253906,
+              "bottom": 46.198486328125
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["Fictional supporting text"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 193.332421875,
+            "height": 53.4
+          },
+          "anchor": {
+            "x": 163.632421875,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 163.632421875,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "First",
+            "x": 5,
+            "y": 90,
+            "anchor": "end",
+            "bounds": {
+              "left": 109.629150390625,
+              "top": 8.699462890625,
+              "right": 136.12774658203125,
+              "bottom": 22.199462890625
+            },
+            "outside": false
+          },
+          {
+            "text": "line\nSecond line",
+            "x": 5,
+            "y": 130,
+            "anchor": "end",
+            "bounds": {
+              "left": 44.308837890625,
+              "top": 20.6990966796875,
+              "right": 135.629150390625,
+              "bottom": 34.1990966796875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 5,
+            "y": 170,
+            "anchor": "end",
+            "bounds": {
+              "left": 8.949462890625,
+              "top": 32.69873046875,
+              "right": 135.79638671875,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-USA-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-USA-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-GBR-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-GBR-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-FRA-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-FRA-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-NPL-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-NPL-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-UN-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-UN-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-XKX-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-XKX-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-NATO-small",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 129,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "flag-NATO-full",
+      "group": "FLAG_ARTWORK",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-stars1",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 47
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 47
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 47
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 47
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-stars5",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 104,
+            "height": 74
+          },
+          "anchor": {
+            "x": 52,
+            "y": 47
+          },
+          "octagon": {
+            "x": 52,
+            "y": 47
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 104,
+            "height": 74
+          },
+          "anchor": {
+            "x": 52,
+            "y": 47
+          },
+          "octagon": {
+            "x": 52,
+            "y": 47
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-reinforced",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 107.5,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 107.5,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-reduced",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 107.5,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 107.5,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-both",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 107.5,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 107.5,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-signature",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 100,
+            "height": 79
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [
+          {
+            "text": "!",
+            "x": 195,
+            "y": 200,
+            "anchor": "start",
+            "bounds": {
+              "left": 87.5,
+              "top": 59.5,
+              "right": 94.1640625,
+              "bottom": 81.5
+            },
+            "outside": true
+          }
+        ],
+        "clippedLabels": ["!"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 100,
+            "height": 84
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [
+          {
+            "text": "!",
+            "x": 195,
+            "y": 200,
+            "anchor": "start",
+            "bounds": {
+              "left": 87.5,
+              "top": 59.5,
+              "right": 94.1640625,
+              "bottom": 81.5
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-hq",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [
+          {
+            "text": "STAFF",
+            "x": 100,
+            "y": 103,
+            "anchor": "middle",
+            "bounds": {
+              "left": 17.1796875,
+              "top": 19.7578125,
+              "right": 62.8203125,
+              "bottom": 35.7578125
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 79,
+            "height": 54
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [
+          {
+            "text": "STAFF",
+            "x": 100,
+            "y": 103,
+            "anchor": "middle",
+            "bounds": {
+              "left": 17.1796875,
+              "top": 19.7578125,
+              "right": 62.8203125,
+              "bottom": 35.7578125
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-stack",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 109,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 109,
+            "height": 74
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 27
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 27
+          }
+        },
+        "text": [],
+        "clippedLabels": []
+      },
+      "geometryExact": true,
+      "textPlacementExact": true
+    },
+    {
+      "id": "marks-combined",
+      "group": "COMPATIBILITY_MARKS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 122.5,
+            "height": 104
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [
+          {
+            "text": "!",
+            "x": 225,
+            "y": 200,
+            "anchor": "start",
+            "bounds": {
+              "left": 102.5,
+              "top": 84.5,
+              "right": 109.1640625,
+              "bottom": 106.5
+            },
+            "outside": true
+          },
+          {
+            "text": "HQ",
+            "x": 100,
+            "y": 103,
+            "anchor": "middle",
+            "bounds": {
+              "left": 23.125,
+              "top": 39.3359375,
+              "right": 56.875,
+              "bottom": 64.8359375
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": ["!"]
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 122.5,
+            "height": 109
+          },
+          "anchor": {
+            "x": 39.5,
+            "y": 52
+          },
+          "octagon": {
+            "x": 39.5,
+            "y": 52
+          }
+        },
+        "text": [
+          {
+            "text": "!",
+            "x": 225,
+            "y": 200,
+            "anchor": "start",
+            "bounds": {
+              "left": 102.5,
+              "top": 84.5,
+              "right": 109.1640625,
+              "bottom": 106.5
+            },
+            "outside": false
+          },
+          {
+            "text": "HQ",
+            "x": 100,
+            "y": 103,
+            "anchor": "middle",
+            "bounds": {
+              "left": 23.125,
+              "top": 39.3359375,
+              "right": 56.875,
+              "bottom": 64.8359375
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    },
+    {
+      "id": "combined-flag-label",
+      "group": "TEXT_METRICS",
+      "reference": {
+        "geometry": {
+          "size": {
+            "width": 241.39999999999998,
+            "height": 56.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Long Fictional",
+            "x": 225,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 67.70069122314453,
+              "top": 8.69970703125,
+              "right": 149.66163635253906,
+              "bottom": 22.19970703125
+            },
+            "outside": false
+          },
+          {
+            "text": "Brigade Headquarters",
+            "x": 225,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 67.70069122314453,
+              "top": 20.69921875,
+              "right": 193.02882385253906,
+              "bottom": 34.19921875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 295,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 88.70011901855469,
+              "top": 32.69873046875,
+              "right": 215.54701232910156,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "ordo": {
+        "geometry": {
+          "size": {
+            "width": 223.332421875,
+            "height": 56.4
+          },
+          "anchor": {
+            "x": 29.7,
+            "y": 22.2
+          },
+          "octagon": {
+            "x": 29.7,
+            "y": 22.2
+          }
+        },
+        "text": [
+          {
+            "text": "Long Fictional",
+            "x": 225,
+            "y": 90,
+            "anchor": "start",
+            "bounds": {
+              "left": 67.6990966796875,
+              "top": 8.69970703125,
+              "right": 149.6600341796875,
+              "bottom": 22.19970703125
+            },
+            "outside": false
+          },
+          {
+            "text": "Brigade Headquarters",
+            "x": 225,
+            "y": 130,
+            "anchor": "start",
+            "bounds": {
+              "left": 67.6990966796875,
+              "top": 20.69921875,
+              "right": 193.0272216796875,
+              "bottom": 34.19921875
+            },
+            "outside": false
+          },
+          {
+            "text": "Fictional supporting text",
+            "x": 295,
+            "y": 170,
+            "anchor": "start",
+            "bounds": {
+              "left": 88.698486328125,
+              "top": 32.69873046875,
+              "right": 215.54541015625,
+              "bottom": 46.19873046875
+            },
+            "outside": false
+          }
+        ],
+        "clippedLabels": []
+      },
+      "geometryExact": false,
+      "textPlacementExact": true
+    }
+  ]
+}

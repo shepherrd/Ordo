@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "scope": "Remove redundant generated files; preserve application code and user data",
+  "removed": {
+    "entries": 7417,
+    "files": 36339,
+    "links": 72,
+    "bytes": 14462468587
+  },
+  "categories": [
+    "Unreferenced generated test databases and directories",
+    "Temporary helper scripts, obsolete reports and diagnostic pointers",
+    "Disposable npm and Electron download caches",
+    "Unreferenced test directories with shortcuts; shortcut targets retained"
+  ],
+  "preserved": [
+    "All existing project source, tests, documentation and build resources",
+    "Installed dependencies and current compiled desktop build",
+    "Release builds and installers",
+    "Personal workspace and .local-data",
+    "Documented test evidence and its referenced artifacts",
+    "Historical source snapshots and frozen fixtures"
+  ],
+  "verification": {
+    "existingProjectFilesUnchanged": 626,
+    "projectFingerprint": "6c023d8b01e1afa9ae9cffbca92eb4c70b0baebcdaa22964404cbe6d736d36e4",
+    "frozenHistoricalFilesUnchanged": 69,
+    "preservedArtifactEntries": 729,
+    "preservedReferencedArtifactEntries": 718,
+    "sourceModules": 294,
+    "sourceModulesReachableFromApplication": 294,
+    "sharedDependenciesUnchanged": true,
+    "failures": 0
+  },
+  "manifest": ".test-data/file-cleanup-2026-10-28.json"
+}

@@ -1,0 +1,42 @@
+{
+  "src/persistence/migrations/008.sql": {
+    "previousSha256": "62b51a39cb526f64f042d4a9114d35b52c29cb17da66b5e9fea2da065051fdb4",
+    "releaseSha256": "36fab8e67e3b2e914f9d1e8103c6c487ae1bc4b0f960d03de27d3d6dffa422ac"
+  },
+  "src/rendering/symbol-markings-v1.ts": {
+    "previousSha256": "5e058b8ab88242b0015ef4cd65d25d14a7c97fd58f619769caeba59e600e165e",
+    "releaseSha256": "5c793ca5c0dd3d80e3e3190a43ca691ece44de74b102077b9103ca325fe790dd"
+  },
+  "src/rendering/symbol-path-corrections-v1.ts": {
+    "previousSha256": "d880450c096e699c9e6ae444ce152cea72595eb39451c35c7041f6d693154444",
+    "releaseSha256": "03ae344782c69cdcb5dc6bacf0fa1c04f43d6506c271510b3bbce9068fb98eb2"
+  },
+  "src/rendering/metadata-selector-v1.ts": {
+    "previousSha256": "55da1fc1c2c6e45b9937bf8dc67966f6582c4ac563b91e1d323bc5f97a34265f",
+    "releaseSha256": "33d193dffd42459f12b69672698868e09c480d41588091e3839b32797d47e13d"
+  },
+  "src/rendering/orbat-labels-v2.ts": {
+    "previousSha256": "c9573cc0096d503d97ad0791aac177181e501f8bd447e5f8eda74b9bc241d89e",
+    "releaseSha256": "b84c67b266b31dcf1ac798bfa2d9e08313c0b9918b66e13136d1ff98811d1bfa"
+  },
+  "src/rendering/symbol-renderer.ts": {
+    "previousSha256": "463bc2764ab7498a1085407b425030c5b3f4f25d5f3aab5ea7a1e87046cc621a",
+    "releaseSha256": "e550b506305566237900d27eafb3c0ebab2dd7eafd96f11d72dee9d48a6f8c41"
+  },
+  "src/rendering/orbat-layout/v1.ts": {
+    "previousSha256": "9b8323855e514d09d5351d4308564dc210e76c83fa819fa9fa9b36e3bd7cf402",
+    "releaseSha256": "4c2306dbb907c2afdecf1d7965787c2c947ca1bbc0e0bc4f1f4f04c625b518d9"
+  },
+  "src/rendering/resources/symbol-path-corrections-v1.json": {
+    "previousSha256": "2d4a1b2bec18ffd423f8d6527aa5b0ede617c75fc39534eeed6daa67b79f0c82",
+    "releaseSha256": "dd124fdf51c588ad9ecc4058479ca5e2feedc6123c7a3ff22093d6f3fb41d80f"
+  },
+  "src/rendering/resources/symbol-metadata-overlay-v1.json": {
+    "previousSha256": "8aca638bebc26477f4bf5b934a7441ce56b077715b92a6d3aa2f2a1af4e9b8e1",
+    "releaseSha256": "a45fa50fba1dfc659163525ce6046f7ae50a599e5761c636e03a44e27ea86ef0"
+  },
+  "src/rendering/resources/fm-dictionary-v1.json": {
+    "previousSha256": "d315fb6600f58a198fac1bbd902c06f4506516fb5d9cfa4153de4b4c999987a7",
+    "releaseSha256": "c11e75374d2a877f01cba0eb4d3db16bcdec26d9a11eaec42eb188155ed19e50"
+  }
+}

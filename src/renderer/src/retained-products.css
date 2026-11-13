@@ -1,0 +1,47 @@
+.modal.retained-product-preview {
+  width: min(1200px, 94vw);
+  max-width: min(1200px, 94vw);
+  height: min(900px, 92vh);
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  overflow: hidden;
+}
+.retained-product-preview > h2,
+.retained-product-preview > p,
+.retained-product-preview > .button-row {
+  margin: 0;
+  flex: none;
+  overflow-wrap: anywhere;
+}
+.retained-product-preview > iframe,
+.retained-product-preview > img {
+  width: 100%;
+  min-height: 0;
+  flex: 1;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+}
+.retained-product-preview > img {
+  object-fit: contain;
+}
+.retained-usage-record {
+  padding: 0.75rem;
+  margin: 0.65rem 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+.retained-usage-record > button {
+  display: block;
+  margin-top: 0.65rem;
+}
+.card-usage > button {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: left;
+}

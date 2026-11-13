@@ -1,0 +1,236 @@
+{
+  "recordedAt": "2026-10-14T14:27:57.097Z",
+  "version": "0.6.5",
+  "packaged": false,
+  "personalWorkspaceTouched": false,
+  "scope": "Operation editing and ORBAT interaction performance; aesthetics and theme customization remain deferred",
+  "changes": [
+    "Build live document previews only when their view is active, and reuse the result until its source, profile, configuration, assets or layout changes.",
+    "Reuse operation validation and dirty comparisons on unchanged state, while validating every actual operation edit.",
+    "Reuse working-copy serialization when the immutable source/value objects are unchanged; retain the existing recovery queue and close guards.",
+    "Reuse saved ORBAT validation and dirty comparisons between selections.",
+    "Index ORBAT node lookup and sibling ordering; compute valid parent choices only in Change parent mode.",
+    "Use one node-name lookup map when applying graphic selection accessibility attributes.",
+    "Add a reproducible isolated desktop benchmark with preview, retained-export, selection, parent-change and undo assertions."
+  ],
+  "benchmark": {
+    "command": "npm run benchmark:desktop -- comparison-label",
+    "fixture": "Three fictional demo operations, each with 400 additional tasks, and a 127-unit binary ORBAT with military symbols.",
+    "methodology": "12 text-input-to-second-animation-frame samples and 12 ORBAT-selection-to-second-animation-frame samples per run. Timed samples run before precise coverage; pooled final medians are recomputed from 24 samples using the conventional mean of the two middle values.",
+    "baseline": ".test-data/optimization-a6d7b5f0-e3c9-4d8b-82b1-0fbabacbe7fb/measurement.json",
+    "finalRuns": [
+      ".test-data/optimization-3a24bf8d-97a4-4162-8ab7-d650373e5d6b/measurement.json",
+      ".test-data/optimization-d3babbfc-c5ff-4fe2-9f13-c8627cdc010a/measurement.json"
+    ],
+    "comparisons": [
+      {
+        "measurement": "operationEditMs",
+        "baselineMedianMs": 157.19999998807907,
+        "finalPooledMedianMs": 29.400000035762787,
+        "finalRunMediansMs": [25.349999964237213, 33.549999952316284],
+        "reductionPercent": 81.29770989949601
+      },
+      {
+        "measurement": "orbatSelectionMs",
+        "baselineMedianMs": 99.94065000000046,
+        "finalPooledMedianMs": 49.94499999999971,
+        "finalRunMediansMs": [49.737449999999626, 50.244799999999486],
+        "reductionPercent": 50.025340039313846
+      }
+    ],
+    "previewBuildsForFiveEdits": {
+      "before": 55,
+      "after": [0, 0]
+    },
+    "validationPassesForFiveEdits": {
+      "before": 55,
+      "after": [5, 5]
+    },
+    "limitations": "Local development-build measurements on one machine. Cold startup and first ORBAT render varied considerably, so no startup or cold-render speed claim is made.",
+    "deferredLoadingExperiment": "Removed from the final implementation because it delayed first operation opening and individual rich-text lazy loading exposed a mount timing error. The original application loading path is restored exactly."
+  },
+  "verification": {
+    "tests": {
+      "filesPassed": 33,
+      "testsPassed": 633
+    },
+    "buildAndTypecheck": "passed",
+    "lint": "passed",
+    "gitDiffCheck": "passed",
+    "frozenHistoricalFilesVerified": 69,
+    "mainPreloadAndStylesheetBuildHashesUnchanged": [
+      {
+        "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main\\chunks\\render-requests-BvOG60Iq.js",
+        "sha256": "ea3b42ee46ea897883cd564b57a46071bd5804312254155ba7bbcede24e327da"
+      },
+      {
+        "path": "main\\chunks\\symbol-catalog-izTTdGWY.js",
+        "sha256": "f5eed8b7ef45c62edd283827315e649d3ce6786bba3525ecae15aa5a760e072c"
+      },
+      {
+        "path": "main\\index.js",
+        "sha256": "0ffd68119e88bbd1bbe463f122cab247125fdebb2fc84d2b47d993511cc5b207"
+      },
+      {
+        "path": "main\\symbol-worker.js",
+        "sha256": "fa52a484ba092c96824f5372b237f29b3dd9e99af69e43ae2f178c7855cc1107"
+      },
+      {
+        "path": "preload\\index.js",
+        "sha256": "bf132659c7ad12de9e94d2c7b18b7495f3c755d0a095ea5add6cee45437517e0"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace--TRJXdjd.css",
+        "sha256": "250235025db61c827a24596a283819b2aaed882fa36ccf496cef6d64c390ac6a"
+      },
+      {
+        "path": "renderer\\assets\\index-BaEau9h_.css",
+        "sha256": "5a787c26eac7850266c38a660ddeace86cfc74cd4c909453895d4e858b71ae09"
+      }
+    ],
+    "desktop": [
+      {
+        "evidence": ".test-data/open-operations-7e3b382e-d18c-4709-903c-3ed31f193b01/acceptance.json",
+        "checks": [
+          "Two independent drafts retain pages and undo history; switching and duplicate opens write no revisions",
+          "1500px and 1120px layouts expose named operations, unsaved markers, and close controls",
+          "Cancel preserves inactive edits; discard closes only that editor and preserves its saved catalog record",
+          "Save and close persists one revision; closing the last tab returns to the catalog; closed operations reopen",
+          "Failed save leaves the tab and unsaved content intact; no overwrite of a newer revision",
+          "Inactive export-profile drafts participate in the close guard and save their own version without unrelated operation revisions",
+          "Normal offline exit/reopen restores only open IDs; explicit closes stay closed; saved operations remain reopenable"
+        ]
+      },
+      {
+        "evidence": ".test-data/organization-orbat-dec9d6f6-8c84-427f-8c8a-ae02573dfd61/acceptance.json",
+        "checks": [
+          "Assign saved ORBAT, click its subordinate, edit identity, role and personnel, and save the organization",
+          "ORBAT staff is read-only; direct editing, keyboard collapse, tab context, and unsaved edits share the same unit records",
+          "Selections replace one inspector, preserve other unit profiles, and the root edits the owning organization",
+          "Organization diagram is fixed against dragging and supports keyboard selection",
+          "Role add, duplicate, reorder and remove work in the dedicated editor; both views fit desktop and narrower layouts",
+          "Organization headquarters staff can be edited without assigning an ORBAT",
+          "Two organizations sharing the same ORBAT keep different unit identities and personnel",
+          "Unfinished subordinate edits receive a recovery copy and block organization switching; discard restores saved staff",
+          "Saved source changes update the diagram; removed personnel remain editable and matching replacement names never inherit them",
+          "Unassigning and reassigning keeps organization-owned personnel",
+          "Normal offline exit and reopen retain the assignment, structure and personnel without renderer errors"
+        ]
+      },
+      {
+        "evidence": ".test-data/cleanup-desktop-b3240a49-f0c6-4514-9668-e7529407943e/acceptance.json",
+        "checks": [
+          "Doctrine create, edit, add/remove role and save through the editor",
+          "Organization creation and symbol assignment/removal save through the editor",
+          "Shared document commands generate and save a PDF from retained HTML with matching provenance",
+          "Normal offline exit/reopen retains organization, doctrine and document changes without renderer errors"
+        ]
+      }
+    ],
+    "benchmarkChecks": [
+      "Three operation tabs retain independent drafts while repeated editing finishes on the latest value",
+      "A 127-unit ORBAT renders and repeated selections replace the selected unit",
+      "Indexed ORBAT parent choices exclude self and descendants; changing parent and undo remain valid",
+      "Deferred previews use the latest edits, preserve retained exports, and stay isolated between operation tabs",
+      "Normal offline shutdown without renderer errors"
+    ],
+    "uniqueDesktopChecksPassed": 27,
+    "finalBuildFiles": [
+      {
+        "path": "main\\chunks\\flag-resources-D-TUROSO.js",
+        "sha256": "bcbdaa055759fc679e463736583e846df9d1706519754513315be0225868af14"
+      },
+      {
+        "path": "main\\chunks\\render-requests-BvOG60Iq.js",
+        "sha256": "ea3b42ee46ea897883cd564b57a46071bd5804312254155ba7bbcede24e327da"
+      },
+      {
+        "path": "main\\chunks\\symbol-catalog-izTTdGWY.js",
+        "sha256": "f5eed8b7ef45c62edd283827315e649d3ce6786bba3525ecae15aa5a760e072c"
+      },
+      {
+        "path": "main\\index.js",
+        "sha256": "0ffd68119e88bbd1bbe463f122cab247125fdebb2fc84d2b47d993511cc5b207"
+      },
+      {
+        "path": "main\\symbol-worker.js",
+        "sha256": "fa52a484ba092c96824f5372b237f29b3dd9e99af69e43ae2f178c7855cc1107"
+      },
+      {
+        "path": "preload\\index.js",
+        "sha256": "bf132659c7ad12de9e94d2c7b18b7495f3c755d0a095ea5add6cee45437517e0"
+      },
+      {
+        "path": "renderer\\assets\\OperationOrbatPanel-CtUi4HxU.js",
+        "sha256": "8046252b297aa846456787affec3596c23b35f0bbdc2e466d9b11f09db9fac30"
+      },
+      {
+        "path": "renderer\\assets\\OperationSymbolEditor-CbRJs7OT.js",
+        "sha256": "0822a4f58f4bf1872ec34089ceec90e2bb7f729a4815cf7bd221165c14bb7afa"
+      },
+      {
+        "path": "renderer\\assets\\ProfileSymbolEditor-Cq6qzIhz.js",
+        "sha256": "7fe6d7b7edd4fc361eecf50a63f1e79d01695b209296a1c24ae46a7f7b22182b"
+      },
+      {
+        "path": "renderer\\assets\\SaveUnitSymbol-DN8VreCK.js",
+        "sha256": "49908e1f39d94ee18b6f5fa33228cdfa2d71262f6f0498f0d8164547213e6356"
+      },
+      {
+        "path": "renderer\\assets\\SavedSymbolPicker-DkK4EyXn.js",
+        "sha256": "82dd2617463abc50e025da09e46b944094c6bbc5a343259c636191ab3b4841a8"
+      },
+      {
+        "path": "renderer\\assets\\SymbolEditor-CcQva0Uw.js",
+        "sha256": "fb6318f640b2404cf284d5bbdc438be4b9273926c35172cbd263548141f51fe4"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace--TRJXdjd.css",
+        "sha256": "250235025db61c827a24596a283819b2aaed882fa36ccf496cef6d64c390ac6a"
+      },
+      {
+        "path": "renderer\\assets\\SymbolsAndOrbatsWorkspace-CAW6DCDX.js",
+        "sha256": "a123ec9c40860cfa5900ef1a60605d508a04c6ab9c8a2cbf06abf58fee1a6308"
+      },
+      {
+        "path": "renderer\\assets\\index-BaEau9h_.css",
+        "sha256": "5a787c26eac7850266c38a660ddeace86cfc74cd4c909453895d4e858b71ae09"
+      },
+      {
+        "path": "renderer\\assets\\index-CRyFmOg3.js",
+        "sha256": "f446340cdf10db21e48b1cb39d2c278b84b3ad333369e04c95f30e4581c904f2"
+      },
+      {
+        "path": "renderer\\index.html",
+        "sha256": "21a5bb26bee6aa51ca623133c95a0cd38cc95f50dc29c8cb8a1b313d5c713d60"
+      }
+    ],
+    "changedSourceHashes": [
+      {
+        "file": "src/renderer/src/App.tsx",
+        "sha256": "f53ef33fb9eaaf5435dc3da1291e546019cfa6b53acafd69f3eb997bf150c4cf"
+      },
+      {
+        "file": "src/renderer/src/WorkingCopies.tsx",
+        "sha256": "0376de88ce7737cdf2ab803696d25bf79704637ec482672c274751dbd39820f3"
+      },
+      {
+        "file": "src/renderer/src/OrbatWorkspace.tsx",
+        "sha256": "a2c44273487ab0f96f0bb5f928856b54ba9aa244ba732a880431edda6da53e43"
+      },
+      {
+        "file": "src/renderer/src/OrbatCanvas.tsx",
+        "sha256": "029197ad6b27a1a84255c49127df43a2d60210e2ffb2976477bd0b613c3897f3"
+      },
+      {
+        "file": "src/renderer/src/GraphicPreview.tsx",
+        "sha256": "8660a0c27d6104ca7f2809dc24f5250df01fd354054dccc7b0016924dc215a06"
+      }
+    ]
+  },
+  "remaining": ["Visual polish", "Theme customization"]
+}
